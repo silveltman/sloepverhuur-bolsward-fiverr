@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="nl-NL">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/assets/main.css">
+    
+    <meta name="format-detection" content="telephone=no">
+
+    <!-- Alpine plugins -->
+    <script defer src="https://unpkg.com/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
+    <script defer src="https://unpkg.com/@alpinejs/intersect@3.x.x/dist/cdn.min.js"></script>
+ 
+    <!-- Alpine.js -->
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    
+    <!-- Main JS file -->
+    <script defer src="/assets/js/main.js"></script>
+
+    <!-- JS smooth scroll polyfill for safari: https://github.com/iamdustan/smoothscroll -->
+    <script src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.js"></script>
+
+    <!-- <script src="https://kit.fontawesome.com/e54a9cf40b.js" crossorigin="anonymous"></script> -->
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet"> -->
+
+    <meta property="og:title" content="{{ info.title }}">
+    <meta property="og:site_name" content="{{ info.company_name }}">
+    <meta property="og:url" content="{{ info.url }}">
+    <meta property="og:description" content="{{ info.description }}">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="{{ info.logo.image }}">
+    <meta property="og:locale" content="nl" />
+
+    <title>{{ page_title | default: info.title }}</title>
+    <meta name="description" content="{{ page_description | default: info.description }}" />
+    
+  </head>
+  <body>
+
+    {% include nav %}
+    <!-- {% include nav-bottom %} -->
+    {{ content }}
+    {% include footer %}
+
+  </body>
+</html>
+

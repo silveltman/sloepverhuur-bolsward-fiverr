@@ -1,0 +1,39 @@
+:root {
+  /* Relative */
+  --space-unit: 1em;
+
+  --space-100: calc(0.25 * var(--space-unit));
+  --space-200: calc(0.50 * var(--space-unit));
+  --space-300: calc(0.75 * var(--space-unit));
+  --space-400: calc(1.25 * var(--space-unit));
+  --space-500: calc(2.00 * var(--space-unit));
+  --space-600: calc(3.25 * var(--space-unit));
+  --space-700: calc(5.25 * var(--space-unit));
+
+  /* Fixed */
+  --space-unit-fixed: 1rem;
+  
+  --space-100-fixed: calc(0.25 * var(--space-unit-fixed));
+  --space-200-fixed: calc(0.5 * var(--space-unit-fixed));
+  --space-300-fixed: calc(0.75 * var(--space-unit-fixed));
+  --space-400-fixed: calc(1.25 * var(--space-unit-fixed));
+  --space-500-fixed: calc(2 * var(--space-unit-fixed));
+  --space-600-fixed: calc(3.25 * var(--space-unit-fixed));
+  --space-700-fixed: calc(5.25 * var(--space-unit-fixed));
+
+  --wrapper-padding: 20px;
+  @include media(2) { 
+    --wrapper-padding: 48px 
+  }
+}
+
+$wrapper-max-width: 1440px;
+$wrapper-padding: var(--wrapper-padding);
+
+%wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $wrapper-padding;
+  padding-right: $wrapper-padding;
+  max-width: $wrapper-max-width;
+}

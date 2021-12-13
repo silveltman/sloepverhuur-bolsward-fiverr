@@ -1,0 +1,55 @@
+/* Main variables */
+$label-base-color: $color-text-base;
+$label-base-font-size: var(--font-size-300);
+$label-base-margin: 0 0 var(--space-100);
+
+$input-base-font-family: $font-family-primary;
+$input-base-font-size: var(--font-size-400);
+$input-base-color: $color-text-base;
+$input-base-padding: var(--space-200) var(--space-300);
+$input-base-radius: $radius-small;
+$input-base-border: $border-base;
+
+
+$input-base-focus: $color-primary;
+
+$textarea-maxheight: 200px;
+
+/* Main */
+.label {
+  color: $label-base-color;
+  font-size: $label-base-font-size;
+  margin: $label-base-margin;
+}
+
+.input,
+.textarea,
+.select {
+  display: inline-flex;
+  position: relative;
+  border: 0;
+  // Removes default styles such as that weird gloss
+  appearance: none;
+
+  font-family: $input-base-font-family;
+  font-size: $input-base-font-size;
+  color: $input-base-color;
+  padding: $input-base-padding;
+  border-radius: $input-base-radius;
+  border: $input-base-border;
+
+  &:focus,
+  &:active {
+    outline: 0;
+    box-shadow: inset 0px 0px 0px 1px $input-base-focus;
+  }
+}
+
+.select
+
+.textarea {
+  box-sizing: content-box;
+  resize: vertical;
+  min-height: $input-base-font-size;
+  max-height: $textarea-maxheight;
+}

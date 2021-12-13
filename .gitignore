@@ -1,0 +1,12 @@
+# Ignore eleventy output
+_site/
+
+# Ignore installed npm modules
+node_modules/
+
+# Ignore generated package-lock
+# (commented this line as suggested when using cloudcannon)
+# package-lock.json
+
+# Ignore environment variables
+.env

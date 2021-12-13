@@ -1,0 +1,22 @@
+html, body {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-family-primary;
+  background: $color-bg-base;
+  color: $color-text-base;
+  font-size: var(--font-size-400);
+}
+
+main {
+  position: relative;
+}
+
+button {
+  font-family: $font-family-primary;
+  font-size: var(--font-size-base);
+}
+
+// For Alpine: https://alpinejs.dev/directives/cloak
+[x-cloak] { display: none !important; }

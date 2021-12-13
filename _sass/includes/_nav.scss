@@ -1,0 +1,161 @@
+$nav-breakpoint: 2;
+
+$nav-bg: $color-bg-light;
+$nav-border: $border-base;
+$nav-color: $color-text-base;
+$nav-color-accent: $color-primary;
+$nav-height: 62px;
+
+.nav {
+  position: fixed;
+  z-index: 9;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  height: $nav-height;
+  background: $nav-bg;
+  border-bottom: $nav-border;
+
+  &__wrapper {
+    @extend %wrapper;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+
+  &__logo {
+    height: 100%;
+    padding: var(--space-100) 0;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  &__list {
+    @extend %wrapper;
+
+    position: absolute;
+    margin: 0;
+    top: 100%;
+    left: 0;
+    width: 100%;
+
+
+    background: $nav-bg;
+
+    @include media($nav-breakpoint) {
+      display: flex !important;
+      align-items: center;
+      position: relative;
+      top: auto;
+      width: auto;
+      height: 100%;
+
+      padding: var(--space-200);
+    }
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+
+    @include media($nav-breakpoint) {
+      align-items: center;
+    }
+  }
+
+  &__link {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: $border-light;
+
+    color: $nav-color;
+    padding: var(--space-400) var(--space-300);
+
+    @include media($nav-breakpoint) {
+      border-top: none;
+      padding: var(--space-200) var(--space-300)
+    }
+
+    .icon {
+      position: absolute;
+      right: 0;
+      margin-left: var(--space-100);
+
+      height: $icon-size-400;
+      width: $icon-size-400;
+
+      @include media($nav-breakpoint) {
+        position: relative;
+
+        height: $icon-size-300;
+        width: $icon-size-300;
+      }
+    }
+  }
+
+  &__dropdown-list {
+    list-style: none;
+    background: $color-bg-light;
+    padding: 0 0 var(--space-400);
+
+    @include media($nav-breakpoint) {
+      position: absolute;
+      padding: var(--space-300);
+      top: 100%;
+      // left: auto;
+      // right: auto;
+      border-radius: $radius-small;
+      border: $border-base;
+      box-shadow: $shadow-small;
+  
+      // margin-top: var(--space-100);
+    }
+
+    &::before {
+      @include media($nav-breakpoint) {
+        content: '';
+        display: block;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: -9;
+        bottom: 100%;
+        left: 0;
+      }
+    }
+  }
+
+  &__dropdown-link {
+    padding: var(--space-300) var(--space-500);
+
+    @include media($nav-breakpoint) {
+      padding: var(--space-300);
+    }
+  }
+
+  &__cta {
+    margin-left: auto;
+    margin: 0 var(--space-300) 0 auto;
+
+    // TODO: variable instead of number for mq
+    @include media($nav-breakpoint) {
+      margin: 0;
+    }
+  }
+
+  &__burger {
+    @include media($nav-breakpoint) {
+      display: none;
+    }
+  }
+}

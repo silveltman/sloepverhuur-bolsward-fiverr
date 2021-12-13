@@ -1,0 +1,7 @@
+$accordion-spacing: var(--space-400);
+
+.accordion-container {
+  display: flex;
+  flex-direction: column;
+  gap: $accordion-spacing;
+}

@@ -1,0 +1,36 @@
+---
+title: Accordion
+
+accordion:
+  - title: Question 1
+    p: Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, deleniti.
+  - title: Question 2
+    p: Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, deleniti.
+  - title: Question 3
+    p: Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, deleniti.
+---
+
+<div x-data="{ active: null }" class="accordion-container">
+  {% for item in accordion %}
+    <div x-data="{ 
+      id: {{ forloop.index }},
+      get expanded() {
+        return this.active === this.id
+      },
+      set expanded(value) {
+        this.active = value ? this.id : null
+      }
+    }" 
+    role="region" class="accordion">
+      <h3 class="accordion__h3">
+        <button @click="expanded = !expanded" class="accordion__btn" :aria-expanded="expanded">
+          <span class="accordion__title">{{ item.title }}</span>
+          <span x-show="expanded" class="accordion__icon">&minus;</span>
+          <span x-show="!expanded" class="accordion__icon">&plus;</span>
+        </button>
+      </h3>
+      <p x-show="expanded" class="accordion__p" x-collapse.duration.200>{{ item.p }}</p>
+    </div>
+  {% endfor %}
+</div>
+

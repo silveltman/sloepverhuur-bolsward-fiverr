@@ -1,0 +1,29 @@
+<nav class="nav-bottom" x-data="{ open: true }">
+  <div class="nav-bottom__list" x-show="open" @click.outside="open = false" x-transition>
+    {% for item in nav %}
+      <a href="{{ item.url }}" class="nav-bottom__link">{{ item.name }}</a>
+    {% endfor %}     
+  </div>
+  <div class="nav-bottom__toolbar">
+    <a href="#" class="nav-bottom__btn">
+      <i class="material-icons">category</i>
+      link A
+    </a>
+    <a href="#" class="nav-bottom__btn">
+      <i class="material-icons">category</i>
+      link B
+    </a>
+    <a href="#" class="nav-bottom__btn">
+      <i class="material-icons">category</i>
+      link C
+    </a>
+    <button class="nav-bottom__btn" @click="open = ! open">
+      <span class="burger" :class="open ? 'open' : ''">
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+      </span>
+      Menu
+    </button>
+  </div>
+</nav>

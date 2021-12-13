@@ -1,0 +1,25 @@
+// cloudcannon editor links 
+// docs: https://cloudcannon.com/documentation/edit/editing/html/#toggling-visibility
+.editor-link {
+  display: none;
+  position: fixed;
+  text-decoration: none;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  background: #005aff;
+  color: white;
+  font-weight: 700;
+  border-radius: 100px;
+  z-index: 9999;
+
+  @include media(3) {
+    top: auto;
+    bottom: 20px;
+  }
+}
+
+.cms-editor-active .editor-link {
+  display: block;
+}
