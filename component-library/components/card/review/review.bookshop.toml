@@ -1,0 +1,10 @@
+[component]
+structures = []
+label = "card-review"
+description = ""
+icon = ""
+tags = []
+
+[props]
+title = "Naam"
+description = "Review"

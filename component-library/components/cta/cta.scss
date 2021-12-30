@@ -1,0 +1,49 @@
+.cta {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: $radius-big;
+  border: $border-base;
+  overflow: hidden;
+
+  @include pseudo('after') {
+    background: rgba($color-bg-dark, 0.65);
+    height: 100%;
+    width: 100%;
+    @include inset;
+    border-radius: $radius-big;
+  }
+
+  &__img {
+    @include inset;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: $radius-big;
+  }
+
+  &__content {
+    @extend %wrapper;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 700px;
+    text-align: center;
+    margin: var(--space-600) auto;
+    z-index: 2;
+  }
+
+  &__h {
+    text-shadow: $text-shadow-heading;
+    margin-bottom: var(--space-200);
+  }
+
+  &__btn {
+    font-size: var(--font-size-500);
+  }
+}

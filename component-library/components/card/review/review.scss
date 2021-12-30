@@ -1,0 +1,13 @@
+.card-review {
+  @include card;
+
+  &__stars {
+    display: flex;
+    margin: var(--space-100) 0 var(--space-300);
+
+    i {
+      color: $color-primary;
+      margin-right: var(--space-100);
+    }
+  }
+}

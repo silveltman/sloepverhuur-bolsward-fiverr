@@ -3,9 +3,10 @@
 
   &__subtitle {
     color: $color-primary;
+    margin-bottom: var(--space-100);
   }
 
   &__p {
-    margin: 0 0 var(--space-300) 0;
+    margin: var(--space-200) 0 var(--space-400) 0;
   }
 }
