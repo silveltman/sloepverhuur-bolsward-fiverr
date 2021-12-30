@@ -1,0 +1,24 @@
+@mixin card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: $color-bg-light;
+  border: $border-light;
+  border-radius: $radius-base;
+  box-shadow: $shadow-base;
+
+  &__img {
+    border-radius: $radius-base;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: var(--space-300);
+  }
+
+  &__h3 {
+    margin: 0;
+  }
+}

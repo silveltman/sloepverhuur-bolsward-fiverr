@@ -1,36 +1,6 @@
-.card,
-.card-image {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  background-color: $color-bg-light;
-  border: $border-light;
-  border-radius: $radius-base;
-  box-shadow: $shadow-base;
+.card-small {
+  @include card;
 
-  &__img {
-    border-radius: $radius-base;
-  }
-
-  &__content {
-    display: flex;
-    flex-direction: column;
-    padding: var(--space-300);
-  }
-}
-
-.card {
-  &__subtitle {
-    color: $color-primary;
-  }
-
-  &__p {
-    margin: 0 0 var(--space-300) 0;
-  }
-}
-
-.card-image {
-  height: 200px;
   justify-content: flex-end;
   overflow: hidden;
   cursor: pointer;
@@ -55,13 +25,8 @@
 
   &__content {
     position: absolute;
-
     transform: translateY(var(--font-size-400));
     transition: all 0.3s ease;
-  }
-
-  &__h3 {
-    margin: 0;
   }
 
   &__btn {
@@ -71,10 +36,10 @@
   }
 
   &:hover {
-    .card-image__content {
+    .card-small__content {
       transform: translateY(0);
     }
-    .card-image__btn {
+    .card-small__btn {
       margin-top: var(--space-100);
       visibility: visible;
       opacity: 1;

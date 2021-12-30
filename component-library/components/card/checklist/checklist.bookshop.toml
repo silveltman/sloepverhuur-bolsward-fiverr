@@ -1,0 +1,16 @@
+[component]
+structures = []
+label = "card-checklist"
+description = ""
+icon = ""
+tags = []
+
+[props]
+title = "Mijn titel"
+description = "Mijn omschrijving"
+
+list = ["Lorem Ipsum"]
+
+[props.button]
+text = "Button"
+url = "#"

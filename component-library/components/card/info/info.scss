@@ -1,0 +1,26 @@
+.card-info {
+  @include card;
+
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: var(--space-300) 0;
+    width: 100%;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: var(--space-200) 0;
+  }
+
+  &__label {
+    font-weight: 700;
+    flex-basis: 50%;
+  }
+
+  &__value {
+    flex-basis: 50%;
+  }
+}

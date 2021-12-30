@@ -1,0 +1,23 @@
+[component]
+structures = []
+label = "cards-big"
+description = ""
+icon = ""
+tags = []
+
+[props]
+subtitle = "Mijn subtitel"
+title = "Mijn titel"
+description = "Mijn omschrijving"
+
+[props.afbeelding]
+image = "https://picsum.photos/1200/800?random=1"
+omschrijving = "Omschrijving van mijn afbeelding"
+
+[props.buttons.primary]
+text = "Primary"
+url = "#"
+
+[props.buttons.secondary]
+text = "Secondary"
+url = "#"

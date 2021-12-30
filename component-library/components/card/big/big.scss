@@ -1,0 +1,11 @@
+.card-big {
+  @include card;
+
+  &__subtitle {
+    color: $color-primary;
+  }
+
+  &__p {
+    margin: 0 0 var(--space-300) 0;
+  }
+}

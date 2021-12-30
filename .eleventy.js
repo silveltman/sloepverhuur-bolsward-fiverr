@@ -1,6 +1,7 @@
 const pluginSass = require("eleventy-plugin-sass");
 const Image = require("@11ty/eleventy-img");
 const sitemap = require("@quasibit/eleventy-plugin-sitemap");
+const pluginBookshop = require("@bookshop/eleventy-bookshop");
 
 // Function for eleventy-img plugin (docs: https://www.11ty.dev/docs/plugins/image/)
 // Can be used in Liquid with: {% image "[path]", "[class]", "[alt]", "[sizes]", "[widths]" %
@@ -44,6 +45,10 @@ module.exports = function(eleventyConfig) {
       hostname: "https://example.com",
     },
   });
+
+  eleventyConfig.addPlugin(pluginBookshop({
+		bookshopLocations: ["component-library"]
+	}));
 
   eleventyConfig.addPassthroughCopy("assets");
 

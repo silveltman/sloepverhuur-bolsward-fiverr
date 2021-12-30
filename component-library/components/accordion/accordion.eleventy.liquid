@@ -1,17 +1,5 @@
----
-title: Accordion
-
-accordion:
-  - title: Question 1
-    p: Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, deleniti.
-  - title: Question 2
-    p: Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, deleniti.
-  - title: Question 3
-    p: Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, deleniti.
----
-
 <div x-data="{ active: null }" class="accordion-container">
-  {% for item in accordion %}
+  {% for item in list %}
     <div x-data="{ 
       id: {{ forloop.index }},
       get expanded() {
@@ -29,7 +17,7 @@ accordion:
           <span x-show="!expanded" class="accordion__icon">&plus;</span>
         </button>
       </h3>
-      <p x-show="expanded" class="accordion__p" x-collapse.duration.200>{{ item.p }}</p>
+      <p x-show="expanded" class="accordion__p" x-collapse.duration.200>{{ item.text }}</p>
     </div>
   {% endfor %}
 </div>

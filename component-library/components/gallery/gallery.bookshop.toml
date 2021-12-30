@@ -1,0 +1,12 @@
+[component]
+structures = []
+label = "gallery"
+description = ""
+icon = ""
+tags = []
+
+[props]
+[[props.gallery]]
+image = "https://picsum.photos/1200/800?random=1"
+alt = "Beschrijving van mijn afbeelding"
+

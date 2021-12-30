@@ -1,4 +1,4 @@
-// @import 'abstracts/variables';
+@import 'abstracts/variables';
 // @import 'abstracts/functions';
 @import 'abstracts/mixins';
 @import 'abstracts/placeholders';
@@ -16,21 +16,19 @@
 @import 'components/icons';
 @import 'components/buttons';
 @import 'components/inputs';
-@import 'components/cards';
-// @import 'components/media';
+
+@import '../component-library/main';
 
 @import 'includes/nav';
 @import 'includes/nav-bottom';
 @import 'includes/footer';
 
 @import 'layout/forms';
-@import 'layout/accordion';
 @import 'layout/carousel';
 @import 'layout/hero';
 @import 'layout/grid';
 @import 'layout/modal';
 @import 'layout/toolbar';
-@import 'layout/gallery';
 
 @import 'pages/sloep';
 

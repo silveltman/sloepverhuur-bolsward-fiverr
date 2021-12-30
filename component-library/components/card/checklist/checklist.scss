@@ -1,0 +1,20 @@
+.card-checklist {
+  @include card;
+
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: var(--space-300) 0;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    margin: var(--space-200) 0;
+
+    i {
+      color: $color-secondary;
+      margin-right: var(--space-100);
+    }
+  }
+}

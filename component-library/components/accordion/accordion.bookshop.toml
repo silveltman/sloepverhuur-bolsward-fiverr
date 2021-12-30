@@ -1,0 +1,11 @@
+[component]
+structures = []
+label = "accordion"
+description = ""
+icon = ""
+tags = []
+
+[props]
+[[props.list]]
+title = "Question 1"
+text = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, deleniti."

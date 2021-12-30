@@ -1,0 +1,7 @@
+.card-base {
+  @include card;
+
+  &__p {
+    margin: 0 0 var(--space-300) 0;
+  }
+}

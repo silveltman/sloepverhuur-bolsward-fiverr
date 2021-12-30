@@ -1,0 +1,14 @@
+<div class="card-checklist">
+  <div class="card-checklist__content">
+    <h3 class="card-checklist__h3">{{ title }}</h3>
+    <ul class="card-checklist__list">
+      {% for item in list %}
+        <li class="card-checklist__item">
+          <i class="material-icons">check</i>
+          {{ item }}    
+        </li>
+      {% endfor %}
+    </ul>
+    <a href="{{ button.url }}" class="btn btn--primary">{{ button.text }}</a>
+  </div>
+</div>

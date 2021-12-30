@@ -5,14 +5,19 @@
   "main": "index.js",
   "scripts": {
     "dev": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy"
+    "build": "npx @11ty/eleventy",
+    "bookshop": "bookshop-browser -b ./component-library -p 6061",
+    "bookshop-init": "npx @bookshop/init --component"
   },
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
-    "@11ty/eleventy-img": "^1.0.0"
+    "@11ty/eleventy-img": "^1.0.0",
+    "@bookshop/browser": "^2.2.3",
+    "@bookshop/eleventy-engine": "^2.2.3"
   },
   "dependencies": {
+    "@bookshop/eleventy-bookshop": "^2.2.3",
     "@quasibit/eleventy-plugin-sitemap": "^2.1.4",
     "eleventy-plugin-sass": "^1.2.0"
   }

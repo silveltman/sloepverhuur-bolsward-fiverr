@@ -1,0 +1,18 @@
+[component]
+structures = []
+label = "card-base"
+description = ""
+icon = ""
+tags = []
+
+[props]
+title = "Mijn titel"
+description = "Mijn omschrijving"
+
+[props.afbeelding]
+image = "https://picsum.photos/1200/800?random=1"
+omschrijving = "Omschrijving van mijn afbeelding"
+
+[props.button]
+text = "Button"
+url = "#"
