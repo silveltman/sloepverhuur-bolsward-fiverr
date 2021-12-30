@@ -38,7 +38,7 @@
 }
 
 /* Shortcut for top, right, bottom, left on absolute elements */
-@mixin position ($top: 0, $right: 0, $bottom: 0, $left: 0) {
+@mixin inset ($top: 0, $right: 0, $bottom: 0, $left: 0) {
   top: $top;
   right: $right;
   bottom: $bottom;

@@ -1,0 +1,36 @@
+---
+layout: base
+---
+
+<div class="hero">
+  <img src="/assets/img/sampleImg.jpg" alt="" class="hero__img">
+  <div class="hero__content">
+    <h1 class="hero__h">Hello World</h1>
+    <p class="hero__p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro pariatur nulla animi earum dolorum enim a in aliquam, dignissimos eveniet.</p>
+  </div>
+</div>
+
+<!-- <div class="toolbar">
+  <div class="toolbar__content">
+    <select name="Route" class="toolbar__filter" multiple>
+      <option value="volvo">Volvo</option>
+
+    </select>
+    <input type="text" class="toolbar__search">
+  </div>
+</div> -->
+
+<div class="grid">
+  {% for item in collections.omgeving %}
+    <div class="card">
+      <img class="card__img" src="{{item.image}}" alt="{{ item.data.alt }}">
+      <div class="card__content">
+        <h3 class="card__h3">{{ item.data.title }}</h3>
+        <p class="card__p">{{ item.data.description }}</p>
+        <a href="{{item.url}}" class="btn btn--secondary">+ Meer info</a>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+

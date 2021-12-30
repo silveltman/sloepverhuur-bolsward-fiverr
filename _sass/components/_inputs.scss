@@ -5,11 +5,10 @@ $label-base-margin: 0 0 var(--space-100);
 
 $input-base-font-family: $font-family-primary;
 $input-base-font-size: var(--font-size-400);
-$input-base-color: $color-text-base;
+$input-base-color: $color-text-light;
 $input-base-padding: var(--space-200) var(--space-300);
-$input-base-radius: $radius-small;
+$input-base-radius: $radius-base;
 $input-base-border: $border-base;
-
 
 $input-base-focus: $color-primary;
 
@@ -44,8 +43,6 @@ $textarea-maxheight: 200px;
     box-shadow: inset 0px 0px 0px 1px $input-base-focus;
   }
 }
-
-.select
 
 .textarea {
   box-sizing: content-box;

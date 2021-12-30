@@ -1,12 +1,12 @@
 /* Border radiuses */
 $radius-small: .5em;
-$radius-base: 1em;
-$radius-big: 3em;
+$radius-base: 16px;
+$radius-big: 50px;
 
 /* Borders */
-$border-light: 1px solid rgba(black, .1);
-$border-base: 1px solid rgba(black, .15);
-$border-dark: 1px solid rgba(black, .2);
+$border-light: 1px solid rgba(white, .1);
+$border-base: 1px solid rgba(white, .15);
+$border-dark: 1px solid rgba(white, .2);
 
 /* Shadows */
 $shadow-small: 0 2px 6px 0 rgba(black, .04);
@@ -14,6 +14,6 @@ $shadow-base: 0 2px 6px 0 rgba(black, .06);
 $shadow-big: 0 4px 40px 0 rgba(black, .06);
 
 /* text shadows */
-$text-shadow-base: 0 0 2px 0 rgba(black, .5);
-$text-shadow-heading: 0 0 3px 0 rgba(black, .5);
+$text-shadow-base: 0 0 2px rgba(black, .5);
+$text-shadow-heading: 0 0 3px rgba(black, .5);
 

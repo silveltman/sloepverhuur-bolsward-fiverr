@@ -4,16 +4,22 @@ title: Carousel
 carousel:
   - image: https://picsum.photos/400/200?random=1
     alt: My image description
+    title: Lorem ipsum
   - image: https://picsum.photos/400/200?random=2
     alt: My image description
+    title: Lorem ipsum
   - image: https://picsum.photos/400/200?random=3
     alt: My image description
+    title: Lorem ipsum
   - image: https://picsum.photos/400/200?random=4
     alt: My image description
+    title: Lorem ipsum
   - image: https://picsum.photos/400/200?random=5
     alt: My image description
+    title: Lorem ipsum
   - image: https://picsum.photos/400/200?random=6
     alt: My image description
+    title: Lorem ipsum
 ---
 
 <div class="carousel"
@@ -49,10 +55,13 @@ carousel:
   <ul x-ref="slider" class="carousel__list" tabindex="0">
     {% for item in carousel %}
       <li class="carousel__item">
-        <!-- Replace with custom content from here... -->
-          <img src="{{ item.image }}" alt="{{ item.alt }}">
-          <button x-bind="focusableWhenVisible" class="btn">Button</button>
-        <!-- till here -->
+        <a class=".carousel__item card card--image" x-bind="focusableWhenVisible">
+          <img class="card__img" src="{{item.image}}" alt="">
+          <div class="card__content">
+            <h3 class="card__h3">{{item.title}}</h3>
+            <span class="card__btn btn btn--secondary">+ Meer info</span>
+          </div>
+        </a>
       </li>
     {% endfor %}
   </ul>

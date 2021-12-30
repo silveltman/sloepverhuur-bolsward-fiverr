@@ -1,21 +1,21 @@
 /* Brand */
-$color-primary: blue;
-$color-secondary: pink;
+$color-primary: #FFCD2D;
+$color-secondary: #99C244;
 
 /* Text */
-$color-text-light: #666;
-$color-text-base: #333;
-$color-text-dark: #000;
+$color-text-light: #FFFFFF;
+$color-text-base: #EFEFEF;
+$color-text-dark: #9B9C99;
 
 /* Backgrounds */
-$color-bg-light: #FFFF;
-$color-bg-base: #ebebeb;
-$color-bg-dark: #bbbbbb;
+$color-bg-light: #282923;
+$color-bg-base: #1E2019;
+$color-bg-dark: #181A14; 
 
 /* Feedback */
-$color-success: green;
-$color-error: red;
-$color-warning: yellow;
+$color-success: $color-secondary;
+$color-error: $color-primary;
+$color-warning: red;
 
 /* UX */
-$color-link: cyan;
+$color-link: $color-primary;

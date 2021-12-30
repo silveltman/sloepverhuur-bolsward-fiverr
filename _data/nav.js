@@ -12,6 +12,14 @@ module.exports = [
     }
   },
   {
+    name: 'Aanbod',
+    url: '',
+    dropdown: {
+      collection: 'aanbod',
+      custom: ''
+    }
+  },
+  {
     name: 'More',
     url: '',
     dropdown: {

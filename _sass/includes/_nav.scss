@@ -1,7 +1,7 @@
 $nav-breakpoint: 2;
 
 $nav-bg: $color-bg-light;
-$nav-border: $border-base;
+$nav-border: $border-light;
 $nav-color: $color-text-base;
 $nav-color-accent: $color-primary;
 $nav-height: 62px;
@@ -27,11 +27,25 @@ $nav-height: 62px;
   }
 
   &__logo {
+    display: flex;
+    align-items: center;
     height: 100%;
-    padding: var(--space-100) 0;
+    padding: var(--space-300) 0;
+    text-decoration: none;  
 
     img {
       height: 100%;
+      margin-right: var(--space-200)
+    }
+  }
+
+  &__logo-text {
+    display: none;
+
+    @include media(1) {
+      display: block;
+      color: $color-text-dark;
+      font-weight: 700;
     }
   }
 

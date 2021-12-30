@@ -1,19 +1,19 @@
 /* Families */
-$font-family-primary: sans-serif;
-$font-family-secondary: serif;
-$font-family-tertiary: monospace;
+$font-family-primary: 'Open Sans', sans-serif;
+$font-family-secondary: 'Vollkorn', serif;
 
 /* Styling */
-$font-lineheight-base: 1.6;
-$font-lineheight-heading: 1.1;
+$font-lineheight-base: 1.85;
+$font-lineheight-heading: 1.13;
 
 $font-weight-base: 400;
 $font-weight-heading: 700;
 
+
 :root {
   /* Sizes */
-  --font-size-base: 1em;
-  --font-size-multiplier: 1.2;
+  --font-size-base: 16px;
+  --font-size-multiplier: 1.25;
 
   --font-size-200: calc(var(--font-size-base) / var(--font-size-multiplier) var(--font-size-multiplier));
   --font-size-300: calc(var(--font-size-base) / var(--font-size-multiplier));
@@ -37,19 +37,20 @@ $font-weight-heading: 700;
   /* Breakpoints */
   @include media(2) {
     // 17px
-    --font-size-base: 1.0625em;
+    --font-size-base: 17px;
   }
 
   @include media(3) {
     // 18px
-    --font-size-base: 1.125em; 
+    // --font-size-base: 18px;
+    --font-size-multiplier: 1.32;
   }
 }
 
 
 h1, h2, h3, h4 {
   font-family: $font-family-secondary;
-  color: $color-text-dark;
+  color: $color-text-light;
   font-size: var(--font-size-700);
   line-height: $font-lineheight-heading;
   font-weight: $font-weight-heading;
@@ -57,22 +58,22 @@ h1, h2, h3, h4 {
 
 h1 {
   font-size: var(--font-size-700);
-  margin: 0 0 var(--font-space-400);
+  margin: 0 0 var(--font-space-200);
 }
 
 h2 {
   font-size: var(--font-size-600);
-  margin: 0 0 var(--font-space-400);
+  margin: 0 0 var(--font-space-200);
 }
 
 h3 {
   font-size: var(--font-size-500);
-  margin: 0 0 var(--font-space-400);
+  margin: 0 0 var(--font-space-200);
 }
 
 h4 {
   font-size: var(--font-size-400);
-  margin: 0 0 var(--font-space-400);
+  margin: 0 0 var(--font-space-300);
 }
 
 p {

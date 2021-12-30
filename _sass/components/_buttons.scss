@@ -11,11 +11,11 @@
 /* Main variables */
 $btn-base-color: $color-primary;
 $btn-base-padding: var(--space-200) var(--space-300);
-$btn-base-radius: $radius-small;
+$btn-base-radius: $radius-base;
 
 /* Theme variables */
 $btn-primary-bg: $color-primary;
-$btn-primary-color: white;
+$btn-primary-color: $color-bg-dark;
 
 $btn-secondary-bg: none;
 $btn-secondary-color: $color-primary;
@@ -33,10 +33,10 @@ $btn-secondary-border: 1px solid $color-primary;
   line-height: 1;
   border: none;
   cursor: pointer;
+  background: 0;
 
   font-size: var(--btn-font-size);
   color: $btn-base-color;
-  padding: $btn-base-padding;
 
   .icon {
     /* icon inherits color of button label */
@@ -49,6 +49,8 @@ $btn-secondary-border: 1px solid $color-primary;
     background: $btn-primary-bg;
     color: $btn-primary-color;
     border-radius: $btn-base-radius;
+    font-weight: 700;
+    padding: $btn-base-padding;
 
     // &::hover {}
     // &::active {}
@@ -58,10 +60,15 @@ $btn-secondary-border: 1px solid $color-primary;
     background: $btn-secondary-bg;
     color: $btn-secondary-color;
     border-radius: $btn-base-radius;
-    border: $btn-secondary-border;
+    
+    font-weight: 700;
+    
+    &::hover {
+      border: $btn-secondary-border;
+    }
+    // &::active {
 
-    // &::hover {}
-    // &::active {}
+    // }
   }
   
   // &--tertiary {}
@@ -79,11 +86,11 @@ $btn-secondary-border: 1px solid $color-primary;
 /* Group of buttons */
 .btns {
   // Space between buttons
-  $space: var(--space-200);
+  $space: var(--space-300);
   
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: calc(-1 * $space);
+  margin-bottom: calc(-1 * var(--space-300));
 
   > * {
     margin-right: $space;

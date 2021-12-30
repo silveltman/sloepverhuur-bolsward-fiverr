@@ -1,0 +1,152 @@
+.gallery {
+  @extend %wrapper;
+
+  position: relative;
+  display: grid;
+  padding: 0;
+
+  @include media(2) {
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 0 $wrapper-padding;
+  }
+
+  &__img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border: $border-base;
+
+    &--1 {
+      @include media(2) {
+        border-radius: $radius-base 0 0 $radius-base;
+        grid-row: 1/3;
+      }
+    }
+
+    &--2,
+    &--3 {
+      display: none;
+
+      @include media(2) {
+        display: block;
+        grid-column: 2;
+      }
+    }
+
+    &--2 {
+      grid-row: 1;
+      border-radius: 0 $radius-base 0 0;
+    }
+
+    &--3 {
+      grid-row: 2;
+      border-radius: 0 0 $radius-base 0;
+    }
+  }
+
+  &__btn {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    bottom: var(--space-200);
+    left: var(--space-200);
+    padding: var(--space-100) var(--space-200);
+    border: $border-base;
+    border-radius: $radius-small;
+    box-shadow: $shadow-base;
+    background: $color-bg-dark;
+    color: $color-text-base;
+
+    opacity: 0.5;
+    transition: all 0.1s ease;
+
+    @include media(2) {
+      left: calc(var(--space-200) + var(--wrapper-padding));
+    }
+
+    &:hover {
+      opacity: 1;
+    }
+
+    i {
+      margin-right: var(--space-100);
+    }
+  }
+}
+
+.gallery-modal {
+  position: fixed;
+  @include inset;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  background: $color-bg-dark;
+  display: flex;
+  flex-direction: column;
+
+  &__list,
+  &__single {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    grid-gap: var(--space-100);
+
+    @include media(2) {
+      grid-gap: var(--space-200);
+      padding: var(--space-200);
+    }
+  }
+
+  &__list {
+    display: grid;
+    justify-content: center;
+    overflow-y: scroll;
+
+    @include media(2) {
+      grid-template-columns: repeat(2, max(1fr));
+    }
+
+    @include media(3) {
+      grid-template-columns: repeat(2, max(480px));
+    }
+  }
+
+  &__list-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+
+    @include media(2) {
+      pointer-events: all;
+      cursor: pointer;
+
+      &:nth-of-type(3n + 0) {
+        grid-column: 1/3;
+      }
+    }
+  }
+
+  &__single {
+    min-height: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__single-img {
+    min-width: 0;
+    height: 100%;
+    width: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+  }
+}
