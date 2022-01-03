@@ -1,0 +1,15 @@
+[component]
+structures = []
+label = "timeline"
+description = ""
+icon = ""
+tags = []
+
+[props]
+# [[props.list]]
+# image = "https://picsum.photos/1200/800?random=1"
+# omschrijving = "Omschrijving van mijn afbeelding"
+
+[[props.list]] 
+image = "https://picsum.photos/1200/800?random=1"
+omschrijving = "Mijn afbeelding omschrijving"

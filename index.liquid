@@ -1,10 +1,34 @@
 ---
 page_title: 'Hello World'
 page_description:
+
+_card_buttons:
+  primary:
+    text: Huren
+    url: /
+  secondary:
+    text: + Meer info
+    url: item.url
 ---
 
 <main>
-  <section class="index-hero">
+  <section class="index-sloepen">
+
+    {% assign sloepen_count = collections.sloepen.size | minus: 1  %}
+    {% for i in (0..sloepen_count) %}
+      {% assign item = collections.sloepen[i]  %}
+      {% bookshop "card/big" bind: item.data buttons: _card_buttons afbeelding: item.data.gallery[0] %}
+    {% endfor %}
+
+  </section>
+
+  <section class="index-arrangementen">
+
+    {% assign arrangementen_count = collections.arrangementen.size | minus: 1  %}
+    {% for i in (0..arrangementen_count) %}
+      {% assign item = collections.arrangementen[i]  %}
+      {% bookshop "card/small" bind: item.data  %}
+    {% endfor %}
 
   </section>
 </main>

@@ -1,0 +1,14 @@
+<div class="timeline">
+  <ul class="timeline__list">
+    {% for item in list %}
+      <li 
+        x-data="{ shown: false }" 
+        x-intersect.half="shown = true"
+        :class="shown ? 'shown' : ''"
+        class="timeline__item"
+        >
+        <img x-transition src="{{ item.image }}" alt="{{ item.omschrijving}}" class="timeline__img">
+      </li>
+    {% endfor %}
+  </ul>
+</div>

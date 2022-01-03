@@ -1,0 +1,17 @@
+[component]
+structures = []
+label = "banner"
+description = ""
+icon = ""
+tags = []
+
+[props]
+title = "Mijn titel"
+
+[props.afbeelding]
+image = "https://picsum.photos/1200/800?random=1"
+omschrijving = "Omschrijving van mijn afbeelding"
+
+[props.button]
+text = "Button"
+url = "#"

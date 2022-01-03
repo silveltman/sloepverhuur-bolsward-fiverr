@@ -9,7 +9,7 @@ tags = []
 title = "Mijn titel"
 description = "Mijn omschrijving"
 
-list = ["Lorem Ipsum"]
+checklist = ["Lorem Ipsum"]
 
 [props.button]
 text = "Button"

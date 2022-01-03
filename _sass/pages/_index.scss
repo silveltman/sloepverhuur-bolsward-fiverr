@@ -1,0 +1,8 @@
+.index-sloepen {
+  @extend %wrapper;
+
+  margin: var(--space-700) auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: var(--space-500);
+}

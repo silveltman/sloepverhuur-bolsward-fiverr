@@ -1,3 +1,36 @@
 .sloep {
-  padding-top: $nav-height;
+  // padding-top: $nav-height;
+  margin: var(--space-700) auto;
+
+  &__banner {
+    @extend %wrapper;
+
+    margin: var(--space-700) auto;
+  }
+
+  &__content-container {
+    @extend %wrapper;
+
+    display: grid;
+    align-items: flex-start;
+    grid-gap: var(--space-700);
+    margin: var(--space-700) auto;
+
+    @include media(2) {
+      grid-template-columns: 2fr 1fr;
+    }
+  }
+
+  &__content {
+    grid-row: 2;
+
+    @include media(2) {
+      grid-row: 1;
+    }
+  }
+
+  &__checklist {
+    position: sticky;
+    top: var(--space-700);
+  }
 }
