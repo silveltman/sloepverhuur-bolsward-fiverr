@@ -1,6 +1,8 @@
 .card-small {
   @include card;
 
+  --card-img-width: 1;
+
   justify-content: flex-end;
   overflow: hidden;
   cursor: pointer;

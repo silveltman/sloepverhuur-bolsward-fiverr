@@ -55,13 +55,16 @@ carousel:
   <ul x-ref="slider" class="carousel__list" tabindex="0">
     {% for item in carousel %}
       <li class="carousel__item">
+
+        {% bookshop "card/small" title: 'test' %}
+<!--         
         <a class=".carousel__item card card--image" x-bind="focusableWhenVisible">
           <img class="card__img" src="{{item.image}}" alt="">
           <div class="card__content">
             <h3 class="card__h3">{{item.title}}</h3>
             <span class="card__btn btn btn--secondary">+ Meer info</span>
           </div>
-        </a>
+        </a> -->
       </li>
     {% endfor %}
   </ul>

@@ -1,0 +1,10 @@
+[component]
+structures = []
+label = "carousel"
+description = ""
+icon = ""
+tags = []
+
+[props]
+list = ['1', '2', '3']
+card = "small"

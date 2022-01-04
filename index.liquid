@@ -24,11 +24,17 @@ _card_buttons:
 
   <section class="index-arrangementen">
 
+    {%- comment -%}
     {% assign arrangementen_count = collections.arrangementen.size | minus: 1  %}
     {% for i in (0..arrangementen_count) %}
       {% assign item = collections.arrangementen[i]  %}
       {% bookshop "card/small" bind: item.data  %}
     {% endfor %}
+    {%- endcomment -%}
 
   </section>
+  {%- comment -%}
+  {% bookshop "carousel" list: collections.sloepen  %}
+  {%- endcomment -%}
+
 </main>
