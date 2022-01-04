@@ -1,7 +1,8 @@
 ---
 title: Schettens
-image: /assets/img/uploads/532px-huizen-aan-het-water-in-schettens.JPG
-alt: Elfstedenroute varen door Schettens
+afbeelding:
+  image: /assets/img/uploads/532px-huizen-aan-het-water-in-schettens.JPG
+  omschrijving: Elfstedenroute varen door Schettens
 description: Elfstedenroute door Schettens.
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: Parrega
-image: /assets/img/uploads/fr-parrega-15333336006331804.jpg
-alt: Parrega ligt tussen Workum en Bolsward
+afbeelding:
+  image: /assets/img/uploads/fr-parrega-15333336006331804.jpg
+  omschrijving: Parrega ligt tussen Workum en Bolsward
 description: >-
   Varen langs voormalige herberg De Harmonie, een bouwwerk uit de 18de eeuw met
   fraaie bovenzaal.
