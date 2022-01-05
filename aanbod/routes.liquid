@@ -1,0 +1,83 @@
+---
+layout: base.liquid
+
+hero:
+  afbeelding: 
+    image: https://picsum.photos/1200/800?random=1
+    omschrijving: Omschrijving van mijn afbeelding
+  col_1:
+    icon: flag
+    text: Lorem ipsum
+  col_2:
+    icon: flag
+    text: Lorem ipsum
+  col_3:
+    icon: flag
+    text: Lorem ipsum
+---
+
+<main class="routes">
+
+  {% bookshop "hero/columns" bind: hero %}
+
+  <div class="routes" 
+  x-data="{ 
+    activeRoute: 'alpaca',
+    getActiveRoute(value) {
+      return this.activeRoute == value
+    },
+    setActiveRoute(value) {
+      this.activeRoute = value ? this.value : null
+      console.log(value)
+    },
+    activeSloep: null,
+    getActiveSloep(sloepen) {
+      if (!this.activeSloep) return false
+      else return !sloepen.includes(this.activeSloep)
+    }
+  }">
+
+    <div class="toolbar">
+      <div class="toolbar__content">
+        <select class="routes__sloep-filter select" x-model="activeSloep">
+          <option>Alle sloepen</option>
+          {% for item in collections.sloepen %}
+            <option value="{{item.fileSlug}}">{{item.data.title}}</option>
+          {% endfor %}
+        </select>
+  
+        <select class="routes__omgeving-filter select" x-model="activeRoute">
+          {% for item in collections.routes %}
+            <option 
+              x-data="{ sloepen: {{ item.data.sloepen | printJS }}}"
+              :disabled="getActiveSloep(sloepen)"
+              value="{{ item.fileSlug }}">
+              {{item.data.title}} 
+              ({{item.data.tijd}})
+            </option>
+          {% endfor %}
+        </select>
+      </div>
+    </div>
+
+    {% for item in collections.routes %}
+      <template x-if="getActiveRoute('{{ item.fileSlug }}')">
+
+        <div class="routes__item">    
+          <div class="routes__map">
+            <iframe src="{{item.data.route_url | replace: "/edit?", "/embed?" }}"></iframe>
+          </div> 
+
+          <div class="routes__accordion">
+            {% assign featured_omgeving = collections.omgeving | collectionFilter: item.data.omgeving  %}
+            <h2 class="routes__h">{{item.data.title}}</h2>
+            <span class="routes__tijd">{{item.data.tijd}}</span>
+            <p class="routes__p">{{item.data.description}}</p>
+            {% bookshop "accordion" list: featured_omgeving %}
+          </div>
+        </div>
+      </template>
+    {% endfor %}
+  </div>    
+</main>
+  

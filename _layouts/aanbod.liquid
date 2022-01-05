@@ -15,15 +15,29 @@ layout: base
   </div>
 </div> -->
 
-<div class="grid">
+<main class="aanbod">
 
-  {{ fileSlug }}
 
-  {% assign omgeving_count = collections.omgeving.size | minus: 1  %}
-  {% for i in (0..omgeving_count) %}
-    {% assign item = collections.omgeving[i]  %}
-    {% bookshop "card/base" bind: item.data  %}
-  {% endfor %}
-</div>
+
+  
+  <div class="grid">
+    {% assign collection_count = collections[page.fileSlug].size | minus: 1  %}
+    {% for i in (0..collection_count) %}
+      {% assign item = collections[page.fileSlug][i]  %}
+  
+      <div x-data="{
+        slug: {{ item.fileSlug }},
+        title: {{ item.data.title }},
+        routes: [],
+      }
+      ">
+        {% bookshop "card/base" bind: item.data  %}
+      </div>
+    {% endfor %}
+  </div>
+
+</main>
+
+
 
 

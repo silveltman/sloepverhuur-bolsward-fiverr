@@ -6,7 +6,7 @@ $label-base-margin: 0 0 var(--space-100);
 $input-base-font-family: $font-family-primary;
 $input-base-font-size: var(--font-size-400);
 $input-base-color: $color-text-light;
-$input-base-padding: var(--space-200) var(--space-300);
+$input-base-padding: var(--space-100) var(--space-300);
 $input-base-radius: $radius-base;
 $input-base-border: $border-base;
 
@@ -30,6 +30,7 @@ $textarea-maxheight: 200px;
   // Removes default styles such as that weird gloss
   appearance: none;
 
+  background: $color-bg-light;
   font-family: $input-base-font-family;
   font-size: $input-base-font-size;
   color: $input-base-color;
@@ -44,9 +45,37 @@ $textarea-maxheight: 200px;
   }
 }
 
+.select {
+  padding: var(--space-200) var(--space-500) var(--space-200) var(--space-300);
+
+  background-image: linear-gradient(
+      45deg,
+      transparent 50%,
+      $color-text-dark 50%
+    ),
+    linear-gradient(135deg, $color-text-dark 50%, transparent 50%);
+  background-position: calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px);
+  background-size: 5px 5px, 5px 5px;
+  background-repeat: no-repeat;
+
+  &:focus {
+    background-image: linear-gradient(
+        45deg,
+        $color-primary 50%,
+        transparent 50%
+      ),
+      linear-gradient(135deg, transparent 50%, $color-primary 50%);
+    background-position: calc(100% - 15px) 1em, calc(100% - 20px) 1em;
+    background-size: 5px 5px, 5px 5px;
+    background-repeat: no-repeat;
+    outline: 0;
+  }
+}
+
 .textarea {
   box-sizing: content-box;
   resize: vertical;
-  min-height: $input-base-font-size;
+  min-height: 50px;
   max-height: $textarea-maxheight;
 }

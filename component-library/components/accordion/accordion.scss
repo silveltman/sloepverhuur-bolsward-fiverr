@@ -1,7 +1,46 @@
 $accordion-spacing: var(--space-400);
 
-.accordion-container {
+.accordion {
   display: flex;
   flex-direction: column;
-  gap: $accordion-spacing;
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+
+    & + & {
+      margin-top: var(--space-400);
+    }
+  }
+
+  &__btn {
+    display: flex;
+    align-items: center;
+    background: 0;
+    border: 0;
+    padding: 0;
+    margin-bottom: var(--space-200);
+  }
+
+  &__count {
+    height: 24px;
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $color-bg-dark;
+    background: $color-secondary;
+    border-radius: $radius-base;
+    font-weight: 700;
+  }
+
+  &__h {
+    font-family: $font-family-secondary;
+    margin: 0 var(--space-200);
+  }
+
+  &__icon {
+    margin-left: auto;
+    color: $color-secondary;
+  }
 }

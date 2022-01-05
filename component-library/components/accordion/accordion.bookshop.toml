@@ -7,5 +7,6 @@ tags = []
 
 [props]
 [[props.list]]
+[props.list.data]
 title = "Question 1"
-text = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, deleniti."
+description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, deleniti."

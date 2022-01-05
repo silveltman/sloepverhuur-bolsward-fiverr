@@ -1,18 +1,24 @@
 .toolbar {
-  position: relative;
+  position: sticky;
   z-index: 8;
-  top: 0;
+  top: $nav-height;
   left: 0;
   width: 100%;
 
-  padding: var(--space-200) 0;
+  padding: var(--space-100) 0;
   background: $color-bg-dark;
   border-bottom: $border-base;
 
   &__content {
     @extend %wrapper;
 
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-gap: var(--space-100) var(--space-300);
+    justify-content: stretch;
+
+    @include media(1) {
+      grid-auto-flow: column;
+      justify-content: center;
+    }
   }
 }

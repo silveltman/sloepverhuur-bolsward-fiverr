@@ -3,6 +3,9 @@ const Image = require("@11ty/eleventy-img");
 const sitemap = require("@quasibit/eleventy-plugin-sitemap");
 const pluginBookshop = require("@bookshop/eleventy-bookshop");
 
+const inspect = require("util").inspect;
+
+
 // Function for eleventy-img plugin (docs: https://www.11ty.dev/docs/plugins/image/)
 // Can be used in Liquid with: {% image "[path]", "[class]", "[alt]", "[sizes]", "[widths]" %
 // Example: {% image "./assets/img/myImg.jpg", "myClass", "A description", "(max-width: 768px) 90vw, 300px", "300, 600, 900" %}
@@ -31,6 +34,34 @@ async function imageShortcode(src, className, alt, sizes, widths) {
 }
 
 module.exports = function(eleventyConfig) {
+
+  eleventyConfig.addFilter("debug", (content) => `<pre>${inspect(content)}</pre>`);
+
+  eleventyConfig.addFilter("printFrontmatter", (item) => {
+    const string = `${inspect(item.template.frontMatter.data)}`;
+    return string.replace(/["]+/g, '')
+  });
+
+  eleventyConfig.addFilter("printJS", (data) => {
+    const string = `${inspect(data)}`;
+    return string.replace(/["]+/g, '')
+  });
+
+  // eleventyConfig.addFilter("collectionFilter", function(collection, list) {
+  //   const found = collection.filter(item => list.includes(item.fileSlug))
+  //   return found;
+  // });
+
+  eleventyConfig.addFilter("collectionFilter", function(collection, list) {
+    let foundArray = []
+
+    list.forEach(listItem => {
+      const found = collection.find(collectionItem => listItem == collectionItem.fileSlug)
+      foundArray.push(found);
+    });
+    
+    return foundArray;
+  });
 
   eleventyConfig.addLiquidShortcode("image", imageShortcode);
 

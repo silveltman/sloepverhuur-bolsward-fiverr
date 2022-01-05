@@ -1,23 +1,22 @@
-<div x-data="{ active: null }" class="accordion-container">
+<div x-data="{ activeAccordionItem: null }" class="accordion">
   {% for item in list %}
     <div x-data="{ 
       id: {{ forloop.index }},
       get expanded() {
-        return this.active === this.id
+        return this.activeAccordionItem === this.id
       },
       set expanded(value) {
-        this.active = value ? this.id : null
+        this.activeAccordionItem = value ? this.id : null
       }
     }" 
-    role="region" class="accordion">
-      <h3 class="accordion__h3">
-        <button @click="expanded = !expanded" class="accordion__btn" :aria-expanded="expanded">
-          <span class="accordion__title">{{ item.title }}</span>
-          <span x-show="expanded" class="accordion__icon">&minus;</span>
-          <span x-show="!expanded" class="accordion__icon">&plus;</span>
-        </button>
-      </h3>
-      <p x-show="expanded" class="accordion__p" x-collapse.duration.200>{{ item.text }}</p>
+    role="region" class="accordion__item">
+      <button @click="expanded = !expanded" class="accordion__btn" :aria-expanded="expanded">
+        <span class="accordion__count">{{ forloop.index }}</span>
+        <h3 class="accordion__h">{{ item.data.title }}</h3>
+        <span x-show="expanded" class="accordion__icon icon icon--chevron turn"></span>
+        <span x-show="!expanded" class="accordion__icon icon icon--chevron"></span>
+      </button>
+      <p x-show="expanded" class="accordion__p" x-collapse.duration.200>{{ item.data.description }}</p>
     </div>
   {% endfor %}
 </div>

@@ -4,10 +4,10 @@ module.exports = [
     url: '/'
   },
   {
-    name: 'Examples',
+    name: 'Sloepen',
     url: '',
     dropdown: {
-      collection: 'examples',
+      collection: 'sloepen',
       custom: ''
     }
   },
@@ -15,25 +15,25 @@ module.exports = [
     name: 'Aanbod',
     url: '',
     dropdown: {
-      collection: 'aanbod',
-      custom: ''
-    }
-  },
-  {
-    name: 'More',
-    url: '',
-    dropdown: {
       collection: '',
       custom: [
         {
-          name: 'Link A',
-          url: '/'
+          name: 'Omgeving',
+          url: '/aanbod/omgeving'
         },
         {
-          name: 'Link B',
-          url: '/'
+          name: 'Arrangementen',
+          url: '/aanbod/arrangementen'
+        },
+        {
+          name: 'Routes',
+          url: '/aanbod/routes'
         },
       ]
     }
-  }
+  },
+  {
+    name: 'Contact',
+    url: '/'
+  },
 ];

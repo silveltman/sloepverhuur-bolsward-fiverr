@@ -31,11 +31,12 @@ $nav-height: 62px;
     align-items: center;
     height: 100%;
     padding: var(--space-300) 0;
-    text-decoration: none;  
+    text-decoration: none;
+    font-family: $font-family-secondary;
 
     img {
       height: 100%;
-      margin-right: var(--space-200)
+      margin-right: var(--space-200);
     }
   }
 
@@ -57,7 +58,6 @@ $nav-height: 62px;
     top: 100%;
     left: 0;
     width: 100%;
-
 
     background: $nav-bg;
 
@@ -97,7 +97,7 @@ $nav-height: 62px;
 
     @include media($nav-breakpoint) {
       border-top: none;
-      padding: var(--space-200) var(--space-300)
+      padding: var(--space-200) var(--space-300);
     }
 
     .icon {
@@ -131,7 +131,7 @@ $nav-height: 62px;
       border-radius: $radius-small;
       border: $border-base;
       box-shadow: $shadow-small;
-  
+
       // margin-top: var(--space-100);
     }
 

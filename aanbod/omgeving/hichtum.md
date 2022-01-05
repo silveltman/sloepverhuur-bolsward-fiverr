@@ -1,8 +1,7 @@
 ---
 title: Hichtum
 afbeelding:
-  image: >-
-  /assets/img/uploads/hichtum/1920px-hichtum-de-hervormde-kerk-rm39349-foto10-2017-06-18-12-51.jpg
+  image: /assets/img/uploads/hichtum/1920px-hichtum-de-hervormde-kerk-rm39349-foto10-2017-06-18-12-51.jpg
   omschrijving: Kerk van Hichtum
 description: Kerk van Hichtum.
 ---
