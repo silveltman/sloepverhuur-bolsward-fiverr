@@ -1,0 +1,76 @@
+.carousel-vertical {
+  display: flex;
+  flex-direction: column;
+
+  @include media(2) {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  &__card-container {
+    display: grid;
+  }
+
+  &__card {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  &__controls {
+    display: flex;
+    align-items: center;
+    margin: var(--space-300) auto 0;
+
+    @include media(2) {
+      flex-direction: column;
+      margin: 0 0 0 var(--space-300);
+    }
+  }
+
+  &__dots {
+    display: flex;
+    margin: var(--space-200);
+
+    @include media(2) {
+      flex-direction: column;
+    }
+  }
+
+  &__dot {
+    height: 8px;
+    width: 8px;
+    background: $color-bg-light;
+    border: $border-base;
+    border-radius: $radius-base;
+    margin: var(--space-100);
+
+    &.active {
+      background: $color-primary;
+    }
+  }
+
+  &__btn {
+    padding: 0;
+    height: 28px;
+    width: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &--prev {
+      transform: rotate(90deg);
+
+      @include media(2) {
+        transform: rotate(180deg);
+      }
+    }
+
+    &--next {
+      transform: rotate(-90deg);
+
+      @include media(2) {
+        transform: rotate(0);
+      }
+    }
+  }
+}

@@ -9,6 +9,23 @@ _card_buttons:
   secondary:
     text: + Meer info
     url: item.url
+
+reviews:
+  - title: Goede review 1
+    description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, deleniti.
+  - title: Goede review 2
+    description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, deleniti.
+  - title: Goede review ipsum
+    description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, deleniti.
+
+banner: 
+  title: Ontdek de Friese wateren
+  button:
+    text: Reserveer nu
+    url: /reserveren
+  afbeelding:
+    image: https://picsum.photos/1200/800?random=1
+    omschrijving: Omschrijving van mijn afbeelding
 ---
 
 <main>
@@ -47,7 +64,21 @@ _card_buttons:
     {%- endcomment -%}
 
   </section>
-  {%- comment -%}
-  {% bookshop "carousel" list: collections.sloepen  %}
-  {%- endcomment -%}
+
+  <section class="index-reviews" x-data="{ active: 2 }">
+    <div class="index-reviews__wrapper">
+      <div class="index-reviews__content">
+        <h2 class="index-reviews__h">Lorem ipsum</h2>
+        <p class="index-reviews__p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore id pariatur perspiciatis culpa, sunt voluptatem!</p>
+        <a target="_blank" href="https://www.google.com/search?q=sloepverhuurbolsward&sxsrf=AOaemvKi6WuED6ZIDfwVFh5p8y4rm75npg%3A1641475267367&ei=w-zWYZ7kFaiDhbIP5a-80As&oq=sloepv&gs_lcp=Cgdnd3Mtd2l6EAMYADIECCMQJzIECCMQJzIFCAAQywEyBQgAEMsBMgUIABDLATIFCAAQywEyCwguEMcBEK8BEMsBMgUIABDLATIFCAAQywEyBQgAEMsBOgsILhDHARCjAhCRAjoFCAAQkQI6CwguEIAEEMcBENEDOgUIABCABDoKCC4QxwEQrwEQQzoKCC4QxwEQ0QMQQzoECAAQQzoECC4QQ0oECEEYAEoECEYYAFAAWP4DYOMMaABwAngAgAGIAYgBsgWSAQMxLjWYAQCgAQHAAQE&sclient=gws-wiz#lrd=0x47c8e9fd16a6ce6b:0x479366133393a674,1,,," class="index-reviews__btn btn btn--secondary">+ Alle reviews</a>
+      </div>
+
+      {% bookshop "vertical" list: reviews %}
+
+    </div>
+  </section>
+
+  <section class="index-banner">
+    {% bookshop "banner" bind: banner %}
+  </section>
 </main>

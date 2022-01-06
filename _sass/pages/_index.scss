@@ -1,32 +1,39 @@
 .index-sloepen {
-  @extend %wrapper;
-
-  margin: var(--space-700) auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  grid-gap: var(--space-500);
+  @extend %grid-1-1;
 }
 
 .index-routes {
   background: $color-bg-dark;
-  padding: var(--space-600) 0;
 
   &__wrapper {
-    @extend %two-one;
+    @extend %grid-2-1;
   }
-
   &__map {
-    height: 600px;
-    max-height: calc(100vh - 180px);
+    height: 350px;
+
+    @include media(2) {
+      height: 600px;
+      max-height: calc(100vh - 180px);
+    }
   }
 
   &__content {
-    display: flex;
-    flex-direction: column;
-
     @include media(2) {
       position: sticky;
-      top: $nav-height + 40px;
+      top: calc(var(--nav-height) + 40px);
     }
   }
+}
+
+.index-reviews {
+  background: $color-bg-dark;
+
+  &__wrapper {
+    @extend %grid-1-1;
+    align-items: center;
+  }
+}
+
+.index-banner {
+  @extend %wrapper;
 }

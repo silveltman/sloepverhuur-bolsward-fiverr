@@ -7,7 +7,7 @@
   border-radius: $radius-big;
   border: $border-base;
   overflow: hidden;
-  margin: var(--space-800) auto;
+  margin: var(--space-700) auto;
 
   @include pseudo('after') {
     background: rgba($color-bg-dark, 0.65);

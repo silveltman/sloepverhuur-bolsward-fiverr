@@ -1,0 +1,8 @@
+[component]
+structures = []
+label = "form"
+description = ""
+icon = ""
+tags = []
+
+[props]

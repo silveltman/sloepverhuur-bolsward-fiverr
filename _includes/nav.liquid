@@ -1,51 +1,48 @@
-<header class="nav" x-data="{ open: false }" @click.outside="open = false">
+<header class="nav" x-data="{ open: false }" :class="open && 'open'" @click.outside="open = false">
   <div class="nav__wrapper">
 
-    <!-- Logo -->
     <a class="nav__logo" href="/">
       <img src="{{ info.logo.image }}" alt="{{ info.logo.alt }}">
-      <span class="nav__logo-text">
-        Sloepverhuur Bolsward
-      </span>
+      <span>Sloepverhuur Bolsward</span>
     </a>
 
-    <!-- List of links -->
-    <ul class="nav__list" x-show="open" x-cloak>
+    <ul class="nav-list" x-show="open" x-cloak>
       {% for item in nav %}
 
-      <!-- Group of links (custom or a colletion) -->
+      <!-- Links with dropdown -->
         {% if item.dropdown %} 
-          <li class="nav__item" 
+          <li class="nav-list__item" 
               x-data="{ expanded: false }" 
               @click="expanded = !expanded" 
               @click.outside=" expanded = false"
           >
-            <a class="btn nav__link">
+            <a class="btn nav-list__link">
               <span>{{item.name}}</span>
-              <i class="icon icon--chevron" :class="expanded ? 'turn' : ''"> </i>
+              <i class="nav-list__icon material-icons-round" :class="expanded && 'turn'">expand_more</i>
             </a>
             
-            <ul class="nav__dropdown-list" x-show="expanded" x-cloak>
-              {% if item.dropdown.collection.size > 0 %}
-                {% for dropdown_item in collections[item.dropdown.collection] %}
-                  <li>
-                    <a href="{{ dropdown_item.url }}" class="btn nav__dropdown-link">{{dropdown_item.data.title}}</a>
-                  </li>       
-                {% endfor %}
-              {% else if item.dropdown.custom %}
-                {% for dropdown_item in item.dropdown.custom %}
-                  <li>
-                    <a href="{{ dropdown_item.url }}" class="btn nav__dropdown-link">{{ dropdown_item.name }}</a>
-                  </li>       
-                {% endfor %}  
-              {% endif %}
+            <ul class="nav-list__dropdown-list" x-show="expanded" x-cloak x-collapse.duration.100>
+              
+              <!-- Loop over given collection -->
+              {% for dropdown_item in collections[item.dropdown.collection] %}
+                <li>
+                  <a href="{{ dropdown_item.url }}" class="btn nav-list__dropdown-link">{{dropdown_item.data.title}}</a>
+                </li>       
+              {% endfor %}
+
+              <!-- Loop over custom links -->
+              {% for dropdown_item in item.dropdown.custom %}
+                <li>
+                  <a href="{{ dropdown_item.url }}" class="btn nav-list__dropdown-link">{{ dropdown_item.name }}</a>
+                </li>       
+              {% endfor %}  
             </ul>
           </li>
       
-        <!-- Single link -->
+        <!-- Single link, without dropdown -->
         {% else %}
-          <li class="nav__item">
-            <a href="{{ item.url }}" class="btn nav__link">{{item.name}}</a>
+          <li class="nav-list__item">
+            <a href="{{ item.url }}" class="btn nav-list__link">{{item.name}}</a>
           </li>
         {% endif %}
 
@@ -53,10 +50,17 @@
     </ul>
 
     <!-- Buttons -->
-    <div class="nav__buttons">
-      <a href="/contact" class="nav__btn nav__btn--contact btn btn--secondary">Contact</a>
-      <a href="/" class="nav__btn btn btn--primary">Huren</a>
-      <button @click="open = !open" href="/" class="nav__burger btn btn--secondary">X</a>
+    <div class="nav-buttons" x-show="open" x-cloak>
+      <a href="/contact" class="nav-buttons__btn nav-buttons__btn--contact btn btn--secondary">Contact</a>
+      <a href="/" class="nav-buttons__btn btn btn--primary">Huren</a>
     </div>
+
+    <button @click="open = !open" 
+    href="/" 
+    class="nav__menu btn btn--secondary material-icons-round"
+    >
+      <span x-show="!open">menu</span>
+      <span x-show="open">close</span>
+    </button>
   </div>
 </header>

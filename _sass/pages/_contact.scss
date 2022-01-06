@@ -1,0 +1,16 @@
+.contact {
+  margin: var(--space-800) auto;
+
+  &__content {
+    @extend %grid-2-1;
+  }
+
+  &__map {
+    height: 350px;
+
+    @include media(2) {
+      height: 600px;
+      max-height: calc(100vh - 180px);
+    }
+  }
+}

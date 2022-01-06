@@ -1,0 +1,36 @@
+<div class="carousel-vertical"
+  x-data="{ 
+    active: 1,
+    next() {
+      if (this.active == {{list.size}}) this.active = 1
+      else this.active++
+    },
+    prev() {
+      if (this.active == 1) this.active = {{list.size}}
+      else this.active--
+    }
+  }">
+
+  <div class="carousel-vertical__card-container">
+    {% for item in list %}
+      <div class="carousel-vertical__card" x-transition.scale.70 x-show="active == {{ forloop.index }}">
+        {% bookshop "card/review" bind: item %}
+      </div>
+    {% endfor %}
+  </div>
+
+  <div class="carousel-vertical__controls">
+    <button @click="prev" class="carousel-vertical__btn carousel-vertical__btn--prev btn btn--primary">
+      <i class="material-icons-round">expand_more</i>
+    </button>
+    <div class="carousel-vertical__dots">
+      {% for dot in list %}
+        <span class="carousel-vertical__dot"
+        :class="active == {{ forloop.index }} && 'active'"></span>
+      {% endfor %}
+    </div>
+    <button @click="next" class="carousel-vertical__btn carousel-vertical__btn--next btn btn--primary">
+      <i class="material-icons-round">expand_more</i>
+    </button>
+  </div>
+</div>

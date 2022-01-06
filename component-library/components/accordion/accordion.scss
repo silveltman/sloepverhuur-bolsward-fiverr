@@ -43,5 +43,13 @@ $accordion-spacing: var(--space-400);
   &__icon {
     margin-left: auto;
     color: $color-secondary;
+
+    &.turn {
+      transform: rotate(180deg);
+    }
+  }
+
+  &__p {
+    margin: 0;
   }
 }

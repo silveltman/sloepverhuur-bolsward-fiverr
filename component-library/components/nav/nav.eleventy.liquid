@@ -1,0 +1,71 @@
+<header class="nav" x-data="{ open: false }" @click.outside="open = false">
+  <div class="nav__wrapper">
+
+    <!-- Logo -->
+    <!-- <a class="nav__logo" href="/">
+      <img src="{{ info.logo.image }}" alt="{{ info.logo.alt }}">
+      <span class="nav__logo-text">
+        Sloepverhuur Bolsward
+      </span>
+    </a> -->
+
+    <!-- List of links -->
+    <ul class="nav-list" x-show="open" x-cloak>
+      {% for item in list %}
+
+      <!-- Group of links (custom or a colletion) -->
+        {% if item.dropdown %} 
+          <li class="nav-list__item" 
+              x-data="{ expanded: false }" 
+              @click="expanded = !expanded" 
+              @click.outside=" expanded = false"
+          >
+            <a class="btn nav-list__link">
+              <span>{{item.name}}</span>
+              <i class="icon icon--chevron" :class="expanded ? 'turn' : ''"> </i>
+            </a>
+            
+            <ul class="nav-list__dropdown-list" x-show="expanded" x-cloak>         
+              {% for dropdown_item in collections.sloepen %}
+                <li>
+                  TEST
+                  <a href="{{ dropdown_item.url }}" class="btn nav-list__dropdown-link">
+                    {{ dropdown_item.data.title }}
+                  </a>
+                </li>       
+              {% endfor %}
+              {% for dropdown_item in item.dropdown.custom %}
+                <li>
+                  <a href="{{ dropdown_item.url }}" class="btn nav-list__dropdown-link">
+                    {{ dropdown_item.title }}
+                  </a>
+                </li>       
+              {% endfor %}
+            </ul>
+          </li>
+      
+        <!-- Single link -->
+        {% else %}
+          <li class="nav-list__item">
+            <a href="{{ item.url }}" class="btn nav-list__link">{{item.name}}</a>
+          </li>
+        {% endif %}
+
+      {% endfor %}
+    </ul>
+
+
+
+    <!-- Buttons -->
+    <!-- <div class="nav-buttons__buttons">
+      <a href="/contact" class="nav-buttons__btn nav-buttons__btn--contact btn btn--secondary">Contact</a>
+      <a href="/" class="nav-buttons__btn btn btn--primary">Huren</a>
+      <button @click="open = !open" 
+      href="/" 
+      class="nav-buttons__burger btn btn--secondary material-icons-round"
+      >
+        menu
+      </button>
+    </div> -->
+  </div>
+</header>

@@ -13,8 +13,7 @@
       <button @click="expanded = !expanded" class="accordion__btn" :aria-expanded="expanded">
         <span class="accordion__count">{{ forloop.index }}</span>
         <h3 class="accordion__h">{{ item.data.title }}</h3>
-        <span x-show="expanded" class="accordion__icon icon icon--chevron turn"></span>
-        <span x-show="!expanded" class="accordion__icon icon icon--chevron"></span>
+        <i class="accordion__icon material-icons-round" :class="expanded && 'turn'">expand_more</i>
       </button>
       <p x-show="expanded" class="accordion__p" x-collapse.duration.200>{{ item.data.description }}</p>
     </div>

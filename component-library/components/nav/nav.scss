@@ -1,0 +1,177 @@
+// $nav-breakpoint: 2;
+
+// $nav-bg: $color-bg-light;
+// $nav-border: $border-light;
+// $nav-color: $color-text-base;
+// $nav-color-accent: $color-primary;
+// var(--nav-height): 62px;
+
+// .nav {
+//   position: fixed;
+//   z-index: 9;
+//   left: 0;
+//   right: 0;
+//   width: 100%;
+//   background: $nav-bg;
+//   border-bottom: $nav-border;
+//   var(--nav-height): 62px;
+
+//   &__wrapper {
+//     @extend %wrapper;
+
+//     display: grid;
+//     grid-template-columns: 1fr auto 1fr;
+//     align-items: center;
+//     height: 100%;
+//   }
+
+//   &__logo {
+//     display: flex;
+//     align-items: center;
+//     height: 100%;
+//     padding: var(--space-300) 0;
+//     text-decoration: none;
+//     font-family: $font-family-secondary;
+
+//     img {
+//       height: 100%;
+//       margin-right: var(--space-200);
+//     }
+
+//     span {
+//       display: none;
+
+//       @include media(1) {
+//         display: block;
+//         color: $color-text-dark;
+//         font-weight: 700;
+//       }
+//     }
+//   }
+// }
+
+// .nav-list {
+//   @extend %wrapper;
+
+//   position: absolute;
+//   margin: 0;
+//   top: 100%;
+//   left: 0;
+//   width: 100%;
+
+//   background: $nav-bg;
+
+//   @include media($nav-breakpoint) {
+//     display: flex !important;
+//     align-items: center;
+//     position: relative;
+//     top: auto;
+//     width: auto;
+//     height: 100%;
+
+//     padding: var(--space-200);
+//   }
+
+//   &__item {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     position: relative;
+//     height: 100%;
+
+//     @include media($nav-breakpoint) {
+//       align-items: center;
+//     }
+//   }
+
+//   &__link {
+//     position: relative;
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     border-top: $border-light;
+
+//     color: $nav-color;
+//     padding: var(--space-400) var(--space-300);
+
+//     @include media($nav-breakpoint) {
+//       border-top: none;
+//       padding: var(--space-200) var(--space-300);
+//     }
+
+//     .icon {
+//       position: absolute;
+//       right: 0;
+//       margin-left: var(--space-100);
+
+//       height: $icon-size-400;
+//       width: $icon-size-400;
+
+//       @include media($nav-breakpoint) {
+//         position: relative;
+
+//         height: $icon-size-300;
+//         width: $icon-size-300;
+//       }
+//     }
+//   }
+
+//   &__dropdown-list {
+//     list-style: none;
+//     background: $color-bg-light;
+//     padding: 0 0 var(--space-400);
+
+//     @include media($nav-breakpoint) {
+//       position: absolute;
+//       padding: var(--space-300);
+//       top: 100%;
+//       // left: auto;
+//       // right: auto;
+//       border-radius: $radius-small;
+//       border: $border-base;
+//       box-shadow: $shadow-small;
+
+//       // margin-top: var(--space-100);
+//     }
+
+//     &::before {
+//       @include media($nav-breakpoint) {
+//         content: '';
+//         display: block;
+//         position: absolute;
+//         height: 100%;
+//         width: 100%;
+//         z-index: -9;
+//         bottom: 100%;
+//         left: 0;
+//       }
+//     }
+//   }
+
+//   &__dropdown-link {
+//     padding: var(--space-300) var(--space-500);
+//     color: $color-text-base;
+
+//     @include media($nav-breakpoint) {
+//       padding: var(--space-300);
+//     }
+//   }
+// }
+
+// .nav-buttons {
+//   margin: 0 var(--space-300) 0 auto;
+
+//   @include media($nav-breakpoint) {
+//     margin: 0;
+//   }
+
+//   &__btn--contact {
+//     padding: var(--space-200) var(--space-300);
+//   }
+
+//   &__burger {
+//     @include media($nav-breakpoint) {
+//       display: none;
+//     }
+//   }
+// }

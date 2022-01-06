@@ -37,11 +37,6 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter("debug", (content) => `<pre>${inspect(content)}</pre>`);
 
-  eleventyConfig.addFilter("printFrontmatter", (item) => {
-    const string = `${inspect(item.template.frontMatter.data)}`;
-    return string.replace(/["]+/g, '')
-  });
-
   eleventyConfig.addFilter("printJS", (data) => {
     const string = `${inspect(data)}`;
     return string.replace(/["]+/g, '')

@@ -1,5 +1,5 @@
 .sloep {
-  // padding-top: $nav-height;
+  // padding-top: var(--nav-height);
   margin: var(--space-700) auto;
 
   &__banner {
@@ -9,7 +9,7 @@
   }
 
   &__content-container {
-    @extend %two-one;
+    @extend %grid-2-1;
   }
 
   &__content {

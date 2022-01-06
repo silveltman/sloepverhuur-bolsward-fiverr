@@ -39,8 +39,8 @@
     
     {% assign collection_count = list.size | minus: 1  %}
     {% for i in (0..collection_count) %}
-    {% assign item = collections.sloepen[i]  %}
-    {% bookshop "card/small" bind: item.data  %}
+      {% assign item = collections.sloepen[i]  %}
+      {% bookshop "card/small" bind: item.data  %}
     {% endfor %}
     {%- endcomment -%}
   </ul>

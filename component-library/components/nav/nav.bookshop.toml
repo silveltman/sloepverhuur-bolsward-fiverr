@@ -1,0 +1,16 @@
+[component]
+structures = []
+label = "nav"
+description = ""
+icon = ""
+tags = []
+
+[props]
+[[props.list]]
+name = "Home"
+url = "/"
+[props.list.dropdown]
+collection = "sloepen"
+[[props.list.dropdown.custom]]
+title = "Arrangementen"
+url = "/aanbod/omgeving"

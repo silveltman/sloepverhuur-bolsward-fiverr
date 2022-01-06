@@ -1,5 +1,5 @@
 .route {
-  @extend %two-one;
+  @extend %grid-2-1;
 
   &__map {
     width: 100%;
@@ -7,7 +7,7 @@
 
     @include media(2) {
       position: sticky;
-      top: $nav-height + 80px;
+      top: calc(var(--nav-height) + 80px);
     }
   }
 

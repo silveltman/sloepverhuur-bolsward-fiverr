@@ -26,6 +26,7 @@ $btn-secondary-border: 1px solid $color-primary;
 .btn {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   position: relative;
   white-space: nowrap;
   text-decoration: none;

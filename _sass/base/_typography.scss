@@ -9,30 +9,44 @@ $font-lineheight-heading: 1.13;
 $font-weight-base: 400;
 $font-weight-heading: 700;
 
-
 :root {
   /* Sizes */
   --font-size-base: 16px;
   --font-size-multiplier: 1.25;
 
-  --font-size-200: calc(var(--font-size-base) / var(--font-size-multiplier) var(--font-size-multiplier));
+  --font-size-200: calc(
+    var(--font-size-base) / var(--font-size-multiplier)
+      var(--font-size-multiplier)
+  );
   --font-size-300: calc(var(--font-size-base) / var(--font-size-multiplier));
   --font-size-400: var(--font-size-base);
   --font-size-500: calc(var(--font-size-base) * var(--font-size-multiplier));
-  --font-size-600: calc(var(--font-size-base) * var(--font-size-multiplier) * var(--font-size-multiplier));
-  --font-size-700: calc(var(--font-size-base) * var(--font-size-multiplier) * var(--font-size-multiplier) * var(--font-size-multiplier));
-
+  --font-size-600: calc(
+    var(--font-size-base) * var(--font-size-multiplier) *
+      var(--font-size-multiplier)
+  );
+  --font-size-700: calc(
+    var(--font-size-base) * var(--font-size-multiplier) *
+      var(--font-size-multiplier) * var(--font-size-multiplier)
+  );
 
   /* Spacing */
-  --font-space-base: .75em;
-  --font-space-steps: .25em;
+  --font-space-base: 0.75em;
+  --font-space-steps: 0.25em;
 
-  --font-space-200: calc(var(--font-space-base) - var(--font-space-steps) - var(--font-space-steps));
+  --font-space-200: calc(
+    var(--font-space-base) - var(--font-space-steps) - var(--font-space-steps)
+  );
   --font-space-300: calc(var(--font-space-base) - var(--font-space-steps));
   --font-space-400: var(--font-space-base);
   --font-space-500: calc(var(--font-space-base) + var(--font-space-steps));
-  --font-space-600: calc(var(--font-space-base) + var(--font-space-steps) + var(--font-space-steps));
-  --font-space-700: calc(var(--font-space-base) + var(--font-space-steps) + var(--font-space-steps) + var(--font-space-steps));
+  --font-space-600: calc(
+    var(--font-space-base) + var(--font-space-steps) + var(--font-space-steps)
+  );
+  --font-space-700: calc(
+    var(--font-space-base) + var(--font-space-steps) + var(--font-space-steps) +
+      var(--font-space-steps)
+  );
 
   /* Breakpoints */
   @include media(2) {
@@ -47,8 +61,10 @@ $font-weight-heading: 700;
   }
 }
 
-
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   font-family: $font-family-secondary;
   color: $color-text-light;
   font-size: var(--font-size-700);
@@ -80,5 +96,13 @@ p {
   font-size: var(--font-size-400);
   line-height: $font-lineheight-base;
   font-weight: $font-weight-base;
-  margin: 0;
+  margin: 0 0 var(--font-space-700);
+}
+
+ul,
+ol {
+  font-size: var(--font-size-400);
+  line-height: $font-lineheight-base;
+  font-weight: $font-weight-base;
+  margin: 0 0 var(--font-space-700);
 }
