@@ -52,9 +52,11 @@
       {% endfor %}
     </ul>
 
-    <!-- CTA and hamburger -->
-    <a href="/" class="nav__cta btn btn--primary">Huren</a>
-    <button @click="open = !open" href="/" class="nav__burger btn btn--secondary">X</a>
-
+    <!-- Buttons -->
+    <div class="nav__buttons">
+      <a href="/contact" class="nav__btn nav__btn--contact btn btn--secondary">Contact</a>
+      <a href="/" class="nav__btn btn btn--primary">Huren</a>
+      <button @click="open = !open" href="/" class="nav__burger btn btn--secondary">X</a>
+    </div>
   </div>
 </header>

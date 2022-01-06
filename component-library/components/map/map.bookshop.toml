@@ -1,0 +1,9 @@
+[component]
+structures = []
+label = "map"
+description = ""
+icon = ""
+tags = []
+
+[props]
+url = "https://www.google.com/maps/d/embed?mid=1-Gr8CUtQnISVsPaFX1spJl6q9tp5gW8y&usp=sharing"

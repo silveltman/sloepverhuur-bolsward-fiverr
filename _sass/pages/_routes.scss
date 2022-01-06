@@ -1,36 +1,13 @@
-.routes {
-  &__item {
-    @extend %wrapper;
-
-    margin: var(--space-700) 0;
-    display: grid;
-    grid-gap: var(--space-500) var(--space-600);
-    grid-template-columns: 1fr;
-
-    @include media(2) {
-      grid-template-columns: 2fr 300px;
-    }
-
-    @include media(3) {
-      grid-gap: var(--space-500) var(--space-700);
-    }
-  }
+.route {
+  @extend %two-one;
 
   &__map {
-    position: relative;
     width: 100%;
     height: 800px;
-    max-height: calc(100vh - 180px);
-    border-radius: $radius-base;
-    overflow: hidden;
-    background: $color-bg-light;
-    border: $border-base;
-    border-style: inset;
-    box-shadow: $shadow-base;
 
-    iframe {
-      height: 100%;
-      width: 100%;
+    @include media(2) {
+      position: sticky;
+      top: $nav-height + 80px;
     }
   }
 

@@ -47,20 +47,18 @@ module.exports = function(eleventyConfig) {
     return string.replace(/["]+/g, '')
   });
 
-  // eleventyConfig.addFilter("collectionFilter", function(collection, list) {
-  //   const found = collection.filter(item => list.includes(item.fileSlug))
-  //   return found;
-  // });
+  eleventyConfig.addFilter("filterByFrontmatter", (collection, key, value) => {
+    const found = collection.filter(item => {
+       return item.data[key].includes(value)
+    })
+    return found
+  });
 
-  eleventyConfig.addFilter("collectionFilter", function(collection, list) {
-    let foundArray = []
-
-    list.forEach(listItem => {
-      const found = collection.find(collectionItem => listItem == collectionItem.fileSlug)
-      foundArray.push(found);
-    });
-    
-    return foundArray;
+  eleventyConfig.addFilter("filterBySlug", function(collection, list) {
+    const found = collection.filter(item => {
+      return list.includes(item.fileSlug)
+    })
+    return found
   });
 
   eleventyConfig.addLiquidShortcode("image", imageShortcode);

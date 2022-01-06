@@ -20,6 +20,7 @@ $accordion-spacing: var(--space-400);
     border: 0;
     padding: 0;
     margin-bottom: var(--space-200);
+    cursor: pointer;
   }
 
   &__count {

@@ -4,6 +4,9 @@ title: Debug page
 
 <h1>{{ title }}</h1>
 
-{%- comment -%}
-{{ collections.omgeving[1] | debug }}
-{%- endcomment -%}
+
+{% assign found = collections.routes | filterByFrontmatter: "omgeving", "bolsward" %}
+
+{% for item in found %}
+  {{ item.data.title }}
+{% endfor %}

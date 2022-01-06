@@ -2,35 +2,51 @@
 layout: base
 ---
 
+<main class="aanbod" x-data="{ 
+  activeRoute: null,
+  searchInput: '',
+  activeSearch(title) {
+    if (!this.searchInput) return true
+    else return title.toLowerCase().includes(this.searchInput.toLowerCase())
+  },
+  getActiveRoute(routes) {
+    if (!this.activeRoute) return true
+    else return routes.includes(this.activeRoute)
+  },
+}">
+
 {% bookshop "hero/base" bind: hero %}
 
+  <div class="toolbar">
+    <div class="toolbar__content">
+      <select class="routes__sloep-filter select" x-model="activeRoute">
+        <option value="">Alle routes</option>
+        {% for item in collections.routes %}
+          <option value="{{ item.fileSlug }}">{{ item.data.title }}</option>
+        {% endfor %}
+      </select>
 
-<!-- <div class="toolbar">
-  <div class="toolbar__content">
-    <select name="Route" class="toolbar__filter" multiple>
-      <option value="volvo">Volvo</option>
-
-    </select>
-    <input type="text" class="toolbar__search">
+      <div class="toolbar__search input input--filter">
+        <input type="text" placeholder="Zoek op plaatsnaam" x-model="searchInput">
+        <i class="material-icons">search</i>
+      </div>
+    </div>
   </div>
-</div> -->
-
-<main class="aanbod">
-
-
 
   
   <div class="grid">
     {% assign collection_count = collections[page.fileSlug].size | minus: 1  %}
     {% for i in (0..collection_count) %}
       {% assign item = collections[page.fileSlug][i]  %}
+      
+      {% assign found = collections.routes | filterByFrontmatter: "omgeving", item.fileSlug %}
   
       <div x-data="{
-        slug: {{ item.fileSlug }},
-        title: {{ item.data.title }},
-        routes: [],
-      }
-      ">
+          title: '{{ item.data.title }}',
+          routes: [{% for thing in found %} '{{ thing.fileSlug }}', {% endfor %} ]
+        }"
+        x-show="getActiveRoute(routes) && activeSearch(title)"
+        >
         {% bookshop "card/base" bind: item.data  %}
       </div>
     {% endfor %}

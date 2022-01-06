@@ -7,6 +7,7 @@
   border-radius: $radius-big;
   border: $border-base;
   overflow: hidden;
+  margin: var(--space-800) auto;
 
   @include pseudo('after') {
     background: rgba($color-bg-dark, 0.65);
@@ -41,9 +42,5 @@
   &__h {
     text-shadow: $text-shadow-heading;
     margin-bottom: var(--space-200);
-  }
-
-  &__btn {
-    font-size: var(--font-size-500);
   }
 }

@@ -6,3 +6,21 @@
   grid-gap: var(--space-500);
   margin: var(--space-700) auto;
 }
+
+%two-one {
+  @extend %wrapper;
+
+  margin: var(--space-700) auto;
+  display: grid;
+  align-items: flex-start;
+  grid-gap: var(--space-500) var(--space-600);
+  grid-template-columns: 1fr;
+
+  @include media(2) {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  @include media(3) {
+    grid-gap: var(--space-500) var(--space-700);
+  }
+}

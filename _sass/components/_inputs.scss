@@ -45,6 +45,33 @@ $textarea-maxheight: 200px;
   }
 }
 
+.input {
+  &--filter {
+    display: flex;
+    align-items: center;
+    padding: 0 var(--space-200) 0 0;
+    box-shadow: none !important;
+
+    input {
+      background: 0;
+      padding: var(--space-200) var(--space-300);
+      margin-right: var(--space-200);
+      border: 0;
+      outline: 0;
+      font-family: inherit;
+      font-size: inherit;
+      color: inherit;
+      border-radius: $radius-base;
+
+      &:focus,
+      &:active {
+        outline: 0;
+        box-shadow: inset 0px 0px 0px 1px $input-base-focus;
+      }
+    }
+  }
+}
+
 .select {
   padding: var(--space-200) var(--space-500) var(--space-200) var(--space-300);
 

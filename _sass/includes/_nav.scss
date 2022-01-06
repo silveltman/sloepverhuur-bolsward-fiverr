@@ -151,20 +151,23 @@ $nav-height: 62px;
 
   &__dropdown-link {
     padding: var(--space-300) var(--space-500);
+    color: $color-text-base;
 
     @include media($nav-breakpoint) {
       padding: var(--space-300);
     }
   }
 
-  &__cta {
-    margin-left: auto;
+  &__buttons {
     margin: 0 var(--space-300) 0 auto;
 
-    // TODO: variable instead of number for mq
     @include media($nav-breakpoint) {
       margin: 0;
     }
+  }
+
+  &__btn--contact {
+    padding: var(--space-200) var(--space-300);
   }
 
   &__burger {

@@ -6,3 +6,27 @@
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-gap: var(--space-500);
 }
+
+.index-routes {
+  background: $color-bg-dark;
+  padding: var(--space-600) 0;
+
+  &__wrapper {
+    @extend %two-one;
+  }
+
+  &__map {
+    height: 600px;
+    max-height: calc(100vh - 180px);
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+
+    @include media(2) {
+      position: sticky;
+      top: $nav-height + 40px;
+    }
+  }
+}
