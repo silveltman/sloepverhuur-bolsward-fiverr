@@ -5,10 +5,14 @@ module.exports = {
       heading: "Pagina's",
       collections: ['pages']
     },
-    // {
-    //   heading: 'Collecties',
-    //   collections: ['myCollection']
-    // }
+    {
+      heading: 'Aanbod',
+      collections: ['omgeving', 'arrangementen', 'activiteiten']
+    },
+    {
+      heading: 'Sloepen',
+      collections: ['sloepen']
+    },
   ],
   _inputs: {
     page_title: {
