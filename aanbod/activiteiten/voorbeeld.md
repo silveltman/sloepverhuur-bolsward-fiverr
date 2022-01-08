@@ -1,13 +1,13 @@
 ---
 title: Activiteit naam
-description: ''
+description:
 afbeelding:
-  image: ''
-  omschrijving: ''
+  image: /assets/img/uploads/louis-maniquet-71qxqusc-do-unsplash.jpg
+  omschrijving: Omschrijving van mijn afbeelding
 info:
-  - label: ''
-    value: ''
-samenwerking: ''
+  - label:
+    value:
+samenwerking:
 ---
 
 # Een mooie titel
