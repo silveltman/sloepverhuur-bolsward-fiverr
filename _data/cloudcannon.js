@@ -25,13 +25,13 @@ module.exports = {
       path: '/aanbod/omgeving',
       _icon: 'landscape',
       output: true,
-      _enabled_editors: ['content']
+      _enabled_editors: ['visual']
     },
     arrangementen: {
       path: '/aanbod/arrangementen',
       _icon: 'groups',
       output: true,
-      _enabled_editors: ['visual', 'data']
+      _enabled_editors: ['visual']
     },
     activiteiten: {
       path: '/aanbod/activiteiten',
@@ -47,7 +47,7 @@ module.exports = {
     sloepen: {
       path: '/sloepen',
       _icon: 'directions_boat',
-      _enabled_editors: ['data', 'content']
+      _enabled_editors: ['visual']
     }
   },
   _inputs: {
