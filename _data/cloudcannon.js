@@ -43,6 +43,12 @@ module.exports = {
       output: true,
       _enabled_editors: ['visual']
     },
+    overnachtingen: {
+      path: '/aanbod/overnachtingen',
+      _icon: 'hotel',
+      output: true,
+      _enabled_editors: ['visual']
+    },
     routes: {
       path: '/aanbod/routes',
       _icon: 'map',
