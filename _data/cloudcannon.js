@@ -73,23 +73,24 @@ module.exports = {
   _inputs: {
     seo: {
       label: 'SEO',
-      comment: 'Zoekmachine-optimalisate, Wordt weergegeven in Google en heeft invloed op je vindbaarheid'
-    },
-    page_title: {
-      label: 'Titel',
-      comment: 'Probeer de pagina te beschrijven in 50–60 karakters'
-    },
-    page_description: {
-      label: 'Beschrijving',
-      comment: 'Probeer je pagina te beschrijven in 50-120 karakters',
-      image: {
-        label: 'Upload'
+      comment: 'Zoekmachine-optimalisate, Wordt weergegeven in Google en heeft invloed op je vindbaarheid',
+      
+      page_title: {
+        label: 'Titel',
+        comment: 'Probeer de pagina te beschrijven in 50–60 karakters'
       },
-      alt: {
-        label: 'Omschrijving',
-        comment: 'Omschrijf je afbeelding in maximaal 125 karakters',
-        type: 'textarea'
+      page_description: {
+        label: 'Beschrijving',
+        comment: 'Probeer je pagina te beschrijven in 50-120 karakters'
       },
+    },
+    image: {
+      label: 'Upload'
+    },
+    alt: {
+      label: 'Omschrijving',
+      comment: 'Omschrijf je afbeelding in maximaal 125 karakters',
+      type: 'textarea'
     }
   }
 };
