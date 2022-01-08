@@ -49,7 +49,7 @@ module.exports = {
       path: '/sloepen',
       _icon: 'directions_boat',
       output: true,
-      _enabled_editors: ['visual']
+      _enabled_editors: ['visual', 'data']
     }
   },
   _inputs: {
