@@ -14,6 +14,39 @@ module.exports = {
       collections: ['sloepen']
     },
   ],
+  collections: {
+    pages: {
+      path: '',
+      filter: 'strict',
+      output: true,
+      _enabled_editors: ['visual']
+    },
+    omgeving: {
+      path: '/aanbod/omgeving',
+      _icon: 'landscape',
+      _enabled_editors: ['data', 'content']
+    },
+    arrangementen: {
+      path: 'aanbod/arrangementen',
+      _icon: 'groups',
+      _enabled_editors: ['visual', 'data']
+    },
+    activiteiten: {
+      path: 'aanbod/activiteiten',
+      _icon: 'directions_bike',
+      _enabled_editors: ['visual']
+    },
+    routes: {
+      path: 'aanbod/routes',
+      _icon: 'map',
+      _enabled_editors: ['data']
+    },
+    sloepen: {
+      path: 'sloepen',
+      _icon: 'directions_boat',
+      _enabled_editors: ['data', 'content']
+    }
+  },
   _inputs: {
     page_title: {
       label: 'Pagina titel',
