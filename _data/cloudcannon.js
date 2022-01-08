@@ -1,5 +1,9 @@
 module.exports = {
+  
+  // Image upload directory
   uploads_dir: '/assets/img/uploads',
+
+  // Navigation panel
   _collection_groups: [
     {
       heading: "Pagina's",
@@ -18,6 +22,8 @@ module.exports = {
       collections: ['data/info']
     },
   ],
+
+  // Collection setting
   collections: {
     pages: {
       path: '',
@@ -62,8 +68,11 @@ module.exports = {
       _enabled_editors: ['visual']
     }
   },
+
+  // Input customization
   _inputs: {
-    SEO: {
+    seo: {
+      label: 'SEO',
       comment: 'Zoekmachine-optimalisate, Wordt weergegeven in Google en heeft invloed op je vindbaarheid'
     },
     page_title: {
@@ -71,15 +80,16 @@ module.exports = {
       comment: 'Probeer de pagina te beschrijven in 50–60 karakters'
     },
     page_description: {
-      label: 'Omschrijving',
-      comment: 'Probeer je pagina te beschrijven in 50-120 karakters'
-    },
-    image: {
-      label: 'Upload'
-    },
-    alt: {
-      label: 'Omschrijving',
-      comment: 'Omschrijf je afbeelding in maximaal 125 karakters'
+      label: 'Beschrijving',
+      comment: 'Probeer je pagina te beschrijven in 50-120 karakters',
+      image: {
+        label: 'Upload'
+      },
+      alt: {
+        label: 'Omschrijving',
+        comment: 'Omschrijf je afbeelding in maximaal 125 karakters',
+        type: 'textarea'
+      },
     }
   }
 };
