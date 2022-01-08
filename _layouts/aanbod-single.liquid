@@ -17,5 +17,9 @@ _info_button:
     <aside class="aanbod-single__aside">
       {% bookshop "card/info" list: info title: title button: _info_button %}
     </aside>
+  {% else if checklist.size > 0 %}
+    <aside class="aanbod-single__aside">
+      {% bookshop "card/info" list: checklist title: title button: _info_button %}
+    </aside>
   {% endif %}
 </div>
