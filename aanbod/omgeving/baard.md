@@ -1,7 +1,7 @@
 ---
 title: Baard
 afbeelding:
-  image: /assets/img/uploads/baard/190408117baahw.jpg
+  image: /assets/img/aanbod/omgeving/baard/190408117baahw.jpg
   omschrijving: Café Baard
 description: Lunchen of dineren aan het water bij Café Baard.
 checklist:

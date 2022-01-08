@@ -1,7 +1,7 @@
 ---
 title: Kimswerd
 afbeelding:
-  image: /assets/img/uploads/images-content-friese-keuken-biologisch-1-p5236291-2.jpg
+  image: /assets/img/aanbod/omgeving/images-content-friese-keuken-biologisch-1-p5236291-2.jpg
   omschrijving: Hotel Greate Pier
 description: Lunchen bij Hotel Greate Pier ( www.hotelgreatepier.nl)
 checklist:

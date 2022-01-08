@@ -1,7 +1,7 @@
 ---
 title: Easterein
 afbeelding:
-  image: /assets/img/uploads/elfstedenstate.jpg
+  image: /assets/img/aanbod/omgeving/elfstedenstate.jpg
   omschrijving: 'http://www.elfstedentrips.com'
 description: Voormalig kaaspakhuis en herberg waar nu B&B Elfstedenstate is gevestigd.
 checklist:

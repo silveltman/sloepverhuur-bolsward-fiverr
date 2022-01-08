@@ -1,7 +1,7 @@
 ---
 title: Oosthem
 afbeelding:
-  image: /assets/img/uploads/fr-oosthem-15367896001626893.jpg
+  image: /assets/img/aanbod/omgeving/fr-oosthem-15367896001626893.jpg
   omschrijving: Oosthem met de Johanneskerk
 description: |-
   Zelf de brug bedienen in Oosthem.

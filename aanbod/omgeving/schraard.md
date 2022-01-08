@@ -1,7 +1,7 @@
 ---
 title: Schraard
 afbeelding:
-  image: /assets/img/uploads/whatsapp-image-2021-05-19-at-07-41-50.jpeg
+  image: /assets/img/aanbod/omgeving/whatsapp-image-2021-05-19-at-07-41-50.jpeg
   omschrijving: Bezoek de Alpacaboerderij
 description: >-
   Varen door Sudwest Fryslân genietend van vergezichten en Alpaca's knuffelen en

@@ -1,7 +1,7 @@
 ---
 title: Tjerkwerd
 afbeelding:
-  image: /assets/img/uploads/0-1.jpg
+  image: /assets/img/aanbod/omgeving/0-1.jpg
   omschrijving: Tjerkwerd ligt aan de Workumertrekvaart tussen Bolsward en Workum
 description: Bezoek de Sint Petruskerk.
 checklist:

@@ -1,7 +1,7 @@
 ---
 title: Makkum
 afbeelding:
-  image: /assets/img/uploads/makkum/makkum-toepferei.jpg
+  image: /assets/img/aanbod/omgeving/makkum/makkum-toepferei.jpg
   omschrijving: Koninklijke Tichelaar aardewerk
 description: >-
   Waaggebouw, Koninklijke Tichelaar aardewerk, door de oude sluizen, diverse

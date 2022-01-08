@@ -1,7 +1,7 @@
 ---
 title: Arum
 afbeelding:
-  image: /assets/img/uploads/arum/gekroondeleeuw-300x169.jpg
+  image: /assets/img/aanbod/omgeving/arum/gekroondeleeuw-300x169.jpg
   omschrijving: "'De gekroonde Leeuw' Arum tussen Bolsward en Harlingen"
 description: Lunchen bij herberg 'De Gekroonde Leeuw' Arum en bezoek de Lambertuskerk.
 checklist:
