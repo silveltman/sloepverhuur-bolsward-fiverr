@@ -1,6 +1,4 @@
 ---
-eleventyExcludeFromCollections: true
-
 seo:
   seo_title:
   seo_description:
