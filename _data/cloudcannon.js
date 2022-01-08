@@ -42,7 +42,7 @@ module.exports = {
       _enabled_editors: ['data']
     },
     sloepen: {
-      path: 'sloepen',
+      path: '/sloepen',
       _icon: 'directions_boat',
       _enabled_editors: ['data', 'content']
     }
