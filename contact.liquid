@@ -6,7 +6,22 @@ map_url: https://www.google.com/maps/d/embed?mid=1EEsircj-l0YxHQc-RasH-Qlkhzjoub
 
 <div class="contact">
   <div class="contact__cards">
-    .
+    
+    <a href="tel:{{ info.tel }}" class="contact__card">
+      <i class="contact__icon material-icons-round">email</i>
+      <h4 class="contact__label">Telefoonnummer:</h4>
+      <span class="contact__value">{{ info.tel }}</span>
+    </a>
+    <a href="tel:{{ info.email }}" class="contact__card">
+      <i class="contact__icon material-icons-round">email</i>
+      <h4 class="contact__label">Telefoonnummer:</h4>
+      <span class="contact__value">{{ info.tel }}</span>
+    </a>
+    <a href="tel:{{ info.adress }}" class="contact__card">
+      <i class="contact__icon material-icons-round">place</i>
+      <h4 class="contact__label">Adres:</h4>
+      <span class="contact__value">{{ info.adress }}</span>
+    </a>
     
   </div>
   <div class="contact__content">

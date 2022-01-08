@@ -1,5 +1,59 @@
 .contact {
-  margin: var(--space-800) auto;
+  margin: var(--space-700) auto;
+
+  &__cards {
+    @extend %wrapper;
+
+    display: grid;
+    grid-gap: var(--space-400);
+
+    @include media(2) {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @include media(3) {
+      grid-template-columns: max-content max-content auto;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+  }
+
+  &__card {
+    background: $color-bg-light;
+    border: $border-base;
+    border-radius: $radius-base;
+    padding: var(--space-400);
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    align-items: center;
+    grid-gap: 0 var(--space-400);
+    text-decoration: none;
+
+    &--address {
+      @include media(2) {
+        grid-column: span 2;
+      }
+
+      @include media(3) {
+        grid-column: span 1;
+      }
+    }
+  }
+
+  &__icon {
+    grid-column: 1;
+    grid-row: 1/3;
+    color: $color-primary;
+    font-size: 48px !important;
+  }
+
+  &__label {
+    font-weight: 700;
+  }
+
+  &__value {
+    color: $color-text-base;
+  }
 
   &__content {
     @extend %grid-2-1;

@@ -6,5 +6,8 @@ module.exports = {
     image: '/assets/img/logo.svg',
     alt: 'Logo Sloepverhuur Bolsward',
   },
-  url: 'https://sloepverhuurbolsward.nl'
+  url: 'https://sloepverhuurbolsward.nl',
+  email: 'info@sloepverhuurbolsward.nl',
+  tel: '+316-42520972',
+  adress: 'Werkmansbloei 16, 8701HA, Bolsward'
 };

@@ -13,6 +13,10 @@ module.exports = {
       heading: 'Sloepen',
       collections: ['sloepen']
     },
+    {
+      heading: 'Algemeen',
+      collections: ['data/info']
+    },
   ],
   collections: {
     pages: {
@@ -49,7 +53,7 @@ module.exports = {
       path: '/sloepen',
       _icon: 'directions_boat',
       output: true,
-      _enabled_editors: ['visual', 'data']
+      _enabled_editors: ['visual']
     }
   },
   _inputs: {
