@@ -6,7 +6,9 @@ icon = ""
 tags = []
 
 [props]
+_editor_link = true
 title = "Mijn titel"
+
 
 [props.afbeelding]
 image = "https://picsum.photos/1200/800?random=1"
