@@ -2,15 +2,7 @@
 seo:
   seo_title: 
   seo_description:
-
-_card_buttons:
-  primary:
-    text: Huren
-    url: /
-  secondary:
-    text: + Meer info
-    url: item.url
-
+  
 reviews:
   - title: Goede review 1
     description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, deleniti.
@@ -27,6 +19,14 @@ banner:
   afbeelding:
     image: https://picsum.photos/1200/800?random=1
     alt: Omschrijving van mijn afbeelding
+
+_card_buttons:
+  primary:
+    text: Huren
+    url: /
+  secondary:
+    text: + Meer info
+    url: item.url
 ---
 
 <main>
@@ -68,8 +68,8 @@ banner:
     {%- comment -%}
     {% assign arrangementen_count = collections.arrangementen.size | minus: 1  %}
     {% for i in (0..arrangementen_count) %}
-      {% assign item = collections.arrangementen[i]  %}
-      {% bookshop "card/small" bind: item.data  %}
+    {% assign item = collections.arrangementen[i]  %}
+    {% bookshop "card/small" bind: item.data  %}
     {% endfor %}
     {%- endcomment -%}
 

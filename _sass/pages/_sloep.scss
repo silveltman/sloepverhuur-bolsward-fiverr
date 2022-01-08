@@ -1,6 +1,6 @@
 .sloep {
   // padding-top: var(--nav-height);
-  margin: var(--space-700) auto;
+  margin: var(--space-600) auto var(--space-700);
 
   &__banner {
     @extend %wrapper;

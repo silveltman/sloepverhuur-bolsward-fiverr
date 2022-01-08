@@ -4,6 +4,7 @@
   position: relative;
   display: grid;
   padding: 0;
+  max-height: calc(100vh - 100px);
 
   @include media(2) {
     grid-template-columns: 2fr 1fr;
@@ -13,6 +14,7 @@
 
   &__img {
     position: relative;
+    min-height: 0;
     height: 100%;
     width: 100%;
     object-fit: cover;
