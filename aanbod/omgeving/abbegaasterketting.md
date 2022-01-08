@@ -2,7 +2,7 @@
 title: Abbegaasterketting
 afbeelding:
   image: /assets/img/aanbod/omgeving/abbegaasterketting.JPG
-  omschrijving: Abbegaasterketting ligt tussen de vaarroute Bolsward en Sneek
+  alt: Abbegaasterketting ligt tussen de vaarroute Bolsward en Sneek
 description: Stoppen voor een lunch in de kleine aanleghaven.
 checklist:
   - Lorem

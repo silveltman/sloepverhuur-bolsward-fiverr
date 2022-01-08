@@ -11,4 +11,4 @@ text = "Lorem ipsum"
 
 [props.afbeelding]
 image = "https://picsum.photos/1200/800?random=1"
-omschrijving = "Omschrijving van mijn afbeelding"
+alt = "Omschrijving van mijn afbeelding"

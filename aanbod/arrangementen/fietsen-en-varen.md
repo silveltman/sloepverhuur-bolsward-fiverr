@@ -6,7 +6,7 @@ description: >-
   fietskeuze. Ook te combineren met 'Boot & hôte'.
 afbeelding:
   image: /assets/img/uploads/fietsen-en-varen/varenfietsen.jpg
-  omschrijving: Fietsen en varen komen bij elkaar in Friesland
+  alt: Fietsen en varen komen bij elkaar in Friesland
 info:
   - label: Tijdsduur
     value: ± 6 uren

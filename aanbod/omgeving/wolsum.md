@@ -2,7 +2,7 @@
 title: Wolsumer ketting
 afbeelding:
   image: /assets/img/aanbod/omgeving/wolsum/img-4501.JPG
-  omschrijving: "'Kootje bij de brug' , Wolsumer Ketting"
+  alt: "'Kootje bij de brug' , Wolsumer Ketting"
 description: >-
   Theetuin 'Kootje bij de brug' , check www.wolsumerketting.com voor leuke
   arrangementen i.c.m. sloep huren.

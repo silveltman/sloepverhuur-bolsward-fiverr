@@ -2,7 +2,7 @@
 title: Oudega W
 afbeelding:
   image: /assets/img/aanbod/omgeving/img-7682-e1470135396165.jpg
-  omschrijving: Het pittoreske Oudega W
+  alt: Het pittoreske Oudega W
 description: Varen door het pittoreske Oudega W en lunchen bij Tre Paesi (www.trepaesi.nl)
 checklist:
   - Lorem

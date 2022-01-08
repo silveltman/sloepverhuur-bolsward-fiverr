@@ -5,7 +5,7 @@ description: >-
   mogelijk met de ELEKTRISCHE PETTERSLOEP!
 afbeelding:
   image: /assets/img/uploads/alpacaboerderij-bezoeken--p-/photo-2021-05-19-07-29-54.jpg
-  omschrijving: Heerlijk knuffelen met de alpaca's in Schraard
+  alt: Heerlijk knuffelen met de alpaca's in Schraard
 info:
   - label: Tijdsduur
     value: 4 uren

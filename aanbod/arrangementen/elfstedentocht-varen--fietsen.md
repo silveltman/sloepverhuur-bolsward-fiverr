@@ -6,7 +6,7 @@ description: >-
   gekoelde drankjes.
 afbeelding:
   image: /assets/img/uploads/elfstedentocht-varen--fietsen/118307366-3250142975022466-5453276791231964756-o.jpg
-  omschrijving: Schaats Elfstedenroute varen in sloep met fietsen aan boord
+  alt: Schaats Elfstedenroute varen in sloep met fietsen aan boord
 info:
   - label: Tijdsduur
     value: ± 2  uren

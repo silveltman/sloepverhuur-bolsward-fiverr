@@ -2,7 +2,7 @@
 title: Heeg
 afbeelding:
   image: /assets/img/aanbod/omgeving/heeg/tg-terras-20190825-124948-heeg-geenmodelverklaring-lr-3651046182.jpeg
-  omschrijving: Waterrijk centrum van Heeg
+  alt: Waterrijk centrum van Heeg
 description: >-
   Diverse horeca en winkels, galerie De Scheepskamer, zwemmen in het Heeger
   meer.

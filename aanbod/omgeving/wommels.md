@@ -2,7 +2,7 @@
 title: Wommels
 afbeelding:
   image: /assets/img/aanbod/omgeving/wommels/img-4171-foto-tph-aan-vaart-1703928855.jpeg
-  omschrijving: 'Museum ‘Het kaaspakhuis’, Wommels'
+  alt: 'Museum ‘Het kaaspakhuis’, Wommels'
 description: Museum ‘Het kaaspakhuis’.
 checklist:
   - Lorem

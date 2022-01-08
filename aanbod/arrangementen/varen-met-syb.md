@@ -6,7 +6,7 @@ description: >-
   CATERING!
 afbeelding:
   image: /assets/img/uploads/varen-met-syb/syb-van-der-ploeg-biografie-2018-pdfgrafie-2.jpg
-  omschrijving: 'Syb van der Ploeg, zanger van De Kast'
+  alt: 'Syb van der Ploeg, zanger van De Kast'
 info:
   - label: Tijdsduur
     value: ± 3 uren

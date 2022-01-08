@@ -7,7 +7,7 @@ description: >-
   rondleiding en proeverij.
 afbeelding:
   image: /assets/img/uploads/bier-und-whisky-aus-den-niederlanden-genießen-in-der-brauerei-us-heit.JPG
-  omschrijving: Excursie in de Friese Bierbrouwerij, distilleerderij en proeflokaal
+  alt: Excursie in de Friese Bierbrouwerij, distilleerderij en proeflokaal
 info:
   - label: Tijdsduur
     value: ± 3 uren

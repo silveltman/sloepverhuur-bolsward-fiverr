@@ -1,8 +1,6 @@
 ---
-_id: beenakker
-
-subtitle: Luxe 12-persoons
 title: Beenakker
+subtitle: Luxe 12-persoons
 description: Met schipper zorgeloos genieten van waterrijk Friesland.
 
 checklist:
@@ -15,50 +13,59 @@ checklist:
 
 gallery:
   - image: /assets/img/sloepen/beenakker/sloep-1.jpg
-    omschrijving: Ruime sloep huren Friesland met teak hout afgewerkt
+    alt: Ruime sloep huren Friesland met teak hout afgewerkt
   - image: /assets/img/sloepen/beenakker/sloep-2.jpg
-    omschrijving: Luxe sloep huren Friesland met veel comfort
+    alt: Luxe sloep huren Friesland met veel comfort
   - image: /assets/img/sloepen/beenakker/sloep-3.jpg
-    omschrijving: Ruime sloep huren Friesland, met overkapping mogelijk
+    alt: Ruime sloep huren Friesland, met overkapping mogelijk
   - image: /assets/img/sloepen/beenakker/img-7315.JPG
-    omschrijving: Feestje vieren met familie en vrienden t/m 12 personen
+    alt: Feestje vieren met familie en vrienden t/m 12 personen
   - image: /assets/img/sloepen/beenakker/img-7317.JPG
-    omschrijving: Feestje in een luxe sloep met catering in Súdwest Fryslân
+    alt: Feestje in een luxe sloep met catering in Súdwest Fryslân
   - image: /assets/img/sloepen/beenakker/whatsapp-image-2020-06-28-at-11-17-13.jpeg
-    omschrijving: Sloep huren in Friesland voor groepen met schipper
+    alt: Sloep huren in Friesland voor groepen met schipper
   - image: /assets/img/sloepen/beenakker/img-6602.JPG
-    omschrijving: >-
+    alt: >-
       Sloep huren Friesland, familie, vrienden, bedrijfsuitje, catering,
       last-minute
   - image: >-
       /assets/img/sloepen/beenakker/photo-2020-07-23-18-17-20.jpg
-    omschrijving: In de luxe Beenakkersloep de schaats Elfstedenroute varen
+    alt: In de luxe Beenakkersloep de schaats Elfstedenroute varen
   - image: >-
       /assets/img/sloepen/beenakker/whatsapp-image-2020-07-31-at-19-04-33.jpeg
-    omschrijving: Heerlijk met het gezin erop uit
+    alt: Heerlijk met het gezin erop uit
   - image: >-
       /assets/img/sloepen/beenakker/photo-2020-08-04-17-47-16.jpg
-    omschrijving: Samen genieten in de mooiste sloep van Friesland !
+    alt: Samen genieten in de mooiste sloep van Friesland!
+
+banner:
+  title: Nog meer genieten?
+  afbeelding:
+    image: /assets/img/uploads/sloep-huren-in-friesland/whatsapp-image-2020-10-28-at-15-43-42-kopie-1.jpeg
+    alt: Omschrijving van mijn afbeelding
+  button:
+    text: Bekijk arrangementen
+    url: /aanbod/arrangementen
 
 timeline:
   - image: /assets/img/sloepen/beenakker/tijdlijn-1.jpg
-    omschrijving:
+    alt:
   - image: /assets/img/sloepen/beenakker/tijdlijn-2.jpg
-    omschrijving:
+    alt:
   - image: /assets/img/sloepen/beenakker/tijdlijn-3.jpg
-    omschrijving:
+    alt:
   - image: /assets/img/sloepen/beenakker/tijdlijn-4.jpg
-    omschrijving:
+    alt:
   - image: /assets/img/sloepen/beenakker/tijdlijn-5.jpg
-    omschrijving:
+    alt:
   - image: /assets/img/sloepen/beenakker/imga0652.JPG
-    omschrijving:
+    alt:
   - image: /assets/img/sloepen/beenakker/tijdlijn-6.jpg
-    omschrijving:
+    alt:
   - image: /assets/img/sloepen/beenakker/imga0150.JPG
-    omschrijving:
+    alt:
   - image: /assets/img/sloepen/beenakker/tijdlijn-7.jpg
-    omschrijving:
+    alt:
 
 SEO:
   page_title: Zorgeloos genieten van waterrijk Friesland

@@ -2,7 +2,7 @@
 title: Burgwerd
 afbeelding:
   image: /assets/img/aanbod/omgeving/burgwerd-660x440.jpg
-  omschrijving: Brug in Burgwerd met zicht richting Wommels
+  alt: Brug in Burgwerd met zicht richting Wommels
 description: Bezoek de Johanneskerk uit de 13e eeuw.
 checklist:
   - Lorem

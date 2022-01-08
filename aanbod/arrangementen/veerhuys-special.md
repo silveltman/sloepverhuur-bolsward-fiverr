@@ -6,7 +6,7 @@ description: >-
   aantrekkelijke kortingen!
 afbeelding:
   image: /assets/img/uploads/mg-3335-web.jpg
-  omschrijving: Heerlijk lunchen of dineren in 't Veerhuys te Bolsward
+  alt: Heerlijk lunchen of dineren in 't Veerhuys te Bolsward
 info:
   - label: Tijdsduur
     value:

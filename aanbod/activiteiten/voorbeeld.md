@@ -3,7 +3,7 @@ title: Activiteit naam
 description:
 afbeelding:
   image: /assets/img/uploads/louis-maniquet-71qxqusc-do-unsplash.jpg
-  omschrijving: Omschrijving van mijn afbeelding
+  alt: Omschrijving van mijn afbeelding
 info:
   - label:
     value:

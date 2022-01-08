@@ -2,7 +2,7 @@
 title: Scharnegoutum
 afbeelding:
   image: /assets/img/aanbod/omgeving/scharnegoutum/800px-20190529-martenskerk2-skearnegoutum.jpg
-  omschrijving: Martenskerk Scharnegoutum
+  alt: Martenskerk Scharnegoutum
 description: Martenskerk
 checklist:
   - Lorem

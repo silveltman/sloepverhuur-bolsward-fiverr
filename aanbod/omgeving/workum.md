@@ -2,7 +2,7 @@
 title: Workum
 afbeelding:
   image: /assets/img/aanbod/omgeving/workum/b609690eb37208bcdc613017caff2f8bddfa8ec4.jpg
-  omschrijving: 'Jopie Huisman Museum, Workum'
+  alt: 'Jopie Huisman Museum, Workum'
 description: >-
   Historisch centrum met o.a. Jopie Huisman Museum, Sint Gertrudiskerk, door de
   oude sluizen, diverse horeca en winkels, zwemmen in het IJsselmeer

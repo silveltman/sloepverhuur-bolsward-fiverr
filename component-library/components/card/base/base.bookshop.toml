@@ -11,7 +11,7 @@ description = "Mijn omschrijving"
 
 [props.afbeelding]
 image = "https://picsum.photos/1200/800?random=1"
-omschrijving = "Omschrijving van mijn afbeelding"
+alt = "Omschrijving van mijn afbeelding"
 
 [props.button]
 text = "Button"

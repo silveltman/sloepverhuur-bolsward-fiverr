@@ -5,7 +5,7 @@ description: >-
   u de keus'
 afbeelding:
   image: /assets/img/uploads/img-7350.JPG
-  omschrijving: 'Stel zelf je arrangement samen'
+  alt: 'Stel zelf je arrangement samen'
 info:
   - label: Tijdsduur
     value: N.T.B.

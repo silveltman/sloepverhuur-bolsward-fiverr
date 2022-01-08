@@ -2,7 +2,7 @@
 title: Sneek
 afbeelding:
   image: /assets/img/aanbod/omgeving/sneek/36f7738e6c40ab3ad0eec78ebec121d993227c65.jpeg
-  omschrijving: Varen langs de Waterpoort in Sneek
+  alt: Varen langs de Waterpoort in Sneek
 description: >-
   Historisch centrum met o.a. Waterpoort, Fries Scheepvaart museum, Martinikerk,
   diverse horeca en winkels.

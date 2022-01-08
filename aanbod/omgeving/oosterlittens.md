@@ -2,7 +2,7 @@
 title: Oosterlittens
 afbeelding:
   image: /assets/img/aanbod/omgeving/oosterlittens/easterlittens-herfoarme-tsjerke-margryttsjerke.jpg
-  omschrijving: Margarethakerk en dorpsplein Oosterlittens
+  alt: Margarethakerk en dorpsplein Oosterlittens
 description: >-
   Margarethakerk, lunch of diner aan het mooiste plein van Friesland in het
   'wapen van van Friesland', lunch of diner in 'Het krûswetter' met fantastisch

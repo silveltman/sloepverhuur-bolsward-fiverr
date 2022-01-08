@@ -1,8 +1,6 @@
 ---
-_id: petter
-
-subtitle: Elektrische 8-persoons
 title: Petter
+subtitle: Elektrische 8-persoons
 description: Zonder schipper geruisloos genieten van waterrijk Friesland.
 
 checklist:
@@ -15,15 +13,24 @@ checklist:
 
 gallery:
   - image: /assets/img/sloepen/petter/img-7112-2.jpg
-    omschrijving: Ruime elektrische sloep met luxe kussenset en veel comfort
+    alt: Ruime elektrische sloep met luxe kussenset en veel comfort
   - image: /assets/img/sloepen/petter/img-7123-1.jpg
-    omschrijving: Elektrische sloep met mooi stuurconsole en volop ruimte
+    alt: Elektrische sloep met mooi stuurconsole en volop ruimte
   - image: /assets/img/sloepen/petter/img-7114-1.jpg
-    omschrijving: Ruime 8-persoons luxe elektrische sloep voor veel vaarplezier
+    alt: Ruime 8-persoons luxe elektrische sloep voor veel vaarplezier
   - image: /assets/img/sloepen/petter/img-7156.JPG
-    omschrijving: Elektrische sloep Friese wateren genieten natuur
+    alt: Elektrische sloep Friese wateren genieten natuur
   - image: /assets/img/sloepen/petter/img-7220.JPG
-    omschrijving: Heerlijk genieten in de 8-persoons elektrische Pettersloep.
+    alt: Heerlijk genieten in de 8-persoons elektrische Pettersloep.
+
+banner:
+  title: Nog meer genieten?
+  afbeelding:
+    image: /assets/img/uploads/sloep-huren-in-friesland/whatsapp-image-2020-10-28-at-15-43-42-kopie-1.jpeg
+    alt: Omschrijving van mijn afbeelding
+  button:
+    text: Bekijk arrangementen
+    url: /aanbod/arrangementen
 
 SEO:
   page_title: Geruisloos genieten van waterrijk Friesland

@@ -2,7 +2,7 @@
 title: Allingawier
 afbeelding:
   image: /assets/img/aanbod/omgeving/allingawier.JPG
-  omschrijving: Museumdorp Allingawier nabij Bolsward
+  alt: Museumdorp Allingawier nabij Bolsward
 description: Bezoek het museumdorp Allingawier.
 checklist:
   - Lorem

@@ -2,7 +2,7 @@
 title: IJlst
 afbeelding:
   image: /assets/img/aanbod/omgeving/ijlst/05-onix-nl-gebintenbouw-museum-houtstad-ijlst-800x534-1.jpg
-  omschrijving: Museum 'Houtstad IJlst'
+  alt: Museum 'Houtstad IJlst'
 description: >-
   Stadscafé ‘Wapen van IJlst’ voor lunch of diner aan het water, Museum Houtstad
   IJlst over o.a. houtbewerking en maken van schaatsen.

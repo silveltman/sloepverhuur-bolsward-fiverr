@@ -6,7 +6,7 @@ description: >-
   Personen ook mogelijk met de ELEKTRISCHE PETTERSLOEP!
 afbeelding:
   image: /assets/img/uploads/op-naar-grutte-pier/kimswert2.jpg
-  omschrijving: In luxe sloep met schipper naar Grutte Pier in Kimswerd
+  alt: In luxe sloep met schipper naar Grutte Pier in Kimswerd
 info:
   - label: Tijdsduur
     value: ± 6 uren

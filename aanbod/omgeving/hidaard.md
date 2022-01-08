@@ -2,7 +2,7 @@
 title: Hidaard
 afbeelding:
   image: /assets/img/aanbod/omgeving/hidaard/fr-hidaard-15401592008429669.jpg
-  omschrijving: Hidaard in de avondzon.
+  alt: Hidaard in de avondzon.
 description: Bezoek in Hidaard de monumentale boerderij in de dorpskern aan de Buorren.
 checklist:
   - Lorem

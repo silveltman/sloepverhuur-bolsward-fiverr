@@ -7,7 +7,7 @@
         :class="shown ? 'shown' : ''"
         class="timeline__item"
         >
-        <img x-transition src="{{ item.image }}" alt="{{ item.omschrijving}}" class="timeline__img">
+        <img x-transition src="{{ item.image }}" alt="{{ item.alt }}" class="timeline__img">
       </li>
     {% endfor %}
   </ul>

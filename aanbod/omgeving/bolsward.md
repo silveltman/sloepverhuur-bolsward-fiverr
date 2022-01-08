@@ -2,7 +2,7 @@
 title: Bolsward
 afbeelding:
   image: /assets/img/aanbod/omgeving/bolsward/bolsward-stadhuis-3-2287291456.jpeg
-  omschrijving: Stadhuis Bolsward
+  alt: Stadhuis Bolsward
 description: >-
   Historisch centrum met o.a. Stadhuis,  Martinikerk en Broerekerk, brouwerij Us
   Heit , diverse horeca en winkels.

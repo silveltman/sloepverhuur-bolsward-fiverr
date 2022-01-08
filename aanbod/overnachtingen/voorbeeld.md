@@ -3,7 +3,7 @@ title: Overnachting naam
 description: ''
 afbeelding:
   image: ''
-  omschrijving: ''
+  alt: ''
 info:
   - label: ''
     value: ''

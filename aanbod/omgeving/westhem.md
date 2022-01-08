@@ -2,7 +2,7 @@
 title: Westhem
 afbeelding:
   image: /assets/img/aanbod/omgeving/520px-westhem-bartolomeuskerk.jpg
-  omschrijving: Reidmarroute langs Westhem
+  alt: Reidmarroute langs Westhem
 description: Vaar de Reidmarroute en bezoek in Westhem de Bartholomeüskerk.
 checklist:
   - Lorem

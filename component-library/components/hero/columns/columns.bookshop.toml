@@ -8,7 +8,7 @@ tags = []
 [props]
 [props.afbeelding]
 image = "https://picsum.photos/1200/800?random=1"
-omschrijving = "Omschrijving van mijn afbeelding"
+alt = "Omschrijving van mijn afbeelding"
 
 [props.col_1]
 icon = "flag"

@@ -2,7 +2,7 @@
 title: Boazum
 afbeelding:
   image: /assets/img/aanbod/omgeving/boazum/sint-martinuskerk-boazum.jpg
-  omschrijving: 'Sint Martinuskerk, Boazum'
+  alt: 'Sint Martinuskerk, Boazum'
 description: Sint Martinuskerk
 checklist:
   - Lorem
