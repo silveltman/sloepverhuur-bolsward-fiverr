@@ -6,8 +6,7 @@ icon = ""
 tags = []
 
 [props]
-_editor_link: true
-
+_editor_link = true
 title = "Mijn titel"
 
 

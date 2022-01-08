@@ -47,7 +47,7 @@ layout: base
         }"
         x-show="getActiveRoute(routes) && activeSearch(title)"
         >
-        {% bookshop "card/base" bind: item  %}
+        {% bookshop "card/base" bind: item.data  %}
       </div>
     {% endfor %}
   </div>
