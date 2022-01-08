@@ -1,4 +1,8 @@
 ---
+seo:
+  seo_title:
+  seo_description:
+
 title: Alpacaboerderij 'Gewoon thûs'.
 description: >-
   Bezoek de Alpacaboerderij in Schraard inclusief high-tea, t/m 8 personen ook

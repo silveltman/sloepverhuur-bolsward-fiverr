@@ -1,5 +1,4 @@
 ---
-_key: 2
 title: Elfsteden
 description: Plaats hier een korte beschrijving van de route
 tijd: ± 3,5 uur

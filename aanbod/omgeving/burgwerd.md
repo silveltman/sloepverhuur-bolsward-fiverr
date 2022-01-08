@@ -1,4 +1,8 @@
 ---
+seo:
+  seo_title:
+  seo_description:
+
 title: Burgwerd
 afbeelding:
   image: /assets/img/aanbod/omgeving/burgwerd-660x440.jpg

@@ -1,4 +1,8 @@
 ---
+seo:
+  seo_title:
+  seo_description:
+
 title: Boazum
 afbeelding:
   image: /assets/img/aanbod/omgeving/boazum/sint-martinuskerk-boazum.jpg

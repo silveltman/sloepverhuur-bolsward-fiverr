@@ -1,4 +1,8 @@
 ---
+seo:
+  seo_title:
+  seo_description:
+
 title: Oosthem
 afbeelding:
   image: /assets/img/aanbod/omgeving/fr-oosthem-15367896001626893.jpg

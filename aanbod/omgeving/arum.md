@@ -1,4 +1,8 @@
 ---
+seo:
+  seo_title:
+  seo_description:
+
 title: Arum
 afbeelding:
   image: /assets/img/aanbod/omgeving/arum/gekroondeleeuw-300x169.jpg

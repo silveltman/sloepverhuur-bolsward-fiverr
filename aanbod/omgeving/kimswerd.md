@@ -1,4 +1,8 @@
 ---
+seo:
+  seo_title:
+  seo_description:
+
 title: Kimswerd
 afbeelding:
   image: /assets/img/aanbod/omgeving/images-content-friese-keuken-biologisch-1-p5236291-2.jpg

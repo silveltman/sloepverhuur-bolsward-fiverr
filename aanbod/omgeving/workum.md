@@ -1,4 +1,8 @@
 ---
+seo:
+  seo_title:
+  seo_description:
+
 title: Workum
 afbeelding:
   image: /assets/img/aanbod/omgeving/workum/b609690eb37208bcdc613017caff2f8bddfa8ec4.jpg

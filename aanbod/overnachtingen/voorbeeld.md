@@ -1,4 +1,8 @@
 ---
+seo:
+  seo_title:
+  seo_description:
+
 title: Overnachting naam
 description: ''
 afbeelding:

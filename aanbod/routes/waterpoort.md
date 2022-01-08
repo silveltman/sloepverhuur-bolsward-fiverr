@@ -1,5 +1,4 @@
 ---
-_key: 4
 title: Waterpoort
 description: Plaats hier een korte beschrijving van de route
 tijd: ± 5 uren

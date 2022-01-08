@@ -1,5 +1,4 @@
 ---
-_key: 6
 title: Heegermeer
 description: Plaats hier een korte beschrijving van de route
 tijd: ± 6 uren

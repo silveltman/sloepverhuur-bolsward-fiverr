@@ -1,4 +1,8 @@
 ---
+seo:
+  seo_title:
+  seo_description:
+
 title: Makkum
 afbeelding:
   image: /assets/img/aanbod/omgeving/makkum/makkum-toepferei.jpg

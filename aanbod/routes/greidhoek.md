@@ -1,5 +1,4 @@
 ---
-_key: 7
 title: Greidhoek
 description: Plaats hier een korte beschrijving van de route
 tijd: ± 7 uren

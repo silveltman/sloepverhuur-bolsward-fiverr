@@ -1,5 +1,4 @@
 ---
-_key: 3
 title: Nooitgedagt
 description: Plaats hier een korte beschrijving van de route
 tijd: ± 4 uren

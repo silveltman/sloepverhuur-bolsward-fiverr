@@ -1,4 +1,8 @@
 ---
+seo:
+  seo_title:
+  seo_description:
+
 title: Allingawier
 afbeelding:
   image: /assets/img/aanbod/omgeving/allingawier.JPG

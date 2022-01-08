@@ -1,4 +1,8 @@
 ---
+seo:
+  seo_title:
+  seo_description:
+
 title: Hidaard
 afbeelding:
   image: /assets/img/aanbod/omgeving/hidaard/fr-hidaard-15401592008429669.jpg

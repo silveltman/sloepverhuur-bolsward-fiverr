@@ -1,4 +1,8 @@
 ---
+seo:
+  seo_title:
+  seo_description:
+
 title: Oosterlittens
 afbeelding:
   image: /assets/img/aanbod/omgeving/oosterlittens/easterlittens-herfoarme-tsjerke-margryttsjerke.jpg

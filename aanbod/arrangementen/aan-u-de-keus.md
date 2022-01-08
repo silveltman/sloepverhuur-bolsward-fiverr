@@ -1,4 +1,8 @@
 ---
+seo:
+  seo_title:
+  seo_description:
+
 title: Aan u de keus!
 description: >-
   Naast alle arrangementen kan je ook kiezen voor service op maat, oftewel 'Aan

@@ -1,4 +1,8 @@
 ---
+seo:
+  seo_title:
+  seo_description:
+
 title: Veerhuys Special
 description: >-
   Sloep varen combineren met een lunch of diner in de mooie binnenstad van

@@ -1,5 +1,4 @@
 ---
-_key: 1
 title: Kootje
 description: Plaats hier een korte beschrijving van de route
 tijd: ± 2 uur

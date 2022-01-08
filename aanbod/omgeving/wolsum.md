@@ -1,4 +1,8 @@
 ---
+seo:
+  seo_title:
+  seo_description:
+
 title: Wolsumer ketting
 afbeelding:
   image: /assets/img/aanbod/omgeving/wolsum/img-4501.JPG

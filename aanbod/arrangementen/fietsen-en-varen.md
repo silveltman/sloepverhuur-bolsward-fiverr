@@ -1,4 +1,8 @@
 ---
+seo:
+  seo_title:
+  seo_description:
+
 title: Fietsen & varen door Friesland
 description: >-
   Een mooie combi om Friesland zowel op de fiets als vanuit een sloep te

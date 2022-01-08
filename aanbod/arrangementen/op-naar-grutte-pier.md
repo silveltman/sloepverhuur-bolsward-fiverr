@@ -1,4 +1,8 @@
 ---
+seo:
+  seo_title:
+  seo_description:
+
 title: Op naar Grutte Pier
 description: >-
   Varen over de Schaats Elfstedenroute naar het dorp van Grutte Pier, Kimswerd.

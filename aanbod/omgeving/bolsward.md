@@ -1,4 +1,8 @@
 ---
+seo:
+  seo_title:
+  seo_description:
+
 title: Bolsward
 afbeelding:
   image: /assets/img/aanbod/omgeving/bolsward/bolsward-stadhuis-3-2287291456.jpeg

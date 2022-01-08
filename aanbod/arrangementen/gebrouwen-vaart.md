@@ -1,4 +1,8 @@
 ---
+seo:
+  seo_title:
+  seo_description:
+
 title: Gebrouwen vaart
 description: >-
   Een mooie combinatie van een excursie in De Friese Bierbrouwerij,

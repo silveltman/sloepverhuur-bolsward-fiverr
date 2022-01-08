@@ -1,4 +1,8 @@
 ---
+seo:
+  seo_title:
+  seo_description:
+
 title: Tjerkwerd
 afbeelding:
   image: /assets/img/aanbod/omgeving/0-1.jpg

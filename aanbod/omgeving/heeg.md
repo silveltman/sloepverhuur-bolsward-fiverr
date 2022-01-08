@@ -1,4 +1,8 @@
 ---
+seo:
+  seo_title:
+  seo_description:
+
 title: Heeg
 afbeelding:
   image: /assets/img/aanbod/omgeving/heeg/tg-terras-20190825-124948-heeg-geenmodelverklaring-lr-3651046182.jpeg

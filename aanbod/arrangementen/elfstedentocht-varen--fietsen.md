@@ -1,4 +1,8 @@
 ---
+seo:
+  seo_title:
+  seo_description:
+
 title: Elfstedentocht varen & fietsen
 description: >-
   De elfstedentocht fietsen en tussen Bolsward en Kimswerd vaar je de route van

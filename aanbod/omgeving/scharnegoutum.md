@@ -1,4 +1,8 @@
 ---
+seo:
+  seo_title:
+  seo_description:
+
 title: Scharnegoutum
 afbeelding:
   image: /assets/img/aanbod/omgeving/scharnegoutum/800px-20190529-martenskerk2-skearnegoutum.jpg

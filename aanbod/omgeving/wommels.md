@@ -1,4 +1,8 @@
 ---
+seo:
+  seo_title:
+  seo_description:
+
 title: Wommels
 afbeelding:
   image: /assets/img/aanbod/omgeving/wommels/img-4171-foto-tph-aan-vaart-1703928855.jpeg

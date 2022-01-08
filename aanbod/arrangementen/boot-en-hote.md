@@ -1,4 +1,8 @@
 ---
+seo:
+  seo_title:
+  seo_description:
+
 title: Boot & hôte
 description: >-
   Culinair en cultureel genieten in en om Bolsward en bij de mooiste theetuin

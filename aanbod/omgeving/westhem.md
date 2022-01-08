@@ -1,4 +1,8 @@
 ---
+seo:
+  seo_title:
+  seo_description:
+
 title: Westhem
 afbeelding:
   image: /assets/img/aanbod/omgeving/520px-westhem-bartolomeuskerk.jpg

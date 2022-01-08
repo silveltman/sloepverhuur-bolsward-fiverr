@@ -1,4 +1,8 @@
 ---
+seo:
+  seo_title:
+  seo_description:
+
 title: Parrega
 afbeelding:
   image: /assets/img/aanbod/omgeving/fr-parrega-15333336006331804.jpg

@@ -1,4 +1,8 @@
 ---
+seo:
+  seo_title:
+  seo_description:
+
 title: Schettens
 afbeelding:
   image: /assets/img/aanbod/omgeving/532px-huizen-aan-het-water-in-schettens.JPG

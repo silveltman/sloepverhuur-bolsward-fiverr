@@ -1,4 +1,8 @@
 ---
+seo:
+  seo_title:
+  seo_description:
+
 title: Witmarsum
 afbeelding:
   image: /assets/img/aanbod/omgeving/wimatsum/877.jpg

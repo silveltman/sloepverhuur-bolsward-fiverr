@@ -1,4 +1,8 @@
 ---
+seo:
+  seo_title:
+  seo_description:
+
 title: Easterein
 afbeelding:
   image: /assets/img/aanbod/omgeving/elfstedenstate.jpg

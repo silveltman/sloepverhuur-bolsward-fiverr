@@ -1,4 +1,8 @@
 ---
+seo:
+  seo_title:
+  seo_description:
+
 title: Gaastmeer
 afbeelding:
   image: /assets/img/aanbod/omgeving/gaastmeer/1--vanaf-klein-gaastmeer-3-2000x1334.jpeg

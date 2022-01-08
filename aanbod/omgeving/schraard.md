@@ -1,4 +1,8 @@
 ---
+seo:
+  seo_title:
+  seo_description:
+
 title: Schraard
 afbeelding:
   image: /assets/img/aanbod/omgeving/whatsapp-image-2021-05-19-at-07-41-50.jpeg

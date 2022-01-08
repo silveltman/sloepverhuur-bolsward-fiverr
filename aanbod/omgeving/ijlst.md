@@ -1,4 +1,8 @@
 ---
+seo:
+  seo_title:
+  seo_description:
+
 title: IJlst
 afbeelding:
   image: /assets/img/aanbod/omgeving/ijlst/05-onix-nl-gebintenbouw-museum-houtstad-ijlst-800x534-1.jpg

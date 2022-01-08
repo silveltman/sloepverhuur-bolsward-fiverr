@@ -1,4 +1,8 @@
 ---
+seo:
+  seo_title:
+  seo_description:
+
 title: Varen met Syb
 description: >-
   Met Syb van der Ploeg, i.d.d. van 'De Kast', aan boord varen we in de

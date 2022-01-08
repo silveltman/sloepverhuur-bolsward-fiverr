@@ -1,4 +1,8 @@
 ---
+seo:
+  seo_title:
+  seo_description:
+
 title: Oudega W
 afbeelding:
   image: /assets/img/aanbod/omgeving/img-7682-e1470135396165.jpg
