@@ -24,16 +24,19 @@ module.exports = {
     omgeving: {
       path: '/aanbod/omgeving',
       _icon: 'landscape',
+      output: true,
       _enabled_editors: ['content']
     },
     arrangementen: {
       path: '/aanbod/arrangementen',
       _icon: 'groups',
+      output: true,
       _enabled_editors: ['visual', 'data']
     },
     activiteiten: {
       path: '/aanbod/activiteiten',
       _icon: 'directions_bike',
+      output: true,
       _enabled_editors: ['visual']
     },
     routes: {

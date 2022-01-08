@@ -1,3 +1,4 @@
 module.exports = {
-  tags: 'routes'
+  tags: 'routes',
+  permalink: false
 };

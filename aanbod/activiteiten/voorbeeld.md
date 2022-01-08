@@ -1,13 +1,13 @@
 ---
 title: Activiteit naam
-description:
+description: ''
 afbeelding:
-  image:
-  omschrijving:
+  image: ''
+  omschrijving: ''
 info:
-  - label:
-    value:
-samenwerking:
+  - label: ''
+    value: ''
+samenwerking: ''
 ---
 
 # Een mooie titel
