@@ -42,11 +42,13 @@ module.exports = {
     routes: {
       path: '/aanbod/routes',
       _icon: 'map',
+      output: false,
       _enabled_editors: ['data']
     },
     sloepen: {
       path: '/sloepen',
       _icon: 'directions_boat',
+      output: true,
       _enabled_editors: ['visual']
     }
   },
