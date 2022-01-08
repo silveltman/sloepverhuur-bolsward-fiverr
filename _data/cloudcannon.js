@@ -24,20 +24,20 @@ module.exports = {
     omgeving: {
       path: '/aanbod/omgeving',
       _icon: 'landscape',
-      _enabled_editors: ['data', 'content']
+      _enabled_editors: ['content']
     },
     arrangementen: {
-      path: 'aanbod/arrangementen',
+      path: '/aanbod/arrangementen',
       _icon: 'groups',
       _enabled_editors: ['visual', 'data']
     },
     activiteiten: {
-      path: 'aanbod/activiteiten',
+      path: '/aanbod/activiteiten',
       _icon: 'directions_bike',
       _enabled_editors: ['visual']
     },
     routes: {
-      path: 'aanbod/routes',
+      path: '/aanbod/routes',
       _icon: 'map',
       _enabled_editors: ['data']
     },
