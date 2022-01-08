@@ -7,7 +7,7 @@ module.exports = {
     },
     {
       heading: 'Aanbod',
-      collections: ['omgeving', 'arrangementen', 'activiteiten']
+      collections: ['omgeving', 'arrangementen', 'activiteiten', 'overnachtingen']
     },
     {
       heading: 'Sloepen',
