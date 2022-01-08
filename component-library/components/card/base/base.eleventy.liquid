@@ -1,8 +1,10 @@
 <div class="card-base">
-  <img class="card-base__img" src="{{ afbeelding.image }}" alt="{{ afbeelding.omschrijving }}">
+  <div class="card-big__img-container">
+    <img class="card-base__img" src="{{ afbeelding.image }}" alt="{{ afbeelding.omschrijving }}">
+  </div>
   <div class="card-base__content">
     <h3 class="card-base__h">{{ title }}</h3>
     <p class="card-base__p">{{ description }}</p>
-    <a href="{{ button.url }}" class="btn btn--secondary">{{ button.text }}</a>
+    <a href="{{ button.url }}" class="btn btn--secondary">+ Meer info</a>
   </div>
 </div>

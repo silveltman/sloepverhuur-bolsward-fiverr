@@ -1,0 +1,16 @@
+.aanbod-single {
+  @extend %grid-2-1;
+
+  &__img {
+    width: 100%;
+    height: auto;
+    border-radius: $radius-base;
+    border: $border-base;
+    margin-bottom: var(--space-500);
+  }
+
+  &__aside {
+    position: sticky;
+    top: calc(var(--nav-height) + 40px);
+  }
+}

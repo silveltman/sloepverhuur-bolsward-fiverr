@@ -1,4 +1,4 @@
 module.exports = {
-  tags: 'omgeving',
+  tags: 'activiteiten',
   layout: 'aanbod-single.liquid'
 };

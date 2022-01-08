@@ -1,3 +1,35 @@
+.index-hero {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  max-height: 100vh;
+  padding-top: var(--nav-height);
+
+  &__img {
+    width: 100%;
+    object-fit: cover;
+    flex-grow: 1;
+    min-height: 0;
+  }
+
+  &__content {
+    @extend %wrapper;
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding: var(--space-500);
+    margin-top: $radius-big * -1;
+    background: $color-bg-dark;
+    border-top: $border-base;
+    border-radius: $radius-big $radius-big 0 0;
+  }
+}
+
 .index-sloepen {
   @extend %grid-1-1;
 }

@@ -1,4 +1,4 @@
 module.exports = {
   tags: 'arrangementen',
-  layout: 'base.liquid'
+  layout: 'aanbod-single.liquid'
 };

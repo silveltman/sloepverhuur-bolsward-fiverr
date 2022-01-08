@@ -44,7 +44,7 @@ x-data="{
 
 <button type="button" class="gallery__btn" 
 @click="open = true">
-  <i class="material-icons">collections</i>
+  <i class="material-icons-round">collections</i>
   {{ gallery.size }} foto's
 </button>
 
@@ -61,15 +61,15 @@ x-data="{
   >
 
       <!-- Toolbar -->
-      <div class="toolbar modal__toolbar">
-        <div class="toolbar__content">
-          <button @click="zoomed = false" x-show="zoomed" class="modal__toolbar-btn btn btn--secondary">
-            <i class="material-icons">keyboard_backspace</i>
+      <div class="modal-toolbar">
+        <div class="modal-toolbar__content">
+          <button @click="zoomed = false" x-show="zoomed" class="modal-toolbar__btn btn btn--secondary">
+            <i class="material-icons-round">keyboard_backspace</i>
             Terug
           </button>
-          <button @click="zoomed = false; open = false" class="modal__toolbar-btn btn btn--secondary">
+          <button @click="zoomed = false; open = false" class="modal-toolbar__btn btn btn--secondary">
             Sluiten
-            <i class="material-icons">close</i>
+            <i class="material-icons-round">close</i>
           </button>
         </div>
       </div>
@@ -98,11 +98,11 @@ x-data="{
       class="gallery-modal__single"
       >
         <button @click="prev" class="gallery-modal__btn btn btn--secondary">
-          <i class="material-icons">arrow_back_ios</i>
+          <i class="material-icons-round">arrow_back_ios</i>
         </button>
           <img x-ref="single" class="gallery-modal__single-img">
         <button @click="next" class="gallery-modal__btn btn btn--secondary">
-          <i class="material-icons">arrow_forward_ios</i>
+          <i class="material-icons-round">arrow_forward_ios</i>
         </button>
       </div>
   </div>

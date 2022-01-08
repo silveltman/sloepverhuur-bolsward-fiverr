@@ -3,13 +3,16 @@
 
   &__content {
     @extend %grid-2-1;
+
+    position: sticky;
+    top: calc(var(--nav-height + 40px));
   }
 
   &__map {
     height: 350px;
 
     @include media(2) {
-      height: 600px;
+      height: 800px;
       max-height: calc(100vh - 180px);
     }
   }

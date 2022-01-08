@@ -15,8 +15,7 @@ info:
     value: 2 - 12
   - label: Kosten
     value: Vanaf € 150,-
-  - label: Samenwerking
-    value: Alpacaboerderij 'Gewoon thûs' in Schraard
+samenwerking: Alpacaboerderij 'Gewoon thûs' in Schraard
 ---
 
 Je vertrekt vanuit Bolsward richting Harlingen over de welbekende schaats Elfstedenroute, net voor Witmarsum ga je linksaf richting de Alpacaboerderij. Je hebt dan al kunnen genieten van mooie vergezichten in het Zuidwest Friese landschap en eenmaal bij de Alpaca boerderij aangekomen wordt je ontvangen door de gastvrouw. Zij heeft koffie/thee of limonade met wat lekkers voor je klaar staan en daarna mag je de, met een hoog knuffelgehalte, Alpaca’s voeren en ermee op de foto. Na een fantastische ervaring in een geweldige omgeving van **plm. 45 minuten**&nbsp;hervat je de tocht via Tjerkwerd weer naar Bolsward.

@@ -17,8 +17,6 @@
 @import 'components/buttons';
 @import 'components/inputs';
 
-@import '../component-library/main';
-
 @import 'includes/nav';
 @import 'includes/nav-bottom';
 @import 'includes/footer';
@@ -26,13 +24,16 @@
 @import 'layout/forms';
 @import 'layout/carousel';
 @import 'layout/grid';
-@import 'layout/modal';
 @import 'layout/toolbar';
+@import 'layout/modal';
+
+@import '../component-library/main';
 
 @import 'pages/index';
 @import 'pages/sloep';
 @import 'pages/routes';
 @import 'pages/contact';
+@import 'pages/aanbod-single';
 
 // @import 'themes/my-theme';
 

@@ -13,7 +13,7 @@
 
   <div class="carousel-vertical__card-container">
     {% for item in list %}
-      <div class="carousel-vertical__card" x-transition.scale.70 x-show="active == {{ forloop.index }}">
+      <div class="carousel-vertical__card" x-transition.scale.84 x-show="active == {{ forloop.index }}">
         {% bookshop "card/review" bind: item %}
       </div>
     {% endfor %}

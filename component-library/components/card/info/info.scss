@@ -15,12 +15,16 @@
     margin: var(--space-200) 0;
   }
 
+  &__h {
+    margin: 0;
+  }
+
   &__label {
-    font-weight: 700;
-    flex-basis: 50%;
+    margin-right: var(--space-200);
   }
 
   &__value {
-    flex-basis: 50%;
+    align-items: flex-end;
+    color: $color-secondary;
   }
 }
