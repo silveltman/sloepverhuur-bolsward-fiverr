@@ -28,6 +28,14 @@ module.exports = [
           name: 'Routes',
           url: '/aanbod/routes'
         },
+        {
+          name: 'Activiteiten',
+          url: '/aanbod/activiteiten'
+        },
+        {
+          name: 'Overnachtingen',
+          url: '/aanbod/overnachtingen'
+        },
       ]
     }
   }
