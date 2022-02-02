@@ -2,13 +2,12 @@
 seo:
   page_title: Geruisloos genieten van waterrijk Friesland
   page_description: >-
-    Ruime elektrische sloep huren in Friesland, volop zitcomfort, max. 8 personen,
-    last-minute, Friese elfsteden, Sneek, Bolsward, i.c.m. diverse arrangementen.
-
+    Ruime elektrische sloep huren in Friesland, volop zitcomfort, max. 8
+    personen, last-minute, Friese elfsteden, Sneek, Bolsward, i.c.m. diverse
+    arrangementen.
 title: Petter
 subtitle: Elektrische 8-persoons
 description: Zonder schipper geruisloos genieten van waterrijk Friesland.
-
 checklist:
   - Zonder schipper
   - Geen vaarbewijs nodig
@@ -16,7 +15,6 @@ checklist:
   - Max. 8 personen
   - Luxe kussenset
   - Digitale vaarkaart
-
 gallery:
   - image: /assets/img/sloepen/petter/img-7112-2.jpg
     alt: Ruime elektrische sloep met luxe kussenset en veel comfort
@@ -28,11 +26,10 @@ gallery:
     alt: Elektrische sloep Friese wateren genieten natuur
   - image: /assets/img/sloepen/petter/img-7220.JPG
     alt: Heerlijk genieten in de 8-persoons elektrische Pettersloep.
-
 banner:
-  title: Nog meer genieten?
+  title: Combineer met één van onze arrangementen
   afbeelding:
-    image: /assets/img/uploads/sloep-huren-in-friesland/whatsapp-image-2020-10-28-at-15-43-42-kopie-1.jpeg
+    image: /assets/img/uploads/img-6596.JPG
     alt: Omschrijving van mijn afbeelding
   button:
     text: Bekijk arrangementen
