@@ -1,5 +1,5 @@
-paths:
-  uploads: assets/img/uploads
+# paths:
+#   uploads: assets/img/uploads
 
 collection_groups:
   - heading: "Pagina's"
@@ -17,32 +17,32 @@ collection_groups:
 
 collections_config:
   omgeving:
-    _icon: landscape
+    icon: landscape
     output: true
     _enabled_editors:
       - visual
   arrangementen:
-    _icon: groups
+    icon: groups
     output: true
     _enabled_editors:
       - visual
   omgeving:
-    _icon: activiteiten
+    icon: activiteiten
     output: true
     _enabled_editors:
       - visual
   overnachtingen:
-    _icon: hotel
+    icon: hotel
     output: true
     _enabled_editors:
       - visual
   routes:
-    _icon: map
+    icon: map
     output: false
     _enabled_editors:
       - data
   routes:
-    _icon: directions_boat
+    icon: directions_boat
     output: true
     _enabled_editors:
       - visual
