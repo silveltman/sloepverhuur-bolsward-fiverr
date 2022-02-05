@@ -1,3 +1,5 @@
+@use '../abstracts' as *;
+
 /* Main variables */
 $label-base-color: $color-text-base;
 $label-base-font-size: var(--font-size-300);

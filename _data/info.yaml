@@ -1,0 +1,24 @@
+# Meta tag generator
+meta:
+  # title: title
+  # desc: description
+  url: https://sloepverhuurbolsward.nl
+  img: /assets/img/logo.svg
+  img_alt: Logo Sloepverhuur Bolsward
+  name: Richard Veltman
+  # twitter_card_type: summary_large_image
+  # twitter_handle: tannerdolby
+  # comments: true
+
+seo:
+  title: Sloepverhuur Bolsward
+  description: Sloep huren met schipper t/m max. 12 personen of zelf een 8-persoons elektrische sloep varen o.a. langs de Friese Elfsteden.
+
+logo:
+  image: /assets/img/logo.svg
+  alt: My logo
+
+contact:
+  email: info@sloepverhuurbolsward.nl
+  tel: +316-48429810
+  adress: Werkmansbloei 16, 8701HA, Bolsward

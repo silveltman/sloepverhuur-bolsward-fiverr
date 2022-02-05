@@ -1,16 +1,8 @@
-// @import 'abstracts/variables';
-// @import 'abstracts/functions';
-@import 'abstracts/mixins';
-// @import 'abstracts/placeholders';
-
 @import 'vendors/cloudcannon';
 // @import 'vendors/snipcart';
 
 @import 'base/sanitize';
-@import 'base/colors';
-@import 'base/spacing';
-@import 'base/styling';
-@import 'base/typography';
+@import 'base/type';
 @import 'base/base';
 
 @import 'components/buttons';
@@ -26,7 +18,7 @@
 @import 'layout/toolbar';
 @import 'layout/modal';
 
-@import '../component-library/main';
+@import 'bookshop';
 
 @import 'pages/index';
 @import 'pages/sloep';

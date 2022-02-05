@@ -1,0 +1,16 @@
+@media all, bookshop {
+
+.bookshop-renderer::after {
+                    content: "⛔️      Bookshop sass rendering failed     ⛔️";
+                    text-align: center;
+                    white-space: pre;
+                    color: white;
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    width: 100%;
+                    padding: 10px;
+                    background-color: #960000;
+                }
+
+}
