@@ -5,11 +5,9 @@ seo:
     Ruime sloep huren in Friesland, volop zitcomfort, catering in overleg,
     last-minute, Friese elfsteden, Sneek, Bolsward, max. 12 personen, diverse
     arrangementen.
-
 title: Beenakker
 subtitle: Luxe 12-persoons
 description: Met schipper zorgeloos genieten van waterrijk Friesland.
-
 checklist:
   - Varen met schipper
   - Maximaal 12 personen
@@ -17,7 +15,6 @@ checklist:
   - Keuze uit 7 routes
   - I.c.m. catering
   - I.c.m. arrangementen
-
 gallery:
   - image: /assets/img/sloepen/beenakker/sloep-1.jpg
     alt: Ruime sloep huren Friesland met teak hout afgewerkt
@@ -35,28 +32,22 @@ gallery:
     alt: >-
       Sloep huren Friesland, familie, vrienden, bedrijfsuitje, catering,
       last-minute
-  - image: >-
-      /assets/img/sloepen/beenakker/photo-2020-07-23-18-17-20.jpg
+  - image: /assets/img/sloepen/beenakker/photo-2020-07-23-18-17-20.jpg
     alt: In de luxe Beenakkersloep de schaats Elfstedenroute varen
-  - image: >-
-      /assets/img/sloepen/beenakker/whatsapp-image-2020-07-31-at-19-04-33.jpeg
+  - image: /assets/img/sloepen/beenakker/whatsapp-image-2020-07-31-at-19-04-33.jpeg
     alt: Heerlijk met het gezin erop uit
-  - image: >-
-      /assets/img/sloepen/beenakker/photo-2020-08-04-17-47-16.jpg
+  - image: /assets/img/sloepen/beenakker/photo-2020-08-04-17-47-16.jpg
     alt: Samen genieten in de mooiste sloep van Friesland!
-
 banner:
   title: Nog meer genieten?
   afbeelding:
-    image: /assets/img/uploads/sloep-huren-in-friesland/whatsapp-image-2020-10-28-at-15-43-42-kopie-1.jpeg
+    image: >-
+      /assets/img/uploads/sloep-huren-in-friesland/whatsapp-image-2020-10-28-at-15-43-42-kopie-1.jpeg
     alt: Omschrijving van mijn afbeelding
   button:
     text: Bekijk arrangementen
     url: /aanbod/arrangementen
-
 timeline:
-  - image: /assets/img/sloepen/beenakker/tijdlijn-1.jpg
-    alt:
   - image: /assets/img/sloepen/beenakker/tijdlijn-2.jpg
     alt:
   - image: /assets/img/sloepen/beenakker/tijdlijn-3.jpg
