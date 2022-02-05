@@ -1,0 +1,70 @@
+paths:
+  uploads: assets/img/uploads
+
+collection_groups:
+  - heading: "Pagina's"
+    collections:
+      - pages
+  - heading: aanbod
+    collections:
+      - omgeving
+      - arrangementen
+      - activiteiten
+      - overnachtingen
+  - heading: Sloepen
+    collections:
+      - sloepen
+
+collections_config:
+  omgeving:
+    _icon: landscape
+    output: true
+    _enabled_editors:
+      - visual
+  arrangementen:
+    _icon: groups
+    output: true
+    _enabled_editors:
+      - visual
+  omgeving:
+    _icon: activiteiten
+    output: true
+    _enabled_editors:
+      - visual
+  overnachtingen:
+    _icon: hotel
+    output: true
+    _enabled_editors:
+      - visual
+  routes:
+    _icon: map
+    output: false
+    _enabled_editors:
+      - data
+  routes:
+    _icon: directions_boat
+    output: true
+    _enabled_editors:
+      - visual
+
+  # Input customization
+_inputs:
+  seo:
+    label: SEO
+    comment: 'Zoekmachine-optimalisate, Wordt weergegeven in Google en heeft invloed op je vindbaarheid'
+
+  seo_title:
+    label: Titel
+    comment: Probeer de pagina te beschrijven in 50–60 karakters
+
+  seo_description:
+    label: Beschrijving
+    comment: Probeer je pagina te beschrijven in 50-120 karakters
+
+  image:
+    label: Upload
+
+  alt:
+    label: Omschrijving
+    comment: Omschrijf je afbeelding in maximaal 125 karakters
+    type: textarea
