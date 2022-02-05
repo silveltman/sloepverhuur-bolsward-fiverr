@@ -1,3 +1,5 @@
+@use '../abstracts' as *;
+
 .route {
   @extend %grid-2-1;
 

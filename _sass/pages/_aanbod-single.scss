@@ -1,3 +1,5 @@
+@use '../abstracts' as *;
+
 .aanbod-single {
   @extend %grid-2-1;
 

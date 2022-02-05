@@ -1,17 +1,27 @@
+@use '../abstracts' as *;
+
 :root {
   --carousel-columns: 1.2;
   --carousel-space: var(--space-300);
 
-  @include media(2) { --carousel-columns: 2.2; }
-  @include media(3) { --carousel-columns: 3; }
-  @include media(4) { --carousel-columns: 4; }
-  @include media(4) { --carousel-columns: 5; }
+  @include media(2) {
+    --carousel-columns: 2.2;
+  }
+  @include media(3) {
+    --carousel-columns: 3;
+  }
+  @include media(4) {
+    --carousel-columns: 4;
+  }
+  @include media(4) {
+    --carousel-columns: 5;
+  }
 }
 
 $carousel-scollbar-size: 8px;
-$carousel-scollbar-color-base: rgba($color-text-base, .1);
-$carousel-scollbar-color-hover: rgba($color-text-base, .4);
-$carousel-scollbar-transition: .2s ease;
+$carousel-scollbar-color-base: rgba($color-text-base, 0.1);
+$carousel-scollbar-color-hover: rgba($color-text-base, 0.4);
+$carousel-scollbar-transition: 0.2s ease;
 
 .carousel {
   position: relative;
@@ -24,12 +34,12 @@ $carousel-scollbar-transition: .2s ease;
     padding: 0;
     margin: 0;
     overflow-x: scroll;
-    scroll-snap-type: x mandatory;    
+    scroll-snap-type: x mandatory;
     transition-property: color;
-    
+
     color: $carousel-scollbar-color-base;
     transition: $carousel-scollbar-transition;
-    
+
     &:hover {
       color: $carousel-scollbar-color-hover;
     }
@@ -57,7 +67,7 @@ $carousel-scollbar-transition: .2s ease;
 
   &__btn {
     position: absolute;
-    
+
     &--prev {
       left: 0;
     }
@@ -71,8 +81,9 @@ $carousel-scollbar-transition: .2s ease;
     flex-shrink: 0;
     width: calc(100% / var(--carousel-columns));
     // Set padding for all, except first
-    & + & { padding-left: var(--carousel-space) }
-    
+    & + & {
+      padding-left: var(--carousel-space);
+    }
 
     // Below is just for example, should be removed/replaced
     display: flex;
@@ -80,6 +91,8 @@ $carousel-scollbar-transition: .2s ease;
     align-items: center;
     justify-content: center;
     scroll-snap-align: start;
-    img { width: 100%}
+    img {
+      width: 100%;
+    }
   }
 }

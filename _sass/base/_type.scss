@@ -1,0 +1,47 @@
+@use '../abstracts' as *;
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: $font-family-secondary;
+  color: $color-text-light;
+  font-size: var(--font-size-700);
+  line-height: $font-lineheight-heading;
+  font-weight: $font-weight-heading;
+}
+
+h1 {
+  font-size: var(--font-size-700);
+  margin: 0 0 var(--font-space-200);
+}
+
+h2 {
+  font-size: var(--font-size-600);
+  margin: 0 0 var(--font-space-200);
+}
+
+h3 {
+  font-size: var(--font-size-500);
+  margin: 0 0 var(--font-space-200);
+}
+
+h4 {
+  font-size: var(--font-size-400);
+  margin: 0 0 var(--font-space-300);
+}
+
+p {
+  font-size: var(--font-size-400);
+  line-height: $font-lineheight-base;
+  font-weight: $font-weight-base;
+  margin: 0 0 var(--font-space-700);
+}
+
+ul,
+ol {
+  font-size: var(--font-size-400);
+  line-height: $font-lineheight-base;
+  font-weight: $font-weight-base;
+  margin: 0 0 var(--font-space-700);
+}

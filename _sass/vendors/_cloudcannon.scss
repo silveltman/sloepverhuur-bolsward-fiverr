@@ -1,4 +1,6 @@
-// cloudcannon editor links 
+@use '../abstracts' as *;
+
+// cloudcannon editor links
 // docs: https://cloudcannon.com/documentation/edit/editing/html/#toggling-visibility
 .editor-link {
   display: none;

@@ -1,3 +1,5 @@
+@use '../abstracts' as *;
+
 $nav-breakpoint: 2;
 $nav-bg: $color-bg-light;
 $nav-border: $border-light;

@@ -1,3 +1,5 @@
+@use '../abstracts' as *;
+
 :root {
   /* Sizes */
   --btn-font-size-base: var(--font-size-base);

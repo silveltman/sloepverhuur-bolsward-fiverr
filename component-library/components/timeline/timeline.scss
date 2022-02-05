@@ -1,3 +1,5 @@
+@use 'sass:math';
+
 $timeline-width: 12px;
 
 .timeline {
@@ -35,7 +37,7 @@ $timeline-width: 12px;
 
     @include pseudo {
       top: 0;
-      left: (20px - $timeline-width) / -2;
+      left: math.div(20px - $timeline-width, -2);
       height: 20px;
       width: 20px;
       border-radius: $radius-base;

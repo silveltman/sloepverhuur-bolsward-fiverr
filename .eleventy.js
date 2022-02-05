@@ -1,23 +1,24 @@
-const pluginSass = require("eleventy-plugin-sass");
+const pluginBookshop = require("@bookshop/eleventy-bookshop");
+const pluginCloudCannonBookshop = require("@bookshop/cloudcannon-eleventy-bookshop");
+const yaml = require("js-yaml");
 const Image = require("@11ty/eleventy-img");
 const sitemap = require("@quasibit/eleventy-plugin-sitemap");
-const pluginBookshop = require("@bookshop/eleventy-bookshop");
-
+const metagen = require('eleventy-plugin-metagen');
 const inspect = require("util").inspect;
 
+////---------------
+//// FUNCTIONS
+////---------------
 
-// Function for eleventy-img plugin (docs: https://www.11ty.dev/docs/plugins/image/)
-// Can be used in Liquid with: {% image "[path]", "[class]", "[alt]", "[sizes]", "[widths]" %
-// Example: {% image "./assets/img/myImg.jpg", "myClass", "A description", "(max-width: 768px) 90vw, 300px", "300, 600, 900" %}
-
-async function imageShortcode(src, className, alt, sizes, widths) {
+// For eleventy-img plugin via: {% image "[path]", "[class]", "[alt]", "[sizes]", "[widths]" %
+// Usage exaple: {% image "./assets/img/myImg.jpg", "myClass", "A description", "(max-width: 768px) 90vw, 300px", "300, 600, 900" %}
+async function imageShortcode(src, alt, className, sizes, widths) {
   let widthsArray = widths.split(',').map(Number);
-  // Put . infront of src so we don't have to do it manually for every image + compatability with CMS's
   let metadata = await Image(`.${src}`, {
     widths: widthsArray,
     formats: ["webp", "jpeg", "svg"],
-    url_path: ".",    // WARNING: Usage with this url_path setting has not been tested yet
-    outputDir: "./_site/img/",
+    urlPath: "/assets/img/generated",
+    outputDir: "./_site/assets/img/generated",
     svgShortCircuit: true,
   });
 
@@ -29,19 +30,27 @@ async function imageShortcode(src, className, alt, sizes, widths) {
     decoding: "async",
   };
 
-  // Throws an error when alt is missing (alt="" works okay)
+  // Throw an error when alt is missing (alt="" works okay)
   return Image.generateHTML(metadata, imageAttributes);
 }
 
+
 module.exports = function(eleventyConfig) {
 
+  ////---------------
+  //// FILTERS
+  ////---------------
+
+  // Returns readable js-data
   eleventyConfig.addFilter("debug", (content) => `<pre>${inspect(content)}</pre>`);
 
+  // Returns usable js-data
   eleventyConfig.addFilter("printJS", (data) => {
     const string = `${inspect(data)}`;
     return string.replace(/["]+/g, '')
   });
 
+  // Filters collection by a frontmatter key + value
   eleventyConfig.addFilter("filterByFrontmatter", (collection, key, value) => {
     const found = collection.filter(item => {
        return item.data[key].includes(value)
@@ -49,32 +58,51 @@ module.exports = function(eleventyConfig) {
     return found
   });
 
-  eleventyConfig.addFilter("filterBySlug", function(collection, list) {
+  // Returns each collection item which fileSlug is included in an array 
+  eleventyConfig.addFilter("filterBySlug", function(collection, slugList) {
     const found = collection.filter(item => {
-      return list.includes(item.fileSlug)
+      return slugList.includes(item.fileSlug)
     })
     return found
   });
 
+
+  ////---------------
+  //// SHORTCODES
+  ////---------------
+
   eleventyConfig.addLiquidShortcode("image", imageShortcode);
 
-  eleventyConfig.addPlugin(pluginSass, {
-    input: ['./_sass/**/*.{scss,sass}', '!node_modules/**'],
-    outputDir: "assets",
-    remap: true
-  });
+
+  ////---------------
+  //// PLUGINS
+  ////---------------
 
   eleventyConfig.addPlugin(sitemap, {
     sitemap: {
-      hostname: "https://example.com",
+      hostname: "https://sloepverhuurbolsward.nl",
     },
   });
 
-  eleventyConfig.addPlugin(pluginBookshop({
+	eleventyConfig.addPlugin(pluginBookshop({
 		bookshopLocations: ["component-library"]
 	}));
+  eleventyConfig.addPlugin(pluginCloudCannonBookshop);
+
+  eleventyConfig.addPlugin(metagen);
+
+
+  ////---------------
+  //// CONFIG
+  ////---------------
 
   eleventyConfig.addPassthroughCopy("assets");
+
+  eleventyConfig.addDataExtension("yaml", contents => yaml.load(contents));
+
+  eleventyConfig.setBrowserSyncConfig({
+		files: './_site/assets/css/**/*.css'
+	});
 
   return {
     dir: {
