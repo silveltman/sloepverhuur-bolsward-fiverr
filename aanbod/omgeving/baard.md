@@ -1,15 +1,18 @@
 ---
 seo:
-  seo_title:
-  seo_description:
-
+  seo_title: Sloep huren in Baard
+  seo_description: >-
+    Bezoek café Baard bij de gezellige brug, ook bereikbaar met een sloep van
+    Sloepverhuur Bolsward.
 title: Baard
 afbeelding:
   image: /assets/img/aanbod/omgeving/baard/190408117baahw.jpg
   alt: Café Baard
 description: Lunchen of dineren aan het water bij Café Baard.
 checklist:
-  - Lorem
+  - Café Baard
+  - Hervormde kerk
+  - Stelphoeve
 ---
 
-[Baard](<https://nl.wikipedia.org/wiki/Baard_(Friesland)>){: target="_blank" rel="noopener"} ligt ten zuidwesten van de stad&nbsp;[Leeuwarden](https://nl.wikipedia.org/wiki/Leeuwarden_&#40;stad&#41;){: target="_blank" rel="noopener"}&nbsp;en ten noorden van&nbsp;[Sneek](https://nl.wikipedia.org/wiki/Sneek_&#40;stad&#41;){: target="_blank" rel="noopener"}, tussen&nbsp;[Oosterlittens](https://nl.wikipedia.org/wiki/Oosterlittens){: target="\_blank" rel="noopener"}&nbsp;en&nbsp;[Lions](https://nl.wikipedia.org/wiki/Lions_&#40;plaats&#41;){: target="_blank" rel="noopener"}. Als je naar Baard gaat &nbsp;breng dan vooral een bezoek aan [Café Baard](www.cafebaard.nl){: target="\_blank" rel="noopener"}&nbsp;voor een heerlijke lunch of de in wijde omtrek vermaarde spareribs. Klik [hier](https://nl.wikipedia.org/wiki/Lijst_van_rijksmonumenten_in_Leeuwarden_&#40;gemeente&#41;#Baard){: target="\_blank" rel="noopener"}&nbsp;voor bezienswaardigheden in Baard.
+<a target="_blank" rel="noopener" href="https://nl.wikipedia.org/wiki/Baard_(Friesland)">Baard</a>&nbsp;ligt ten zuidwesten van de stad&nbsp;<a target="_blank" rel="noopener" href="https://nl.wikipedia.org/wiki/Leeuwarden_(stad)">Leeuwarden</a>&nbsp;en ten noorden van&nbsp;<a target="_blank" rel="noopener" href="https://nl.wikipedia.org/wiki/Sneek_(stad)">Sneek</a>, tussen&nbsp;<a target="_blank" rel="noopener" href="https://nl.wikipedia.org/wiki/Oosterlittens">Oosterlittens</a>&nbsp;en&nbsp;<a target="_blank" rel="noopener" href="https://nl.wikipedia.org/wiki/Lions_(plaats)">Lions</a>. Als je naar Baard gaat &nbsp;breng dan vooral een bezoek aan <a target="_blank" rel="noopener" href="www.cafebaard.nl">Caf&eacute; Baard</a>&nbsp;voor een heerlijke lunch of de in wijde omtrek vermaarde spareribs. Klik <a target="_blank" rel="noopener" href="https://nl.wikipedia.org/wiki/Lijst_van_rijksmonumenten_in_Leeuwarden_(gemeente)#Baard">hier</a>&nbsp;voor bezienswaardigheden in Baard.
