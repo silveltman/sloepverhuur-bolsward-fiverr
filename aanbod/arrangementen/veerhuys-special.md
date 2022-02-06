@@ -23,4 +23,4 @@ info:
 samenwerking:
 ---
 
-Varen in een sloep door het mooie Friese waterrijke landschap combineren met een overheerlijke lunch of diner maakt je dag compleet en waar kan dit beter dan in Het Veerhuys in Bolsward. Op een unieke locatie met magnifiek uitzicht op het 17e eeuwse stadhuis heerlijk (na)genieten van Friesland op zijn best. Huur jij een sloep bij Sloepverhuur Bolsward dan ontvang je een kortingsbon van € 5,- te besteden bij Het Veerhuys. Voor menukaart klik [HIER](https://www.hetveerhuysbolsward.nl/menukaart-2/){: target="\_blank" rel="noopener"}.
+Varen in een sloep door het mooie Friese waterrijke landschap combineren met een overheerlijke lunch of diner maakt je dag compleet en waar kan dit beter dan in Het Veerhuys in Bolsward. Op een unieke locatie met magnifiek uitzicht op het 17e eeuwse stadhuis heerlijk (na)genieten van Friesland op zijn best. Huur jij een sloep bij Sloepverhuur Bolsward dan ontvang je een kortingsbon van € 5,- te besteden bij Het Veerhuys. Voor menukaart klik [HIER](https://www.hetveerhuysbolsward.nl/menukaart-2/).
