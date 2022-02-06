@@ -207,6 +207,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
+  overflow: hidden;
 }
 .card-base__img-container {
   border: 1px solid rgba(255, 255, 255, 0.15);
@@ -246,6 +247,7 @@
   background: #282923;
   border: 1px solid rgba(255, 255, 255, 0.15);
   padding: var(--space-300);
+  box-shadow: 0 -10px 40px 0 rgba(0, 0, 0, 0.5);
 }
 .card-base__p {
   margin: 0 0 var(--space-300) 0;
@@ -258,6 +260,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
+  overflow: hidden;
 }
 .card-big__img-container {
   border: 1px solid rgba(255, 255, 255, 0.15);
@@ -297,6 +300,7 @@
   background: #282923;
   border: 1px solid rgba(255, 255, 255, 0.15);
   padding: var(--space-300);
+  box-shadow: 0 -10px 40px 0 rgba(0, 0, 0, 0.5);
 }
 .card-big__subtitle {
   color: #99C244;
@@ -310,6 +314,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
+  overflow: hidden;
 }
 .card-checklist__img-container {
   border: 1px solid rgba(255, 255, 255, 0.15);
@@ -349,6 +354,7 @@
   background: #282923;
   border: 1px solid rgba(255, 255, 255, 0.15);
   padding: var(--space-300);
+  box-shadow: 0 -10px 40px 0 rgba(0, 0, 0, 0.5);
 }
 .card-checklist__list {
   list-style: none;
@@ -371,6 +377,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
+  overflow: hidden;
 }
 .card-info__img-container {
   border: 1px solid rgba(255, 255, 255, 0.15);
@@ -410,6 +417,7 @@
   background: #282923;
   border: 1px solid rgba(255, 255, 255, 0.15);
   padding: var(--space-300);
+  box-shadow: 0 -10px 40px 0 rgba(0, 0, 0, 0.5);
 }
 .card-info__list {
   list-style: none;
@@ -441,6 +449,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
+  overflow: hidden;
 }
 .card-review__img-container {
   border: 1px solid rgba(255, 255, 255, 0.15);
@@ -480,6 +489,7 @@
   background: #282923;
   border: 1px solid rgba(255, 255, 255, 0.15);
   padding: var(--space-300);
+  box-shadow: 0 -10px 40px 0 rgba(0, 0, 0, 0.5);
 }
 .card-review__stars {
   display: flex;
@@ -499,6 +509,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
+  overflow: hidden;
   --card-img-width: 1;
   position: relative;
   justify-content: flex-end;
@@ -544,6 +555,7 @@
   background: #282923;
   border: 1px solid rgba(255, 255, 255, 0.15);
   padding: var(--space-300);
+  box-shadow: 0 -10px 40px 0 rgba(0, 0, 0, 0.5);
 }
 .card-small::before {
   position: absolute;

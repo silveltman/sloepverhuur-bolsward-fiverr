@@ -24,7 +24,17 @@
     <!-- <script src="https://kit.fontawesome.com/e54a9cf40b.js" crossorigin="anonymous"></script> -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"rel="stylesheet">
 
-    
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/assets/img/favicon/safari-pinned-tab.svg" color="#1e2019">
+    <link rel="shortcut icon" href="/assets/img/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#1e2019">
+    <meta name="msapplication-config" content="/assets/img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#1e2019">
+
     <title>{{ seo.seo_title | default: info.seo.title }}</title>
     <meta name="description" content="{{ seo.seo_description | default: info.seo.description }}" />
     
@@ -38,6 +48,11 @@
     {{ content }}
 
     {% bookshop_live assets/js/bookshop-live.js %}
+
+    <script>
+      // disable data bindings due to bugs
+      window.bookshopDataBindings = false
+    </script>
   </body>
 </html>
 
