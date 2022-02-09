@@ -1,17 +1,20 @@
 ---
 seo:
-  seo_title:
-  seo_description:
-
+  seo_title: Sloep - boot huren in Sneek
+  seo_description: >-
+    Bezoek de waterpoort in Sneek, ook bereikbaar met een sloep van Sloepverhuur
+    Bolsward.
 title: Sneek
 afbeelding:
-  image: /assets/img/aanbod/omgeving/sneek/36f7738e6c40ab3ad0eec78ebec121d993227c65.jpeg
+  image: >-
+    /assets/img/aanbod/omgeving/sneek/36f7738e6c40ab3ad0eec78ebec121d993227c65.jpeg
   alt: Varen langs de Waterpoort in Sneek
-description: >-
-  Historisch centrum met o.a. Waterpoort, Fries Scheepvaart museum, Martinikerk,
-  diverse horeca en winkels.
+description: Waterpoort
 checklist:
-  - Lorem
+  - Waterpoort
+  - Fries Scheepvaart Museum
+  - Stadhuis
+  - Fontein van Fortuna
 ---
 
-[Sneek](https://www.sneek.nl/nl/) ligt ten noordoosten van&nbsp;[IJlst](<https://nl.wikipedia.org/wiki/IJlst_(stad)>), ten noordwesten van&nbsp;[Joure](https://nl.wikipedia.org/wiki/Joure)&nbsp;en&nbsp;[Heerenveen](<https://nl.wikipedia.org/wiki/Heerenveen_(plaats)>), ten zuidwesten van&nbsp;[Leeuwarden](<https://nl.wikipedia.org/wiki/Leeuwarden_(stad)>)&nbsp;en ten zuidoosten van&nbsp;[Bolsward](https://nl.wikipedia.org/wiki/Bolsward). Het is de grootste plaats van de gemeente S&uacute;dwest-Frysl&acirc;n en de derde plaats in de provincie Friesland. Sneek is gelegen bij het&nbsp;[Sneekermeer](https://nl.wikipedia.org/wiki/Sneekermeer), en is bekend vanwege de historische&nbsp;[binnenstad](<https://nl.wikipedia.org/wiki/Binnenstad_(Sneek)>), met onder meer de&nbsp;[Waterpoort](<https://nl.wikipedia.org/wiki/Waterpoort_(Sneek)>), en vanwege de&nbsp;[Sneekweek](https://nl.wikipedia.org/wiki/Sneekweek). De stad vervult een centrale functie voor de regio&nbsp;[Zuidwesthoek](<https://nl.wikipedia.org/wiki/Zuidwesthoek_(Friesland)>)&nbsp;welke met de opening in 2012 van het [Cultuur Kwartier Sneek](https://cultuurkwartier.nl)&nbsp;de laatste jaren nog meer is vergroot. Alle informatie over Sneek vindt je [hier](https://www.sneek.nl/nl/).
+<a target="_blank" rel="noopener" href="https://www.sneek.nl/nl/">Sneek</a> ligt ten noordoosten van&nbsp;<a target="_blank" rel="noopener" href="https://nl.wikipedia.org/wiki/IJlst_(stad)">IJlst</a>, ten noordwesten van&nbsp;<a target="_blank" rel="noopener" href="https://nl.wikipedia.org/wiki/Joure">Joure</a>&nbsp;en&nbsp;<a target="_blank" rel="noopener" href="https://nl.wikipedia.org/wiki/Heerenveen_(plaats)">Heerenveen</a>, ten zuidwesten van&nbsp;<a target="_blank" rel="noopener" href="https://nl.wikipedia.org/wiki/Leeuwarden_(stad)">Leeuwarden</a>&nbsp;en ten zuidoosten van&nbsp;<a target="_blank" rel="noopener" href="https://nl.wikipedia.org/wiki/Bolsward">Bolsward</a>. Het is de grootste plaats van de gemeente S&uacute;dwest-Frysl&acirc;n en de derde plaats in de provincie Friesland. Sneek is gelegen bij het&nbsp;<a target="_blank" rel="noopener" href="https://nl.wikipedia.org/wiki/Sneekermeer">Sneekermeer</a>, en is bekend vanwege de historische&nbsp;<a target="_blank" rel="noopener" href="https://nl.wikipedia.org/wiki/Binnenstad_(Sneek)">binnenstad</a>, met onder meer de&nbsp;<a target="_blank" rel="noopener" href="https://nl.wikipedia.org/wiki/Waterpoort_(Sneek)">Waterpoort</a>, en vanwege de&nbsp;<a target="_blank" rel="noopener" href="https://nl.wikipedia.org/wiki/Sneekweek">Sneekweek</a>. De stad vervult een centrale functie voor de regio&nbsp;<a target="_blank" rel="noopener" href="https://nl.wikipedia.org/wiki/Zuidwesthoek_(Friesland)">Zuidwesthoek</a>&nbsp;welke met de opening in 2012 van het <a target="_blank" rel="noopener" href="https://cultuurkwartier.nl">Cultuur Kwartier Sneek</a>&nbsp;de laatste jaren nog meer is vergroot. Alle informatie over Sneek vindt je <a target="_blank" rel="noopener" href="https://www.sneek.nl/nl/">hier</a>.
