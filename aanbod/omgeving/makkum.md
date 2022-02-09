@@ -8,9 +8,7 @@ title: Makkum
 afbeelding:
   image: /assets/img/aanbod/omgeving/makkum/makkum-toepferei.jpg
   alt: Koninklijke Tichelaar aardewerk
-description: >-
-  Waaggebouw, Koninklijke Tichelaar aardewerk, door de oude sluizen, diverse
-  horeca en winkels, zwemmen in het IJsselmeer
+description: Koninklijke Tichelaar aardewerk
 checklist:
   - Makkumer Aardewerk
   - Veel watersport
