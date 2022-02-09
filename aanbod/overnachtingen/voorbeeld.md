@@ -1,19 +1,18 @@
 ---
 seo:
-  seo_title:
-  seo_description:
-
-title: Overnachting naam
-description: ''
+  seo_title: Sloep - boot huren in Bolsward
+  seo_description: Logeren in het Snoozz hotel en een sloep huren bij Sloepverhuur Bolsward.
+title: Snoozz Hotel
+description:
 afbeelding:
-  image: ''
-  alt: ''
+  image:
+  alt:
 info:
-  - label: ''
-    value: ''
-samenwerking: ''
+  - label:
+    value:
+samenwerking:
 ---
 
-# Een mooie titel
+# Snoozz Hotel
 
 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium recusandae nesciunt deleniti. Deleniti nam quidem voluptas esse a, aspernatur dolor.
