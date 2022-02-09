@@ -1,6 +1,6 @@
 ---
 seo:
-  seo_title: Sloep huren in Easterein
+  seo_title: Sloep - boot huren in Easterein
   seo_description: >-
     Bezoek het pittoreske Easterein en ga voor een lunch of diner naar
     restaurant Bergsma.
