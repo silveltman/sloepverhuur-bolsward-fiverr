@@ -8,7 +8,7 @@ title: Allingawier
 afbeelding:
   image: /assets/img/aanbod/omgeving/allingawier.JPG
   alt: Museumdorp Allingawier nabij Bolsward
-description:
+description: Museumdorp
 checklist:
   - Musuemboerderij 'De Izeren Ko'
   - Restaurant 'It Ferhaal'
