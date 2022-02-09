@@ -14,4 +14,4 @@ checklist:
   - Draaibrug
 ---
 
-[Oosthem](https://nl.wikipedia.org/wiki/Oosthem_&#40;dorp&#41;) ligt ten zuiden van&nbsp;[Folsgare](https://nl.wikipedia.org/wiki/Folsgare), ten zuidwesten van&nbsp;[Sneek](https://nl.wikipedia.org/wiki/Sneek_&#40;stad&#41;)&nbsp;en ten noordwesten van&nbsp;[IJlst](https://nl.wikipedia.org/wiki/IJlst_&#40;stad&#41;). De dorpskern ligt voornamelijk aan de oostoever van de&nbsp;[Wijmerts](https://nl.wikipedia.org/wiki/Wijmerts). Het kent daaraan ook twee kleine havens.
+<a target="_blank" rel="noopener" href="https://nl.wikipedia.org/wiki/Oosthem_(dorp)">Oosthem</a> ligt ten zuiden van&nbsp;<a target="_blank" rel="noopener" href="https://nl.wikipedia.org/wiki/Folsgare">Folsgare</a>, ten zuidwesten van&nbsp;<a target="_blank" rel="noopener" href="https://nl.wikipedia.org/wiki/Sneek_(stad)">Sneek</a>&nbsp;en ten noordwesten van&nbsp;<a target="_blank" rel="noopener" href="https://nl.wikipedia.org/wiki/IJlst_(stad)">IJlst</a>. De dorpskern ligt voornamelijk aan de oostoever van de&nbsp;<a target="_blank" rel="noopener" href="https://nl.wikipedia.org/wiki/Wijmerts">Wijmerts</a>. Het kent daaraan ook twee kleine havens.
