@@ -8,7 +8,7 @@ title: Burgwerd
 afbeelding:
   image: /assets/img/aanbod/omgeving/burgwerd-660x440.jpg
   alt: Brug in Burgwerd met zicht richting Wommels
-description: Burgwerder vaart
+description: Bolswwarder vaart
 checklist:
   - Johanneskerk
   - Theetúntsje Selfhelp
