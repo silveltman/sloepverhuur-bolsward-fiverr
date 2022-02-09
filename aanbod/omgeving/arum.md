@@ -8,7 +8,7 @@ title: Arum
 afbeelding:
   image: /assets/img/aanbod/omgeving/arum/gekroondeleeuw-300x169.jpg
   alt: '''De gekroonde Leeuw'' Arum tussen Bolsward en Harlingen'
-description:
+description: De Gekroonde Leeuw
 checklist:
   - Lambertuskerk
   - Lunchen in 'De gekroonde leeuw'
