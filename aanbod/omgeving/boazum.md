@@ -8,7 +8,7 @@ title: Boazum
 afbeelding:
   image: /assets/img/aanbod/omgeving/boazum/sint-martinuskerk-boazum.jpg
   alt: Sint Martinuskerk, Boazum
-description:
+description: Sint Martinuskerk
 checklist:
   - Sint-Martinuskerk
   - Rentenierswoningen
