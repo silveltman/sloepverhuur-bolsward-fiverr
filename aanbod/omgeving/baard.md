@@ -8,7 +8,7 @@ title: Baard
 afbeelding:
   image: /assets/img/aanbod/omgeving/baard/190408117baahw.jpg
   alt: Café Baard
-description:
+description: Café Baard
 checklist:
   - Café Baard
   - Hervormde kerk
