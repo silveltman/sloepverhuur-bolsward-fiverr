@@ -9,7 +9,7 @@ afbeelding:
   image: >-
     /assets/img/aanbod/omgeving/gaastmeer/1--vanaf-klein-gaastmeer-3-2000x1334.jpeg
   alt: Restaurant 'D'Ald Herberch'
-description: Restaurant "D'Ald Herberch", lunchen in de haven met fantastisch uitzicht.
+description: Restaurant "D'Ald Herberch"
 checklist:
   - Restaurant D'ald Herberch
   - Pieltjerke
