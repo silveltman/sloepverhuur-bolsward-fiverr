@@ -9,7 +9,7 @@ afbeelding:
   image: >-
     /assets/img/aanbod/omgeving/ijlst/05-onix-nl-gebintenbouw-museum-houtstad-ijlst-800x534-1.jpg
   alt: Museum 'Houtstad IJlst'
-description: Museum 'Houtstad IJlst' en molen 'De rat'
+description: Museum 'Houtstad IJlst'
 checklist:
   - Houtmolen 'De rat'
   - Museum 'Houtstad IJlst'
