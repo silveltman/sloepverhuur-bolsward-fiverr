@@ -1,6 +1,6 @@
 ---
 seo:
-  seo_title: Sloep huren in Bolsward
+  seo_title: Sloep - boot huren in Bolsward
   seo_description: >-
     Bezoek het historische centrum van Bolsward, dit is ook bereikbaar met een
     sloep van Sloepverhuur Bolsward.
