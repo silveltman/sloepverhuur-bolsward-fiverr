@@ -1,6 +1,6 @@
 ---
 seo:
-  seo_title: Sloep of boot huren in Burgwerd
+  seo_title: Sloep - boot huren in Burgwerd
   seo_description: >-
     Genieten in het pittoreske Burgwerd, ook bereikbaar met een sloep van
     Sloepverhuur Bolsward.
