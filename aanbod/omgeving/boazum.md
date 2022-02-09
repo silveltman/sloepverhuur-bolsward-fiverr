@@ -1,6 +1,6 @@
 ---
 seo:
-  seo_title: Sloep huren in Boazum
+  seo_title: Sloep - boot huren in Boazum
   seo_description: >-
     Wandel door Boazum met zijn statige rentenierswoningen, ook bereikbaar met
     een sloep van Sloepverhuur Bolsward.
