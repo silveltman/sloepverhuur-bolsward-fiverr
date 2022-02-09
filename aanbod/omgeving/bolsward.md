@@ -8,7 +8,7 @@ title: Bolsward
 afbeelding:
   image: /assets/img/aanbod/omgeving/bolsward/bolsward-stadhuis-3-2287291456.jpeg
   alt: Stadhuis Bolsward
-description:
+description: Stadhuis Bolsward
 checklist:
   - Stadhuis
   - Martinikerk
