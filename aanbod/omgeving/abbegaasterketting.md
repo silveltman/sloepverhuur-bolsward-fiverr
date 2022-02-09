@@ -8,7 +8,7 @@ title: Abbegaasterketting
 afbeelding:
   image: /assets/img/aanbod/omgeving/abbegaasterketting.JPG
   alt: Abbegaasterketting ligt tussen de vaarroute Bolsward en Sneek
-description:
+description: Brug Abbegaasterketting
 checklist:
   - Pittoresk buurtschap
   - Kleine aanleghaven
