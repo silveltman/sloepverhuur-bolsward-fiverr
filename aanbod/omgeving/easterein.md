@@ -8,7 +8,7 @@ title: Easterein
 afbeelding:
   image: /assets/img/aanbod/omgeving/elfstedenstate.jpg
   alt: http://www.elfstedentrips.com
-description: Voormalig kaaspakhuis en herberg waar nu B&B Elfstedenstate is gevestigd.
+description: Kaaspakhuis
 checklist:
   - Martinuskerk
   - Restaurant Bergsma
