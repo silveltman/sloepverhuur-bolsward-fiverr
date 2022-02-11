@@ -1,6 +1,6 @@
 ---
 seo:
-  seo_title: Sloep huren in Arum
+  seo_title: Sloep - boot huren in Arum
   seo_description: >-
     Heerlijk lunchen bij herberg 'De gekroonde Leeuw', ook bereikbaar met een
     sloep van Sloepverhuur Bolsward.
@@ -8,7 +8,7 @@ title: Arum
 afbeelding:
   image: /assets/img/aanbod/omgeving/arum/gekroondeleeuw-300x169.jpg
   alt: '''De gekroonde Leeuw'' Arum tussen Bolsward en Harlingen'
-description: Lunchen bij herberg 'De Gekroonde Leeuw' Arum en bezoek de Lambertuskerk.
+description: De Gekroonde Leeuw
 checklist:
   - Lambertuskerk
   - Lunchen in 'De gekroonde leeuw'

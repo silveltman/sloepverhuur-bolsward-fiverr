@@ -1,6 +1,6 @@
 ---
 seo:
-  seo_title: Sloep huren in Baard
+  seo_title: Sloep - boot huren in Baard
   seo_description: >-
     Bezoek café Baard bij de gezellige brug, ook bereikbaar met een sloep van
     Sloepverhuur Bolsward.
@@ -8,7 +8,7 @@ title: Baard
 afbeelding:
   image: /assets/img/aanbod/omgeving/baard/190408117baahw.jpg
   alt: Café Baard
-description: Lunchen of dineren aan het water bij Café Baard.
+description: Café Baard
 checklist:
   - Café Baard
   - Hervormde kerk

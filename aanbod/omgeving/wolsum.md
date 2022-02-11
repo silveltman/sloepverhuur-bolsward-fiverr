@@ -1,20 +1,20 @@
 ---
 seo:
-  seo_title:
-  seo_description:
-
+  seo_title: Sloep - boot huren in Wolsum
+  seo_description: >-
+    Bezoek theetuin 'Kootje bij de brug', ook bereikbaar met een sloep van
+    Sloepverhuur Bolsward.
 title: Wolsumer ketting
 afbeelding:
   image: /assets/img/aanbod/omgeving/wolsum/img-4501.JPG
-  alt: "'Kootje bij de brug' , Wolsumer Ketting"
-description: >-
-  Theetuin 'Kootje bij de brug' , check www.wolsumerketting.com voor leuke
-  arrangementen i.c.m. sloep huren.
+  alt: '''Kootje bij de brug'' , Wolsumer Ketting'
+description: 'Theetuin ''Kootje bij de brug'' '
 checklist:
-  - Lorem
+  - 'Theetuin ''Kootje bij de brug'' '
+  - Pancratiuskerk
 ---
 
-[Wolsumer Ketting](https://nl.wikipedia.org/wiki/Wolsumerketting)&nbsp;ligt ten zuidoosten van [Bolsward](https://www.bolsward.nl), zuidwesten van&nbsp;[Remswerd](https://nl.wikipedia.org/wiki/Remswerd)&nbsp;en ten noordoosten van het dorp&nbsp;[Wolsum](https://nl.wikipedia.org/wiki/Wolsum), waar het formeel onder valt. De buurtschap wordt lokaal ook wel kortweg&nbsp;_De Ketting_&nbsp;genoemd wat verwijst naar het kettinghuis wat gebruikt om een ketting te spannen over het water bij een&nbsp;[overhaal](https://nl.wikipedia.org/wiki/Overhaal). Zo kon men tol heffen. Deze tol werd geheven vanuit Wolsum. Een must is stoppen bij het terras van theetuin ['Kootje bij de Brug'](__notset__) voor een fantastisch uitzicht onder het genot van een koffie met Fries appelgebak.
+<a target="_blank" rel="noopener" href="https://nl.wikipedia.org/wiki/Wolsumerketting">Wolsumer Ketting</a>&nbsp;ligt ten zuidoosten van <a target="_blank" rel="noopener" href="https://www.bolsward.nl">Bolsward</a>, zuidwesten van&nbsp;<a target="_blank" rel="noopener" href="https://nl.wikipedia.org/wiki/Remswerd">Remswerd</a>&nbsp;en ten noordoosten van het dorp&nbsp;<a target="_blank" rel="noopener" href="https://nl.wikipedia.org/wiki/Wolsum">Wolsum</a>, waar het formeel onder valt. De buurtschap wordt lokaal ook wel kortweg&nbsp;*De Ketting*&nbsp;genoemd wat verwijst naar het kettinghuis wat gebruikt om een ketting te spannen over het water bij een&nbsp;<a target="_blank" rel="noopener" href="https://nl.wikipedia.org/wiki/Overhaal">overhaal</a>. Zo kon men tol heffen. Deze tol werd geheven vanuit Wolsum. Een must is stoppen bij het terras van theetuin 'Kootje bij de Brug' voor een fantastisch uitzicht onder het genot van een koffie met Fries appelgebak.
 
 &nbsp;
 

@@ -1,15 +1,18 @@
 ---
 seo:
-  seo_title:
-  seo_description:
-
+  seo_title: Sloep - boot huren in Burgwerd
+  seo_description: >-
+    Genieten in het pittoreske Burgwerd, ook bereikbaar met een sloep van
+    Sloepverhuur Bolsward.
 title: Burgwerd
 afbeelding:
   image: /assets/img/aanbod/omgeving/burgwerd-660x440.jpg
   alt: Brug in Burgwerd met zicht richting Wommels
-description: Bezoek de Johanneskerk uit de 13e eeuw.
+description: Bolswarder vaart
 checklist:
-  - Lorem
+  - Johanneskerk
+  - Theetúntsje Selfhelp
+  - Mooie wandelroutes
 ---
 
-[Burgwerd](https://nl.wikipedia.org/wiki/Burgwerd) ligt ten zuidoosten van&nbsp;[Wommels](https://nl.wikipedia.org/wiki/Wommels), ten noorden van&nbsp;[Bolsward](https://nl.wikipedia.org/wiki/Bolsward)&nbsp;en ten noordoosten van&nbsp;[Hichtum](https://nl.wikipedia.org/wiki/Hichtum). De dorpskern ligt aan beide zijde van de&nbsp;[Bolswardertrekvaart](https://nl.wikipedia.org/wiki/Bolswardertrekvaart). De kerk van het dorp, de&nbsp;[Johanneskerk](<https://nl.wikipedia.org/wiki/Johanneskerk_(Burgwerd)>)&nbsp;zou uit de 13e eeuw dateren en heeft een wapenbord uit 1726. Het&nbsp;[orgel](https://nl.wikipedia.org/wiki/Kerkorgel), uit 1735, werd gemaakt door Michael Schwartzburg en werd aan de kerk geschonken door Yttje Buwalda nadat haar zes zonen allen waren overleden.
+<a target="_blank" rel="noopener" href="https://nl.wikipedia.org/wiki/Burgwerd">Burgwerd</a> ligt ten zuidoosten van&nbsp;<a target="_blank" rel="noopener" href="https://nl.wikipedia.org/wiki/Wommels">Wommels</a>, ten noorden van&nbsp;<a target="_blank" rel="noopener" href="https://nl.wikipedia.org/wiki/Bolsward">Bolsward</a>&nbsp;en ten noordoosten van&nbsp;<a target="_blank" rel="noopener" href="https://nl.wikipedia.org/wiki/Hichtum">Hichtum</a>. De dorpskern ligt aan beide zijde van de&nbsp;<a target="_blank" rel="noopener" href="https://nl.wikipedia.org/wiki/Bolswardertrekvaart">Bolswardertrekvaart</a>. De kerk van het dorp, de&nbsp;<a target="_blank" rel="noopener" href="https://nl.wikipedia.org/wiki/Johanneskerk_(Burgwerd)">Johanneskerk</a>&nbsp;zou uit de 13e eeuw dateren en heeft een wapenbord uit 1726. Het&nbsp;<a target="_blank" rel="noopener" href="https://nl.wikipedia.org/wiki/Kerkorgel">orgel</a>, uit 1735, werd gemaakt door Michael Schwartzburg en werd aan de kerk geschonken door Yttje Buwalda nadat haar zes zonen allen waren overleden. Kijk voor alle informatie op <a target="_blank" rel="noopener" href="https://www.burgwerd.info">Burgwerd.info</a>

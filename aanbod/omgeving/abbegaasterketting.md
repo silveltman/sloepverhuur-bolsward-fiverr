@@ -1,6 +1,6 @@
 ---
 seo:
-  seo_title: Sloep huren in Abbega
+  seo_title: Sloep - boot huren in Abbega
   seo_description: >-
     Abbegaasterketting is een klein pittoresk buurtschap, ook bereikbaar met een
     sloep van Sloepverhuur Bolsward.
@@ -8,7 +8,7 @@ title: Abbegaasterketting
 afbeelding:
   image: /assets/img/aanbod/omgeving/abbegaasterketting.JPG
   alt: Abbegaasterketting ligt tussen de vaarroute Bolsward en Sneek
-description: Stoppen voor een lunch in de kleine aanleghaven.
+description: Brug Abbegaasterketting
 checklist:
   - Pittoresk buurtschap
   - Kleine aanleghaven
