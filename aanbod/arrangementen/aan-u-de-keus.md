@@ -6,9 +6,8 @@ seo:
     Alles is mogelijk, service op maat.
 title: Aan u de keus!
 description: >-
-  Mocht er tussen onze arrangementen niets van je gading bij zitten dan kan je
-  ook in overleg met Sloepverhuur Bolsward zelf een arrangement samenstellen,
-  oftewel service op maat!
+  Service op maat, oftewel stel zelf je arrangement samen in overleg met
+  Sloepverhuur Bolsward. De keuze is reuze!
 afbeelding:
   image: /assets/img/uploads/img-7350.JPG
   alt: Stel zelf je arrangement samen
