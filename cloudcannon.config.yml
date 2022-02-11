@@ -1,5 +1,5 @@
-# paths:
-#   uploads: assets/img/uploads
+paths:
+  uploads: assets/img/uploads
 
 collection_groups:
   - heading: "Pagina's"
@@ -11,6 +11,7 @@ collection_groups:
       - arrangementen
       - activiteiten
       - overnachtingen
+      - routes
   - heading: Sloepen
     collections:
       - sloepen
@@ -20,22 +21,22 @@ collections_config:
     icon: landscape
     output: true
     _enabled_editors:
-      - visual
+      - data
   arrangementen:
     icon: groups
     output: true
     _enabled_editors:
-      - visual
+      - data
   activiteiten:
-    icon: activiteiten
+    icon: directions_bike
     output: true
     _enabled_editors:
-      - visual
+      - data
   overnachtingen:
     icon: hotel
     output: true
     _enabled_editors:
-      - visual
+      - data
   routes:
     icon: map
     output: false
