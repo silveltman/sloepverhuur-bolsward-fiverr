@@ -17,7 +17,7 @@ info:
   - label: Vertrektijd
     value: ± 11.00 uur
   - label: Aantal personen
-    value: 8 - 28
+    value: 8 - 12
   - label: Kosten
     value: € 59,50  p.p.
 samenwerking: Hotel 'Greate Pier' te Kimswerd (www.hotelgreatepier.nl)
