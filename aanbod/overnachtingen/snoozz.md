@@ -12,7 +12,7 @@ afbeelding:
 info:
   - label: Boeken
     value: snoozzhotels.com
-samenwerking:
+samenwerking: snoozzhotels.com
 ---
 
 # Snoozz Hotel
