@@ -5,7 +5,10 @@ seo:
     Huur een sloep bij Sloepverhuur Bolsward en stel in overleg je dag samen.
     Alles is mogelijk, service op maat.
 title: Aan u de keus!
-description: Stel zelf je arrangement samen.
+description: >-
+  Mocht er tussen onze arrangementen niets van je gading bij zitten dan kan je
+  ook in overleg met Sloepverhuur Bolsward zelf een arrangement samenstellen,
+  oftewel service op maat!
 afbeelding:
   image: /assets/img/uploads/img-7350.JPG
   alt: Stel zelf je arrangement samen
