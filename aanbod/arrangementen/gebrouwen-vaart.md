@@ -2,15 +2,14 @@
 seo:
   seo_title:
   seo_description:
-
 title: Gebrouwen vaart
 description: >-
-  Een mooie combinatie van een excursie in De Friese Bierbrouwerij,
-  distilleerderij en proeflokaal met aansluitend onder het genot van een Us Heit
-  biertje een sloepentocht door en om Bolsward. Kosten afhankelijk van
+  Een excursie in De Friese Bierbrouwerij, distilleerderij en proeflokaal met
+  aansluitend een sloepentocht door en om Bolsward. Kosten afhankelijk van
   rondleiding en proeverij.
 afbeelding:
-  image: /assets/img/uploads/bier-und-whisky-aus-den-niederlanden-genießen-in-der-brauerei-us-heit.JPG
+  image: >-
+    /assets/img/uploads/bier-und-whisky-aus-den-niederlanden-genießen-in-der-brauerei-us-heit.JPG
   alt: Excursie in de Friese Bierbrouwerij, distilleerderij en proeflokaal
 info:
   - label: Tijdsduur
