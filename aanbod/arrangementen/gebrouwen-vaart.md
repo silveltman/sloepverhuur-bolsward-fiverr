@@ -1,7 +1,9 @@
 ---
 seo:
-  seo_title:
-  seo_description:
+  seo_title: Huur een sloep - boot in Bolsward en bezoek de brouwerij.
+  seo_description: >-
+    Bezoek de Friese Bierbrouwerij en maak daarna een rondvaart met Sloepverhuur
+    Bolsward.
 title: Gebrouwen vaart
 description: >-
   Een excursie in De Friese Bierbrouwerij, distilleerderij en proeflokaal met
