@@ -22,16 +22,17 @@ collections_config:
     output: true
     _enabled_editors:
       - data
+      - content
   arrangementen:
     icon: groups
     output: true
     _enabled_editors:
-      - data
+      - content
   activiteiten:
     icon: directions_bike
     output: true
     _enabled_editors:
-      - data
+      - visual
   overnachtingen:
     icon: hotel
     output: true
