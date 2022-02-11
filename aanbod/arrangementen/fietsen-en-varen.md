@@ -7,8 +7,8 @@ seo:
 title: Fietsen & varen door Friesland
 description: >-
   Een mooie combi om Friesland zowel op de fiets als vanuit een sloep te
-  ontdekken. Inclusief gekoelde drankjes en snacks. Kosten afhankelijk van
-  fietskeuze. Ook te combineren met 'Boot & hôte'.
+  ontdekken. Kosten afhankelijk van fietskeuze. Ook te combineren met 'Boot &
+  hôte'.
 afbeelding:
   image: /assets/img/uploads/fietsen-en-varen/varenfietsen.jpg
   alt: Fietsen en varen komen bij elkaar in Friesland
