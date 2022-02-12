@@ -36,7 +36,7 @@ collections_config:
     icon: hotel
     output: true
     _enabled_editors:
-      - data
+      - visual
   routes:
     icon: map
     output: false
