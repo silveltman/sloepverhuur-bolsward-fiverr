@@ -10,5 +10,6 @@ afbeelding:
 info:
   - label: Reserveren
     value: fugelfrij.com
-samenwerking: fugelfrij.com
+samenwerking: http://www.fugelfrij.com
 ---
+
