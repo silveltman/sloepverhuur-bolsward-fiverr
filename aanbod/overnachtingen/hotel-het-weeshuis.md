@@ -14,7 +14,8 @@ afbeelding:
     Varen met een sloep van Sloepverhuur Bolsward en overnachten in hotel 'Het
     weeshuis'
 info:
-  - label: Reserveren
-    value: fugelfrij.com
+  - label: Reserveer
+    value: hotelhetweeshuis.nl
 samenwerking: http://hotelhetweeshuis.nl
 ---
+
