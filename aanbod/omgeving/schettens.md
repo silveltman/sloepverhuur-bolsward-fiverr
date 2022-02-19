@@ -8,7 +8,7 @@ title: Schettens
 afbeelding:
   image: /assets/img/aanbod/omgeving/532px-huizen-aan-het-water-in-schettens.JPG
   alt: Elfstedenroute varen door Schettens
-description: Elfstedenroute door Schettens.
+description: Elfstedenroute door Schettens
 checklist:
   - Schaats Elfstedenroute
   - Scertinghe State
