@@ -9,7 +9,7 @@ afbeelding:
   image: >-
     /assets/img/aanbod/omgeving/hichtum/1920px-hichtum-de-hervormde-kerk-rm39349-foto10-2017-06-18-12-51.jpg
   alt: Kerk van Hichtum
-description: Kerk van Hichtum.
+description: Kerk van Hichtum
 checklist:
   - Kerk van Hichtum
 ---
