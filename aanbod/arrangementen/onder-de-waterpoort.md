@@ -14,7 +14,7 @@ afbeelding:
     Sneek.
 info:
   - label: Tijdsduur
-    value: ± 7 uren
+    value: ± 7,5 uur
   - label: Vertrektijd
     value: N.T.B.
   - label: Aantal personen
@@ -24,3 +24,4 @@ info:
 samenwerking: N.T.B.
 ---
 
+Vanuit Bolsward varen we over staande mastroute 'De Wimerts' naar Elfstedenstad Sneek. Onderweg kom je langs dorpen als Wolsum, Abbega en Oosthem waarna we over het meer De Zwarte Brekken gaan voordat we in het historische centrum van Sneek aankomen om daar aan te leggen bij de waterpoort. Na een heerlijke wandeling volgt er een lunch bij restaurant 'Markt 23' om vervolgens weer aan boord te gaan voor vervolg van de tocht naar die andere Elfstedenstad IJlst waar we museum 'Houtstad' bezoeken. Daarna eindigt de dag weer richting Bolsward.
