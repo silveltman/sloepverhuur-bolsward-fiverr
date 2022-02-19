@@ -1,7 +1,7 @@
 ---
 title: Acht van Bolsward
 description: Combi van Elfsteden en Zuiderzee route
-tijd: 6 uren
+tijd: ± 6 uren
 route_url:
 omgeving:
   - bolsward
@@ -14,3 +14,4 @@ sloepen:
   - beenakker
   - petter
 ---
+
