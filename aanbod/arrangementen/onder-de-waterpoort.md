@@ -5,7 +5,7 @@ seo:
 title: Onder de Waterpoort
 description: >-
   Over staande mast route De Wimerts naar Elfstedenstad Sneek en varen onder de
-  Waterpoort.
+  Waterpoort i.c.m. met een bezoek aan museum 'Houtstad' in IJlst.
 afbeelding:
   image: /assets/img/uploads/img-7383-2.jpg
   alt: >
@@ -22,3 +22,4 @@ info:
     value: 69,50
 samenwerking: N.T.B.
 ---
+
