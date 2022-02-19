@@ -19,7 +19,7 @@ info:
   - label: Vertrektijd
     value: N.T.B.
   - label: Aantal personen
-    value: 8 - 12
+    value: 8 - 28
   - label: Kosten
     value: Op aanvraag
 samenwerking: Syb van der Ploeg ( www.sybvanderploeg.nl )
