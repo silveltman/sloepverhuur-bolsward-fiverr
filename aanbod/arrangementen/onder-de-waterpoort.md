@@ -18,7 +18,7 @@ info:
   - label: Vertrektijd
     value: N.T.B.
   - label: Aantal personen
-    value: 8 - 28
+    value: 8 - 12
   - label: Kosten
     value: 69,50 p.p.
 samenwerking: N.T.B.
