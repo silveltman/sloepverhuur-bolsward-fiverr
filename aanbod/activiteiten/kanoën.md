@@ -12,7 +12,8 @@ afbeelding:
     Huur een sloep -boot bij Sloepverhuur Bolsward en vaar naar Kootje bij de
     brug om te kanoën.
 info:
-  - label: Huren
-    value: rijwielhandeldekroon.nl
+  - label:
+    value: Rust en ruimte, Stilte op het water, 1 of 2 persoons kano
 samenwerking:
 ---
+
