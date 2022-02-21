@@ -7,7 +7,7 @@ seo:
 title: Suppen
 description: Suppen in en om Bolsward
 afbeelding:
-  image: /assets/img/uploads/118615465-2595892570659417-7824435458279830321-n.jpg
+  image: /assets/img/uploads/236245220-1986560171499521-6332161015780689898-n.jpg
   alt: Suppen in en om Bolsward.
 info:
   - label: Huren
