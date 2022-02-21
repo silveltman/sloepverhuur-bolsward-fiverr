@@ -1,7 +1,7 @@
 ---
 seo:
   seo_title: Sloep - boot huren in Bolsward
-  seo_description: Logeren in het Snoozz hotel en een sloep huren bij Sloepverhuur Bolsward.
+  seo_description: Huur een sloep - boot bij Sloepverhuur Bolsward en vaar langs de camping.
 title: Boerencamping 'Fûgelfrij'
 description: Kleinschalige camping waar je het gevoel van vogelvrij zijn zal ervaren.
 afbeelding:
