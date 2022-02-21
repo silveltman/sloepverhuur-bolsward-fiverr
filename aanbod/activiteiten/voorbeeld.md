@@ -4,8 +4,8 @@ seo:
   seo_description: >-
     Huur een sloep - boot bij Sloepverhuur Bolsward en combineer dit met het
     huren van een fiets.
-title: Fiets huren
-description: Een dag(deel) fietsen combineren met sloep varen.
+title: Fiets huren...
+description: voor dag(deel) en ontdek waterrijk Friesland.
 afbeelding:
   image: >-
     /assets/img/uploads/thomasvaer-fotografie-pontjes-in-sudwest-fryslan-droech-oer-de-feart-gaastmeer-nijhuzum-route-wiepkje-20211006-0004-2899270304-1.jpeg
