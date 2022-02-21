@@ -13,7 +13,7 @@ afbeelding:
     brug om te kanoën.
 info:
   - label:
-    value: Rust en ruimte, Stilte op het water, 1 of 2 persoons kano
+    value: Rust en ruimte, Stilte op het water, 1 of 2 persoons kano, unieke routes
 samenwerking:
 ---
 
