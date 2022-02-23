@@ -5,11 +5,13 @@ tijd: ± 6 uren
 route_url:
 omgeving:
   - bolsward
-  - schettens
-  - wimatsum
+  - aanbod/omgeving/schettens.md
+  - aanbod/omgeving/wimatsum.md
   - arum
-  - hichtum
-prijs: '175'
+  - aanbod/omgeving/hichtum.md
+  - aanbod/omgeving/tjerkwerd.md
+  - aanbod/omgeving/allingawier.md
+prijs:
 sloepen:
   - beenakker
   - petter
