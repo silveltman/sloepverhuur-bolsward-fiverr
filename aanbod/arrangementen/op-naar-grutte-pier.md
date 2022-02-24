@@ -20,7 +20,7 @@ info:
   - label: Aantal personen
     value: 8 - 12
   - label: Kosten
-    value: € 59,50  p.p.
+    value: Vanaf € 59,50  p.p.
 samenwerking: Hotel 'Greate Pier' te Kimswerd (www.hotelgreatepier.nl)
 ---
 
