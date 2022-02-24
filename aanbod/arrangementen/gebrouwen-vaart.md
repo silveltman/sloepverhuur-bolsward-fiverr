@@ -19,7 +19,7 @@ info:
   - label: Vertrektijd
     value: N.T.B.
   - label: Aantal personen
-    value: 6 - 12
+    value: 2 - 12
   - label: Kosten
     value: Vanaf € 34,50 p.p.
 samenwerking: De Friese Bierbrouwerij (www.usheit.com)
