@@ -17,7 +17,7 @@ info:
   - label: Vertrektijd
     value: N.T.B.
   - label: Aantal personen
-    value: Maximaal 28
+    value: 2 - 28
   - label: Kosten
     value: N.T.B.
 samenwerking: N.T.B.
