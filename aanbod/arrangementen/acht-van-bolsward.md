@@ -6,8 +6,8 @@ seo:
     Alles is mogelijk, service op maat.
 title: Acht van Bolsward
 description: >-
-  Service op maat, oftewel stel zelf je arrangement samen in overleg met
-  Sloepverhuur Bolsward. De keuze is reuze!
+  Vaar de route's 'Elfsteden' en 'Zuiderzee' en combineer  dit met een heerlijke
+  lunch in het historische centrum van Bolsward.
 afbeelding:
   image: /assets/img/uploads/schermafbeelding-2022-02-24-om-12-36-48.png
   alt: >
@@ -15,12 +15,13 @@ afbeelding:
     Elfstedentocht met een boot van Sloepverhuur Bolsward.
 info:
   - label: Tijdsduur
-    value: N.T.B.
+    value: 8 uren
   - label: Vertrektijd
-    value: N.T.B.
+    value: 10 uur
   - label: Aantal personen
     value: Maximaal 28
   - label: Kosten
-    value: N.T.B.
+    value: Vanaf € 39,50 p.p.
 samenwerking: N.T.B.
 ---
+
