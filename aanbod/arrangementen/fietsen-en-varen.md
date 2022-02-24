@@ -18,7 +18,7 @@ info:
   - label: Vertrektijd
     value: 10.00 uur
   - label: Aantal personen
-    value: 2 - 12
+    value: 2 - 28
   - label: Kosten
     value: Vanaf € 69,50 p.p.
 samenwerking: Rijwielhandel 'De Kroon' (www.rijwielhandeldekroon.nl)
