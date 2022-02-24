@@ -20,7 +20,7 @@ info:
   - label: Aantal personen
     value: 2 - 28
   - label: Kosten
-    value: N.T.B.
+    value: Vanaf € 29,50 p.p.
 samenwerking:
 ---
 
