@@ -15,7 +15,7 @@ afbeelding:
   alt: Schaats Elfstedenroute varen in sloep met fietsen aan boord
 info:
   - label: Tijdsduur
-    value: ± 2  uren
+    value: 2  uren
   - label: Vertrektijd
     value: N.T.B
   - label: Aantal personen
