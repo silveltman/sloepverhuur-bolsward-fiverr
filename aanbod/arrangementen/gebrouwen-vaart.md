@@ -15,7 +15,7 @@ afbeelding:
   alt: Excursie in de Friese Bierbrouwerij, distilleerderij en proeflokaal
 info:
   - label: Tijdsduur
-    value: ± 3 uren
+    value: 3 uren
   - label: Vertrektijd
     value: N.T.B.
   - label: Aantal personen
