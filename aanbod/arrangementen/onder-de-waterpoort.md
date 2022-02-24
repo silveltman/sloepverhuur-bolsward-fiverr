@@ -14,7 +14,7 @@ afbeelding:
     Sneek.
 info:
   - label: Tijdsduur
-    value: ± 7,5 uur
+    value: 7 uur
   - label: Vertrektijd
     value: N.T.B.
   - label: Aantal personen
