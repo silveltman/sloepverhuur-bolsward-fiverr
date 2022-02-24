@@ -19,7 +19,7 @@ info:
   - label: Vertrektijd
     value: 10 uur
   - label: Aantal personen
-    value: Maximaal 28
+    value: 2 - 28
   - label: Kosten
     value: Vanaf € 39,50 p.p.
 samenwerking: N.T.B.
