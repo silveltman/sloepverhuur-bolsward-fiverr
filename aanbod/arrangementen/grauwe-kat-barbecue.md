@@ -6,8 +6,8 @@ seo:
     bijvoorbeeld barbecuen.
 title: 'Grill & chill Elfsteden  '
 description: >-
-  Service op maat, oftewel stel zelf je arrangement samen in overleg met
-  Sloepverhuur Bolsward. De keuze is reuze!
+  Varen over de schaats Elfstedenroute en onderweg stoppen voor een heerlijke
+  barbecue op De Grauwe Kat.
 afbeelding:
   image: /assets/img/uploads/de-barbecue-boer-header.jpg
   alt: >-
