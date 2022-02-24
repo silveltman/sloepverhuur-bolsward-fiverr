@@ -21,7 +21,7 @@ info:
   - label: Aantal personen
     value: 2 - 4 inclusief fietsen
   - label: Kosten
-    value: Op aanvraag
+    value: Vanaf € 69,50 p.p.
 samenwerking: Elfstedentrips.com
 ---
 
