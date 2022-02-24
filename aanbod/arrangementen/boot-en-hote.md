@@ -13,9 +13,9 @@ afbeelding:
   alt: Theetuin 'Kootje bij de brug' in Wolsum
 info:
   - label: Tijdsduur
-    value: ± 5 uren
+    value: 5 uren
   - label: Vertrektijd
-    value: ± 15.00 uur
+    value: 15.00 uur
   - label: Aantal personen
     value: 2 - 12
   - label: Kosten
