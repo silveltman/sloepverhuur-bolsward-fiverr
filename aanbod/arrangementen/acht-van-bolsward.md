@@ -17,7 +17,7 @@ info:
   - label: Tijdsduur
     value: 8 uren
   - label: Vertrektijd
-    value: 10 uur
+    value: 10.00 uur
   - label: Aantal personen
     value: 2 - 28
   - label: Kosten
