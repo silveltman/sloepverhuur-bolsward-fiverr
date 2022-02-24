@@ -17,9 +17,9 @@ info:
   - label: Vertrektijd
     value: ± 15.00 uur
   - label: Aantal personen
-    value: 8 - 12
+    value: 2 - 12
   - label: Kosten
-    value: € 59,50  p.p.
+    value: Vanaf € 59,50  p.p.
 samenwerking: Kootje bij de brug (www.wolsumerketting.com)
 ---
 
