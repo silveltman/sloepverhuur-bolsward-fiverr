@@ -14,11 +14,11 @@ afbeelding:
     Sneek.
 info:
   - label: Tijdsduur
-    value: 7 uur
+    value: 8 uur
   - label: Vertrektijd
-    value: N.T.B.
+    value: 10.00 uur
   - label: Aantal personen
-    value: 8 - 12
+    value: 2 - 28
   - label: Kosten
     value: 69,50 p.p.
 samenwerking: N.T.B.
