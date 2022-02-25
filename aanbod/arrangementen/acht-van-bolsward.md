@@ -22,6 +22,6 @@ info:
     value: 2 - 28
   - label: Kosten
     value: Vanaf € 39,50 p.p.
-samenwerking: N.T.B.
+samenwerking: Het Veerhuys en De Wijnberg
 ---
 
