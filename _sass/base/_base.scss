@@ -21,6 +21,10 @@ button {
   font-size: var(--font-size-base);
 }
 
+a[href] {
+  color: $color-primary;
+}
+
 // For Alpine: https://alpinejs.dev/directives/cloak
 [x-cloak] {
   display: none !important;

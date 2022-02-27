@@ -1,6 +1,6 @@
 @use '../abstracts' as *;
 
-$nav-breakpoint: 2;
+$nav-breakpoint: 3;
 $nav-bg: $color-bg-light;
 $nav-border: $border-light;
 $nav-color: $color-text-base;
@@ -124,7 +124,7 @@ $nav-color-accent: $color-primary;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: $color-text-base;
+    color: $color-text-base !important;
     padding: var(--space-400) 0;
 
     @include media($nav-breakpoint) {
@@ -170,14 +170,14 @@ $nav-color-accent: $color-primary;
 
   &__dropdown-link {
     padding: var(--space-300) var(--space-400);
-    color: $color-text-dark;
+    color: $color-text-dark !important;
 
     @include media($nav-breakpoint) {
       padding: var(--space-300);
     }
 
     &:hover {
-      color: $color-text-base;
+      color: $color-text-base !important;
     }
   }
 }

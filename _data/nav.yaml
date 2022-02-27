@@ -1,0 +1,21 @@
+- name: Home
+  url: /
+- name: Sloepen
+  url: ''
+  dropdown:
+    collection: sloepen
+- name: Routes
+  url: /routes
+- name: Arrangementen
+  url: /arrangementen
+- name: En meer...
+  url: ''
+  dropdown:
+    collection: null
+    custom:
+      - name: Omgeving
+        url: /aanbod/omgeving
+      - name: Activiteiten
+        url: /aanbod/activiteiten
+      - name: Overnachtingen
+        url: /aanbod/overnachtingen
