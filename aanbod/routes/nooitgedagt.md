@@ -1,6 +1,6 @@
 ---
 title: Nooitgedagt
-description: Plaats hier een korte beschrijving van de route
+description: Bezoek houtstad IJlst, bekend om zijn schaatshistorie.
 tijd: ± 4 uren
 route_url: >-
   https://www.google.com/maps/d/edit?mid=1ZDlxwHsXWtkxbHdLHoZPoOemJTCy9-sB&amp;z=12

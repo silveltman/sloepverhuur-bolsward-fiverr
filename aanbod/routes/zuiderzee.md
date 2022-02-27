@@ -1,7 +1,7 @@
 ---
 title: Zuiderzee
-description: Plaats hier een korte beschrijving van de route
-tijd: '± 3,5 uur'
+description: Fantastisch natuurroute waar je volop geniet van rust en ruimte.
+tijd: ± 3 uur
 route_url: >-
   https://www.google.com/maps/d/edit?mid=1yIqwIAI0MFq6uuyk_i-3vYA8qXUKjBFr&amp;z=11
 omgeving:
@@ -9,7 +9,7 @@ omgeving:
   - makkum
   - allingawier
   - tjerkwerd
-prijs: 95
+prijs: 165
 sloepen:
   - petter
 ---

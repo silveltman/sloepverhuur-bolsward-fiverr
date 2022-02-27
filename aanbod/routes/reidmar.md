@@ -1,6 +1,6 @@
 ---
 title: Reidmar
-description: Plaats hier een korte beschrijving van de route
+description: Fantastische route over idyllische locaties.
 tijd: ± 6 uren
 route_url: >-
   https://www.google.com/maps/d/edit?mid=1JdoOytLgN4Nu0oh7lOsehAbAuaChBqb8&amp;z=11

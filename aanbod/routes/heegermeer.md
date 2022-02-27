@@ -1,6 +1,6 @@
 ---
 title: Heegermeer
-description: Plaats hier een korte beschrijving van de route
+description: Mooie dagroute over de Friese meren.
 tijd: ± 6 uren
 route_url: >-
   https://www.google.com/maps/d/edit?mid=1k_uJP450p4sqYspFMrvgygvv9dfj8S1c&amp;z=11

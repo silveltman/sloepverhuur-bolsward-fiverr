@@ -3,16 +3,18 @@ seo:
   seo_title: Sloep - boot huren in Bolsward
   seo_description: Logeren in het Snoozz hotel en een sloep huren bij Sloepverhuur Bolsward.
 title: Snoozz Hotel
-description:
+description: Eigentijds zelf service hotel in het centrum van Bolsward
 afbeelding:
-  image:
-  alt:
+  image: /assets/img/uploads/bolsward-hotel-appelmarkt-by-imazzo-6.jpg
+  alt: >-
+    Luxe, moderne en knusse kamers om heerlijk te relaxen na een dag varen met
+    een sloep van Sloepverhuur Bolsward.
 info:
-  - label:
-    value:
-samenwerking:
+  - label: Reserveer
+    value: snoozzhotels.com
+samenwerking: snoozzhotels.com
 ---
 
-# Snoozz Hotel
+Dit eigentijdse zelf service hotel is gevestigd in een monumentaal pand, midden in het hart van de Friese Hanze Elfstedenstad Bolsward. De meeste kamers zijn voorzien van prachtig uitzicht over de binnenstad. Er zijn romantische kamers met Frans balkon, kamers met pantry's voor een langer verblijf, torenkamers met knusse hoekbanken, kortom voldoende ruimte en luxe voor een heerlijk verblijf. Bolsward heeft veel te bieden door de rijke historie en het pittoreske centrum. Elk jaar start, kruist en finisht hier de Friese Rijwiel Elfstedentocht. De start en doorkomst zijn zelfs direct voor het hotel.
 
-Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium recusandae nesciunt deleniti. Deleniti nam quidem voluptas esse a, aspernatur dolor.
+&nbsp;

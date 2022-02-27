@@ -8,7 +8,7 @@ title: Witmarsum
 afbeelding:
   image: /assets/img/aanbod/omgeving/wimatsum/877.jpg
   alt: Koren- en pelmolen 'De Onderneming' in Witmarsum
-description: '''De Onderneming''.'
+description: '''De Onderneming'''
 checklist:
   - '''De Onderneming'''
   - Koepelkerk

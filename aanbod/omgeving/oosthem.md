@@ -8,7 +8,7 @@ title: Oosthem
 afbeelding:
   image: /assets/img/aanbod/omgeving/fr-oosthem-15367896001626893.jpg
   alt: Oosthem met de Johanneskerk
-description: Zelf de brug bedienen in Oosthem.
+description: Zelf de brug bedienen in Oosthem
 checklist:
   - Johanneskerk
   - Draaibrug
