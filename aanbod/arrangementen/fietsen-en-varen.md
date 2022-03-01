@@ -4,7 +4,7 @@ seo:
   seo_description: >-
     Huur een fiets in Bolsward en laat je op een willekeurige plek oppikken door
     Sloepverhuur Bolsward.
-title: Fietsen & varen door Friesland
+title: Fietsen & varen
 description: >-
   Een mooie combi om Friesland zowel op de fiets als vanuit een sloep te
   ontdekken. Kosten afhankelijk van fietskeuze. Ook te combineren met 'Boot &
