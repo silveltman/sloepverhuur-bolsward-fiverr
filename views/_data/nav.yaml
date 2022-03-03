@@ -5,9 +5,9 @@
   dropdown:
     collection: sloepen
 - name: Routes
-  url: /routes
+  url: /aanbod/routes
 - name: Arrangementen
-  url: /arrangementen
+  url: /aanbod/arrangementen
 - name: En meer...
   url: ''
   dropdown:
