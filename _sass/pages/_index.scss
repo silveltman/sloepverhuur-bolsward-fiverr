@@ -7,6 +7,7 @@
   height: 100vh;
   max-height: 100vh;
   padding-top: var(--nav-height);
+  overflow: hidden;
 
   &__img {
     width: 100%;
@@ -18,17 +19,19 @@
   &__content {
     @extend %wrapper;
 
+    max-width: 100vw !important;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     position: relative;
-    padding: var(--space-500);
+    padding: var(--space-600) var(--space-500);
     margin-top: $radius-big * -1;
     background: $color-bg-base;
     border-top: $border-base;
     border-radius: $radius-big $radius-big 0 0;
+    box-shadow: -20px 0 100px 0 rgba(black, 0.3);
   }
 }
 
@@ -56,6 +59,18 @@
       position: sticky;
       top: calc(var(--nav-height) + 40px);
     }
+  }
+}
+
+.index-arrangementen {
+  padding: var(--space-700) 0;
+
+  &__content {
+    @extend %wrapper;
+
+    max-width: 700px !important;
+    text-align: center;
+    margin-bottom: var(--space-500);
   }
 }
 

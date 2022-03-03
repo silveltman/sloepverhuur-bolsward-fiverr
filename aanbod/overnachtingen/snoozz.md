@@ -9,9 +9,8 @@ afbeelding:
   alt: >-
     Luxe, moderne en knusse kamers om heerlijk te relaxen na een dag varen met
     een sloep van Sloepverhuur Bolsward.
-info:
-  - label: Reserveer
-    value: snoozzhotels.com
+checklist:
+  - Lorem
 samenwerking: snoozzhotels.com
 ---
 

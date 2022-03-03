@@ -55,13 +55,6 @@ banner:
     alt: >-
       Genieten van ruimte, rust en natuur. Een ultieme beleving in Súd West
       Fryslân. Neem bijvoorbeeld je fiets mee in de sloep.
-_card_buttons:
-  primary:
-    text: Huren
-    url: /
-  secondary:
-    text: + Meer info
-    url: item.url
 ---
 
 <main>
@@ -83,7 +76,7 @@ _card_buttons:
     {% assign sloepen_count = collections.sloepen.size | minus: 1  %}
     {% for i in (0..sloepen_count) %}
       {% assign item = collections.sloepen[i]  %}
-      {% bookshop "card/big" bind: item.data buttons: _card_buttons afbeelding: item.data.gallery[0] %}
+      {% bookshop "card/big"         bind: item.data         btn_primary_text: "Huren"         btn_primary_url: "/huren"        btn_secondary_text: "+ Meer info"         btn_secondary_url: item.url afbeelding: item.data.gallery[0] %}
     {% endfor %}
 
   </section>
@@ -107,14 +100,12 @@ _card_buttons:
   </section>
 
   <section class="index-arrangementen">
+    <div class="index-arrangementen__content">
+      <h2 class="index-arrangementen__h">Diverse arrangementen</h2>
+      <p class="index-arrangementen__p">Optimaal genieten staat bij ons hoog in het vaandel. Onze arrangementen staan daarom garant voor een ultieme beleving van varen, cultuur en natuur.</p>
+    </div>
 
-    {%- comment -%}
-    {% assign arrangementen_count = collections.arrangementen.size | minus: 1  %}
-    {% for i in (0..arrangementen_count) %}
-    {% assign item = collections.arrangementen[i]  %}
-    {% bookshop "card/small" bind: item.data  %}
-    {% endfor %}
-    {%- endcomment -%}
+    {% bookshop "carousel" list: collections.arrangementen  %}
 
   </section>
 

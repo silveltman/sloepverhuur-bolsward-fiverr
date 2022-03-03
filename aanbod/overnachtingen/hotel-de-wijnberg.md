@@ -9,9 +9,8 @@ description: Hotel in hartje Bolsward.
 afbeelding:
   image: /assets/img/uploads/de-wijnberg-hotel.jpg
   alt: Vaar met de sloep van Sloepverhuur Bolsward langs Hotel De Wijnberg
-info:
-  - label: Reserveer
-    value: fugelfrij.com
+checklist:
+  - Lorem
 samenwerking: https://wijnbergbolsward.nl
 ---
 

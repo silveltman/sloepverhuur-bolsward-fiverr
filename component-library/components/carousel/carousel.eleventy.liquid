@@ -26,24 +26,24 @@
   @keydown.left="prev"
   @keydown.right="next"
 >
-  <button @click="prev" class="carousel__btn carousel__btn--prev "> ❮ </button>
+  <div class="carousel__wrapper">
+    <button @click="prev" class="carousel__btn carousel__btn--prev btn btn--primary"> 
+      <i class="material-icons-round">expand_more</i>
+    </button>
 
-  <ul x-ref="slider" class="carousel__list" tabindex="0">
-
-    {%- comment -%}
-    {% for item in list %}
-      <li class="carousel__item">
-        {% bookshop "card/base" bind: item.data %}  
-      </li>
-    {% endfor %}
-    {%- endcomment -%}
-    
-    {% assign collection_count = list.size | minus: 1  %}
-    {% for i in (0..collection_count) %}
-      {% assign item = collections.sloepen[i]  %}
-      {% bookshop "card/small" bind: item.data  %}
-    {% endfor %}
-  </ul>
-
-  <button @click="next" class="carousel__btn carousel__btn--next"> ❯ </button>
+    <ul x-ref="slider" class="carousel__list" tabindex="0">
+      {% assign count = list.size | minus: 1  %}
+      {% for i in (0..count) %}
+      {% assign item = list[i] %}
+      {% if item.url != page.url %}
+          <li class="carousel__item">
+            {% bookshop "card/small" bind: item.data btn_text: "+ Bekijk" btn_url: item.url %}
+          </li>  
+        {% endif %}
+      {% endfor %}
+    </ul>
+    <button @click="next" class="carousel__btn carousel__btn--next btn btn--primary"> 
+      <i class="material-icons-round">expand_more</i>
+    </button>
+  </div>
 </div>

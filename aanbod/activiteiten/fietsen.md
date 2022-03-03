@@ -12,9 +12,8 @@ afbeelding:
   alt: >-
     Avontuurlijk fietsen door Friesland en laat je overzetten door een
     fietspont.
-info:
-  - label:
-    value: rijwielhandeldekroon.nl
+checklist:
+  - Lorem
 samenwerking:
 ---
 

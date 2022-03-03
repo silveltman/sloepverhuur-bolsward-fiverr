@@ -11,9 +11,8 @@ afbeelding:
   alt: >-
     Huur een sloep - boot bij Sloepverhuur Bolsward en combineer dit met een
     wandeling door het historische centrum.
-info:
-  - label:
-    value: Rust en ruimte, Stilte op het water, 1 of 2 persoons kano, unieke routes
+checklist:
+  - Rust en ruimte, Stilte op het water, 1 of 2 persoons kano, unieke routes
 samenwerking:
 ---
 

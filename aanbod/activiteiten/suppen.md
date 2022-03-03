@@ -9,9 +9,8 @@ description: in en om Bolsward.
 afbeelding:
   image: /assets/img/uploads/236245220-1986560171499521-6332161015780689898-n.jpg
   alt: Suppen in en om Bolsward.
-info:
-  - label: Huren
-    value: rijwielhandeldekroon.nl
+checklist:
+  - Lorem
 samenwerking:
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: base
 _info_button: 
-  text: Huren
+  text: Reserveren
   url: /
 ---
 
@@ -23,3 +23,12 @@ _info_button:
     </aside>
   {% endif %}
 </div>
+
+<section class="aanbod-carousel">
+  <div class="aanbod-carousel__content">
+    <h2 class="aanbod-carousel__h">Meer {{ tags[0] }} </h2>
+  </div>
+
+  {% assign tag = tags[0] %}
+  {% bookshop "carousel" list: collections[tag]  %}
+</section>

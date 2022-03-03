@@ -11,9 +11,8 @@ afbeelding:
   alt: >-
     Huur een sloep -boot bij Sloepverhuur Bolsward en vaar naar Kootje bij de
     brug om te kanoën.
-info:
-  - label: Info
-    value: http://www.wolsumerketting.com
+checklist:
+  - Lorem
 samenwerking:
 ---
 
