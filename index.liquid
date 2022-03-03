@@ -77,10 +77,7 @@ banner:
     {% for i in (0..sloepen_count) %}
       {% assign item = collections.sloepen[i]  %}
       {% bookshop "card/big" bind: item.data btn_primary_text: "Huren" btn_primary_url: "/huren" btn_secondary_text: "+ Meer info" btn_secondary_url: item.url afbeelding: item.data.gallery[0] %}
-      {% bookshop "card/base" bind: item.data button_text: "+ Meer info" button_url: item.url  %}
-
     {% endfor %}
-
   </section>
   
   <section class="index-routes">
