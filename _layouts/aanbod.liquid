@@ -47,7 +47,9 @@ layout: base
         }"
         x-show="getActiveRoute(routes) && activeSearch(title)"
         >
+        {%- comment -%}
         {% bookshop "card/base" bind: item.data button_text: "+ Meer info" button_url: item.url  %}
+        {%- endcomment -%}
       </div>
     {% endfor %}
   </div>

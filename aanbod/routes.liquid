@@ -80,7 +80,10 @@ hero:
         <div class="route">
           <div class="route__map">
             {% assign route = item.data.route_url | replace: "/edit?", "/embed?" %}
+
+            {%- comment -%}
             {% bookshop "map" url: route %}
+            {%- endcomment -%}
           </div>
 
           <div class="route__accordion">
@@ -88,7 +91,10 @@ hero:
             <h2 class="route__h">{{item.data.title}}</h2>
             <span class="route__tijd">{{item.data.tijd}}</span>
             <p class="route__p">{{item.data.description}}</p>
+
+            {%- comment -%}
             {% bookshop "accordion" list: featured_omgeving %}
+            {%- endcomment -%}
           </div>
         </div>
       </template>

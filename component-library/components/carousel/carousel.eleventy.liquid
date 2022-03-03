@@ -37,7 +37,9 @@
       {% assign item = list[i] %}
       {% if item.url != page.url %}
           <li class="carousel__item">
+            {%- comment -%}
             {% bookshop "card/small" bind: item.data btn_text: "+ Bekijk" btn_url: item.url %}
+            {%- endcomment -%}
           </li>  
         {% endif %}
       {% endfor %}
