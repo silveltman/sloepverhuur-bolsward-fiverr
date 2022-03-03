@@ -15,13 +15,14 @@ afbeelding:
     barbecuen.
 info:
   - label: Tijdsduur
-    value: N.T.B.
+    value: 5 uren
   - label: Vertrektijd
-    value: N.T.B.
+    value: 15.00 uur
   - label: Aantal personen
-    value: 2 - 28
+    value: 8 - 12
   - label: Kosten
-    value: N.T.B.
+    value: Vanaf € 69,50 p.p
 samenwerking: N.T.B.
 ---
 
+Bij dit arrangement wordt het varen van de schaats Elfstedenroute gecombineerd met een heerlijke barbecue in het buurtschap De Grauwe Kat. In de voormalige herberg wordt je welkom geheten door gastvrouw Afke terwijl haar man al volop bezig is met de voorbereiding van de barbecue die zal bestaan uit het beste vlees uit de regio oftewel een culinaire beleving in het Friese landschap. De dorst kan worden gelest met diverse gekoelde dranken en ook tijdens de vaartocht is er een ruim gevulde koelbox aanwezig.

@@ -4,7 +4,7 @@ seo:
   seo_description: >-
     Huur een fiets in Bolsward en laat je op een willekeurige plek oppikken door
     Sloepverhuur Bolsward.
-title: Fietsen & varen door Friesland
+title: Fietsen & varen
 description: >-
   Een mooie combi om Friesland zowel op de fiets als vanuit een sloep te
   ontdekken. Kosten afhankelijk van fietskeuze. Ook te combineren met 'Boot &
@@ -18,9 +18,9 @@ info:
   - label: Vertrektijd
     value: 10.00 uur
   - label: Aantal personen
-    value: 2 - 28
+    value: 2 - 12
   - label: Kosten
-    value: Vanaf € 69,50 p.p.
+    value: Vanaf € 79,50 p.p.
 samenwerking: Rijwielhandel 'De Kroon' (www.rijwielhandeldekroon.nl)
 ---
 
