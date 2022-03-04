@@ -22,14 +22,14 @@
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0",
     "@11ty/eleventy-img": "^1.1.0",
-    "@bookshop/browser": "^2.6.0",
-    "@bookshop/eleventy-engine": "^2.6.0",
-    "@bookshop/live": "^2.6.0",
-    "@bookshop/sass": "^2.6.0"
+    "@bookshop/browser": "^2.6.1",
+    "@bookshop/eleventy-engine": "^2.6.1",
+    "@bookshop/live": "^2.6.1",
+    "@bookshop/sass": "^2.6.1"
   },
   "dependencies": {
-    "@bookshop/cloudcannon-eleventy-bookshop": "^2.6.0",
-    "@bookshop/eleventy-bookshop": "^2.6.0",
+    "@bookshop/cloudcannon-eleventy-bookshop": "^2.6.1",
+    "@bookshop/eleventy-bookshop": "^2.6.1",
     "@quasibit/eleventy-plugin-sitemap": "^2.1.5",
     "eleventy-plugin-metagen": "^1.5.2",
     "js-yaml": "^4.1.0",
