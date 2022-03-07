@@ -13,7 +13,7 @@ afbeelding:
     Avontuurlijk fietsen door Friesland en laat je overzetten door een
     fietspont.
 checklist:
-  - Divers landschap
+  - Gevarieerd landschap
   - Stukje Elfstedentocht
   - Oude dorpen en steden
   - Lekker actief
