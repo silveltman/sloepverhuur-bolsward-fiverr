@@ -11,7 +11,7 @@ afbeelding:
     wandeling door het historische centrum.
 checklist:
   - Historisch centrum
-  - Rustig aan
+  - Monumenten
   - Winkelen
   - Lunch of diner
 samenwerking:
