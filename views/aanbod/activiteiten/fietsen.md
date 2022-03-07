@@ -22,4 +22,4 @@ samenwerking:
 
 # Genieten op de fiets
 
-Huur een fiets bij <a target="_blank" rel="noopener" href="https://rijwielhandeldekroon.nl">rijwielhandel 'De Kroon'</a> in Bolsward en ontdek het mooie Friesland met zijn molens, oude boerderijen, &nbsp;dorpjes en steden met veel historische gebouwen en de waterrijke omgeving. Je gaat ongetwijfeld een stukje van de Elfstedentocht afleggen en genieten van de enorme gastvrijheid.
+Huur een fiets bij <a target="_blank" rel="noopener" href="https://rijwielhandeldekroon.nl">rijwielhandel 'De Kroon'</a> in Bolsward en ontdek het mooie Friesland met zijn molens, oude boerderijen, &nbsp;dorpjes en steden met veel historische gebouwen en de waterrijke omgeving. Je gaat ongetwijfeld een stukje van de Elfstedentocht afleggen en genieten van de enorme gastvrijheid in waterrijk Friesland.
