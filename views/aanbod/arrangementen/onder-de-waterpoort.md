@@ -24,3 +24,4 @@ info:
 samenwerking: N.T.B.
 ---
 
+Wie kent 'm niet, de Sneker Waterpoort\! Vanuit Bolsward vertrekken we naar Sneek om uiteindelijk bij deze icoon aan te leggen. Na een wandeling door het historische centrum is er een lunch bij 'Markt 23'. Op de terugweg bezoeken we het museum 'Houtstad' in IJlst. Een schitterend dag arrangement over de staande mastroute, meren en stadsgrachten. Incl. koffie/thee met Friese oranjekoek, gekoelde drankjes naar keuze en borrelhapjes.
