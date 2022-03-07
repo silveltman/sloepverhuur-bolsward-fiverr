@@ -14,9 +14,9 @@ afbeelding:
   alt: In luxe sloep met schipper naar Grutte Pier in Kimswerd
 info:
   - label: Tijdsduur
-    value: ± 6 uren
+    value: 6 uren
   - label: Vertrektijd
-    value: ± 11.00 uur
+    value: 11.00 uur
   - label: Aantal personen
     value: 8 - 12
   - label: Kosten
