@@ -21,7 +21,7 @@ info:
   - label: Aantal personen
     value: 2 - 12
   - label: Kosten
-    value: N.T.B.
+    value: Op aanvraag
 samenwerking: N.T.B.
 ---
 
