@@ -12,7 +12,7 @@ afbeelding:
   image: /assets/img/uploads/main-1920-9555f4-1.webp
   alt: Overnachten in de buurt van Bolsward op camping Rijsterbos
 checklist:
-  - Zwembasd
+  - Zwembad
   - Snackbar & restaurant
   - Wifi
   - Recreatieprogramma
