@@ -17,7 +17,7 @@ info:
   - label: Tijdsduur
     value: 3 uren
   - label: Vertrektijd
-    value: N.T.B.
+    value: In overleg
   - label: Aantal personen
     value: 8 - 28
   - label: Kosten
