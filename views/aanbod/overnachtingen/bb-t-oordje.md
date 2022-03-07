@@ -16,10 +16,10 @@ afbeelding:
     uit 1874. Het pand deed ooit dienst als Herberg. De omgeving biedt prachtige
     fiets, wandel en vaarroutes in natuurgebieden. 
 checklist:
-  - Luxe B&B
-  - Mooie ligging
-  - 'Fietsen & wandelen '
-  - Ultiem déstressen
+  - Aan Elfstedenroute
+  - Op schiereilandje
+  - 'Watersport bedrijvigheid '
+  - Eigen aanlegsteiger
 samenwerking:
 ---
 
