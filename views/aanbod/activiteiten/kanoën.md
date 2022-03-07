@@ -12,7 +12,10 @@ afbeelding:
     Huur een sloep -boot bij Sloepverhuur Bolsward en vaar naar Kootje bij de
     brug om te kanoën.
 checklist:
-  - Lorem
+  - genieten op het water
+  - rust en ruimte
+  - actief bezig
+  - combineer met lunch
 samenwerking:
 ---
 
