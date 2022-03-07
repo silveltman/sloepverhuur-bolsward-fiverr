@@ -13,10 +13,13 @@ afbeelding:
     Avontuurlijk fietsen door Friesland en laat je overzetten door een
     fietspont.
 checklist:
-  - Lorem
+  - Divers landschap
+  - Stukje Elfstedentocht
+  - Oude dorpen en steden
+  - Lekker actief
 samenwerking:
 ---
 
 # Genieten op de fiets
 
-Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium recusandae nesciunt deleniti. Deleniti nam quidem voluptas esse a, aspernatur dolor.
+Huur een fiets bij <a target="_blank" rel="noopener" href="https://rijwielhandeldekroon.nl">rijwielhandel 'De Kroon'</a> in Bolsward en ontdek het mooie Friesland met zijn molens, oude boerderijen, &nbsp;dorpjes en steden met veel historische gebouwen en de waterrijke omgeving. Je gaat ongetwijfeld een stukje van de Elfstedentocht afleggen en genieten van de enorme gastvrijheid.
