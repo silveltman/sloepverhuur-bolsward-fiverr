@@ -9,7 +9,7 @@ description: >
   Camping Rijsterbos is een gezinscamping, gelegen aan de rand van het
   Rijsterbos en ± 25 minuten rijden naar Bolsward.
 afbeelding:
-  image: /assets/img/uploads/main-1920-9555f4-1.webp
+  image: /assets/img/uploads/16-1920-4fc7d3.webp
   alt: Overnachten in de buurt van Bolsward op camping Rijsterbos
 checklist:
   - Zwembad
