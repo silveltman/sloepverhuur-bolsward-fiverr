@@ -10,10 +10,13 @@ afbeelding:
     Luxe, moderne en knusse kamers om heerlijk te relaxen na een dag varen met
     een sloep van Sloepverhuur Bolsward.
 checklist:
-  - Lorem
+  - Zelf service
+  - Geen receptie
+  - Digitale toegang
+  - Zeer ruime kamers
 samenwerking: snoozzhotels.com
 ---
 
-Dit eigentijdse zelf service hotel is gevestigd in een monumentaal pand, midden in het hart van de Friese Hanze Elfstedenstad Bolsward. De meeste kamers zijn voorzien van prachtig uitzicht over de binnenstad. Er zijn romantische kamers met Frans balkon, kamers met pantry's voor een langer verblijf, torenkamers met knusse hoekbanken, kortom voldoende ruimte en luxe voor een heerlijk verblijf. Bolsward heeft veel te bieden door de rijke historie en het pittoreske centrum. Elk jaar start, kruist en finisht hier de Friese Rijwiel Elfstedentocht. De start en doorkomst zijn zelfs direct voor het hotel.
+Het <a target="_blank" rel="noopener" href="https://www.snoozzhotels.com">Snoozz Hotel</a> is een zelf service hotel gevestigd in een monumentaal pand, midden in het hart van de Friese Hanze Elfstedenstad Bolsward. De meeste kamers zijn voorzien van prachtig uitzicht over de binnenstad. Er zijn romantische kamers met Frans balkon, kamers met pantry's voor een langer verblijf, torenkamers met knusse hoekbanken, kortom voldoende ruimte en luxe voor een heerlijk verblijf. Bolsward heeft veel te bieden door de rijke historie en het pittoreske centrum. Elk jaar start, kruist en finisht hier de Friese Rijwiel Elfstedentocht. De start en doorkomst zijn zelfs direct voor het hotel.
 
 &nbsp;
