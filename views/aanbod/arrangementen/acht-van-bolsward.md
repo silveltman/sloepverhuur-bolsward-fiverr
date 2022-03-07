@@ -25,3 +25,4 @@ info:
 samenwerking: Het Veerhuys en De Wijnberg
 ---
 
+De 'Acht van Bolsward' is een combinatie van de route's 'Elfsteden' en 'Zuiderzee' welke in totaal ± 6 uren duurt. Inbegrepen is een lunch in Bolsward in Het Veerhuys of De Wijnberg. Als extra kan er aan boord nog worden gezorgd voor koffie/thee met Friese oranjekoek, gekoelde dranken naar keuze en een borrelplank.
