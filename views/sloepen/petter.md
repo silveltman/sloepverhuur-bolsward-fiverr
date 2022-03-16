@@ -34,6 +34,11 @@ banner:
   button:
     text: Bekijk arrangementen
     url: /aanbod/arrangementen
+
+prijzen:
+  ochtend: 100
+  middag: 120
+  avond: 75
 ---
 
 # Geruisloos genieten van waterrijk Friesland

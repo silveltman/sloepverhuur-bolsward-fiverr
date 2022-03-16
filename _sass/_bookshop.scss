@@ -59,7 +59,7 @@
     var(--font-size-base) / var(--font-size-multiplier)
       var(--font-size-multiplier)
   );
-  --font-size-300: calc(var(--font-size-base) / var(--font-size-multiplier));
+  --font-size-300: calc(var(--font-size-base) - 2px);
   --font-size-400: var(--font-size-base);
   --font-size-500: calc(var(--font-size-base) * var(--font-size-multiplier));
   --font-size-600: calc(
@@ -980,6 +980,81 @@
   color: #99C244;
   margin-bottom: var(--space-100);
   text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.c-huren-progress {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+.c-huren-progress::before {
+  position: absolute;
+  display: block;
+  content: "";
+  height: 6px;
+  width: 75%;
+  background: #282923;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  top: 11px;
+  left: 12.5%;
+  z-index: -1;
+}
+.c-huren-progress__step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 100%;
+  text-decoration: none;
+  text-align: center;
+  position: relative;
+}
+.c-huren-progress__step::before {
+  position: absolute;
+  display: block;
+  content: "";
+  height: 6px;
+  width: 100%;
+  background: #FFCD2D;
+  border-radius: 20px;
+  top: 11px;
+  left: 50%;
+  z-index: -1;
+}
+.c-huren-progress__step.active .c-huren-progress__circle span, .c-huren-progress__step.active ~ .c-huren-progress__step .c-huren-progress__circle span {
+  display: block;
+}
+.c-huren-progress__step.active .c-huren-progress__circle i, .c-huren-progress__step.active ~ .c-huren-progress__step .c-huren-progress__circle i {
+  display: none;
+}
+.c-huren-progress__step.active::before, .c-huren-progress__step.active ~ .c-huren-progress__step::before {
+  display: none;
+}
+.c-huren-progress__step.active .c-huren-progress__label {
+  color: #EFEFEF;
+}
+.c-huren-progress__step.active ~ .c-huren-progress__step .c-huren-progress__circle {
+  background: #282923;
+  color: #9B9C99;
+}
+.c-huren-progress__circle {
+  height: 28px;
+  width: 28px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFCD2D;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: var(--space-100);
+  color: #1E2019;
+}
+.c-huren-progress__circle span {
+  display: none;
+}
+.c-huren-progress__label {
+  font-size: var(--font-size-300);
+  color: #9B9C99;
 }
 
 .map {

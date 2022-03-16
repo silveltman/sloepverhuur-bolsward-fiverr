@@ -1,0 +1,8 @@
+[component]
+structures = []
+label = "huren-beenakker"
+description = ""
+icon = ""
+tags = []
+
+[props]

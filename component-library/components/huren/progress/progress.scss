@@ -1,0 +1,85 @@
+.c-huren-progress {
+  display: flex;
+  width: 100%;
+
+  @include pseudo {
+    height: 6px;
+    width: 75%;
+    background: $color-bg-light;
+    border: $border-light;
+    border-radius: 20px;
+    top: 11px;
+    left: 12.5%;
+    z-index: -1;
+  }
+
+  &__step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 100%;
+    text-decoration: none;
+    text-align: center;
+
+    @include pseudo {
+      height: 6px;
+      width: 100%;
+      background: $color-primary;
+      border-radius: 20px;
+      top: 11px;
+      left: 50%;
+      z-index: -1;
+    }
+
+    &.active,
+    &.active ~ & {
+      .c-huren-progress__circle {
+        span {
+          display: block;
+        }
+        i {
+          display: none;
+        }
+      }
+
+      &::before {
+        display: none;
+      }
+    }
+
+    &.active {
+      .c-huren-progress__label {
+        color: $color-text-base;
+      }
+    }
+
+    &.active ~ & {
+      .c-huren-progress__circle {
+        background: $color-bg-light;
+        color: $color-text-dark;
+      }
+    }
+  }
+
+  &__circle {
+    height: 28px;
+    width: 28px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $color-primary;
+    border: $border-light;
+    margin-bottom: var(--space-100);
+    color: $color-bg-base;
+
+    span {
+      display: none;
+    }
+  }
+
+  &__label {
+    font-size: var(--font-size-300);
+    color: $color-text-dark;
+  }
+}

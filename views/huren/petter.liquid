@@ -1,0 +1,88 @@
+---
+_step: 2
+seo:
+  seo_title: 
+  seo_description:
+
+alert:
+
+title: Kies je dag en tijd
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat nulla sit tristique tempor vel massa molestie amet. Quis at dui.
+---
+
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"> -->
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<script src="https://npmcdn.com/flatpickr/dist/l10n/nl.js"></script>
+
+<div class="picker" x-data="{
+    tijden: {
+        ochtend: false,
+        middag: false,
+        avond: false
+    },
+    init() {
+        let picker = flatpickr(this.$refs.picker, {
+            mode: 'single',
+            inline: true,
+            dateFormat: 'd-m-Y',
+            locale: 'nl',
+            monthSelectorType: 'static',
+            enable: {{ huren.dateRange | printJS }},
+            onChange: (date, dateString) => {
+                this.$refs.product.dataset.itemId = 'PETTER_' + dateString;
+            }
+        })
+    },
+}">
+    <input class="w-full" x-ref="picker" type="text">
+
+    <div class="picker-2">
+        <div class="picker-2__header">
+            <h3 class="picker-2__h">Routes</h3>
+            <span class="picker-2__span">Selecteer één of meerdere</span>
+        </div>
+        <ul class="picker-2__list">
+            <li class="picker-2__item" :class="tijden.ochtend ? 'selected' : ''" @click="tijden.ochtend = !tijden.ochtend">
+                <span class="picker-2__item-label">Ochtend</span>
+                <span>9:30 - 13:30</span>
+            </li>
+            <li class="picker-2__item" :class="tijden.middag ? 'selected' : ''" @click="tijden.middag = !tijden.middag">
+                <span class="picker-2__item-label">Middag</span>
+                <span>14:00 - 18:00</span>
+            </li>
+            <li class="picker-2__item" :class="tijden.avond ? 'selected' : ''" @click="tijden.avond = !tijden.avond">
+                <span class="picker-2__item-label">Avond</span>
+                <span>18:30 - 21:30</span>
+            </li>
+        </ul>
+        <div class="picker-2__footer">
+            <div class="picker-2__prijs">
+                <span>Prijs:</span>
+                <span class="picker-2__prijs-amount">€0,00</span>
+            </div>
+
+            <button class="product btn btn--primary" x-ref="product"
+                data-item-id='null'
+                data-item-price="0"
+                data-item-url="/products.json"
+                data-item-name="{{ sloep.title }}"
+                data-item-description="{{ sloep.description }}"
+                data-item-image="{{ sloep.gallery[0].image }}"
+        
+                data-item-custom1-name="Ochtend"
+                data-item-custom1-options="true[{{ sloep.prijzen.ochtend }}]|false"
+                :data-item-custom1-value="tijden.ochtend"
+        
+                data-item-custom2-name="Middag"
+                data-item-custom2-options="true[{{ sloep.prijzen.middag }}]|false"
+                :data-item-custom2-value="tijden.middag"
+        
+                data-item-custom3-name="Avond"
+                data-item-custom3-options="true[{{ sloep.prijzen.avond }}]|false"
+                :data-item-custom3-value="tijden.avond"
+                >
+                Door
+            </button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,33 @@
+---
+layout: null
+permalink: /products.json
+sloepen:
+  - petter
+---
+{% assign sloep = collections.sloepen[1].data %}
+[
+  {% for date in huren.dateRange %}
+    {
+      "id": "{{ date }}",
+      "price": 0,
+      "url": "/products.json",
+      "name": "{{ sloep.title }}",
+      "description": "{{ sloep.description }}",
+      "image": "{{ sloep.gallery[0].image }}",
+      "customFields": [
+        {
+          "name": "Ochtend",
+          "true[{{ sloep.prijzen.ochtend }}]|false"
+        },
+        {
+          "name": "Middag",
+          "true[{{ sloep.prijzen.middag }}]|false"
+        },
+        {
+          "name": "Avond",
+          "true[{{ sloep.prijzen.avond }}]|false"
+        }
+      ]
+    }{% if forloop.last == false %},{% endif %}
+  {% endfor %}
+]

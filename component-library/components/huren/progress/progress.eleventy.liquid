@@ -1,0 +1,19 @@
+<div class="c-huren-progress">
+  {% for item in steps %}
+    <a {% if item.url.size > 0 %} href="{{ item.url }}" {% endif %} 
+
+
+    class="
+    c-huren-progress__step 
+    {% if forloop.index == _step %} active {% endif %}
+    ">
+
+
+      <div class="c-huren-progress__circle">
+        <span class="c-huren-progress__number completed"> {{ forloop.index }} </span>
+        <i class="c-huren-progress__icon material-icons-round"> done </i>
+      </div>
+      <div class="c-huren-progress__label">{{ item.label }}</div>
+    </a>
+  {% endfor %}
+</div>

@@ -1,0 +1,93 @@
+@use '../abstracts' as *;
+
+.huren {
+  padding: var(--space-700) 0;
+
+  &__content {
+    @extend %wrapper;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+}
+
+.huren-alert {
+  background-color: rgba($color-primary, 0.26);
+  display: flex;
+  align-items: center;
+  padding: var(--space-200) var(--space-300);
+  border-radius: $radius-small;
+  margin-top: var(--space-500);
+
+  span {
+    margin-left: var(--space-200);
+  }
+}
+
+.huren-content {
+  display: flex;
+  flex-direction: column;
+  margin: var(--space-600) 0 var(--space-300);
+  max-width: 600px;
+}
+
+.huren-sloepen {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: var(--space-400);
+}
+
+.picker-2 {
+  border-radius: $radius-base;
+  background: $color-bg-light;
+  box-shadow: $shadow-base;
+  padding: var(--space-300);
+
+  &__list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: var(--space-100);
+    margin: 0;
+    padding: var(--space-300) 0;
+  }
+
+  &__item {
+    border: 2px solid $color-secondary;
+    border-radius: $radius-small;
+    padding: var(--space-100) var(--space-200);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+
+    &:hover {
+      border-color: $color-text-light;
+    }
+
+    &.selected {
+      background: $color-text-light;
+      border-color: transparent;
+      color: $color-bg-light;
+    }
+  }
+
+  &__item-label {
+    font-weight: 600;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__prijs {
+    font-weight: 600;
+  }
+
+  &__prijs-amount {
+    color: $color-primary;
+  }
+}
