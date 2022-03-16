@@ -15,13 +15,13 @@ afbeelding:
     bruidegom maar kan ook met schipper.
 info:
   - label: Tijdsduur
-    value: N.T.B.
+    value: In overleg
   - label: Vertrektijd
-    value: N.T.B.
+    value: In overleg
   - label: Aantal personen
-    value: 2 - 28
+    value: 2 - 12
   - label: Kosten
-    value: N.T.B.
+    value: Vanaf € 125,-
 samenwerking: N.T.B.
 ---
 

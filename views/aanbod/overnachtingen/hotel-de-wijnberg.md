@@ -5,12 +5,17 @@ seo:
     Huur een sloep - boot bij Sloepverhuur Bolsward en combineer dit met een
     verblijf in Hotel De Wijnberg.
 title: Hotel 'De Wijnberg'
-description: Hotel in hartje Bolsward.
+description: >-
+  Hotel in het historische centrum van Bolsward met uitzicht op het monumentale
+  stadhuis
 afbeelding:
   image: /assets/img/uploads/de-wijnberg-hotel.jpg
   alt: Vaar met de sloep van Sloepverhuur Bolsward langs Hotel De Wijnberg
 checklist:
-  - Lorem
+  - In het centrum
+  - Uitzicht op stadhuis
+  - Diverse arrangementen
+  - Comfortabele kamers
 samenwerking: https://wijnbergbolsward.nl
 ---
 

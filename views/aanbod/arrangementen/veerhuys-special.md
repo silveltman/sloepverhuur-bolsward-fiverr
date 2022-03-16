@@ -14,9 +14,9 @@ afbeelding:
   alt: Heerlijk lunchen of dineren in 't Veerhuys te Bolsward
 info:
   - label: Tijdsduur
-    value: N.T.B.
+    value: In overleg
   - label: Vertrektijd
-    value: N.T.B.
+    value: In overleg
   - label: Aantal personen
     value: 2 - 28
   - label: Kosten

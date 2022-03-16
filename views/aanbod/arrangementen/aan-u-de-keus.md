@@ -13,13 +13,13 @@ afbeelding:
   alt: Stel zelf je arrangement samen
 info:
   - label: Tijdsduur
-    value: N.T.B.
+    value: In overleg
   - label: Vertrektijd
-    value: N.T.B.
+    value: In overleg
   - label: Aantal personen
     value: 2 - 28
   - label: Kosten
-    value: N.T.B.
+    value: Op aanvraag
 samenwerking: N.T.B.
 ---
 
