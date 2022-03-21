@@ -15,6 +15,8 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat 
 <script src="https://npmcdn.com/flatpickr/dist/l10n/nl.js"></script>
 
 <div class="picker" x-data="{
+    secret: 'ST_OWY2ZDhlYjUtZGRhYy00Nzk2LTg0ZmItNWE3M2Q0YWQ2Mjg3NjM3ODMwMzcyNjA0OTQ1MjY4:',
+    products: [],
     tijden: {
         ochtend: false,
         middag: false,
@@ -33,7 +35,23 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat 
             }
         })
     },
-}">
+    async fetchProducts() {
+        const secret = 'ST_OWY2ZDhlYjUtZGRhYy00Nzk2LTg0ZmItNWE3M2Q0YWQ2Mjg3NjM3ODMwMzcyNjA0OTQ1MjY4' + ':'
+
+        const request = await fetch('https://app.snipcart.com/api/products', {
+            headers: {
+                'Authorization': `Basic ${btoa(secret)}`,
+                'Accept': 'application/json'
+            }
+        })
+        await request.json().then(data => {
+            this.products = data.items
+        })
+    } 
+}"
+x-init="fetchProducts()"
+
+>
     <input class="w-full" x-ref="picker" type="text">
 
     <div class="picker-2">
@@ -61,28 +79,56 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat 
                 <span class="picker-2__prijs-amount">€0,00</span>
             </div>
 
-            <button class="product btn btn--primary" x-ref="product"
+            {% assign sloep = collections.sloepen[1].data %}
+
+            <button class="product btn btn--primary snipcart-add-item" x-ref="product"
                 data-item-id='null'
                 data-item-price="0"
                 data-item-url="/products.json"
                 data-item-name="{{ sloep.title }}"
                 data-item-description="{{ sloep.description }}"
                 data-item-image="{{ sloep.gallery[0].image }}"
+                data-item-shippable="false"
+                data-item-max-quantity="1"
         
                 data-item-custom1-name="Ochtend"
+                data-item-custom1-type="checkbox"
                 data-item-custom1-options="true[{{ sloep.prijzen.ochtend }}]|false"
-                :data-item-custom1-value="tijden.ochtend"
+                :data-item-custom1-value="tijden.ochtend.toString()"
         
                 data-item-custom2-name="Middag"
+                data-item-custom2-type="checkbox"
                 data-item-custom2-options="true[{{ sloep.prijzen.middag }}]|false"
-                :data-item-custom2-value="tijden.middag"
+                :data-item-custom2-value="tijden.middag.toString()"
         
                 data-item-custom3-name="Avond"
+                data-item-custom3-type="checkbox"
                 data-item-custom3-options="true[{{ sloep.prijzen.avond }}]|false"
-                :data-item-custom3-value="tijden.avond"
+                :data-item-custom3-value="tijden.avond.toString()"
                 >
                 Door
             </button>
         </div>
     </div>
+
+    <button @click="console.log(products)"></button>
+
+    <span x-text="products[0].mode"></span>
 </div>
+
+<!-- <script>
+    var myHeaders = new Headers();
+    myHeaders.append("Authorization", "Basic U1RfT1dZMlpEaGxZalV0WkdSaFl5MDBOemsyTFRnMFptSXROV0UzTTJRMFlXUTJNamczTmpNM09ETXdNemN5TmpBME9UUTFNalk0Og==");
+    myHeaders.append("Accept", "application/json");
+
+    var requestOptions = {
+    method: 'GET',
+    headers: myHeaders,
+    redirect: 'follow'
+    };
+
+    fetch("https://app.snipcart.com/api/products", requestOptions)
+    .then(response => response.text())
+    .then(result => console.log(result))
+    .catch(error => console.log('error', error));
+</script> -->
