@@ -1,0 +1,28 @@
+---
+layout: reserveren
+info:
+  titel: Kies hier je sloep
+  text: >-
+    Beide sloepen kunnen ook tegelijk worden gehuurd zodat je met een groep van
+    maximaal 20 personen heerlijk kan genieten van waterrijk Friesland eventueel
+    i.c.m. met een mooi arrangement.
+arrangement:
+  image: /assets/img/uploads/tapas/home-tapas-bolsward-2048x1365.jpg
+  alt: Een arrangement in combinatie met sloep varen
+  checklist:
+    - item: Diverse mogelijkheden
+    - item: Naar wens aan te passen
+    - item: Fietsen en varen
+    - item: Culinair genieten
+    - item: Ideaal voor groepen
+    - item: Maximaal 12 personen
+---
+
+<section class="reserveren-sloepen">
+  {% assign sloepen_count = collections.sloepen.size | minus: 1  %}
+  {% for i in (0..sloepen_count) %}
+    {% assign item = collections.sloepen[i]  %}
+    {% capture reserveren_url %}/reserveren/{{ item.fileSlug }}{% endcapture %}
+    {% bookshop "card/big" bind: item.data btn_primary_text: "Kies sloep" btn_primary_url: reserveren_url btn_secondary_text: "+ Meer info" btn_secondary_url: item.url afbeelding: item.data.gallery[0] %}
+  {% endfor %}
+</section>

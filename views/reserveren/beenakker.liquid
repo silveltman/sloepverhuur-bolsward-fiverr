@@ -1,0 +1,49 @@
+---
+layout: reserveren
+info:
+  titel: Selecteer een van onze unieke routes.
+  text: >-
+    Vul daarna je gegevens in en plaats de reservering. Wij zullen dan z.s.m.
+    telefonisch contact met je opnemen om eventuele vragen te beantwoorden en,
+    indien gewenst, de  reservering definitief te maken.
+---
+<div x-data="{ route: null }">
+
+  <section class="reserveren-cards reserveren-cards--beenakker"> 
+    {% assign found_routes = collections.routes | filterByFrontmatter: "sloepen", "beenakker" %}
+    {% for item in found_routes %}
+
+      <a class="reserveren-cards__card" href="#form" @click="route = '{{ item.data.title }}'" :class="route == '{{ item.data.title }}' ? 'selected' : ''">
+        <h3 class="reserveren-cards__h">{{item.data.title}}</h3>
+        <span class="reserveren-cards__prijs">€{{item.data.prijs}},-</span>
+        <div class="reserveren-cards__info">
+          <span class="reserveren-cards__label">Vaarduur:</span>
+          <span class="reserveren-cards__value">{{item.data.tijd}}</span>
+        </div>
+      </a>
+
+    {% endfor %}
+  </section>
+
+  <form action="" method="post" class="form reserveren-form">
+    <label class="label" for="route">Route (selecteer hierboven):</label>
+    <input class="input" type="text" name="route" readonly required x-model="route">
+
+    <label class="label" for="naam">Naam:</label>
+    <input class="input" name="naam" type="text">
+    
+    <label class="label" for="email">Email:</label>
+    <input class="input" name="email" type="text">
+
+    <label class="label" for="Telefoonnummer">Telefoonnummer:</label>
+    <input class="input" name="telefoonnummer" type="text">
+
+    <label class="label" for="datum">Datum voorkeur:</label>
+    <input class="input" name="datum" type="date">
+
+    <label class="label" for="bericht">Vragen / opmerkingen:</label>
+    <textarea class="textarea" name="bericht"></textarea>
+      
+    <input class="btn btn--primary" type="submit" value="Plaats reservering">
+  </form>
+</div>

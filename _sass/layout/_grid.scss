@@ -11,7 +11,8 @@
   padding-bottom: var(--space-700);
 }
 
-%grid-2-1 {
+%grid-2-1,
+%grid-1-2 {
   @extend %wrapper;
 
   display: grid;
@@ -28,6 +29,12 @@
 
   @include media(3) {
     grid-gap: var(--space-500) var(--space-700);
+  }
+}
+
+%grid-1-2 {
+  @include media(2) {
+    grid-template-columns: 1fr 2fr;
   }
 }
 
