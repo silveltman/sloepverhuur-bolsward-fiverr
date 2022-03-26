@@ -1,5 +1,6 @@
 ---
 layout: base
+collec: omgeving
 ---
 
 <main class="aanbod" x-data="{ 
@@ -33,29 +34,32 @@ layout: base
     </div>
   </div>
 
-  
   <div class="grid">
     {% assign collection_count = collections[page.fileSlug].size | minus: 1  %}
     {% for i in (0..collection_count) %}
       {% assign item = collections[page.fileSlug][i]  %}
+
+      {% bookshop "card/base" bind: item.data button_text: "+ Meer info" button_url: item.url  %}
       
+
+      
+      {%- comment -%}
+
+    Searchbar things????????????????
+    Searchbar things????????????????
+    Searchbar things????????????????
+
       {% assign found = collections.routes | filterByFrontmatter: "omgeving", item.fileSlug %}
-  
       <div x-data="{
           title: '{{ item.data.title }}',
           routes: [{% for thing in found %} '{{ thing.fileSlug }}', {% endfor %} ]
         }"
         x-show="getActiveRoute(routes) && activeSearch(title)"
         >
-        {%- comment -%}
-        {% bookshop "card/base" bind: item.data button_text: "+ Meer info" button_url: item.url  %}
-        {%- endcomment -%}
       </div>
+      {%- endcomment -%}
     {% endfor %}
   </div>
-
 </main>
-
-
 
 
