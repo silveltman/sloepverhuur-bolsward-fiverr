@@ -1,7 +1,8 @@
 ---
 title: Bolsward City Tour
-description: Varen over de oude en nieuwe route van de schaats Elfstedentocht.
-tijd: ± 3,5 uur
+description: |
+  Varen door het 'Giethoorn van het Noorden' en oude stadscentrum.
+tijd: ± 1,5 uur
 route_url: >-
   https://www.google.com/maps/d/embed?mid=1wXYKD7GpKXu1UGh7txlgnHEo9ZQTmOU-&ehbc=2E312F&amp;z=12
 omgeving:
