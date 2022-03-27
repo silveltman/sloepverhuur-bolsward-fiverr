@@ -7,10 +7,6 @@ route_url: >-
   https://www.google.com/maps/d/embed?mid=1wXYKD7GpKXu1UGh7txlgnHEo9ZQTmOU-&ehbc=2E312F&amp;z=12
 omgeving:
   - bolsward
-  - schettens
-  - wimatsum
-  - arum
-  - hichtum
 prijs: '175'
 sloepen:
   - beenakker
