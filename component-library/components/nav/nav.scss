@@ -47,31 +47,12 @@ $nav-color-accent: $color-primary;
     display: flex;
     align-items: center;
     height: var(--nav-height);
-    padding: var(--space-300) 0;
+    padding: var(--space-200) 0;
     text-decoration: none;
-    // font-family: $font-family-primary;
 
     img {
       height: 100%;
       margin-right: var(--space-200);
-    }
-
-    span {
-      display: none;
-
-      @include media(1) {
-        display: block;
-        color: $color-text-base;
-        opacity: 0.3;
-        line-height: 1;
-        transition: opacity 100ms ease;
-      }
-    }
-
-    &:hover {
-      span {
-        opacity: 1;
-      }
     }
   }
 

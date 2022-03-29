@@ -1219,27 +1219,12 @@
   display: flex;
   align-items: center;
   height: var(--nav-height);
-  padding: var(--space-300) 0;
+  padding: var(--space-200) 0;
   text-decoration: none;
 }
 .nav__logo img {
   height: 100%;
   margin-right: var(--space-200);
-}
-.nav__logo span {
-  display: none;
-}
-@media (min-width: 512px) {
-  .nav__logo span {
-    display: block;
-    color: #EFEFEF;
-    opacity: 0.3;
-    line-height: 1;
-    transition: opacity 100ms ease;
-  }
-}
-.nav__logo:hover span {
-  opacity: 1;
 }
 .nav__menu {
   height: var(--nav-height);
