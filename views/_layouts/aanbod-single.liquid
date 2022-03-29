@@ -13,13 +13,13 @@ _info_button:
     </div>
   </main>
 
-  {% if info.size > 0 %}
-    <aside class="aanbod-single__aside">
-      {% bookshop "card/info" list: info title: title button: _info_button %}
-    </aside>
-  {% else if checklist.size > 0 %}
+  {% if checklist.size > 0 %}
     <aside class="aanbod-single__aside">
       {% bookshop "card/checklist" list: checklist title: title button: _info_button %}
+    </aside>
+  {% elsif list.size > 0 %}
+    <aside class="aanbod-single__aside">
+      {% bookshop "card/info" list: list title: title button: _info_button %}
     </aside>
   {% endif %}
 </div>
@@ -32,5 +32,3 @@ _info_button:
   {% assign tag = tags[0] %}
   {% bookshop "carousel/horizontal" tag: tag  %}
 </section>
-
-

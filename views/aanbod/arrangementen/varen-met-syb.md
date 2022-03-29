@@ -13,7 +13,7 @@ afbeelding:
   image: >-
     /assets/img/uploads/varen-met-syb/syb-van-der-ploeg-biografie-2018-pdfgrafie-2.jpg
   alt: Syb van der Ploeg, zanger van De Kast
-info:
+list:
   - label: Tijdsduur
     value: 3 uren
   - label: Vertrektijd

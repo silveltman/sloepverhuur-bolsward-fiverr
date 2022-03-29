@@ -13,7 +13,7 @@ afbeelding:
   alt: >-
     Varen met een sloep -boot van Sloepverhuur Bolsward en onderweg chillen en
     barbecuen.
-info:
+list:
   - label: Tijdsduur
     value: 5 uren
   - label: Vertrektijd

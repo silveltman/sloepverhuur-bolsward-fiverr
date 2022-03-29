@@ -12,7 +12,7 @@ description: >-
 afbeelding:
   image: /assets/img/uploads/op-naar-grutte-pier/kimswert2.jpg
   alt: In luxe sloep met schipper naar Grutte Pier in Kimswerd
-info:
+list:
   - label: Tijdsduur
     value: 6 uren
   - label: Vertrektijd

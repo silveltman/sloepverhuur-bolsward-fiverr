@@ -12,7 +12,7 @@ afbeelding:
   alt: >
     Gezellig met een vriendengroep een dag over de mooie Fries wateren naar
     Sneek.
-info:
+list:
   - label: Tijdsduur
     value: 8 uur
   - label: Vertrektijd

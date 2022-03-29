@@ -13,7 +13,7 @@ afbeelding:
   alt: >
     'Acht van Bolsward' is een vaartocht over grote delen van de Schaats
     Elfstedentocht met een boot van Sloepverhuur Bolsward.
-info:
+list:
   - label: Tijdsduur
     value: 8 uren
   - label: Vertrektijd
@@ -25,4 +25,4 @@ info:
 samenwerking: Het Veerhuys en De Wijnberg
 ---
 
-De 'Acht van Bolsward' is een combinatie van de route's 'Elfsteden' en 'Zuiderzee' welke in totaal ± 6 uren duurt. Na het 's ochtends het onderste gedeelte te hebben gevaren is er een lunch in Het Veerhuys of De Wijnberg om daarna het vervolg te varen. Hou je van rust en ruimte op het water dan is dit een heerlijk arrangement.&nbsp;***Als extra kan er aan boord nog worden gezorgd voor koffie/thee met Friese oranjekoek, gekoelde dranken naar keuze en een borrelplank.***
+De 'Acht van Bolsward' is een combinatie van de route's 'Elfsteden' en 'Zuiderzee' welke in totaal ± 6 uren duurt. Na het 's ochtends het onderste gedeelte te hebben gevaren is er een lunch in Het Veerhuys of De Wijnberg om daarna het vervolg te varen. Hou je van rust en ruimte op het water dan is dit een heerlijk arrangement.&nbsp;**_Als extra kan er aan boord nog worden gezorgd voor koffie/thee met Friese oranjekoek, gekoelde dranken naar keuze en een borrelplank._**

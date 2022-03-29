@@ -11,7 +11,7 @@ description: >-
 afbeelding:
   image: /assets/img/uploads/img-7350.JPG
   alt: Stel zelf je arrangement samen
-info:
+list:
   - label: Tijdsduur
     value: In overleg
   - label: Vertrektijd

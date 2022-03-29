@@ -12,7 +12,7 @@ description: >-
 afbeelding:
   image: /assets/img/uploads/mg-3335-web.jpg
   alt: Heerlijk lunchen of dineren in 't Veerhuys te Bolsward
-info:
+list:
   - label: Tijdsduur
     value: In overleg
   - label: Vertrektijd

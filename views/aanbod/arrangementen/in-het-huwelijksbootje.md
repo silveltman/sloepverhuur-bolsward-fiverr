@@ -13,7 +13,7 @@ afbeelding:
   alt: >-
     Trouwen in een luxe sloep van Sloepverhuur Bolsward. Aan het stuur bruid of
     bruidegom maar kan ook met schipper.
-info:
+list:
   - label: Tijdsduur
     value: In overleg
   - label: Vertrektijd
