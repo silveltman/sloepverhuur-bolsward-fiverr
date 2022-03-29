@@ -37,7 +37,7 @@ hero:
 
   <div class="routes" 
   x-data="{ 
-    activeRoute: 'alpaca',
+    activeRoute: 'bolsward-city-tour',
     getActiveRoute(value) {
       return this.activeRoute == value
     },
@@ -51,7 +51,6 @@ hero:
     }
   }">
 
-    {%- comment -%}
     <div class="toolbar">
       <div class="toolbar__content">
         <select class="routes__sloep-filter select" x-model="activeSloep">
@@ -74,7 +73,6 @@ hero:
         </select>
       </div>
     </div>
-    {%- endcomment -%}
 
     {% for item in collections.routes %}
       <template x-if="getActiveRoute('{{ item.fileSlug }}')">
@@ -82,6 +80,10 @@ hero:
         <div class="route">
           <div class="route__map">
             {% assign route = item.data.route_url | replace: "/edit?", "/embed?" %}
+
+            <div class="map">
+              <iframe src="{{ route }}"></iframe>
+            </div>             
 
             {%- comment -%}
             {% bookshop "map" url: "test" %}
@@ -94,6 +96,29 @@ hero:
             <span class="route__tijd">{{item.data.tijd}}</span>
             <p class="route__p">{{item.data.description}}</p>
 
+
+            <div x-data="{ activeAccordionItem: null }" class="accordion">
+              {% for omgeving in featured_omgeving %}
+                <div x-data="{ 
+                  id: {{ forloop.index }},
+                  get expanded() {
+                    return this.activeAccordionItem === this.id
+                  },
+                  set expanded(value) {
+                    this.activeAccordionItem = value ? this.id : null
+                  }
+                }" 
+                role="region" class="accordion__item">
+                  <button @click="expanded = !expanded" class="accordion__btn" :aria-expanded="expanded">
+                    <span class="accordion__count">{{ forloop.index }}</span>
+                    <h3 class="accordion__h">{{ omgeving.data.title }}</h3>
+                    <i class="accordion__icon material-icons-round" :class="expanded && 'turn'">expand_more</i>
+                  </button>
+                  <p x-show="expanded" class="accordion__p" x-collapse.duration.200>{{ omgeving.data.description }}</p>
+                </div>
+              {% endfor %}
+            </div>
+            
             {%- comment -%}
             {% bookshop "accordion" list: featured_omgeving %}
             {%- endcomment -%}
