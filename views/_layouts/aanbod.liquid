@@ -3,61 +3,35 @@ layout: base
 collec: omgeving
 ---
 
-<main class="aanbod" x-data="{ 
-  activeRoute: null,
-  searchInput: '',
-  activeSearch(title) {
-    if (!this.searchInput) return true
-    else return title.toLowerCase().includes(this.searchInput.toLowerCase())
-  },
-  getActiveRoute(routes) {
-    if (!this.activeRoute) return true
-    else return routes.includes(this.activeRoute)
-  },
-}">
+<main class="aanbod">
 
 {% bookshop "hero/base" bind: hero %}
 
-  <div class="toolbar">
-    <div class="toolbar__content">
-      <select class="routes__sloep-filter select" x-model="activeRoute">
-        <option value="">Alle routes</option>
-        {% for item in collections.routes %}
-          <option value="{{ item.fileSlug }}">{{ item.data.title }}</option>
-        {% endfor %}
-      </select>
+{%- comment -%}
+<div class="toolbar">
+  <div class="toolbar__content">
+    <select class="routes__sloep-filter select" x-model="activeRoute">
+      <option value="">Alle routes</option>
+      {% for item in collections.routes %}
+        <option value="{{ item.fileSlug }}">{{ item.data.title }}</option>
+      {% endfor %}
+    </select>
 
-      <div class="toolbar__search input input--filter">
-        <input type="text" placeholder="Zoek op plaatsnaam" x-model="searchInput">
-        <i class="material-icons-round">search</i>
-      </div>
+    <div class="toolbar__search input input--filter">
+      <input type="text" placeholder="Zoek op plaatsnaam" x-model="searchInput">
+      <i class="material-icons-round">search</i>
     </div>
   </div>
+</div>
+{%- endcomment -%}
 
   <div class="grid">
     {% assign collection_count = collections[page.fileSlug].size | minus: 1  %}
     {% for i in (0..collection_count) %}
       {% assign item = collections[page.fileSlug][i]  %}
 
-      {% bookshop "card/base" bind: item.data button_text: "+ Meer info" button_url: item.url  %}
+      {% bookshop "card/base" bind: item.data url: item.url  %}
       
-
-      
-      {%- comment -%}
-
-    Searchbar things????????????????
-    Searchbar things????????????????
-    Searchbar things????????????????
-
-      {% assign found = collections.routes | filterByFrontmatter: "omgeving", item.fileSlug %}
-      <div x-data="{
-          title: '{{ item.data.title }}',
-          routes: [{% for thing in found %} '{{ thing.fileSlug }}', {% endfor %} ]
-        }"
-        x-show="getActiveRoute(routes) && activeSearch(title)"
-        >
-      </div>
-      {%- endcomment -%}
     {% endfor %}
   </div>
 </main>

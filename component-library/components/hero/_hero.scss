@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   padding-top: var(--nav-height);
+  border-bottom: $border-base;
 
   @include pseudo('after') {
     background: rgba($color-bg-dark, 0.65);

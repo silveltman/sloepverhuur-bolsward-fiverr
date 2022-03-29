@@ -6,6 +6,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   grid-gap: var(--space-500);
+  align-items: flex-start;
 
   padding-top: var(--space-700);
   padding-bottom: var(--space-700);

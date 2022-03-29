@@ -1,10 +1,9 @@
 [component]
 structures = []
-label = "carousel"
+label = "carousel-horizontal"
 description = ""
 icon = ""
 tags = []
 
 [props]
-list = ['1', '2', '3']
-card = "small"
+tag = "mycollection"

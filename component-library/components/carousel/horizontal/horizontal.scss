@@ -3,7 +3,7 @@ $carousel-scollbar-color-base: rgba($color-text-base, 0.1);
 $carousel-scollbar-color-hover: rgba($color-text-base, 0.4);
 $carousel-scollbar-transition: 0.2s ease;
 
-.carousel {
+.carousel-horizontal {
   --carousel-columns: 1.2;
   --carousel-space: var(--space-300);
 

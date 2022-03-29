@@ -1,6 +1,6 @@
 [component]
 structures = []
-label = "vertical"
+label = "carousel-vertical"
 description = ""
 icon = ""
 tags = []
