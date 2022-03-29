@@ -62,7 +62,9 @@ banner:
 
 <main>
   <section class="index-hero">
-    <img src="{{ hero_afbeelding.image }}" alt="{{ hero_afbeelding.alt }}" class="index-hero__img" />
+    
+    {% image hero_afbeelding.image, hero_afbeelding.alt, "index-hero__img", "100vw", "414, 768, 1366, 1920, 2560" %}
+
     <div class="index-hero__content">
       <h1 class="index-hero__h editable">
         Ontdek waterrijk Friesland!
@@ -136,3 +138,4 @@ banner:
     {% bookshop "banner" bind: banner %}
   </section>
 </main>
+

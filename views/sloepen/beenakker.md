@@ -41,9 +41,10 @@ gallery:
 banner:
   title: Nog meer genieten?
   afbeelding:
-    image: >-
-      /assets/img/uploads/sloep-huren-in-friesland/whatsapp-image-2020-10-28-at-15-43-42-kopie-1.jpeg
-    alt: Omschrijving van mijn afbeelding
+    image: /assets/img/uploads/img-6447.JPG
+    alt: >-
+      Genieten van ruimte, rust en natuur. Een ultieme beleving in Súd West
+      Fryslân. Neem bijvoorbeeld je fiets mee in de sloep.
   button:
     text: Bekijk arrangementen
     url: /aanbod/arrangementen

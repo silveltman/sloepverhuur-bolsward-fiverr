@@ -10,8 +10,8 @@ const inspect = require("util").inspect;
 //// FUNCTIONS
 ////---------------
 
-// For eleventy-img plugin via: {% image "[path]", "[class]", "[alt]", "[sizes]", "[widths]" %
-// Usage exaple: {% image "./assets/img/myImg.jpg", "myClass", "A description", "(max-width: 768px) 90vw, 300px", "300, 600, 900" %}
+// For eleventy-img plugin via: {% image "[src]", "[alt]", "[class]", "[sizes]", "[widths]" %
+// Usage exaple: {% image "./assets/img/myImg.jpg", "A description", "myClass", "(max-width: 768px) 90vw, 300px", "300, 600, 900" %}
 const imageShortcode = async (
   relativeSrc, 
   alt, 

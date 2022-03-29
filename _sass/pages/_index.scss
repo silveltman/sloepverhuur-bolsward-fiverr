@@ -8,6 +8,16 @@
   max-height: 100vh;
   padding-top: var(--nav-height);
   overflow: hidden;
+  position: relative;
+
+  picture {
+    flex-grow: 1;
+    min-height: 0;
+
+    img {
+      height: 100%;
+    }
+  }
 
   &__img {
     width: 100%;
