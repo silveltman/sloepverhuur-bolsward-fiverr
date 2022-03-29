@@ -1,0 +1,8 @@
+[component]
+structures = []
+label = "footer"
+description = ""
+icon = ""
+tags = []
+
+[props]

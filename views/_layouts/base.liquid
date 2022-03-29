@@ -24,11 +24,6 @@
     <!-- <script src="https://kit.fontawesome.com/e54a9cf40b.js" crossorigin="anonymous"></script> -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"rel="stylesheet">
 
-    <!-- Snipcart -->
-    <link rel="preconnect" href="https://app.snipcart.com" />
-    <link rel="preconnect" href="https://cdn.snipcart.com" />
-    <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.3.3/default/snipcart.css" />
-
     <!-- favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
@@ -52,17 +47,14 @@
 
     {{ content }}
 
+    {% bookshop "footer" footer: footer %}
+
     {% bookshop_live assets/js/bookshop-live.js %}
 
     <script>
       // disable data bindings due to bugs
       window.bookshopDataBindings = false
     </script>
-
-      <!-- snipcart -->
-    <script async src="https://cdn.snipcart.com/themes/v3.3.3/default/snipcart.js"></script>
-    <div hidden id="snipcart" 
-    data-api-key="ZjdhOGFiZjktOTNmZS00ODI1LWJkZGYtZjlkZTA0MTFkZmE5NjM3NTEwNzY0OTcxMDUzNDYz"></div>
 
   </body>
 </html>

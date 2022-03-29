@@ -1,0 +1,144 @@
+.footer {
+  background: $color-bg-light;
+  border-top: $border-base;
+}
+
+.footer-main {
+  @extend %wrapper;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  grid-gap: var(--space-500);
+  padding-top: var(--space-500);
+  padding-bottom: var(--space-500);
+
+  @include media(3) {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: var(--space-600);
+  }
+
+  &__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+
+    &--links {
+      align-items: center;
+
+      @include media(3) {
+        grid-column: 2;
+        grid-row: 1;
+        align-items: flex-start;
+      }
+    }
+  }
+
+  &__item {
+    & + & {
+      margin-top: var(--space-100);
+    }
+    &--contact {
+      & + & {
+        margin-top: var(--space-200);
+
+        @include media(3) {
+          margin-top: var(--space-400);
+        }
+      }
+    }
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    line-height: 1.2;
+    color: $color-text-base !important;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-primary !important;
+    }
+  }
+
+  &__icon {
+    font-size: 28px !important;
+    color: $color-primary !important;
+    text-decoration: none;
+  }
+
+  &__span {
+    padding-left: var(--space-200);
+  }
+
+  &__bio {
+    max-width: 400px;
+    text-align: center;
+
+    @include media(3) {
+      grid-column: 3;
+    }
+  }
+
+  &__h {
+    text-align: center;
+
+    @include media(3) {
+      text-align: left;
+    }
+  }
+
+  &__p {
+    text-align: center;
+
+    @include media(3) {
+      text-align: left;
+    }
+  }
+}
+
+.footer-bottom {
+  background: $color-bg-dark;
+  border-top: $border-base;
+  padding: var(--space-100) 0;
+
+  &__content {
+    @extend %wrapper;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include media(3) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+
+  &__made {
+    color: $color-text-dark !important;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+
+    @include media(3) {
+      text-align: left;
+    }
+
+    i {
+      margin: 0 2px;
+      font-size: var(--font-size-400) !important;
+    }
+
+    &:hover {
+      color: $color-text-base !important;
+    }
+  }
+
+  &__company {
+    color: $color-text-dark;
+    font-weight: 600;
+  }
+}

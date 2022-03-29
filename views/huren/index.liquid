@@ -15,7 +15,7 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat 
   {% assign sloepen_count = collections.sloepen.size | minus: 1  %}
   {% for i in (0..sloepen_count) %}
     {% assign item = collections.sloepen[i]  %}
-    {% capture url %} /huren/{{ item.fileSlug }} {% endcapture %}
+    {% capture url %} /reserveren/{{ item.fileSlug }} {% endcapture %}
     {% bookshop "card/big" bind: item.data btn_primary_text: "Kies deze sloep" btn_primary_url: url btn_secondary_text: "+ Meer info" btn_secondary_url: item.url afbeelding: item.data.gallery[0] %}
   {% endfor %}
 </section>
