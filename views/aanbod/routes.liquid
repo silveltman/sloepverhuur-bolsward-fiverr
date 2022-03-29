@@ -61,7 +61,8 @@ hero:
         </select>
   
         <select class="routes__omgeving-filter select" x-model="activeRoute">
-          {% for item in collections.routes %}
+          {% assign sorted_routes =  collections.routes | sortByFrontmatter: "tijd" %}
+          {% for item in sorted_routes %}
             <option 
               x-data="{ sloepen: {{ item.data.sloepen | printJS }}}"
               :disabled="getActiveSloep(sloepen)"
