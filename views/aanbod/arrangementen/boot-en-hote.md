@@ -10,7 +10,7 @@ description: >-
   van Súdwest Fryslân. Ook te combineren met 'Fietsen & varen door Friesland'.
 afbeelding:
   image: /assets/img/uploads/boot-en-hote/blauwhuis31.jpg
-  alt: Theetuin 'Kootje bij de brug' in Wolsum
+  alt: "Theetuin 'Kootje bij de brug' in Wolsum"
 list:
   - label: Tijdsduur
     value: 5 uren

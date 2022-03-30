@@ -9,8 +9,10 @@ _info_button:
   <main class="aanbod-single__main">
     <img src="{{ afbeelding.image }}" alt="{{ afbeelding.alt }}" class="aanbod-single__img">
 
-    {% image afbeelding.image, afbeelding.alt, "aanbod-single__img", "(max-width: 768px) 95vw, 55vw", "420, 600, 820" %}
-
+    {%- comment -%}
+    Not working for some weird reason: "missing alt error"
+      {% image afbeelding.image, afbeelding.alt, "aanbod-single__img", "(max-width: 768px) 95vw, 55vw", "420, 600, 820" %}
+    {%- endcomment -%}
     
     <div class="aanbod-single__content">
       {{ content}}
