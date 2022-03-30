@@ -26,6 +26,36 @@
     min-height: 0;
   }
 
+  &__banner {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: var(--nav-height);
+    background-color: $color-secondary;
+    color: $color-bg-dark;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+
+    span {
+      padding: var(--space-100) var(--wrapper-padding);
+      text-align: center;
+      width: 100%;
+    }
+
+    button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      width: 50px;
+      font-size: 28px !important;
+
+      &:hover {
+        background-color: lighten($color-secondary, 14%);
+      }
+    }
+  }
+
   &__content {
     @extend %wrapper;
 

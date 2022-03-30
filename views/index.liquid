@@ -7,6 +7,7 @@ seo:
 hero_afbeelding:
   image: /assets/img/index-hero.jpg
   alt: Sloep huren in waterrijk Friesland
+hero_banner: Goed Weer Garantie; bij slechte weersomstandigheden GRATIS omboeken of annuleren met 100% restitutie!
 reviews:
   - title: Herman Bosman
     description: >-
@@ -64,6 +65,13 @@ banner:
   <section class="index-hero">
     
     {% image hero_afbeelding.image, hero_afbeelding.alt, "index-hero__img", "100vw", "414, 768, 1366, 1920, 2560" %}
+
+    <div class="index-hero__banner" x-data="{ showBanner: true }" x-show="showBanner"> 
+      <span>
+        {{ hero_banner }}
+      </span>
+      <button type="button" class="material-icons-round" @click="showBanner = false">close</button>
+    </div>
 
     <div class="index-hero__content">
       <h1 class="index-hero__h editable">

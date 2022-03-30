@@ -12,7 +12,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: var(--space-200) 0;
+    margin: var(--space-300) 0;
+    line-height: 1.2;
   }
 
   &__h {
@@ -26,5 +27,6 @@
   &__value {
     align-items: flex-end;
     color: $color-secondary;
+    text-align: end;
   }
 }

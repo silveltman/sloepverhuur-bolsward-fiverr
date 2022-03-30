@@ -16,6 +16,9 @@ checklist:
   - Oude dorpen en steden
   - Lekker actief
 samenwerking:
+button:
+  text: Bezoek website
+  url: /
 ---
 
 # Genieten op de fiets

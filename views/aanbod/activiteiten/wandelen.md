@@ -15,6 +15,9 @@ checklist:
   - Winkelen
   - Lunch of diner
 samenwerking:
+button:
+  text: Bezoek website
+  url: /
 ---
 
 Het centrum van Bolsward heeft een schat aan historische gebouwen zoals het stadhuis, Martinikerk en het Sint Antony Gasthuis. Voor een wandelkaart langs alle bezienswaardigheden klik <a target="_blank" rel="noopener" href="https://www.wandelenindeventer.nl/phocadownload/userupload/Wandelingen/Binnenland/Stadswandeling%20Bolsward.pdf">HIER</a>. Naast de binnenstad zijn er ook vele mogelijkheden voor langere wandelroutes buiten de stad in een fantastische natuur met rust en ruimte.&nbsp;

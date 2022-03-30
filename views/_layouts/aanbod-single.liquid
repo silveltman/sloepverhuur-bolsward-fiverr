@@ -1,8 +1,5 @@
 ---
 layout: base
-_info_button: 
-  text: Reserveren
-  url: /
 ---
 
 <div class="aanbod-single">
@@ -15,17 +12,18 @@ _info_button:
     {%- endcomment -%}
     
     <div class="aanbod-single__content">
+      <h2>{{ seo.seo_title }}</h2>
       {{ content}}
     </div>
   </main>
 
   {% if checklist.size > 0 %}
     <aside class="aanbod-single__aside">
-      {% bookshop "card/checklist" list: checklist title: title button: _info_button %}
+      {% bookshop "card/checklist" list: checklist title: title button: button %}
     </aside>
   {% elsif list.size > 0 %}
     <aside class="aanbod-single__aside">
-      {% bookshop "card/info" list: list title: title button: _info_button %}
+      {% bookshop "card/info" list: list title: title button: button %}
     </aside>
   {% endif %}
 </div>
