@@ -52,6 +52,9 @@ collections_config:
 
   # Input customization
 _inputs:
+  layout:
+    hidden: true
+
   seo:
     label: SEO
     comment: 'Zoekmachine-optimalisate, Wordt weergegeven in Google en heeft invloed op je vindbaarheid'
