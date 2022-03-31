@@ -1,3 +1,5 @@
+source: 'views',
+
 paths:
   uploads: ../assets/img/uploads
 
