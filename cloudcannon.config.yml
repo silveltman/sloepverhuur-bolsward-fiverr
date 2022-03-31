@@ -23,6 +23,7 @@ collection_groups:
 
 collections_config:
   data:
+    path: data
     filter:
       base: none
       include:
