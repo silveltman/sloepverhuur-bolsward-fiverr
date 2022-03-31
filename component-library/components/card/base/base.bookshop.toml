@@ -4,9 +4,9 @@ label = "card-base"
 description = ""
 icon = ""
 tags = []
+_live_render = false
 
 [props]
-_live_render = false
 title = "Mijn titel"
 description = "Mijn omschrijving"
 url = "#"
