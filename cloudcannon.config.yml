@@ -27,7 +27,7 @@ collections_config:
     filter:
       base: none
       include:
-        - footer.yml
+        - footer.yaml
   omgeving:
     icon: landscape
     output: true
