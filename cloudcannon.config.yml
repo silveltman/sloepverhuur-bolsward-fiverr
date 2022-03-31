@@ -19,6 +19,11 @@ collection_groups:
       - sloepen
 
 collections_config:
+  data:
+    filter:
+      base: none
+      include:
+        - footer.yml
   omgeving:
     icon: landscape
     output: true
