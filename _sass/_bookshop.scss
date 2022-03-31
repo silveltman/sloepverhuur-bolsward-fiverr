@@ -37,7 +37,7 @@
     --wrapper-padding: 48px;
   }
 }
-.timeline, .nav__wrapper, .hero-columns__content, .hero-base__content, .gallery, .footer-bottom__content, .footer-main, .carousel-horizontal__wrapper, .banner__content {
+.timeline, .nav__wrapper, .c-modal, .hero-columns__content, .hero-base__content, .gallery, .footer-bottom__content, .footer-main, .carousel-horizontal__wrapper, .banner__content {
   margin-left: auto;
   margin-right: auto;
   padding-left: var(--wrapper-padding);
@@ -1308,6 +1308,35 @@
 .map iframe {
   height: 100%;
   width: 100%;
+}
+
+.c-modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9;
+  max-width: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(24, 26, 20, 0.8);
+  overflow-y: scroll;
+}
+.c-modal__content {
+  padding: var(--space-400) var(--space-500);
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #282923;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+}
+.c-modal__p {
+  margin-bottom: var(--space-300);
 }
 
 :root {

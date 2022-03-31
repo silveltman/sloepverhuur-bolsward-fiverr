@@ -39,19 +39,19 @@ vaartijden:
         <span class="reserveren-cards__label">Vaartijd:</span>
         <span class="reserveren-cards__value">{{ item.vaartijd }}</span>
       </div>
-      </a>
-      {% endfor %}
+    </a>
+    {% endfor %}
   </section>
 
-  <form action="" method="post" class="form reserveren-form">
+  <form method="post" class="form reserveren-form"  id="form" x-data="{ confirm: false }" @submit="confirm = true">
     <label class="label" for="Vaartijd">Vaartijd (selecteer hierboven):</label>
-    <input class="input" type="text" name="Vaartijd" readonly required x-model="time">
+    <input class="input input--disabled" type="text" name="Vaartijd" readonly required x-model="time" required>
     
     <label class="label" for="naam">Naam:</label>
     <input class="input" name="naam" type="text">
     
     <label class="label" for="email">Email:</label>
-    <input class="input" name="email" type="text">
+    <input class="input" name="email" type="text" required>
     
     <label class="label" for="Telefoonnummer">Telefoonnummer:</label>
     <input class="input" name="telefoonnummer" type="text">
@@ -63,5 +63,49 @@ vaartijden:
     <textarea class="textarea" name="bericht"></textarea>
     
     <input class="btn btn--primary" type="submit" value="Plaats reservering">
+
+    {% bookshop "modal" 
+      title: "Bedankt!"
+      text: "We komen zo spoedig mogelijk bij je terug om de reserveren definitief te maken"
+      button: "Oké" 
+    %}
   </form>
 </div>
+
+<script>
+  // Helper function to get form data in the supported format
+  function getFormDataString(formEl) {
+      var formData = new FormData(formEl),
+        data = [];
+
+    for (var keyValue of formData) {
+        data.push(encodeURIComponent(keyValue[0]) + "=" + encodeURIComponent(keyValue[1]));
+    }
+
+    return data.join("&");
+  }
+
+  // Fetch the form element
+  var formEl = document.getElementById("form");
+
+  // Override the submit event
+  formEl.addEventListener("submit", function (e) {
+      e.preventDefault();
+
+    console.log("submit")
+    console.log(getFormDataString(formEl))
+
+    var request = new XMLHttpRequest();
+
+    request.addEventListener("load", function () {
+      if (request.status === 302) { // CloudCannon redirects on success
+        // It worked
+        console.log("succes")
+      }
+    });
+
+    request.open(formEl.method, formEl.action);
+    request.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+    request.send(getFormDataString(formEl));
+  });
+</script>

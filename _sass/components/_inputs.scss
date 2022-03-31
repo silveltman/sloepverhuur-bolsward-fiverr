@@ -108,3 +108,7 @@ $textarea-maxheight: 200px;
   min-height: 50px;
   max-height: $textarea-maxheight;
 }
+
+.input--disabled {
+  pointer-events: none;
+}

@@ -1,0 +1,29 @@
+.c-modal {
+  @extend %wrapper;
+
+  position: fixed;
+  @include inset;
+  z-index: 9;
+  max-width: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba($color-bg-dark, 0.8);
+  overflow-y: scroll;
+
+  &__content {
+    padding: var(--space-400) var(--space-500);
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: $color-bg-light;
+    border: $border-base;
+    border-radius: $radius-base;
+  }
+
+  &__p {
+    margin-bottom: var(--space-300);
+  }
+}
