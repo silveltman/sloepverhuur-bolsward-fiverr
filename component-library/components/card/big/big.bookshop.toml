@@ -16,5 +16,6 @@ btn_secondary_text = "Secondary"
 btn_secondary_url = "#"
 
 [props.afbeelding]
+_live_render = false
 image = "https://picsum.photos/1200/800?random=1"
 alt = "Omschrijving van mijn afbeelding"
