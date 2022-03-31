@@ -6,11 +6,11 @@ icon = ""
 tags = []
 
 [props]
+_live_render = false
 title = "Mijn titel"
 description = "Mijn omschrijving"
 url = "#"
 
 [props.afbeelding]
-_live_render = false
 image = "https://picsum.photos/1200/800?random=1"
 alt = "Omschrijving van mijn afbeelding"
