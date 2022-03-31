@@ -43,11 +43,11 @@
   </head>
   <body>
 
-    {% bookshop "nav" nav: nav %}
+    {% bookshop "nav" live_render: false nav: nav %}
 
     {{ content }}
 
-    {% bookshop "footer" footer: footer %}
+    {% bookshop "footer" live_render: false footer: footer %}
 
     {% bookshop_live assets/js/bookshop-live.js %}
 

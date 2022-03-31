@@ -30,7 +30,7 @@ collec: omgeving
     {% for i in (0..collection_count) %}
       {% assign item = collections[page.fileSlug][i]  %}
 
-      {% bookshop "card/base" bind: item.data url: item.url  %}
+      {% bookshop "card/base" live_render: false bind: item.data url: item.url  %}
       
     {% endfor %}
   </div>

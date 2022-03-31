@@ -12,6 +12,5 @@ description = "Mijn omschrijving"
 checklist = ["Lorem Ipsum"]
 
 [props.button]
-_live_render = false
 text = "Button"
 url = "#"

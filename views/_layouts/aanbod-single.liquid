@@ -19,11 +19,11 @@ layout: base
 
   {% if checklist.size > 0 %}
     <aside class="aanbod-single__aside">
-      {% bookshop "card/checklist" list: checklist title: title button: button %}
+      {% bookshop "card/checklist" live_render: false list: checklist title: title button: button %}
     </aside>
   {% elsif list.size > 0 %}
     <aside class="aanbod-single__aside">
-      {% bookshop "card/info" list: list title: title button: button %}
+      {% bookshop "card/info" live_render: false list: list title: title button: button %}
     </aside>
   {% endif %}
 </div>
@@ -34,5 +34,5 @@ layout: base
   </div>
 
   {% assign tag = tags[0] %}
-  {% bookshop "carousel/horizontal" tag: tag  %}
+  {% bookshop "carousel/horizontal" live_render: false tag: tag  %}
 </section>
