@@ -17,6 +17,9 @@ collection_groups:
   - heading: Sloepen
     collections:
       - sloepen
+  - heading: Overig
+    collections:
+      - data
 
 collections_config:
   data:
