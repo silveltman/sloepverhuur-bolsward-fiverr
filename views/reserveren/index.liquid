@@ -23,6 +23,6 @@ arrangement:
   {% for i in (0..sloepen_count) %}
     {% assign item = collections.sloepen[i]  %}
     {% capture reserveren_url %}/reserveren/{{ item.fileSlug }}{% endcapture %}
-    {% bookshop "card/big" bind: item.data btn_primary_text: "Kies sloep" btn_primary_url: reserveren_url btn_secondary_text: "+ Meer info" btn_secondary_url: item.url afbeelding: item.data.gallery[0] %}
+    {% bookshop "card/big" live_render: false bind: item.data btn_primary_text: "Kies sloep" btn_primary_url: reserveren_url btn_secondary_text: "+ Meer info" btn_secondary_url: item.url afbeelding: item.data.gallery[0] %}
   {% endfor %}
 </section>
