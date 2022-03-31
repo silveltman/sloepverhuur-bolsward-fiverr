@@ -1,17 +1,15 @@
 [component]
 structures = []
-label = "card-image"
+label = "card-small"
 description = ""
 icon = ""
 tags = []
 
 [props]
 title = "Mijn titel"
+btn_text = "+ meer info"
+btn_url = "#"
 
 [props.afbeelding]
 image = "https://picsum.photos/1200/800?random=1"
 alt = "omschrijving van mijn afbeelding"
-
-[props.button]
-text = "+ meer info"
-url = "#"

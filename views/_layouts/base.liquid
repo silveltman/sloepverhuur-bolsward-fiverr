@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="nl-NL">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    
+    <meta name="format-detection" content="telephone=no">
+
+    <!-- Alpine plugins -->
+    <script defer src="https://unpkg.com/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
+    <script defer src="https://unpkg.com/@alpinejs/intersect@3.x.x/dist/cdn.min.js"></script>
+    <script defer src="https://unpkg.com/@alpinejs/trap@3.x.x/dist/cdn.min.js"></script>
+ 
+    <!-- Alpine.js -->
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    
+    <!-- Main JS file -->
+    <script defer src="/assets/js/main.js"></script>
+
+    <!-- JS smooth scroll polyfill for safari: https://github.com/iamdustan/smoothscroll -->
+    <script src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.js"></script>
+
+    <!-- <script src="https://kit.fontawesome.com/e54a9cf40b.js" crossorigin="anonymous"></script> -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"rel="stylesheet">
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/assets/img/favicon/safari-pinned-tab.svg" color="#1e2019">
+    <link rel="shortcut icon" href="/assets/img/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#1e2019">
+    <meta name="msapplication-config" content="/assets/img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#1e2019">
+
+    <title>{{ seo.seo_title | default: info.seo.title }}</title>
+    <meta name="description" content="{{ seo.seo_description | default: info.seo.description }}" />
+    
+    {% metagen info.meta %}
+    
+  </head>
+  <body>
+
+    {% bookshop "nav" live_render: false nav: nav %}
+
+    {{ content }}
+
+    {% bookshop "footer" live_render: false footer: footer %}
+
+    {% bookshop_live assets/js/bookshop-live.js %}
+
+    {%- comment -%}
+    <script>
+      // disable data bindings due to bugs
+      window.bookshopDataBindings = false
+    </script>
+    {%- endcomment -%}
+
+  </body>
+</html>

@@ -1,0 +1,79 @@
+@use '../abstracts' as *;
+
+.reserveren {
+  @extend %grid-1-2;
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+    @include media(2) {
+      position: sticky;
+      top: 100px;
+    }
+  }
+
+  &__span {
+    color: $color-text-dark;
+    font-size: var(--font-size-500);
+    font-weight: 700;
+  }
+}
+
+.reserveren-sloepen {
+  display: grid;
+  grid-gap: var(--space-400) var(--space-300);
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.reserveren-cards {
+  display: grid;
+  grid-gap: var(--space-300);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+  &__card {
+    border-radius: $radius-base;
+    background: $color-bg-light;
+    box-shadow: $shadow-base;
+    border: $border-base;
+    padding: var(--space-400);
+    color: $color-text-base;
+
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    transition: transform 200ms ease-out;
+
+    &.selected {
+      box-shadow: 0 0 0 1px $color-primary;
+    }
+
+    &:hover {
+      transform: translateY(-6px);
+    }
+  }
+
+  &__h {
+    font-family: $font-family-primary;
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    max-width: 200px;
+    color: $color-text-base;
+  }
+
+  &__prijs {
+    color: $color-primary;
+    font-weight: 600;
+    margin: 0 0 var(--space-200);
+    font-size: calc(var(--font-size-400) + 2px);
+  }
+}
+
+.reserveren-form {
+  margin-top: var(--space-700);
+}

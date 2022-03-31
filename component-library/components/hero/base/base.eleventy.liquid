@@ -1,5 +1,5 @@
 <div class="hero-base">
-  <img src="{{ afbeelding.image }}" alt="{{ afbeelding.alt }}" class="hero-base__img">
+  {% image afbeelding.image, afbeelding.alt, "hero-base__img", "100vw", "414, 768, 1366, 1920, 2560" %}
   <div class="hero-base__content">
     <h1 class="hero-base__h">{{ title }}</h1>
     <p class="hero-base__p">{{ text }}</p>

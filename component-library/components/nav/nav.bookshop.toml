@@ -6,6 +6,7 @@ icon = ""
 tags = []
 
 [props]
+_live_render = false
 [[props.list]]
 name = "Home"
 url = "/"

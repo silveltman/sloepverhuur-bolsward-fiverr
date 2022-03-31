@@ -10,14 +10,11 @@ subtitle = "Mijn subtitel"
 title = "Mijn titel"
 description = "Mijn omschrijving"
 
+btn_primary_text = "Primary"
+btn_primary_url = "#"
+btn_secondary_text = "Secondary"
+btn_secondary_url = "#"
+
 [props.afbeelding]
 image = "https://picsum.photos/1200/800?random=1"
 alt = "Omschrijving van mijn afbeelding"
-
-[props.buttons.primary]
-text = "Primary"
-url = "#"
-
-[props.buttons.secondary]
-text = "Secondary"
-url = "#"

@@ -8,11 +8,8 @@ tags = []
 [props]
 title = "Mijn titel"
 description = "Mijn omschrijving"
+url = "#"
 
 [props.afbeelding]
 image = "https://picsum.photos/1200/800?random=1"
 alt = "Omschrijving van mijn afbeelding"
-
-[props.button]
-text = "Button"
-url = "#"

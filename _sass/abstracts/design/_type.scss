@@ -20,7 +20,7 @@ $font-weight-heading: 700;
     var(--font-size-base) / var(--font-size-multiplier)
       var(--font-size-multiplier)
   );
-  --font-size-300: calc(var(--font-size-base) / var(--font-size-multiplier));
+  --font-size-300: calc(var(--font-size-base) - 2px);
   --font-size-400: var(--font-size-base);
   --font-size-500: calc(var(--font-size-base) * var(--font-size-multiplier));
   --font-size-600: calc(

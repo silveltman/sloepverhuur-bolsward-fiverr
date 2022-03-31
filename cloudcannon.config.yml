@@ -1,5 +1,7 @@
-# paths:
-#   uploads: assets/img/uploads
+source: views
+
+paths:
+  uploads: ../assets/img/uploads
 
 collection_groups:
   - heading: "Pagina's"
@@ -11,11 +13,21 @@ collection_groups:
       - arrangementen
       - activiteiten
       - overnachtingen
+      - routes
   - heading: Sloepen
     collections:
       - sloepen
+  - heading: Overig
+    collections:
+      - data
 
 collections_config:
+  data:
+    path: data
+    filter:
+      base: none
+      include:
+        - footer.yaml
   omgeving:
     icon: landscape
     output: true
@@ -27,7 +39,7 @@ collections_config:
     _enabled_editors:
       - visual
   activiteiten:
-    icon: activiteiten
+    icon: directions_bike
     output: true
     _enabled_editors:
       - visual
@@ -49,6 +61,9 @@ collections_config:
 
   # Input customization
 _inputs:
+  layout:
+    hidden: true
+
   seo:
     label: SEO
     comment: 'Zoekmachine-optimalisate, Wordt weergegeven in Google en heeft invloed op je vindbaarheid'

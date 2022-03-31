@@ -1,0 +1,14 @@
+.text {
+  @extend %wrapper;
+
+  max-width: 900px;
+  margin: var(--space-700) auto;
+
+  p {
+    margin-bottom: var(--space-300);
+  }
+
+  h2 {
+    margin-top: var(--space-400);
+  }
+}

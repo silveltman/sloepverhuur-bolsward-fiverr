@@ -1,0 +1,116 @@
+---
+layout: reserveren
+info:
+  titel: Selecteer een dagdeel of dag (XL)
+  text: >-
+    Vul je gegevens in en plaats de reservering. Daarna ontvang je een
+    betaallink, zodra de huursom is voldaan is de sloep definitief gereserveerd
+    en zal dit per mail worden bevestigd.
+vaartijden:
+  - naam: Ochtend
+    prijs_number: 100
+    vaartijd: 9:30 - 13:30
+  - naam: Middag
+    prijs_number: 120
+    vaartijd: 14:00 - 18:00
+  - naam: Avond
+    prijs_number: 75
+    vaartijd: 18.30 - 21:30
+  - naam: Ochtend + Middag
+    prijs_number: 175
+    vaartijd: 9:30 - 18:00
+  - naam: Middag + Avond
+    prijs_number: 150
+    vaartijd: 14.00-21.30
+  - naam: Dag XL
+    prijs_number: 195
+    vaartijd: 9.30 - 21.30
+---
+
+<div x-data="{ time: null }">
+  
+  <section class="reserveren-cards reserveren-cards">
+    {% for item in vaartijden %}
+    <!-- <a class="reserveren-cards__i" title="Bekijk deze route" href="{{ item.route_url }}" target="_blank">?</a> -->
+    <a data-value="{{ item.vaartijd }}" class="reserveren-cards__card" href="#form" @click="time = '{{ item.vaartijd }}'" :class="time == '{{ item.vaartijd }}' ? 'selected' : ''">
+      <h3 class="reserveren-cards__h">{{ item.naam }}</h3>
+      <span class="reserveren-cards__prijs">€{{ item.prijs_number }},-</span>
+      <div class="reserveren-cards__info">
+        <span class="reserveren-cards__label">Vaartijd:</span>
+        <span class="reserveren-cards__value">{{ item.vaartijd }}</span>
+      </div>
+    </a>
+    {% endfor %}
+  </section>
+
+  <form method="post" class="form reserveren-form"  id="form" x-data="{ confirm: false }" @submit="confirm = true">
+    <label class="label" for="Vaartijd">Vaartijd (selecteer hierboven):</label>
+    <input class="input input--disabled" type="text" name="Vaartijd" readonly required x-model="time" required>
+    
+    <label class="label" for="naam">Naam:</label>
+    <input class="input" name="naam" type="text">
+    
+    <label class="label" for="email">Email:</label>
+    <input class="input" name="email" type="text" required>
+    
+    <label class="label" for="Telefoonnummer">Telefoonnummer:</label>
+    <input class="input" name="telefoonnummer" type="text">
+    
+    <label class="label" for="datum">Datum voorkeur:</label>
+    <input class="input" name="datum" type="date">
+    
+    <label class="label" for="bericht">Vragen / opmerkingen:</label>
+    <textarea class="textarea" name="bericht"></textarea>
+    
+    <input type="hidden" name="_to" value="silveltman@hotmail.com" />
+    <input type="text" name="_subject" style="display: none;" value="Bericht via contactformulier" />
+    <!-- <input type="text" name="_gotcha" style="display: none;" /> -->
+    
+    <input class="btn btn--primary" type="submit" value="Plaats reservering">
+
+    {% bookshop "modal"
+      live_render: false 
+      title: "Bedankt!"
+      text: "We komen zo spoedig mogelijk bij je terug om de reserveren definitief te maken"
+      button: "Oké" 
+    %}
+  </form>
+</div>
+
+<script>
+  // Helper function to get form data in the supported format
+  function getFormDataString(formEl) {
+      var formData = new FormData(formEl),
+        data = [];
+
+    for (var keyValue of formData) {
+        data.push(encodeURIComponent(keyValue[0]) + "=" + encodeURIComponent(keyValue[1]));
+    }
+
+    return data.join("&");
+  }
+
+  // Fetch the form element
+  var formEl = document.getElementById("form");
+
+  // Override the submit event
+  formEl.addEventListener("submit", function (e) {
+      e.preventDefault();
+
+    console.log("submit")
+    console.log(getFormDataString(formEl))
+
+    var request = new XMLHttpRequest();
+
+    request.addEventListener("load", function () {
+      if (request.status === 302) { // CloudCannon redirects on success
+        // It worked
+        console.log("succes")
+      }
+    });
+
+    request.open(formEl.method, formEl.action);
+    request.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+    request.send(getFormDataString(formEl));
+  });
+</script>

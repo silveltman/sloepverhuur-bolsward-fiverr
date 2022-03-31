@@ -12,6 +12,8 @@ $card-radius: $radius-base;
   display: flex;
   flex-direction: column;
   position: relative;
+  overflow: hidden;
+  text-decoration: none;
 
   &__img-container {
     border: $card-border;
@@ -53,5 +55,10 @@ $card-radius: $radius-base;
     background: $color-bg-light;
     border: $card-border;
     padding: var(--space-300);
+    box-shadow: 0 -10px 40px 0 rgba(black, 0.5);
+  }
+
+  &__p {
+    color: $color-text-base;
   }
 }

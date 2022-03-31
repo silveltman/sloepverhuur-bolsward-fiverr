@@ -1,0 +1,9 @@
+[component]
+structures = []
+label = "carousel-horizontal"
+description = ""
+icon = ""
+tags = []
+
+[props]
+tag = "mycollection"

@@ -1,5 +1,6 @@
 @import 'vendors/cloudcannon';
-// @import 'vendors/snipcart';
+@import 'https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css';
+@import 'vendors/flatpickr';
 
 @import 'base/sanitize';
 @import 'base/type';
@@ -8,12 +9,7 @@
 @import 'components/buttons';
 @import 'components/inputs';
 
-@import 'includes/nav';
-@import 'includes/nav-bottom';
-@import 'includes/footer';
-
 @import 'layout/forms';
-@import 'layout/carousel';
 @import 'layout/grid';
 @import 'layout/toolbar';
 @import 'layout/modal';
@@ -25,6 +21,9 @@
 @import 'pages/routes';
 @import 'pages/contact';
 @import 'pages/aanbod-single';
+@import 'pages/huren';
+@import 'pages/reserveren';
+@import 'pages/text';
 
 // @import 'themes/my-theme';
 

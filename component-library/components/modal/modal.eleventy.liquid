@@ -1,0 +1,9 @@
+<template x-teleport="body">
+  <div class="c-modal" x-show="confirm" @click="confirm = false" x-cloak>
+    <div class="c-modal__content">
+      <h3 class="c-modal__h">{{ title }}</h3>
+      <p class="c-modal__p">{{ text }}</p>
+      <button class="c-modal__btn btn btn--primary">{{ button }}</button>
+    </div>
+  </div>
+</template>

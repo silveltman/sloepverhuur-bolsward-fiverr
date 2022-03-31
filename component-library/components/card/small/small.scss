@@ -30,6 +30,10 @@
     position: absolute;
     transform: translateY(var(--font-size-400));
     transition: all 0.3s ease;
+
+    background: 0;
+    border: 0;
+    box-shadow: none;
   }
 
   &__btn {

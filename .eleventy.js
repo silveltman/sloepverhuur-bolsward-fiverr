@@ -10,18 +10,32 @@ const inspect = require("util").inspect;
 //// FUNCTIONS
 ////---------------
 
-// For eleventy-img plugin via: {% image "[path]", "[class]", "[alt]", "[sizes]", "[widths]" %
-// Usage exaple: {% image "./assets/img/myImg.jpg", "myClass", "A description", "(max-width: 768px) 90vw, 300px", "300, 600, 900" %}
-async function imageShortcode(src, alt, className, sizes, widths) {
-  let widthsArray = widths.split(',').map(Number);
-  let metadata = await Image(`.${src}`, {
+// For eleventy-img plugin via: {% image "[src]", "[alt]", "[class]", "[sizes]", "[widths]" %
+// Usage exaple: {% image "./assets/img/myImg.jpg", "A description", "myClass", "(max-width: 768px) 90vw, 300px", "300, 600, 900" %}
+const imageShortcode = async (
+  relativeSrc, 
+  alt, 
+  className, 
+  sizes = '100vw',
+  widths = '400, 800, 1280', 
+  ) => {
+
+  // Turn a string of numbers into an array
+  const widthsArray = widths.split(',').map(Number);
+
+  // If local add a '.' to path, if remote pass full url
+  const fullSrc = relativeSrc.startsWith('/') ? `.${relativeSrc}` : relativeSrc;
+
+  // coonfig for generating
+  const imageMetaData = await Image(fullSrc, {
     widths: widthsArray,
-    formats: ["webp", "jpeg", "svg"],
+    formats: ['webp', 'jpeg', 'svg'],
     urlPath: "/assets/img/generated",
     outputDir: "./_site/assets/img/generated",
-    svgShortCircuit: true,
-  });
+    svgShortCircuit: true
+  })
 
+  //attributes for generateHTML
   let imageAttributes = {
     class: className,
     alt,
@@ -30,8 +44,8 @@ async function imageShortcode(src, alt, className, sizes, widths) {
     decoding: "async",
   };
 
-  // Throw an error when alt is missing (alt="" works okay)
-  return Image.generateHTML(metadata, imageAttributes);
+  // Throws an error when alt is missing (alt="" works okay)
+  return Image.generateHTML(imageMetaData, imageAttributes);
 }
 
 
@@ -57,6 +71,11 @@ module.exports = function(eleventyConfig) {
     })
     return found
   });
+
+    // Filters collection by a frontmatter field
+    eleventyConfig.addFilter("sortByFrontmatter", (collection, key) => {
+      return collection.sort((a, b) => (a.data[key] > b.data[key]) ? 1 : -1)
+    })
 
   // Returns each collection item which fileSlug is included in an array 
   eleventyConfig.addFilter("filterBySlug", function(collection, slugList) {
@@ -106,6 +125,7 @@ module.exports = function(eleventyConfig) {
 
   return {
     dir: {
+      input: 'views',
       includes: '_includes',
       layouts: '_layouts',
       data: '_data',

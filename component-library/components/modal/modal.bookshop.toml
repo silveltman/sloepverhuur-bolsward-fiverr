@@ -1,0 +1,8 @@
+[component]
+structures = []
+label = "modal"
+description = ""
+icon = ""
+tags = []
+
+[props]

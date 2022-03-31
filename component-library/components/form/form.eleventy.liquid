@@ -1,9 +1,9 @@
-<form action="" method="post" class="form">
+<form class="form" method="post" id="form" x-data="{ confirm: false }" @submit="confirm = true">
   <label class="label" for="naam">Naam:</label>
   <input class="input" name="naam" type="text">
   
   <label class="label" for="email">Email:</label>
-  <input class="input" name="email" type="text">
+  <input class="input" name="email" type="text" required>
 
   <label class="label" for="Telefoonnummer">Telefoonnummer:</label>
   <input class="input" name="telefoonnummer" type="text">
@@ -11,5 +11,53 @@
   <label class="label" for="bericht">Bericht:</label>
   <textarea class="textarea" name="bericht"></textarea>
     
+  <input type="hidden" name="_to" value="silveltman@hotmail.com" />
+  <input type="text" name="_subject" style="display: none;" value="Bericht via contactformulier" />
+  <!-- <input type="text" name="_gotcha" style="display: none;" /> -->
+
   <input class="btn btn--primary" type="submit" value="Verstuur">
+
+  {% bookshop "modal" 
+    title: "Bedankt voor je bericht!"
+    text: "We komen zo spoedig mogelijk bij je terug"
+    button: "Oké" 
+  %}
 </form>
+
+<script>
+  // Helper function to get form data in the supported format
+  function getFormDataString(formEl) {
+      var formData = new FormData(formEl),
+        data = [];
+
+    for (var keyValue of formData) {
+        data.push(encodeURIComponent(keyValue[0]) + "=" + encodeURIComponent(keyValue[1]));
+    }
+
+    return data.join("&");
+  }
+
+  // Fetch the form element
+  var formEl = document.getElementById("form");
+
+  // Override the submit event
+  formEl.addEventListener("submit", function (e) {
+      e.preventDefault();
+
+    console.log("submit")
+    console.log(getFormDataString(formEl))
+
+    var request = new XMLHttpRequest();
+
+    request.addEventListener("load", function () {
+      if (request.status === 302) { // CloudCannon redirects on success
+        // It worked
+        console.log("succes")
+      }
+    });
+
+    request.open(formEl.method, formEl.action);
+    request.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+    request.send(getFormDataString(formEl));
+  });
+</script>

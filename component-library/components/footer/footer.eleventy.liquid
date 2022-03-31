@@ -1,0 +1,60 @@
+<div class="c-footer">
+</div>
+
+<footer class="footer">
+  <div class="footer-main">
+    <ul class="footer-main__list">
+      <li class="footer-main__item footer-main__item--contact">
+        <a href="tel:{{ info.contact.adress }}" class="footer-main__link">
+          <i class="material-icons-round footer-main__icon">phone_in_talk</i>
+          <span class="footer-main__span">+316-48429810</span>
+        </a>
+      </li>
+      <li class="footer-main__item footer-main__item--contact">
+        <a href="mailto:{{ info.contact.email }}" class="footer-main__link">
+          <i class="material-icons-round footer-main__icon">alternate_email</i>
+          <span class="footer-main__span">info@sloepverhuurbolsward.nl</span>
+        </a>
+      </li>
+      <!-- <li class="footer-main__item">
+        <a href="https://www.facebook.com/Sloepverhuur-Bolsward-100413301683004" class="footer-main__link">
+          <i class="fab fa-facebook-f footer-main__icon"></i>
+          <span class="footer-main__span">Facebook</span>
+        </a>
+      </li> -->
+      <li class="footer-main__item footer-main__item--contact">
+        <a href="#" class="footer-main__link">
+          <i class="material-icons-round footer-main__icon">place</i>
+          <span class="footer-main__span">Werkmansbloei 16<br>8701HA Bolsward</span>
+        </a>
+      </li>
+    </ul>
+
+
+    <div class="footer-main__bio">
+      <h3 class="footer-main__h">Sloepverhuur Bolsward</h3>
+      <p class="footer-main__p">Bij Sloepverhuur Bolsward ben je aan het juiste adres voor onbezorgd sloep varen door een sloep te huren inclusief schipper, ook zelf varen is mogelijk en relaxed door de digitale vaarkaart.</p>
+    </div>
+
+    <ul class="footer-main__list footer-main__list--links ">
+      {% for item in footer.links %}
+        <li class="footer-main__item">
+          <a class="footer-main__link" href="{{ item.url }}">{{ item.name }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="footer-bottom__content">
+      <a  href="https://silintweb.nl" class="footer-bottom__made">
+        Gemaakt met
+        <i class="material-icons-round" title="liefde">favorite</i>
+        &
+        <i class="material-icons-round" title="koffie">free_breakfast</i>
+        door&nbspSilintWeb
+      </a>
+      <span class="footer-bottom__company">Sloepverhuur Bolsward ©</span>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,52 @@
+<div class="carousel-horizontal"
+  x-data="{
+    skip: 1,
+    next() {
+      this.to((current, offset) => current + (offset * this.skip))
+    },
+    prev() {
+      this.to((current, offset) => current - (offset * this.skip))
+    },
+    to(strategy) {
+      let slider = this.$refs.slider
+      let current = slider.scrollLeft
+      let offset = slider.firstElementChild.getBoundingClientRect().width
+      
+      this.$refs.slider.scrollTo({ left: strategy(current, offset), behavior: 'smooth' })
+    },
+    focusableWhenVisible: {
+      'x-intersect:enter'() {
+        this.$el.removeAttribute('tabindex')
+      },
+      'x-intersect:leave'() {
+        this.$el.setAttribute('tabindex', '-1')
+      },
+    }
+  }"
+  @keydown.left="prev"
+  @keydown.right="next"
+>
+  <div class="carousel-horizontal__wrapper">
+    <button @click="prev" class="carousel-horizontal__btn carousel-horizontal__btn--prev btn btn--primary"> 
+      <i class="material-icons-round">expand_more</i>
+    </button>
+
+
+
+    <ul x-ref="slider" class="carousel-horizontal__list" tabindex="0">
+      
+      {% assign collection_count = collections[tag].size | minus: 1  %}
+      {% for i in (0..collection_count) %}
+        {% assign item = collections[tag][i]  %}
+  
+        <li class="carousel-horizontal__item">
+          {% bookshop "card/small" bind: item.data btn_text: "+ Bekijk" btn_url: item.url %}
+        </li>  
+
+      {% endfor %}
+    </ul>
+    <button @click="next" class="carousel-horizontal__btn carousel-horizontal__btn--next btn btn--primary"> 
+      <i class="material-icons-round">expand_more</i>
+    </button>
+  </div>
+</div>

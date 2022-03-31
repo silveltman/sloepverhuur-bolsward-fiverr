@@ -1,0 +1,135 @@
+@use '../abstracts' as *;
+
+$color-default: $color-text-base;
+$color-header-date: $color-text-light;
+$color-header-weekday: inherit;
+
+$color-day-enabled: $color-bg-base;
+$color-day-disabled: $color-text-dark;
+$color-day-today: $color-bg-base;
+$color-day-selected: $color-bg-base;
+$color-day-hover: $color-bg-base;
+$color-day-prevNext: $color-text-base;
+
+$bg-default: $color-bg-light;
+$bg-day-enabled: $color-secondary;
+$bg-day-disabled: inherit;
+$bg-day-today: $color-secondary;
+$bg-day-selected: $color-text-light;
+$bg-day-hover: $color-secondary;
+$bg-day-prevNext: rgba($color-secondary, 0.1);
+
+$border-day-enabled: $border-dark;
+$border-day-disabled: $border-dark;
+$border-day-today: 2px solid $color-text-light;
+$border-day-selected: transparent;
+$border-day-hover: 2px solid $color-text-light;
+$border-day-preNext: $border-dark;
+
+.flatpickr {
+  &-calendar {
+    color: $color-default;
+    background: $bg-default;
+
+    overflow: hidden;
+
+    border-radius: $radius-base;
+    box-shadow: $shadow-base;
+    border: $border-base;
+    font-size: var(--font-size-400) !important;
+  }
+
+  &-month {
+    color: $color-header-date !important;
+    fill: $color-header-date !important;
+
+    margin: var(--space-200) 0;
+  }
+
+  &-current-month {
+    font-size: 100%;
+
+    .cur-year {
+      margin: 0 -10px 0 var(--space-100) !important;
+      font-weight: 700 !important;
+    }
+
+    .arrowUp,
+    .arrowDown {
+      pointer-events: none;
+      display: none !important;
+    }
+  }
+
+  &-prev-month,
+  &-next-month {
+    color: $color-day-prevNext !important;
+    fill: $color-day-prevNext !important;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: var(--space-200) 0;
+  }
+
+  &-weekdays {
+    margin-bottom: var(--space-100);
+  }
+
+  &-weekday {
+    color: $color-header-weekday !important;
+    fill: $color-header-weekday !important;
+
+    font-weight: 400 !important;
+    font-size: var(--font-size-300);
+  }
+
+  &-day {
+    color: $color-day-enabled !important;
+    background: $bg-day-enabled !important;
+    border: $border-day-enabled !important;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: none;
+
+    border-radius: 0;
+    font-size: var(--font-size-400);
+    font-weight: 400;
+    height: 50px;
+
+    &.today {
+      border: $border-day-today !important;
+    }
+
+    &.selected {
+      color: $color-day-selected !important;
+      background: $bg-day-selected !important;
+    }
+
+    &.prevMonthDay,
+    &.nextMonthDay {
+      color: $color-day-prevNext !important;
+      background: $bg-day-prevNext !important;
+    }
+
+    &:hover {
+      border: $border-day-hover !important;
+    }
+  }
+
+  &-disabled {
+    color: $color-day-disabled !important;
+    background: $bg-day-disabled !important;
+    border: $border-day-disabled !important;
+  }
+}
+
+.flatpickr-calendar,
+.flatpickr-days,
+.dayContainer {
+  width: 100%;
+  max-width: none;
+  min-width: 300px;
+}

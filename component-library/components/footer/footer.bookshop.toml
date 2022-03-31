@@ -1,0 +1,9 @@
+[component]
+structures = []
+label = "footer"
+description = ""
+icon = ""
+tags = []
+
+[props]
+_live_render = false

@@ -1,0 +1,12 @@
+[component]
+structures = []
+label = "huren-progress"
+description = ""
+icon = ""
+tags = []
+
+[props]
+[[props.steps]]
+label = "label"
+step = 1
+url = "#"

@@ -16,3 +16,13 @@
     top: calc(var(--nav-height) + 40px);
   }
 }
+
+.aanbod-carousel {
+  padding: var(--space-700) 0;
+  background: $color-bg-dark;
+
+  &__content {
+    @extend %wrapper;
+    margin-bottom: var(--space-500);
+  }
+}
