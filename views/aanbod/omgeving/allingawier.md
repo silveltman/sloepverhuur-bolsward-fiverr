@@ -1,6 +1,6 @@
 ---
 seo:
-  seo_title: Met de sloep naar Allingawier
+  seo_title: Met de sloep varen naar Allingawier
   seo_description: >-
     Friese cultuur snuiven in museumdorp Allingawier, ook bereikbaar met de
     sloep van Sloepverhuur Bolsward.
