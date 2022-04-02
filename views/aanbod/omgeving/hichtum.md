@@ -1,6 +1,6 @@
 ---
 seo:
-  seo_title: Sloep - boot huren in Hichtum
+  seo_title: Met een sloep varen door Hichtum
   seo_description: >-
     Bezoek Hichtum met zijn mooie kerk en tevens rijksmonument, ook bereikbaar
     met een sloep van Sloepverhuur Bolsward.
