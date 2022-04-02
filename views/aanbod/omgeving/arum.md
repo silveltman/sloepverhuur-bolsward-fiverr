@@ -1,6 +1,6 @@
 ---
 seo:
-  seo_title: Met de sloep varen naar Arum
+  seo_title: Met een sloep varen naar Arum
   seo_description: >-
     Heerlijk lunchen bij herberg 'De gekroonde Leeuw', ook bereikbaar met een
     sloep van Sloepverhuur Bolsward.
