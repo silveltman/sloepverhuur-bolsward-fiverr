@@ -1,6 +1,6 @@
 ---
 seo:
-  seo_title: Met de sloep varen door Boazum
+  seo_title: Met een sloep varen door Boazum
   seo_description: >-
     Wandel door Boazum met zijn statige rentenierswoningen, ook bereikbaar met
     een sloep van Sloepverhuur Bolsward.
