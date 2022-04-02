@@ -111,24 +111,49 @@ x-init="fetchProducts()"
         </div>
     </div>
 
-    <button @click="console.log(products)"></button>
-
-    <span x-text="products[0].mode"></span>
+    
+    
 </div>
 
-<!-- <script>
-    var myHeaders = new Headers();
-    myHeaders.append("Authorization", "Basic U1RfT1dZMlpEaGxZalV0WkdSaFl5MDBOemsyTFRnMFptSXROV0UzTTJRMFlXUTJNamczTmpNM09ETXdNemN5TmpBME9UUTFNalk0Og==");
-    myHeaders.append("Accept", "application/json");
+<script>
+    import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js'
 
-    var requestOptions = {
-    method: 'GET',
-    headers: myHeaders,
-    redirect: 'follow'
+    // Add Firebase products that you want to use
+    import { auth } from 'https://www.gstatic.com/firebasejs/9.6.10/firebase-auth.js'
+    import { firestore } from 'https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.js'
+    import { payments } from "https://unpkg.com/@stripe/firestore-stripe-payments";
+
+    const firebaseConfig = {
+        apiKey: "AIzaSyCY2us6jolkDU6bYcS2_WnAnuuMxRgzCtw",
+        authDomain: "sloepverhuur-bolsward-b0914.firebaseapp.com",
+        projectId: "sloepverhuur-bolsward-b0914",
+        storageBucket: "sloepverhuur-bolsward-b0914.appspot.com",
+        messagingSenderId: "939866592360",
+        appId: "1:939866592360:web:bc7ea521353a49348357dd"
     };
 
-    fetch("https://app.snipcart.com/api/products", requestOptions)
-    .then(response => response.text())
-    .then(result => console.log(result))
-    .catch(error => console.log('error', error));
-</script> -->
+    const app = initializeApp(firebaseConfig);
+
+    const payments = getStripePayments(app, {
+        productsCollection: "products",
+        customersCollection: "customers",
+    });
+
+    const myPriceId = 'price_1KgnFCBnudNNlWIW6EHMMve4'
+
+    const session = await createCheckoutSession(payments, {
+        price: myPriceId,
+    });
+
+    function startPayment() {
+        console.log('begin')
+
+        window.location.assign(session.url);
+
+        onsole.log('end')
+    }
+
+</script>
+
+
+<button onclick="startPayment()">Click!</button>
