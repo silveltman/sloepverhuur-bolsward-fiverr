@@ -1,6 +1,6 @@
 ---
 seo:
-  seo_title: Sloep - boot huren in Arum
+  seo_title: Met de sloep naar Arum
   seo_description: >-
     Heerlijk lunchen bij herberg 'De gekroonde Leeuw', ook bereikbaar met een
     sloep van Sloepverhuur Bolsward.
