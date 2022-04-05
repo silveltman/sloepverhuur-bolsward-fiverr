@@ -14,7 +14,7 @@ layout: base
     <div class="aanbod-single__content">
       <h2>{{ seo.seo_title }}</h2>
       <p class="editable">
-        {{ content}}
+        {{ content | strip_html }}
       </p>
     </div>
   </main>
