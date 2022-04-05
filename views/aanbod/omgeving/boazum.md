@@ -1,6 +1,6 @@
 ---
 seo:
-  seo_title: Met een sloep varen door Boazum
+  seo_title: De Sint-Martinuskerk in Boazum
   seo_description: >-
     Wandel door Boazum met zijn statige rentenierswoningen, ook bereikbaar met
     een sloep van Sloepverhuur Bolsward.
