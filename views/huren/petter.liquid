@@ -14,7 +14,8 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat 
 <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 <script src="https://npmcdn.com/flatpickr/dist/l10n/nl.js"></script>
 
-<div class="picker" x-data="{
+<!-- <div class="picker" 
+x-data="{
     secret: 'ST_OWY2ZDhlYjUtZGRhYy00Nzk2LTg0ZmItNWE3M2Q0YWQ2Mjg3NjM3ODMwMzcyNjA0OTQ1MjY4:',
     products: [],
     tijden: {
@@ -50,8 +51,9 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat 
     } 
 }"
 x-init="fetchProducts()"
+> -->
 
->
+<div class="picker">
     <input class="w-full" x-ref="picker" type="text">
 
     <div class="picker-2">
@@ -78,82 +80,8 @@ x-init="fetchProducts()"
                 <span>Prijs:</span>
                 <span class="picker-2__prijs-amount">€0,00</span>
             </div>
-
-            {% assign sloep = collections.sloepen[1].data %}
-
-            <button class="product btn btn--primary snipcart-add-item" x-ref="product"
-                data-item-id='null'
-                data-item-price="0"
-                data-item-url="/products.json"
-                data-item-name="{{ sloep.title }}"
-                data-item-description="{{ sloep.description }}"
-                data-item-image="{{ sloep.gallery[0].image }}"
-                data-item-shippable="false"
-                data-item-max-quantity="1"
-        
-                data-item-custom1-name="Ochtend"
-                data-item-custom1-type="checkbox"
-                data-item-custom1-options="true[{{ sloep.prijzen.ochtend }}]|false"
-                :data-item-custom1-value="tijden.ochtend.toString()"
-        
-                data-item-custom2-name="Middag"
-                data-item-custom2-type="checkbox"
-                data-item-custom2-options="true[{{ sloep.prijzen.middag }}]|false"
-                :data-item-custom2-value="tijden.middag.toString()"
-        
-                data-item-custom3-name="Avond"
-                data-item-custom3-type="checkbox"
-                data-item-custom3-options="true[{{ sloep.prijzen.avond }}]|false"
-                :data-item-custom3-value="tijden.avond.toString()"
-                >
-                Door
-            </button>
         </div>
     </div>
-
-    
-    
 </div>
 
-<script>
-    import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js'
 
-    // Add Firebase products that you want to use
-    import { auth } from 'https://www.gstatic.com/firebasejs/9.6.10/firebase-auth.js'
-    import { firestore } from 'https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.js'
-    import { payments } from "https://unpkg.com/@stripe/firestore-stripe-payments";
-
-    const firebaseConfig = {
-        apiKey: "AIzaSyCY2us6jolkDU6bYcS2_WnAnuuMxRgzCtw",
-        authDomain: "sloepverhuur-bolsward-b0914.firebaseapp.com",
-        projectId: "sloepverhuur-bolsward-b0914",
-        storageBucket: "sloepverhuur-bolsward-b0914.appspot.com",
-        messagingSenderId: "939866592360",
-        appId: "1:939866592360:web:bc7ea521353a49348357dd"
-    };
-
-    const app = initializeApp(firebaseConfig);
-
-    const payments = getStripePayments(app, {
-        productsCollection: "products",
-        customersCollection: "customers",
-    });
-
-    const myPriceId = 'price_1KgnFCBnudNNlWIW6EHMMve4'
-
-    const session = await createCheckoutSession(payments, {
-        price: myPriceId,
-    });
-
-    function startPayment() {
-        console.log('begin')
-
-        window.location.assign(session.url);
-
-        onsole.log('end')
-    }
-
-</script>
-
-
-<button onclick="startPayment()">Click!</button>
