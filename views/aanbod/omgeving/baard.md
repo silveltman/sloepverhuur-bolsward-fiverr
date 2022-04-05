@@ -1,6 +1,6 @@
 ---
 seo:
-  seo_title: Café Baard i n Baard
+  seo_title: Café Baard in Baard
   seo_description: >-
     Bezoek café Baard bij de gezelligste brug van Friesland, ook bereikbaar met
     een sloep  - boot van Sloepverhuur Bolsward.
