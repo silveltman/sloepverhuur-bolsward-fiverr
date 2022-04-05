@@ -9,7 +9,9 @@ description: door Súdwest-Fryslân.
 afbeelding:
   image: >-
     /assets/img/uploads/thomasvaer-fotografie-pontjes-in-sudwest-fryslan-droech-oer-de-feart-gaastmeer-nijhuzum-route-wiepkje-20211006-0004-2899270304-1.jpeg
-  alt: Avontuurlijk fietsen door Friesland en laat je overzetten door een fietspont.
+  alt: >-
+    Avontuurlijk fietsen door Friesland en laat je overzetten door een
+    fietspont.
 checklist:
   - Gevarieerd landschap
   - Stukje Elfstedentocht
@@ -17,8 +19,8 @@ checklist:
   - Lekker actief
 samenwerking:
 button:
-  text: Bezoek website
-  url: /
+  text: Huren
+  url: https://rijwielhandeldekroon.nl
 ---
 
 # Genieten op de fiets

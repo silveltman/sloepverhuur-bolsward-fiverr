@@ -1,9 +1,9 @@
 ---
 seo:
-  seo_title: Sloep - boot huren in Abbega
+  seo_title: Ophaalbrug bij de Abbegaasterketting
   seo_description: >-
     Abbegaasterketting is een klein pittoresk buurtschap, ook bereikbaar met een
-    sloep van Sloepverhuur Bolsward.
+    sloep - boot van Sloepverhuur Bolsward.
 title: Abbegaasterketting
 afbeelding:
   image: /assets/img/aanbod/omgeving/abbegaasterketting.JPG
