@@ -1,6 +1,6 @@
 ---
 seo:
-  seo_title: Met een sloep varen door Burgwerd
+  seo_title: Uitzicht over Bolswardertrekvaart in Burgwerd
   seo_description: >-
     Genieten in het pittoreske Burgwerd, ook bereikbaar met een sloep van
     Sloepverhuur Bolsward.
