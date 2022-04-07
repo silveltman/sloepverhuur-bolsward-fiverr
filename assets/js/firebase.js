@@ -1,7 +1,7 @@
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js'
 
 // Add Firebase products that you want to use
-import { getFirestore, collection, getDocs } from 'https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.js'
+import { getFirestore, collection, onSnapshot } from 'https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.js'
 
 const firebaseConfig = {
   apiKey: "AIzaSyCY2us6jolkDU6bYcS2_WnAnuuMxRgzCtw",
@@ -13,37 +13,62 @@ const firebaseConfig = {
 };
       
 const app = initializeApp(firebaseConfig);
-
 // init firebase services
 const db = getFirestore();
-
-const colRef = collection(db, 'sloepen/petter/availability')
-
-var mytext = "hello world"
-
-const sloepen = getDocs(colRef)
-  .then((snapshot) => {
-    let sloepen = []
-    snapshot.docs.forEach(doc => {
-      sloepen.push({...doc.data(), id: doc.id})
-    })
-    console.log(sloepen[0])
-    // return sloepen
-  })
-  .catch(err => {
-    console.log(err.message)
-  });
-
-
 
 
 window.getFirebase = () => {
   return {
-    text: 'oke',
+    availability: [],
+    enabledDates: [],
+    active: {
+      date: null,
+      ochtend: null,
+      middag: null,
+      avond: null
+    },
+    selectedSlots: {
+      ochtend: false,
+      middag: false,
+      avond: false
+    },
 
-    setText() {
-      this.text = 'no'
-      // console.log(mytext, sloepen[0].)
-    }
+    init() {
+      const colRef = collection(db, 'sloepen/petter/availability');
+      onSnapshot(colRef, (snap) => {
+        this.setAvailability(snap)
+        this.setEnabledDates(snap)
+      })
+    },
+
+    setAvailability(snap) {
+      const availability = []
+      snap.docs.forEach(doc => {
+        availability.push(doc.data())
+      })
+      this.availability = availability
+    },
+
+    setEnabledDates(snap) {
+      const enabledDates = []
+      snap.docs.forEach(doc => {
+        enabledDates.push(doc.data().date.toDate())
+      })
+      this.enabledDates = enabledDates
+    },
+
+    setActive(date) {
+      if (!date) return
+      if (this.availability == []) return
+
+      let found = this.availability.find(item => {
+        return item.date.toDate().getTime() == date.getTime()
+      })
+
+      this.active = found
+      this.selectedSlots.ochtend = false
+      this.selectedSlots.middag = false
+      this.selectedSlots.avond = false
+    },
   }
 }

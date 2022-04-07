@@ -55,18 +55,40 @@
   }
 
   &__item {
-    border: 2px solid $color-secondary;
+    position: relative;
+  }
+
+  &__checkmark {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: 2px solid $color-text-dark;
+    color: $color-text-dark;
     border-radius: $radius-small;
     padding: var(--space-100) var(--space-200);
     cursor: pointer;
-    display: flex;
-    justify-content: space-between;
+    pointer-events: none;
 
-    &:hover {
-      border-color: $color-text-light;
+    &.enabled {
+      border-color: transparent;
+      color: $color-bg-base;
+      background: $color-secondary;
+      pointer-events: all;
     }
 
-    &.selected {
+    &:hover {
+      background: lighten($color-secondary, 25%);
+    }
+  }
+
+  &__checkbox {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+
+    &:checked ~ .picker-2__checkmark {
       background: $color-text-light;
       border-color: transparent;
       color: $color-bg-light;
@@ -91,3 +113,5 @@
     color: $color-primary;
   }
 }
+
+

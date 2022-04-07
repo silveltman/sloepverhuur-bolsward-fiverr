@@ -16,7 +16,7 @@ $bg-day-enabled: $color-secondary;
 $bg-day-disabled: inherit;
 $bg-day-today: $color-secondary;
 $bg-day-selected: $color-text-light;
-$bg-day-hover: $color-secondary;
+$bg-day-hover: lighten($color-secondary, 25%);
 $bg-day-prevNext: rgba($color-secondary, 0.1);
 
 $border-day-enabled: $border-dark;
@@ -85,8 +85,8 @@ $border-day-preNext: $border-dark;
   }
 
   &-day {
-    color: $color-day-enabled !important;
-    background: $bg-day-enabled !important;
+    color: $color-day-enabled;
+    background: $bg-day-enabled;
     border: $border-day-enabled !important;
 
     display: flex;
@@ -110,12 +110,18 @@ $border-day-preNext: $border-dark;
 
     &.prevMonthDay,
     &.nextMonthDay {
-      color: $color-day-prevNext !important;
-      background: $bg-day-prevNext !important;
+      color: $color-day-prevNext;
+      background: $bg-day-prevNext;
+
+      &:hover {
+        background: $bg-day-hover;
+      }
     }
 
     &:hover {
-      border: $border-day-hover !important;
+      border: $border-day-hover;
+      background: $bg-day-hover;
+      color: $color-day-hover;
     }
   }
 
