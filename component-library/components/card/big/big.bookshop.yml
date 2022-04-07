@@ -1,0 +1,36 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures: []
+  label: cards-big
+  description: ""
+  icon: ""
+  tags: []
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  subtitle: ""
+  title: ""
+  description: ""
+  btn_primary_text: ""
+  btn_primary_url: ""
+  btn_secondary_text: ""
+  btn_secondary_url: ""
+  afbeelding:
+    image: ""
+    alt: ""
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+  subtitle: Mijn subtitel
+  title: Mijn titel
+  description: Mijn omschrijving
+  btn_primary_text: Primary
+  btn_primary_url: "#"
+  btn_secondary_text: Secondary
+  btn_secondary_url: "#"
+  afbeelding:
+    image: https://picsum.photos/1200/800?random=1
+    alt: Omschrijving van mijn afbeelding
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs: {}

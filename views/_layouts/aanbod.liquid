@@ -33,6 +33,14 @@ collec: omgeving
       {% bookshop "card/base" live_render: false bind: item.data url: item.url  %}
       
     {% endfor %}
+    {%- comment -%}
+    {%- endcomment -%}
+
+    {%- comment -%}
+    {% for item in collections[page.fileSlug] %}
+      {% bookshop "card/base" live_render: false bind: item.data url: item.url  %}
+    {% endfor %}
+    {%- endcomment -%}
   </div>
 </main>
 

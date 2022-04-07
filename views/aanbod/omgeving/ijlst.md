@@ -1,8 +1,8 @@
 ---
 seo:
-  seo_title: Huur een sloep - boot in IJlst
+  seo_title: IJlst, schaatsstad van Friesland
   seo_description: >-
-    Bezoek in IJlst houtmolen 'De rat', ook bereikbaar met een sloep van
+    Bezoek in IJlst houtmolen 'De rat', ook bereikbaar met een sloep - boot van
     Sloepverhuur Bolsward.
 title: IJlst
 afbeelding:
