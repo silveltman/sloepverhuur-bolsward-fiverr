@@ -1,5 +1,7 @@
-npm install
-npm run build:bookshop-sass
-npm run build:sass
+#!/usr/bin/env bash
+
+npm i
+npm run bookshop-sass:build
+npm run sass:build
 
 echo "📚 ✅ : Prebuild script finished"
