@@ -1,6 +1,6 @@
 ---
 seo:
-  seo_title: Kanoën bij Sloepverhuur Bolsward
+  seo_title: Kanoën in Wolsum
   seo_description: >-
     Huur een sloep - boot bij Sloepverhuur Bolsward en combineer dit met kanoën
     bij Kootje bij de brug.
