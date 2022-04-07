@@ -93,7 +93,15 @@ banner:
 
       {% capture reserveren_url %}/reserveren/{{ item.fileSlug }} {% endcapture %}
 
-      {% bookshop "card/big" bind: item.data btn_primary_text: "Reserveren" btn_primary_url: reserveren_url btn_secondary_text: "+ Meer info" btn_secondary_url: item.url afbeelding: item.data.gallery[0] %}
+      {% bookshop "card/big" 
+        bind: item.data 
+        btn_primary_text: "Reserveren" 
+        btn_primary_url: reserveren_url 
+        btn_secondary_text: "+ Meer info" 
+        btn_secondary_url: item.url 
+        afbeelding: item.data.gallery[0] 
+      %}
+
     {% endfor %}
   </section>
   
@@ -112,7 +120,6 @@ banner:
         <a href="/aanbod/routes" class="index-routes__btn btn btn--primary editable">Bekijk routes</a>
       </div>
     </div>
-
   </section>
 
   <section class="index-arrangementen">
@@ -138,7 +145,7 @@ banner:
         <p class="index-reviews__p editable">
           Al vele klanten hebben Sloepverhuur Bolsward weten te vinden en gezien de maximale score van 5 sterren naar volle tevredenheid. Mogen wij u ook begroeten?
         </p>
-        <a target="_blank" class="index-reviews__btn btn btn--secondary editable" href="https://www.google.com/search?q=sloepverhuurbolsward&sxsrf=AOaemvKi6WuED6ZIDfwVFh5p8y4rm75npg%3A1641475267367&ei=w-zWYZ7kFaiDhbIP5a-80As&oq=sloepv&gs_lcp=Cgdnd3Mtd2l6EAMYADIECCMQJzIECCMQJzIFCAAQywEyBQgAEMsBMgUIABDLATIFCAAQywEyCwguEMcBEK8BEMsBMgUIABDLATIFCAAQywEyBQgAEMsBOgsILhDHARCjAhCRAjoFCAAQkQI6CwguEIAEEMcBENEDOgUIABCABDoKCC4QxwEQrwEQQzoKCC4QxwEQ0QMQQzoECAAQQzoECC4QQ0oECEEYAEoECEYYAFAAWP4DYOMMaABwAngAgAGIAYgBsgWSAQMxLjWYAQCgAQHAAQE&sclient=gws-wiz#lrd=0x47c8e9fd16a6ce6b:0x479366133393a674,1,,,">
+        <a target="_blank" class="index-reviews__btn btn btn--secondary editable" href="https://www.google.com/search?q=sloepverhuurbolsward&sxsrf=AOaemvKi6WuED6ZIDfwVFh5p8y4rm75npg%3A1641475267367&ei=w-zWYZ7kFaiDhbIP5a-80As&oq=sloepv&gs_lcp=Cgdnd3Mtd2l6EAMYADIECCMQJzIECCMQJzIFCAAQywEyBQgAEMsBMgUIABDLATIFCAAQywEyCwguEMcBEK8BEMsBMgUIABDLATIFCAAQywEyBQgAEMsBOgsILhDHARCjAhCRAjoFCAAQkQI6CwguEIAEEMcBENEDOgUIABCABDoKCC4QxwEQrwEQQzoKCC4QxwEQ0QMQQzoECAAQQzoECC4QQ0oECEEYAEoECEYYAFAAWP4DYOMMaABwAngAgAGIAYgBsgWSAQMxLjWYAQCgAQHAAQE&sclient">
           Bekijk op Google
         </a>
       </div>
