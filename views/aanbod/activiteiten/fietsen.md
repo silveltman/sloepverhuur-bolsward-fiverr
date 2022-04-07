@@ -19,7 +19,7 @@ checklist:
   - Lekker actief
 samenwerking:
 button:
-  text: Huren
+  text: Reserveren
   url: https://rijwielhandeldekroon.nl
 ---
 
