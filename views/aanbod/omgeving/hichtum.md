@@ -1,9 +1,9 @@
 ---
 seo:
-  seo_title: Met een sloep varen door Hichtum
+  seo_title: Kerk uit de 13e eeuw in Hichtum
   seo_description: >-
     Bezoek Hichtum met zijn mooie kerk en tevens rijksmonument, ook bereikbaar
-    met een sloep van Sloepverhuur Bolsward.
+    met een sloep - boot van Sloepverhuur Bolsward.
 title: Hichtum
 afbeelding:
   image: >-
