@@ -19,7 +19,7 @@ checklist:
   - combineer met lunch
 samenwerking:
 button:
-  text: Bezoek website
+  text: Huur een kano
   url: http://www.wolsumerketting.com
 ---
 
