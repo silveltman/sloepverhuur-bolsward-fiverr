@@ -1,9 +1,9 @@
 ---
 seo:
-  seo_title: Sloep - boot huren in Allingawier
+  seo_title: Museumdorp Allingawier
   seo_description: >-
     Friese cultuur snuiven in museumdorp Allingawier, ook bereikbaar met de
-    sloep van Sloepverhuur Bolsward.
+    sloep - boot van Sloepverhuur Bolsward.
 title: Allingawier
 afbeelding:
   image: /assets/img/aanbod/omgeving/allingawier.JPG

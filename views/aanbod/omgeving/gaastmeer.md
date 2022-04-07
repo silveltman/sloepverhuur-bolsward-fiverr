@@ -1,6 +1,6 @@
 ---
 seo:
-  seo_title: Sloep - boot huren in Gaastmeer
+  seo_title: Met een sloep varen door Gaastmeer
   seo_description: >-
     Bezoek Gaastmeer voor een lunch bij restaurant D'ald Herberch, ook te
     bereiken met een sloep van Sloepverhuur Bolsward.
