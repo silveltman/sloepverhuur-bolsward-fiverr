@@ -12,7 +12,7 @@ omgeving:
   - heeg
   - oudega-w
   - westhem
-prijs: 95
+prijs:
 sloepen:
   - petter
 ---
