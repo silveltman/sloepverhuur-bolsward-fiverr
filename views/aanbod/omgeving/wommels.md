@@ -1,8 +1,8 @@
 ---
 seo:
-  seo_title: Sloep - boot huren in Wommels
+  seo_title: Kaasmuseum in Wommels
   seo_description: >-
-    Bezoek het kaaspakhuis in Wommels, ook bereikbaar met een sloep van
+    Bezoek het kaaspakhuis in Wommels, ook bereikbaar met een sloep - boot van
     Sloepverhuur Bolsward.
 title: Wommels
 afbeelding:
