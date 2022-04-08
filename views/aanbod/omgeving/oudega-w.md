@@ -1,9 +1,9 @@
 ---
 seo:
-  seo_title: Sloep huren - boot huren in Oudega W
+  seo_title: Pittoreske haven in Oudega W
   seo_description: >-
-    Bezoek Oudega W met zijn pittoreske haven, ook bereikbaar met een sloep van
-    Sloepverhuur Bolsward.
+    Bezoek Oudega W met zijn pittoreske haven, ook bereikbaar met een sloep -
+    boot van Sloepverhuur Bolsward.
 title: Oudega W
 afbeelding:
   image: /assets/img/aanbod/omgeving/img-7682-e1470135396165.jpg
