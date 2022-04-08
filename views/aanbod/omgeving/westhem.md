@@ -1,9 +1,7 @@
 ---
 seo:
-  seo_title: Sloep - boot huren in Westhem
-  seo_description: >-
-    Vaar de Reidmarroute en bezoek in Westhem de Bartholomeüskerk, ook
-    bereikbaar met een sloep van Sloepverhuur Bolsward.
+  seo_title: Bartholomeüskerk in Westhem
+  seo_description: Vaar de Reidmarroute  met een sloep - boot van Sloepverhuur Bolsward.
 title: Westhem
 afbeelding:
   image: /assets/img/aanbod/omgeving/520px-westhem-bartolomeuskerk.jpg
