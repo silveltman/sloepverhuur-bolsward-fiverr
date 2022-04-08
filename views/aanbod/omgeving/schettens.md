@@ -1,8 +1,8 @@
 ---
 seo:
-  seo_title: Sloep - boot huren in Schettens
+  seo_title: Schaats Elfstedenroute door Schettens
   seo_description: >-
-    Bezoek het Pittoreske Schettens, ook bereikbaar met een sloep van
+    Bezoek het Pittoreske Schettens, ook bereikbaar met een sloep - boot van
     Sloepverhuur Bolsward.
 title: Schettens
 afbeelding:
