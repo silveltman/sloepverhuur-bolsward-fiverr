@@ -1,6 +1,6 @@
 ---
 seo:
-  seo_title: Twee dagdelen varen met lunch in Bolsward.
+  seo_title: Twee dagdelen varen met lunch
   seo_description: >-
     Huur een sloep bij Sloepverhuur Bolsward en stel in overleg je dag samen.
     Alles is mogelijk, service op maat.
