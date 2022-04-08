@@ -11,7 +11,7 @@ omgeving:
   - workum
   - makkum
   - allingawier
-prijs: '360'
+prijs: '355'
 sloepen:
   - beenakker
 ---
