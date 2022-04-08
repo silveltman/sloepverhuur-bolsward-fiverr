@@ -7,7 +7,7 @@ route_url: >-
 omgeving:
   - bolsward
   - wolsum
-prijs: '150'
+prijs: '145'
 sloepen:
   - beenakker
   - petter
