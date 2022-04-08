@@ -1,6 +1,6 @@
 ---
 seo:
-  seo_title: Sloep - boot huren in Witmarsum
+  seo_title: Molen 'De Onderneming' in Witmarsum
   seo_description: >-
     Bezoek in Witmarsum koren- en pelmolen 'De Onderneming', ook bereikbaar met
     een sloep van Sloepverhuur Bolsward.
