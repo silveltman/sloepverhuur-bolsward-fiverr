@@ -15,7 +15,7 @@ omgeving:
   - oosthem
   - abbegaasterketting
   - wolsum
-prijs: '360'
+prijs: '355'
 sloepen:
   - beenakker
 ---
