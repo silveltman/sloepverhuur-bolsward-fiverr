@@ -1,9 +1,9 @@
 ---
 seo:
-  seo_title: Sloep - boot huren in Workum
+  seo_title: Jopie Huisman museum in Workum
   seo_description: >-
-    Bezoek het Jopie Huisman Museum in Workum, ook bereikbaar met een sloep van
-    Sloepverhuur Bolsward.
+    Bezoek het Jopie Huisman Museum in Workum, ook bereikbaar met een sloep -
+    boot van Sloepverhuur Bolsward.
 title: Workum
 afbeelding:
   image: >-
