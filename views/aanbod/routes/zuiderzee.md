@@ -9,7 +9,7 @@ omgeving:
   - makkum
   - allingawier
   - tjerkwerd
-prijs: 180
+prijs: 175
 sloepen:
   - petter
   - sloepen/beenakker.md
