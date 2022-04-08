@@ -1,9 +1,9 @@
 ---
 seo:
-  seo_title: Sloep - boot huren in Tjerkwerd
+  seo_title: Sint Petruskerk in Tjerkwerd
   seo_description: >-
-    Bezoek het pittoreske centrum van Tjerkwerd, ook bereikbaar met een sloep
-    van Sloepverhuur Bolsward.
+    Bezoek het pittoreske centrum van Tjerkwerd, ook bereikbaar met een sloep -
+    boot van Sloepverhuur Bolsward.
 title: Tjerkwerd
 afbeelding:
   image: /assets/img/aanbod/omgeving/0-1.jpg
