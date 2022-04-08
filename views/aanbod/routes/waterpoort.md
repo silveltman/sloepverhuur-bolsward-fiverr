@@ -11,7 +11,7 @@ omgeving:
   - oosthem
   - ijlst
   - sneek
-prijs: '240'
+prijs: '295'
 sloepen:
   - beenakker
   - petter
