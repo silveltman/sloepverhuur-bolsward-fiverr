@@ -1,6 +1,6 @@
 ---
 seo:
-  seo_title: Varen naar Kootje bij de brug, Wolsumer ketting
+  seo_title: De mooiste theetuin van Friesland
   seo_description: >-
     Genieten in de mooiste theetuin van Friesland, bereikbaar met een sloep van
     Sloepverhuur Bolsward.
@@ -10,7 +10,7 @@ description: >-
   van Súdwest Fryslân. Ook te combineren met 'Fietsen & varen door Friesland'.
 afbeelding:
   image: /assets/img/uploads/boot-en-hote/blauwhuis31.jpg
-  alt: "Theetuin 'Kootje bij de brug' in Wolsum"
+  alt: Theetuin 'Kootje bij de brug' in Wolsum
 list:
   - label: Tijdsduur
     value: 5 uren
