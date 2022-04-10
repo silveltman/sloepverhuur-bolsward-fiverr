@@ -10,47 +10,12 @@ title: Debug
 <br>
 <br>
 
-<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
-<script src="https://npmcdn.com/flatpickr/dist/l10n/nl.js"></script>
-
-
-<div class="dates" x-data="getFirebase()">
-    <span x-text="text"></span>
-    <button @click="setText()">click</button>
-    <span x-text="await getAvailability()"></span>
-
-
-    <div
-        x-data="{
-            selected: null,
-            async init() {
-                let picker = flatpickr(this.$refs.picker, {
-                    mode: 'single',
-                    inline: true,
-                    dateFormat: 'j/n/Y',
-                    locale: 'nl',
-                    monthSelectorType: 'static',
-                    enable: await getAvailability()
-                })
-            }
-        }"
-    >
-
-    <input x-ref="picker" type="text" x-model="selected">
-
-
-</div>
-
-
-<!-- enable: await getAvailability(), -->
+<script src="https://js.stripe.com/v3/"></script>
+<script src="/assets/js/stripe.js"></script>
 
 
 
-
-
-
-
-
+<button class="checkout-button" onclick="redirectToCheckout()">Click </button>
 
 
 

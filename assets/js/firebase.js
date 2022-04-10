@@ -21,24 +21,34 @@ window.getFirebase = () => {
   return {
     availability: [],
     enabledDates: [],
+    enabledSlots: {
+      ochtend: false,
+      middag: false,
+      avond: false
+    },
+    selectedDate: null,
+    selectedSlots: {
+      ochtend: false,
+      middag: false,
+      avond: false
+    },
     active: {
       date: null,
       ochtend: null,
       middag: null,
       avond: null
     },
-    selectedSlots: {
-      ochtend: false,
-      middag: false,
-      avond: false
-    },
 
     init() {
       const colRef = collection(db, 'sloepen/petter/availability');
       onSnapshot(colRef, (snap) => {
         this.setAvailability(snap)
-        this.setEnabledDates(snap)
+        this.setEnabledDates()
       })
+      // $watch('availability', (value) => {
+      //   this.setEnabledDates()
+      //   this.setEnabledSlots()
+      // })
     },
 
     setAvailability(snap) {
@@ -49,12 +59,27 @@ window.getFirebase = () => {
       this.availability = availability
     },
 
-    setEnabledDates(snap) {
-      const enabledDates = []
-      snap.docs.forEach(doc => {
-        enabledDates.push(doc.data().date.toDate())
+    setEnabledDates() {
+      const dates = []
+      this.availability.forEach(item => {
+        dates.push(item.date.toDate())
       })
-      this.enabledDates = enabledDates
+      console.log(dates)
+      this.enabledDates = dates
+    },
+
+    setEnabledSlots() {
+      if (!this.selectedDate) return
+
+      let found = this.availability.find(item => {
+        return item.date.toDate().getTime() == this.selectedDate.getTime()
+      })
+
+      this.enabledSlots = {
+        ochtend: found.ochtend,
+        middag: found.middag,
+        avond: found.avond
+      }
     },
 
     setActive(date) {
