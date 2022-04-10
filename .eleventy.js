@@ -23,7 +23,7 @@ const imageShortcode = async (
   const widthsArray = widths.split(',').map(Number);
 
   // If local add a '.' to path, if remote pass full url
-  const fullSrc = relativeSrc.startsWith('/') ? `.${relativeSrc}` : relativeSrc;
+  const fullSrc = relativeSrc.startsWith('/') ? `./views/${relativeSrc}` : relativeSrc;
 
   // coonfig for generating
   const imageMetaData = await Image(fullSrc, {
