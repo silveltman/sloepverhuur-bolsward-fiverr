@@ -2,19 +2,18 @@
 spec:
   structures: []
   label: card-checklist
-  description: ""
-  icon: ""
+  description: ''
+  icon: ''
   tags: []
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  title: ""
-  description: ""
+  title: ''
+  description: ''
   checklist:
     - Lorem Ipsum
-  button:
-    text: ""
-    url: ""
+  btn_text: ''
+  btn_url: ''
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
@@ -22,9 +21,8 @@ preview:
   description: Mijn omschrijving
   checklist:
     - Lorem Ipsum
-  button:
-    text: Button
-    url: "#"
+  btn_text: Button
+  btn_url: '#'
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs: {}

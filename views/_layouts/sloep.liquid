@@ -15,7 +15,8 @@ _checklist_button:
       {{ content }}
     </div>
     <div class="sloep__checklist">
-      {% bookshop "card/checklist" bind: checklist title: 'Eigenschappen' button: _checklist_button %}
+      {% capture url %} /reserveren/{{ page.fileSlug }} {% endcapture %}
+      {% bookshop "card/checklist" bind: checklist title: 'Eigenschappen' btn_text: "Reserveren" btn_url: url %}
     </div>
   </div>
   

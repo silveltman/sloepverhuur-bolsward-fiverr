@@ -113,7 +113,7 @@ module.exports = function(eleventyConfig) {
   //// CONFIG
   ////---------------
 
-  eleventyConfig.addPassthroughCopy("assets");
+  eleventyConfig.addPassthroughCopy("views/assets");
 
   eleventyConfig.addDataExtension("yaml", contents => yaml.load(contents));
 
