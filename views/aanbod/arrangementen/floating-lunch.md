@@ -1,9 +1,7 @@
 ---
 seo:
-  seo_title: Stel zelf uw arrangement samen
-  seo_description: >-
-    Huur een sloep bij Sloepverhuur Bolsward en stel in overleg je dag samen.
-    Alles is mogelijk, service op maat.
+  seo_title: Lunchen in de sloep
+  seo_description: Huur een sloep bij Sloepverhuur Bolsward inclusief lunch
 title: Floating lunch
 description: >-
   Service op maat, oftewel stel zelf je arrangement samen in overleg met
@@ -22,3 +20,4 @@ list:
     value: Op aanvraag
 samenwerking: N.T.B.
 ---
+
