@@ -2,8 +2,8 @@
 seo:
   seo_title: Ophaalbrug bij de Abbegaasterketting
   seo_description: >-
-    Abbegaasterketting is een klein pittoresk buurtschap, ook bereikbaar met een
-    sloep - boot van Sloepverhuur Bolsward.
+    Abbegaasterketting, een klein pittoresk buurtschap. Ook bereikbaar met een
+    huur sloep - boot van Sloepverhuur Bolsward.
 title: Abbegaasterketting
 afbeelding:
   image: /assets/img/aanbod/omgeving/abbegaasterketting.JPG
