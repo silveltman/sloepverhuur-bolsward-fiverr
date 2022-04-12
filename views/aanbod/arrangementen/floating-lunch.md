@@ -1,8 +1,8 @@
 ---
 seo:
-  seo_title: Lunchen in de sloep
-  seo_description: Huur een sloep bij Sloepverhuur Bolsward inclusief lunch
-title: Citytour met lunch aan boord
+  seo_title: Citytour met lunch aan boord
+  seo_description: Huur een sloep bij Sloepverhuur Bolsward inclusief lunch aan boord
+title: Floating Lunch
 description: Ontdek Bolsward
 afbeelding:
   image: /assets/img/uploads/img-7350.JPG
