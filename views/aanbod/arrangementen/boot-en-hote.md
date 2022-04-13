@@ -7,7 +7,7 @@ seo:
 title: Boot & hôte
 description: >-
   Culinair en cultureel genieten in en om Bolsward en bij de mooiste theetuin
-  van Súdwest Fryslân. Ook te combineren met 'Fietsen & varen door Friesland'.
+  van Súdwest Fryslân. 
 afbeelding:
   image: /assets/img/uploads/boot-en-hote/blauwhuis31.jpg
   alt: Theetuin 'Kootje bij de brug' in Wolsum
