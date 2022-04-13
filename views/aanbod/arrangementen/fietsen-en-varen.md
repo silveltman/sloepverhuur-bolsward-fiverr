@@ -1,7 +1,9 @@
 ---
 seo:
-  seo_title: Fietsen en varen
-  seo_description: Huur een fiets in Bolsward i.c.m. met een dagdeel varen in een sloep.
+  seo_title: Mooie combi van langs en op het water
+  seo_description: >-
+    Huur een fiets in Bolsward i.c.m. met een dagdeel varen in een sloep van
+    Sloepverhuur Bolsward
 title: Fietsen & varen
 description: >-
   Een mooie combi om Friesland zowel op de fiets als vanuit een sloep te
