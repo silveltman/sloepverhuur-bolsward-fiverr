@@ -1,9 +1,9 @@
 ---
 seo:
-  seo_title: Sloep - boot huren in waterland van Friesland.
+  seo_title: Sloep - boot huren in Bolsward, Makkum, Workum, Sneek.
   seo_description: >-
     Ruime sloep met schipper huren in Friesland, catering,  arrangementen,
-    Bolsward, Sneek, Workum, max. 12 personen.
+    familiedag, bedrijfsuitje, max. 28 personen.
 title: Beenakker
 subtitle: Luxe 12-persoons sloep
 description: Met schipper zorgeloos genieten van waterrijk Friesland.
