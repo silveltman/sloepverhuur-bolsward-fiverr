@@ -1,5 +1,5 @@
 ---
-title: Bolsward City Tour
+title: City Tour
 description: |
   Varen door het 'Giethoorn van het Noorden' en oude stadscentrum.
 tijd: ± 1,5 uur
