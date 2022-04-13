@@ -6,7 +6,7 @@ seo:
     last-minute, Friese elfsteden, Sneek, Bolsward, max. 12 personen, diverse
     arrangementen.
 title: Beenakker
-subtitle: Luxe 12-persoons
+subtitle: Luxe 12-persoons sloep
 description: Met schipper zorgeloos genieten van waterrijk Friesland.
 checklist:
   - Varen met schipper
