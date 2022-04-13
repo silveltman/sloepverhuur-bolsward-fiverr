@@ -1,10 +1,9 @@
 ---
 seo:
-  seo_title: Zorgeloos genieten van waterrijk Friesland
+  seo_title: Sloep - boot huren in waterland van Friesland.
   seo_description: >-
-    Ruime sloep huren in Friesland, volop zitcomfort, catering in overleg,
-    last-minute, Friese elfsteden, Sneek, Bolsward, max. 12 personen, diverse
-    arrangementen.
+    Ruime sloep met schipper huren in Friesland, catering,  arrangementen,
+    Bolsward, Sneek, Workum, max. 12 personen.
 title: Beenakker
 subtitle: Luxe 12-persoons sloep
 description: Met schipper zorgeloos genieten van waterrijk Friesland.
