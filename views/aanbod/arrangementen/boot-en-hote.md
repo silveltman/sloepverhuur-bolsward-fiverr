@@ -1,6 +1,6 @@
 ---
 seo:
-  seo_title: Sloep - boot huren en varen naar Wolsum
+  seo_title: 'De mooiste theetuin van Friesland '
   seo_description: >-
     Genieten in de mooiste theetuin van Friesland, bereikbaar met een sloep van
     Sloepverhuur Bolsward.
