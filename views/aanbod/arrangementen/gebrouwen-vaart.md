@@ -6,8 +6,8 @@ seo:
     Bolsward.
 title: Gebrouwen vaart
 description: >-
-  Een excursie in De Friese Bierbrouwerij, distilleerderij en proeflokaal met
-  aansluitend een sloepentocht door en om Bolsward.
+  Een excursie in De Friese Bierbrouwerij met aansluitend een sloepentocht door
+  en om Bolsward.
 afbeelding:
   image: >-
     /assets/img/uploads/bier-und-whisky-aus-den-niederlanden-genießen-in-der-brauerei-us-heit.JPG
