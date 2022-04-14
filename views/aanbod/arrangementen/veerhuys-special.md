@@ -5,10 +5,7 @@ seo:
     Huur een sloep bij Sloepverhuur Bolsward en combineer dit met een lunch of
     diner in stadscafé Het Veerhuys.
 title: Veerhuys Special
-description: >-
-  Sloep varen combineren met een lunch of diner in de mooie binnenstad van
-  Bolsward? Kies dan voor de Veerhuys Special waarbij je kan profiteren van
-  aantrekkelijke kortingen!
+description: Huur een sloep en vaar naar Makkum, Workum Sneek in combinatie met lunch.
 afbeelding:
   image: /assets/img/uploads/mg-3335-web.jpg
   alt: Heerlijk lunchen of dineren in 't Veerhuys te Bolsward
