@@ -1,6 +1,6 @@
 ---
 seo:
-  seo_title: In colonne
+  seo_title: Varen met meerdere sloepen
   seo_description: Huur een sloep bij Sloepverhuur Bolsward
 title: In Colonne
 description: >-
