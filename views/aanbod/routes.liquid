@@ -92,14 +92,14 @@ hero:
           </div>
 
           <div class="route__accordion">
-            {% assign featured_omgeving = collections.omgeving | filterBySlug: item.data.omgeving  %}
             <h2 class="route__h">{{item.data.title}}</h2>
             <span class="route__tijd">{{item.data.tijd}}</span>
             <p class="route__p">{{item.data.description}}</p>
 
-
             <div x-data="{ activeAccordionItem: null }" class="accordion">
-              {% for omgeving in featured_omgeving %}
+              {% for omgeving_slug in item.data.omgeving %}
+                {% assign omgeving = collections.omgeving | findBySlug: omgeving_slug  %}
+
                 <div x-data="{ 
                   id: {{ forloop.index }},
                   get expanded() {

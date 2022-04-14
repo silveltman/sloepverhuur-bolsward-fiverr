@@ -84,6 +84,13 @@ module.exports = function(eleventyConfig) {
     return found
   });
 
+  eleventyConfig.addFilter("findBySlug", function(collection, slug) {
+    const found = collection.find(item => {
+      return item.fileSlug == slug
+    })
+    return found
+  });
+
 
   ////---------------
   //// SHORTCODES
