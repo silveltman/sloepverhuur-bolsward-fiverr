@@ -7,7 +7,7 @@ seo:
 title: Fietsen & varen
 description: >-
   Een mooie combi om Friesland zowel op de fiets als vanuit een sloep te
-  ontdekken. Kosten afhankelijk van fietskeuze. 
+  ontdekken. 
 afbeelding:
   image: /assets/img/uploads/fietsen-en-varen/varenfietsen.jpg
   alt: Fietsen en varen komen bij elkaar in Friesland
