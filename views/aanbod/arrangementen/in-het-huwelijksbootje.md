@@ -1,9 +1,9 @@
 ---
 seo:
-  seo_title: Trouwen in een sloep van Sloepverhuur Bolsward.
+  seo_title: Trouwen vanuit een sloep
   seo_description: >-
-    De mooiste dag van je leven starten in  een sloep van Sloepverhuur Bolsward,
-    met schipper of bruidegom aan het stuur.
+    Trouwen in  een sloep van Sloepverhuur Bolsward, met schipper of bruidegom
+    aan het stuur.
 title: In het huwelijksbootje
 description: >-
   Trouwen in het 17e eeuwse stadhuis in Bolsward en vooraf door de stadsgracht
