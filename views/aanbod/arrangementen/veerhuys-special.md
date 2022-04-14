@@ -7,7 +7,7 @@ seo:
 title: Veerhuys Special
 description: >-
   Ontdek waterland van Friesland vanuit een sloep en combineer dit met een lunch
-  of diner.
+  of diner met korting!
 afbeelding:
   image: /assets/img/uploads/mg-3335-web.jpg
   alt: Heerlijk lunchen of dineren in 't Veerhuys te Bolsward
