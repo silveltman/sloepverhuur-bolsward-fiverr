@@ -1,7 +1,7 @@
 ---
 seo:
   seo_title: Varen met meerdere sloepen
-  seo_description: Huur een sloep bij Sloepverhuur Bolsward
+  seo_description: Huur een sloep in Friesland en vaar naar Makkum
 title: In Colonne
 description: >-
   Met meerdere sloepen een route varen. Ideaal voor familiedag, vriendengroep of
