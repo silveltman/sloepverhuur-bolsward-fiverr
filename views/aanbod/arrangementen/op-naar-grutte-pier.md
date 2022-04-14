@@ -5,9 +5,7 @@ seo:
     Vaar over de schaats Elfstedenroute naar Kimswerd, het dorp van Grutte Pier,
     met een sloep van Sloepverhuur Bolsward.
 title: Op naar Grutte Pier
-description: >-
-  Sloep huren in Kubaard of er naar toe varen met een sloop - boot van
-  Sloepverhuur Bolsward
+description: Varen over de schaats elfstedenroute naar Kimswerd, het dorp van Grutte Pier.
 afbeelding:
   image: /assets/img/uploads/op-naar-grutte-pier/kimswert2.jpg
   alt: In luxe sloep met schipper naar Grutte Pier in Kimswerd
