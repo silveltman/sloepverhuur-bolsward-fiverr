@@ -7,7 +7,7 @@ seo:
 title: Varen met Syb of Piter
 description: >-
   Met Syb van der Ploeg, i.d.d. van 'De Kast', of Piter Wilkens aan boord varen
-  we in de huur sloep naar Wommels privé concert.
+  we naar een idyllische plek voor een privé concert.
 afbeelding:
   image: >-
     /assets/img/uploads/varen-met-syb/syb-van-der-ploeg-biografie-2018-pdfgrafie-2.jpg
