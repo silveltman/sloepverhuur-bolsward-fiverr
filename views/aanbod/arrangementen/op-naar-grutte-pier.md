@@ -1,14 +1,11 @@
 ---
 seo:
-  seo_title: Met een sloep van Sloepverhuur Bolsward naar Grutte Pier.
+  seo_title: Verzetsstrijder Grutte Pier in Kubaard
   seo_description: >-
     Vaar over de schaats Elfstedenroute naar Kimswerd, het dorp van Grutte Pier,
     met een sloep van Sloepverhuur Bolsward.
 title: Op naar Grutte Pier
-description: >-
-  Varen over de Schaats Elfstedenroute naar het dorp van Grutte Pier, Kimswerd. 
-  Incl. koffie/thee met Friese oranjekoek, lunch, gekoelde drankjes en
-  borrelhapjes.
+description: Varen over de schaats elfstedenroute naar Kimswerd, het dorp van Grutte Pier.
 afbeelding:
   image: /assets/img/uploads/op-naar-grutte-pier/kimswert2.jpg
   alt: In luxe sloep met schipper naar Grutte Pier in Kimswerd

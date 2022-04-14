@@ -1,12 +1,13 @@
 ---
 seo:
-  seo_title: Sloep - boot huren in Bolsward met arrangement.
-  seo_description: Huur een sloep bij Sloepverhuur Bolsward en vaar naar de waterpoort in Sneek
+  seo_title: Met een sloep door Sneek varen
+  seo_description: >-
+    Huur een sloep - boot bij Sloepverhuur Bolsward en vaar naar de waterpoort
+    in Sneek
 title: Onder de Waterpoort
 description: >-
   Naar Elfstedenstad Sneek en varen onder de Waterpoort i.c.m. met een bezoek
-  aan museum 'Houtstad' in IJlst. Incl. koffie/thee met Friese oranjekoek,
-  lunch, gekoelde drankjes en borrelhapjes.
+  aan museum 'Houtstad' in IJlst.
 afbeelding:
   image: /assets/img/uploads/img-7383-2.jpg
   alt: >

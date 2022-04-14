@@ -1,6 +1,6 @@
 ---
 seo:
-  seo_title: Sloep - boot huren in Bolsward met arrangement.
+  seo_title: Culinair genieten
   seo_description: >-
     Huur een sloep bij Sloepverhuur Bolsward en stel in overleg je dag samen. Ga
     bijvoorbeeld barbecuen.
