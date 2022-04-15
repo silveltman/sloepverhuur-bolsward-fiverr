@@ -1,5 +1,5 @@
 ---
-title: City Tour
+title: Citytour
 description: |
   Varen door het 'Giethoorn van het Noorden' en oude stadscentrum.
 tijd: ± 1,5 uur
