@@ -3,7 +3,7 @@ seo:
   seo_title: Uitzicht over Bolswardertrekvaart in Burgwerd
   seo_description: >-
     Huur een sloep in Abbegaasterketting en ontdek o.a. Bolsward, Sneek, Makkum
-    en Workum in Súdwest-Fryslân.
+    en Wommels in Súdwest-Fryslân.
 title: Burgwerd
 afbeelding:
   image: /assets/img/aanbod/omgeving/burgwerd-660x440.jpg
