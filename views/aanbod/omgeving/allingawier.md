@@ -2,8 +2,8 @@
 seo:
   seo_title: Museumdorp Allingawier
   seo_description: >-
-    Huur een sloep in Allingawier en ontdek o.a. Bolsward, Sneek, Makkum en
-    Workum in Súdwest-Fryslân.
+    Sloephuren  in Allingawier en ontdek vanaf het water o.a. Bolsward, Sneek,
+    Makkum en Workum in Súdwest-Fryslân.
 title: Allingawier
 afbeelding:
   image: /assets/img/aanbod/omgeving/allingawier.JPG
