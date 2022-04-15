@@ -2,8 +2,8 @@
 seo:
   seo_title: Met een sloep varen door Heeg
   seo_description: >-
-    Huur een sloep in Heeg en ontdek o.a. Bolsward, Sneek, IJlst en Workum in
-    Súdwest-Fryslân.
+    Sloep huren in Heeg en ontdek vanaf het water o.a. Bolsward, Sneek, IJlst en
+    Workum in Súdwest-Fryslân.
 title: Heeg
 afbeelding:
   image: >-
