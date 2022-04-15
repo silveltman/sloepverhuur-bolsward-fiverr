@@ -2,8 +2,8 @@
 seo:
   seo_title: Ophaalbrug bij de Abbegaasterketting
   seo_description: >-
-    Huur een sloep in Abbegaasterketting en ontdek o.a. Bolsward, Sneek, Makkum
-    en Workum in Súdwest-Fryslân.
+    Sloep huren in Abbegaasterketting en ontdek vanaf het water o.a. Bolsward,
+    Sneek, Makkum en Workum in Súdwest-Fryslân.
 title: Abbegaasterketting
 afbeelding:
   image: /assets/img/aanbod/omgeving/abbegaasterketting.JPG
