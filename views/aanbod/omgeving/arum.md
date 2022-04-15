@@ -2,8 +2,8 @@
 seo:
   seo_title: Herberg De Gekroonde Leeuw in Arum
   seo_description: >-
-    Huur een sloep in Arum en ontdek o.a. Bolsward, Harlingen, Makkum en
-    Kimswerd in Súdwest-Fryslân.
+    Sloep huren in Arum en ontdek vanaf het water o.a. Bolsward, Harlingen,
+    Witmarsum  en Kimswerd.
 title: Arum
 afbeelding:
   image: /assets/img/aanbod/omgeving/arum/gekroondeleeuw-300x169.jpg
