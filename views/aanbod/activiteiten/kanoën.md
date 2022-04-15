@@ -6,7 +6,7 @@ seo:
     bij Kootje bij de brug.
 title: Kanoën...
 description: |
-  Kanoën bij Kanoverhuur Friesland
+  bij de Wolsumer Ketting
 afbeelding:
   image: /assets/img/uploads/012f29f5951c743fa0008028cb8423e9.webp
   alt: >-
