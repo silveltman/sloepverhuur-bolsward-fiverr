@@ -2,8 +2,8 @@
 seo:
   seo_title: De Sint-Martinuskerk in Boazum
   seo_description: >-
-    Huur een sloep in Boazum en ontdek o.a. Bolsward, Sneek, Makkum en Workum in
-    Súdwest-Fryslân.
+    Sloep huren in Boazum en ontdek vanaf het water o.a. Bolsward, Sneek, IJlst
+    en Oosterlittens in Súdwest-Fryslân.
 title: Boazum
 afbeelding:
   image: /assets/img/aanbod/omgeving/boazum/sint-martinuskerk-boazum.jpg
