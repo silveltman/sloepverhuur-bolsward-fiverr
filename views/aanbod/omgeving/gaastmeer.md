@@ -2,8 +2,8 @@
 seo:
   seo_title: D'Ald Herberg in Gaastmeer
   seo_description: >-
-    Huur een sloep in Gaastmeer en ontdek o.a. Heeg, IJlst, Sneek en Workum in
-    Súdwest-Fryslân.
+    Sloep huren in Gaastmeer en ontdek vanaf het water o.a. Heeg, IJlst, Sneek
+    en Workum in Súdwest-Fryslân.
 title: Gaastmeer
 afbeelding:
   image: >-
