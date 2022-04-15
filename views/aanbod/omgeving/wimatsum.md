@@ -2,8 +2,8 @@
 seo:
   seo_title: Molen 'De Onderneming' in Witmarsum
   seo_description: >-
-    Bezoek in Witmarsum koren- en pelmolen 'De Onderneming', ook bereikbaar met
-    een sloep van Sloepverhuur Bolsward.
+    Sloep huren in Witmarsum en ontdek vanaf het water o.a. Bolsward, Harlingen,
+    Makkum en Kimswerd in Súdwest-Fryslân.
 title: Witmarsum
 afbeelding:
   image: /assets/img/aanbod/omgeving/wimatsum/877.jpg
