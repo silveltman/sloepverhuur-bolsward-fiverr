@@ -2,8 +2,8 @@
 seo:
   seo_title: Met een sloep varen door Heeg
   seo_description: >-
-    Bezoek het gezellige watersport dorp Heeg met vele terrassen, ook bereikbaar
-    met een sloep - boot van Sloepverhuur Bolsward.
+    Huur een sloep in Heeg en ontdek o.a. Bolsward, Sneek, IJlst en Workum in
+    Súdwest-Fryslân.
 title: Heeg
 afbeelding:
   image: >-
