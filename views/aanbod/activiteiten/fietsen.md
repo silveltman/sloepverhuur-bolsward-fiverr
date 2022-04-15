@@ -1,6 +1,6 @@
 ---
 seo:
-  seo_title: Fietsen en varen in Friesland
+  seo_title: Fietsen door waterland van Friesland
   seo_description: >-
     Huur een sloep - boot bij Sloepverhuur Bolsward en combineer dit met het
     huren van een fiets.
@@ -23,6 +23,6 @@ button:
   url: https://rijwielhandeldekroon.nl
 ---
 
-# Genieten op de fiets
+# &nbsp;
 
 Huur een fiets bij <a target="_blank" rel="noopener" href="https://rijwielhandeldekroon.nl">rijwielhandel 'De Kroon'</a> in Bolsward en ontdek het mooie Friesland met zijn molens, oude boerderijen, &nbsp;dorpjes en steden met veel historische gebouwen en de waterrijke omgeving. Je gaat ongetwijfeld een stukje van de Elfstedentocht afleggen en genieten van de enorme gastvrijheid in waterrijk Friesland.
