@@ -2,8 +2,8 @@
 seo:
   seo_title: Pittoreske haven in Oudega W
   seo_description: >-
-    Bezoek Oudega W met zijn pittoreske haven, ook bereikbaar met een sloep -
-    boot van Sloepverhuur Bolsward.
+    Sloep huren in Oudega-W en ontdek vanaf het water o.a. Bolsward, Sneek, Heeg
+    en Workum in Súdwest-Fryslân.
 title: Oudega W
 afbeelding:
   image: /assets/img/aanbod/omgeving/img-7682-e1470135396165.jpg
