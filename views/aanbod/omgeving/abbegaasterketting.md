@@ -2,8 +2,8 @@
 seo:
   seo_title: Ophaalbrug bij de Abbegaasterketting
   seo_description: >-
-    Abbegaasterketting, een klein pittoresk buurtschap. Ook bereikbaar met een
-    huur sloep - boot van Sloepverhuur Bolsward.
+    Huur een sloep in Abbegaasterketting en ontdek o.a. Bolsward, Sneek, Makkum
+    en Workum in Súdwest-Fryslân.
 title: Abbegaasterketting
 afbeelding:
   image: /assets/img/aanbod/omgeving/abbegaasterketting.JPG
