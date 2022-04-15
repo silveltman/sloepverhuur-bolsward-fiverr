@@ -2,7 +2,7 @@
 seo:
   seo_title: Café Baard in Baard
   seo_description: >-
-    Huur een sloep in Baard en ontdek o.a. Bolsward, Leeuwarden, Harlingen en
+    Sloep huren in Baard en ontdek o.a. Bolsward, Leeuwarden, Harlingen en
     Wommels.
 title: Baard
 afbeelding:
