@@ -1,10 +1,10 @@
 ---
 seo:
-  seo_title: Kanoën in Wolsum
+  seo_title: Alleen of met zijn tweeën in een kano
   seo_description: >-
     Huur een sloep - boot bij Sloepverhuur Bolsward en combineer dit met kanoën
     bij Kootje bij de brug.
-title: Kanoën...
+title: Kanoën
 description: |
   bij de Wolsumer Ketting
 afbeelding:
