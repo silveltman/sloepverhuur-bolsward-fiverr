@@ -1,6 +1,6 @@
 ---
 seo:
-  seo_title: Sloep - boot huren in Rijs
+  seo_title: 'Ruim chalet in '
   seo_description: >-
     Huur een sloep - boot bij Sloepverhuur Bolsward en overnacht in het
     Rijsterbos.
