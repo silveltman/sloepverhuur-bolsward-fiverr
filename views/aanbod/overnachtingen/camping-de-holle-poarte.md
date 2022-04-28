@@ -1,20 +1,16 @@
 ---
 seo:
-  seo_title: Sloep - boot huren in Easterein
+  seo_title: Kamperen aan het IJsselmeer
   seo_description: >-
-    Huur een sloep - boot bij Sloepverhuur Bolsward en overnacht in B&B
-    Elfstedenstate.
+    Huur een sloep - boot bij Sloepverhuur Bolsward en overnacht op camping De
+    Holle Poarte in Makkum.
 title: Camping De Holle Poarte
-description: >-
-  Een frisse, elegante B&B in het hart van Friesland. Gelegen aan de mooiste
-  straat van het idyllische dorp Easterein.
+description: Luxe camping met alle mogelijkheden aan het IJsselmeer.
 afbeelding:
-  image: /assets/img/uploads/elfstedenstate-22-lr.webp
+  image: /assets/img/uploads/p1030820.JPG
   alt: >-
-    B&B Elfstedenstate ligt op fietsafstand van Bolsward, Sneek, Franeker en
-    Leeuwarden, in de Friese Greidhoeke. De woning is een voormalig kaaspakhuis
-    uit 1874. Het pand deed ooit dienst als Herberg. De omgeving biedt prachtige
-    fiets, wandel en vaarroutes in natuurgebieden.
+    Mooi chalet op camping De Holle Poarte in Makkum, ook te combineren met een
+    sloep van Sloepverhuur Bolsward.
 checklist:
   - Luxe B&B
   - Mooie ligging
@@ -25,3 +21,5 @@ button:
   text: Bezoek website
   url: /
 ---
+
+Zon, zee, strand en een prettige accommodatie zijn de ingrediënten voor een prettig verblijf. <a target="_blank" rel="noopener" href="https://www.chaletspecial.nl">Chaletspecial</a>&nbsp;verhuurt mooie chalets op Camping De Holle Poarte welke met hun ligging dichtbij het IJsselmeer in ieder geval garant voor een heerlijk vakantie gevoel.
