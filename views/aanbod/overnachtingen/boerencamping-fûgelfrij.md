@@ -1,6 +1,6 @@
 ---
 seo:
-  seo_title: Sloep - boot huren in Bolsward
+  seo_title: Vogelvrij genieten in de natuur
   seo_description: Huur een sloep - boot bij Sloepverhuur Bolsward en vaar langs de camping.
 title: Boerencamping 'Fûgelfrij'
 description: Kleinschalige camping waar je het gevoel van vogelvrij zijn zal ervaren.
