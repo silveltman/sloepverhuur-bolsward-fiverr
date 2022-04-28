@@ -1,6 +1,6 @@
 ---
 seo:
-  seo_title: Sloep - boot huren in Bolsward en overnacht in De Wijnberg
+  seo_title: Uitzicht op het monumentale stadhuis
   seo_description: >-
     Huur een sloep - boot bij Sloepverhuur Bolsward en combineer dit met een
     verblijf in Hotel De Wijnberg.
