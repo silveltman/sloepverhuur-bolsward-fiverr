@@ -22,4 +22,4 @@ button:
   url: /
 ---
 
-Zon, zee, strand en een prettige accommodatie zijn de ingrediënten voor een prettig verblijf. <a target="_blank" rel="noopener" href="https://www.chaletspecial.nl">Chaletspecial</a>&nbsp;verhuurt mooie chalets op Camping De Holle Poarte welke met hun ligging dichtbij het IJsselmeer in ieder geval garant voor een heerlijk vakantie gevoel.
+Zon, zee, strand en een prettige accommodatie zijn de ingrediënten voor een prettig verblijf. <a target="_blank" rel="noopener" href="https://www.chaletspecial.nl">Chaletspecial</a>&nbsp;verhuurt mooie chalets op Camping De Holle Poarte welke met hun ligging dichtbij het IJsselmeer garant staan voor een heerlijk vakantie gevoel.
