@@ -12,10 +12,10 @@ afbeelding:
     Mooi chalet op camping De Holle Poarte in Makkum, ook te combineren met een
     sloep van Sloepverhuur Bolsward.
 checklist:
-  - Luxe B&B
-  - Mooie ligging
-  - 'Fietsen & wandelen '
-  - Ultiem déstressen
+  - Luxe Chalets
+  - Aan het strand
+  - Watersport
+  - Veel aanbod
 samenwerking:
 button:
   text: Bezoek website
