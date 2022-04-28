@@ -1,6 +1,6 @@
 ---
 seo:
-  seo_title: 'Ruim chalet in '
+  seo_title: Ruim chalet in bosrijk Gaasterland
   seo_description: >-
     Huur een sloep - boot bij Sloepverhuur Bolsward en overnacht in het
     Rijsterbos.
