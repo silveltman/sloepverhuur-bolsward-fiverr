@@ -1,13 +1,12 @@
 ---
 seo:
-  seo_title: 'Sloep - boot huren in Bolsward '
+  seo_title: Overnachten in een historisch pand
   seo_description: >-
     Logeren in hotel 'Het Weeshuis' en een sloep huren bij Sloepverhuur
     Bolsward.
 title: Hotel 'Het weeshuis'
-description: >
-  14 ruime en fris ingerichte suites, ruim 35 vierkante meter groot met een
-  eigen woon, slaap en badkamer.
+description: |
+  14 ruime en fris ingerichte suites met een eigen woon, slaap en badkamer.
 afbeelding:
   image: /assets/img/uploads/331216111.jpg
   alt: >-
