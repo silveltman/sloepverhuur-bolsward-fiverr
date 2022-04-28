@@ -5,9 +5,8 @@ seo:
     Huur een sloep - boot bij Sloepverhuur Bolsward en overnacht in het
     Rijsterbos.
 title: Chalet Rijsterbos
-description: >
-  Camping Rijsterbos is een gezinscamping, gelegen aan de rand van het
-  Rijsterbos en ± 25 minuten rijden naar Bolsward.
+description: |
+  Camping Rijsterbos is een gezinscamping, gelegen in het mooie Gaasterland.
 afbeelding:
   image: /assets/img/uploads/16-1920-4fc7d3.webp
   alt: Overnachten in de buurt van Bolsward op camping Rijsterbos
