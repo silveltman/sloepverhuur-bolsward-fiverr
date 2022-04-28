@@ -5,7 +5,7 @@ seo:
     Ontdek het historische centrum van Bolsward met een mooie stadswandeling en
     combineer met het huren van een sloep.
 title: Wandelen
-description: door het historische centrum.
+description: door historisch Bolsward
 afbeelding:
   image: /assets/img/uploads/pelgrim298-min-272742026.jpeg
   alt: >-
