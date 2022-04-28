@@ -1,13 +1,11 @@
 ---
 seo:
-  seo_title: Twee dagdelen varen met lunch
+  seo_title: Sloep varen en Alpaca's knuffelen
   seo_description: >-
-    Huur een sloep bij Sloepverhuur Bolsward en stel in overleg je dag samen.
-    Alles is mogelijk, service op maat.
+    Huur een sloep bij Sloepverhuur Bolsward en vaar naar Alpaca World Friesland
+    in Workum 
 title: Alpaca World Friesland
-description: >-
-  Vaar de route's 'Elfsteden' en 'Zuiderzee' en combineer  dit met een heerlijke
-  lunch in het historische centrum van Bolsward.
+description:
 afbeelding:
   image: /assets/img/uploads/schermafbeelding-2022-02-24-om-12-36-48.png
   alt: >-
@@ -24,3 +22,4 @@ list:
     value: Vanaf € 39,50 p.p.
 samenwerking: Het Veerhuys en De Wijnberg
 ---
+
