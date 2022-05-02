@@ -1,9 +1,9 @@
 ---
 seo:
-  seo_title: Sloep - boot huren in Oosthem
+  seo_title: Zelfbedieningsbrug in Oosthem
   seo_description: >-
-    Bezoek het pittoreske Oosthem met zijn leuke draaibrug, ook bereikbaar met
-    een sloep van Sloepverhuur Bolsward.
+    Sloep huren in Oosthem en ontdek vanaf het water o.a. IJlst, Sneek, Bolsward
+    en Heeg in Súdwest-Fryslân.
 title: Oosthem
 afbeelding:
   image: /assets/img/aanbod/omgeving/fr-oosthem-15367896001626893.jpg

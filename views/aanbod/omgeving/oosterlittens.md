@@ -1,9 +1,9 @@
 ---
 seo:
-  seo_title: Sloep - boot huren in Oosterlittens
+  seo_title: Margarethakerk in Oosterlittens
   seo_description: >-
-    Bezoek het pittoreske Oosterlittens en zoek het 'paaltje', ook bereikbaar
-    met een sloep van Sloepverhuur Bolsward.
+    Sloep huren in Oosterlittens en ontdek vanaf het water o.a. Bolsward,
+    Wommels, Leeuwarden en Boazum.
 title: Oosterlittens
 afbeelding:
   image: >-

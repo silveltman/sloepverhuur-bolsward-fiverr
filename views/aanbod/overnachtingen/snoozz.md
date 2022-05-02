@@ -1,6 +1,6 @@
 ---
 seo:
-  seo_title: Sloep - boot huren in Bolsward
+  seo_title: Smart boutique self service hotel
   seo_description: Logeren in het Snoozz hotel en een sloep huren bij Sloepverhuur Bolsward.
 title: Snoozz Hotel
 description: Eigentijds zelf service hotel in het centrum van Bolsward

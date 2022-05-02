@@ -1,9 +1,9 @@
 ---
 seo:
-  seo_title: Sloep - boot huren in Sneek
+  seo_title: Waterpoort  in Sneek
   seo_description: >-
-    Bezoek de waterpoort in Sneek, ook bereikbaar met een sloep van Sloepverhuur
-    Bolsward.
+    Sloep huren in Sneek en ontdek vanaf het water o.a. Bolsward, IJlst, Heeg en
+    Workum in Súdwest-Fryslân.
 title: Sneek
 afbeelding:
   image: >-

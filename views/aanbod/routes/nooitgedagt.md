@@ -10,8 +10,8 @@ omgeving:
   - abbegaasterketting
   - oosthem
   - ijlst
-prijs: '200'
+prijs: '235'
 sloepen:
-  - beenakker
-  - petter
+  - Beenakker
+  - Petter
 ---

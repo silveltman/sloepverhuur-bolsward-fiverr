@@ -1,12 +1,11 @@
 ---
 seo:
-  seo_title: Zorgeloos genieten van waterrijk Friesland
+  seo_title: Sloep - boot huren in Bolsward, Makkum, Workum, Sneek.
   seo_description: >-
-    Ruime sloep huren in Friesland, volop zitcomfort, catering in overleg,
-    last-minute, Friese elfsteden, Sneek, Bolsward, max. 12 personen, diverse
-    arrangementen.
+    Ruime sloep met schipper huren in Friesland, catering,  arrangementen,
+    familiedag, bedrijfsuitje, max. 28 personen.
 title: Beenakker
-subtitle: Luxe 12-persoons
+subtitle: Luxe 12-persoons sloep
 description: Met schipper zorgeloos genieten van waterrijk Friesland.
 checklist:
   - Varen met schipper
@@ -69,4 +68,4 @@ timeline:
 
 # Zorgeloos genieten van waterrijk Friesland
 
-Je huurt deze zeer ruime sloep van 8 meter **inclusief schipper** zodat iedereen optimaal kan genieten van het waterrijke Friese landschap. Dus geen stress met <a target="_blank" rel="noopener" href="https://sloepverhuurbolsward.nl/routes">routes</a>, aanleggen van de sloep etc. want de ervaren schipper neemt alle verantwoordelijkheid. Er is plaats voor **maximaal 12 personen**&nbsp;en dus uitermate geschikt voor een uitje met familie, vriendengroep of collega's van het werk. Iedereen heeft een goed zitcomfort en doordat de stille motor achterin ligt ontstaat er een ruime en diepe veilige kuip, ook geschikt voor kinderen. Huren kan i.c.m. **<a target="_blank" rel="noopener" href="https://sloepverhuurbolsward.nl/arrangementen">diverse complete arrangementen</a>.** Ook losse&nbsp;**catering** van o.a. koffie/thee met Friese oranjekoek, gekoelde dranken of borrelplank behoort tot de mogelijkheden. Kortom, optimaal vaarplezier op de Friese vaarten en meren in deze luxe sloep.
+Je huurt deze zeer ruime sloep van 8 meter ***inclusief schipper*** zodat iedereen optimaal kan genieten van het waterrijke Friese landschap. Dus geen stress met <a target="_blank" rel="noopener" href="https://sloepverhuurbolsward.nl/routes">routes</a>, aanleggen van de sloep etc. want de ervaren schipper neemt alle verantwoordelijkheid. Er is plaats voor ***maximaal 12 personen***&nbsp;en dus uitermate geschikt voor een uitje met familie, vriendengroep of collega's van het werk. Iedereen heeft een goed zitcomfort en doordat de stille motor achterin ligt ontstaat er een ruime en diepe veilige kuip, ook geschikt voor kinderen. Huren kan i.c.m. <a target="_blank" rel="noopener" href="https://sloepverhuurbolsward.nl/arrangementen">diverse complete arrangementen</a>. Ook losse&nbsp;***catering*** van o.a. koffie/thee met Friese oranjekoek, lunch, gekoelde dranken of borrelplank behoort tot de mogelijkheden. Kortom, optimaal vaarplezier op de Friese vaarten en meren in deze luxe sloep.

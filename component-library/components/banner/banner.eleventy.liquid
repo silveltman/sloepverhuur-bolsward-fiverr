@@ -1,11 +1,5 @@
 <div class="banner">
-  <img src="{{ afbeelding.image }}" alt="{{ afbeelding.alt }}" class="banner__img">
-
   {% image afbeelding.image, afbeelding.alt, "banner__img", "95vw", "414, 768, 1080, 1440" %}
-  {%- comment -%}
-  {%- endcomment -%}
-
-
   <div class="banner__content">
     <h1 class="banner__h">{{ title }}</h1>
     <a href="{{ button.url }}" class="banner__btn btn btn--primary btn--big">{{ button.text }}</a>

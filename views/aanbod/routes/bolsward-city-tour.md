@@ -1,14 +1,15 @@
 ---
-title: Bolsward City Tour
+_schema: default
+title: Citytour
 description: |
-  Varen door het 'Giethoorn van het Noorden' en oude stadscentrum.
+  Varen door het 'Giethoorn van het Noorden' en oude stadscentrum van Bolsward.
 tijd: ± 1,5 uur
+prijs: '115'
 route_url: >-
-  https://www.google.com/maps/d/embed?mid=1wXYKD7GpKXu1UGh7txlgnHEo9ZQTmOU-&ehbc=2E312F&amp;z=12
+  https://www.google.com/maps/d/edit?mid=197FTFMgR6yFAJkYZ49lKR9j5CkVRT0M6&usp=sharing
 omgeving:
   - bolsward
-prijs: '175'
 sloepen:
-  - beenakker
-  - petter
+  - Beenakker
+  - Petter
 ---

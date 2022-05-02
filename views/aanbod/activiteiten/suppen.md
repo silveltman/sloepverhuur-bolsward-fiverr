@@ -1,11 +1,11 @@
 ---
 seo:
-  seo_title: Suppen in Bolsward, huur een SUP in Bolsward
+  seo_title: Suppen in Bolsward
   seo_description: >-
     Huur een sloep - boot bij Sloepverhuur Bolsward en combineer dit met het
     huren van een SUP.
-title: Suppen...
-description: in en om Bolsward.
+title: Suppen
+description: door de stadsgracht van Bolsward
 afbeelding:
   image: /assets/img/uploads/236245220-1986560171499521-6332161015780689898-n.jpg
   alt: Suppen in en om Bolsward.

@@ -1,9 +1,9 @@
 ---
 seo:
-  seo_title: Sloep - boot huren in Gaastmeer
+  seo_title: D'Ald Herberg in Gaastmeer
   seo_description: >-
-    Bezoek Gaastmeer voor een lunch bij restaurant D'ald Herberch, ook te
-    bereiken met een sloep van Sloepverhuur Bolsward.
+    Sloep huren in Gaastmeer en ontdek vanaf het water o.a. Heeg, IJlst, Sneek
+    en Workum in Súdwest-Fryslân.
 title: Gaastmeer
 afbeelding:
   image: >-

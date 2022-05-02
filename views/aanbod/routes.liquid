@@ -1,10 +1,10 @@
 ---
 layout: base
 seo:
-  seo_title: Huur een sloep bij Sloepverhuur Bolsward met een arrangement.
+  seo_title: Sloep huren en varen naar Makkum, Workum of Sneek
   seo_description: >-
-    Een sloep huren bij Sloepverhuur Bolsward is leuk maar dit combineren met
-    een arrangement maakt uw dat compleet.
+    Een sloep huren in de buurt van Makkum, combineren met een arrangement maakt
+    uw dag compleet.
 hero:
   afbeelding:
     image: /assets/img/uploads/photo-2020-02-23-15-27-26.jpg
@@ -27,8 +27,8 @@ hero:
     icon: flag
     text: >-
       Huren van de sloep met schipper  is op aanvraag mogelijk met aanvullende
-      catering zoals koffie/thee met Friese oranjekoek, gekoelde drankjes en
-      borrelplank.
+      catering zoals koffie/thee met Friese oranjekoek, lunch, gekoelde drankjes
+      en borrelplank.
 ---
 
 <main class="routes">
@@ -56,7 +56,7 @@ hero:
         <select class="routes__sloep-filter select" x-model="activeSloep">
           <option value="">Alle sloepen</option>
           {% for item in collections.sloepen %}
-            <option value="{{item.fileSlug}}">{{item.data.title}}</option>
+            <option value="{{ item.data.title }}">{{ item.data.title }}</option>
           {% endfor %}
         </select>
   
@@ -92,14 +92,14 @@ hero:
           </div>
 
           <div class="route__accordion">
-            {% assign featured_omgeving = collections.omgeving | filterBySlug: item.data.omgeving  %}
             <h2 class="route__h">{{item.data.title}}</h2>
             <span class="route__tijd">{{item.data.tijd}}</span>
             <p class="route__p">{{item.data.description}}</p>
 
-
             <div x-data="{ activeAccordionItem: null }" class="accordion">
-              {% for omgeving in featured_omgeving %}
+              {% for omgeving_slug in item.data.omgeving %}
+                {% assign omgeving = collections.omgeving | findBySlug: omgeving_slug  %}
+
                 <div x-data="{ 
                   id: {{ forloop.index }},
                   get expanded() {

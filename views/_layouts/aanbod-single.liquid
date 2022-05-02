@@ -4,7 +4,7 @@ layout: base
 
 <div class="aanbod-single">
   <main class="aanbod-single__main">
-    <img src="{{ afbeelding.image }}" alt="{{ afbeelding.alt }}" class="aanbod-single__img">
+    <img src="{{ afbeelding.image }}" alt="{{ afbeelding.alt }}" class="aanbod-single__img" />
 
     {%- comment -%}
     Not working for some weird reason: "missing alt error"
@@ -13,7 +13,9 @@ layout: base
     
     <div class="aanbod-single__content">
       <h2>{{ seo.seo_title }}</h2>
-      {{ content}}
+      <div class="editable">
+        {{ content }}
+      </div>
     </div>
   </main>
 

@@ -7,6 +7,8 @@
     
     <meta name="format-detection" content="telephone=no">
 
+    <script defer type="module" src="/assets/js/firebase.js"></script>
+
     <!-- Alpine plugins -->
     <script defer src="https://unpkg.com/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
     <script defer src="https://unpkg.com/@alpinejs/intersect@3.x.x/dist/cdn.min.js"></script>
@@ -15,9 +17,6 @@
     <!-- Alpine.js -->
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
     
-    <!-- Main JS file -->
-    <script defer src="/assets/js/main.js"></script>
-
     <!-- JS smooth scroll polyfill for safari: https://github.com/iamdustan/smoothscroll -->
     <script src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.js"></script>
 
@@ -39,7 +38,6 @@
     <meta name="description" content="{{ seo.seo_description | default: info.seo.description }}" />
     
     {% metagen info.meta %}
-    
   </head>
   <body>
 
@@ -48,15 +46,6 @@
     {{ content }}
 
     {% bookshop "footer" live_render: false footer: footer %}
-
-    {% bookshop_live assets/js/bookshop-live.js %}
-
-    {%- comment -%}
-    <script>
-      // disable data bindings due to bugs
-      window.bookshopDataBindings = false
-    </script>
-    {%- endcomment -%}
 
   </body>
 </html>

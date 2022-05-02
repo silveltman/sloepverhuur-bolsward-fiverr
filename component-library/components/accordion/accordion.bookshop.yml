@@ -1,0 +1,25 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures: []
+  label: accordion
+  description: ""
+  icon: ""
+  tags: []
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  list:
+    - data:
+        title: ""
+        description: ""
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+  list:
+    - data:
+        title: Question 1
+        description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores,
+          deleniti.
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs: {}

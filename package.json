@@ -4,36 +4,34 @@
   "description": "A starter template for 11ty",
   "main": "index.js",
   "scripts": {
-    "watch:bookshop-sass": "bookshop-sass -b component-library -o _sass/_bookshop.scss -w",
-    "watch:sass": "npx sass _sass:_site/assets/css --watch",
-    "watch:eleventy": "npx @11ty/eleventy --serve",
-    "bookshop-browser": "bookshop-browser -b ./component-library -p 6061",
-    "dev": "npm-run-all --parallel watch:bookshop-sass watch:sass watch:eleventy bookshop-browser",
-
-    "build:bookshop-sass": "bookshop-sass -b component-library -o _sass/_bookshop.scss",
-    "build:sass": "npx sass _sass:_site/assets/css",
-    "build:eleventy": "npx @11ty/eleventy",
-    "build": "npm-run-all --parallel build:bookshop-sass build:sass bookshop-live build:eleventy",
-
-    "bookshop-live": "npx bookshop-live -b ./component-library -o ./assets/js/bookshop-live.js",
+    "eleventy:watch": "npx @11ty/eleventy --serve",
+    "eleventy:build": "npx @11ty/eleventy",
+    "bookshop:watch": "bookshop-browser",
+    "bookshop-sass:build": "bookshop-sass -b component-library -o _sass/_bookshop.scss",
+    "bookshop-sass:watch": "bookshop-sass -b component-library -o _sass/_bookshop.scss -w",
+    "sass:build": "npx sass _sass:_site/assets/css",
+    "sass:watch": "npx sass _sass:_site/assets/css --watch",
+    "dev": "npm-run-all bookshop-sass:build --parallel bookshop-sass:watch sass:watch bookshop:watch eleventy:watch",
     "bookshop-init": "npx @bookshop/init --component"
   },
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.0",
     "@11ty/eleventy-img": "^2.0.0",
-    "@bookshop/browser": "^2.6.1",
-    "@bookshop/eleventy-engine": "^2.6.1",
-    "@bookshop/live": "^2.6.1",
-    "@bookshop/sass": "^2.6.1"
+    "@bookshop/browser": "3.0.0",
+    "@bookshop/eleventy-bookshop": "3.0.0",
+    "@bookshop/eleventy-engine": "3.0.0",
+    "@bookshop/generate": "^3.0.0",
+    "@bookshop/sass": "3.0.0"
   },
   "dependencies": {
-    "@bookshop/cloudcannon-eleventy-bookshop": "^2.6.1",
-    "@bookshop/eleventy-bookshop": "^2.6.1",
     "@quasibit/eleventy-plugin-sitemap": "^2.1.5",
+    "@stripe/firestore-stripe-payments": "^0.0.6",
     "eleventy-plugin-metagen": "^1.6.0",
+    "firebase": "^9.6.10",
     "js-yaml": "^4.1.0",
     "npm-run-all": "^4.1.5",
-    "sass": "^1.49.9"
+    "sass": "^1.49.9",
+    "stripe": "^8.215.0"
   }
 }

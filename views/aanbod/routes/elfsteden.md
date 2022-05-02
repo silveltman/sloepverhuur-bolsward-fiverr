@@ -10,8 +10,8 @@ omgeving:
   - wimatsum
   - arum
   - hichtum
-prijs: '175'
+prijs: '205'
 sloepen:
-  - beenakker
-  - petter
+  - Beenakker
+  - Petter
 ---

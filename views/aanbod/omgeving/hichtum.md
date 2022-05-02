@@ -1,9 +1,9 @@
 ---
 seo:
-  seo_title: Sloep - boot huren in Hichtum
+  seo_title: Kerk uit de 13e eeuw in Hichtum
   seo_description: >-
-    Bezoek Hichtum met zijn mooie kerk en tevens rijksmonument, ook bereikbaar
-    met een sloep van Sloepverhuur Bolsward.
+    Sloep huren in Hichtum en ontdek vanaf het water o.a. Bolsward, Sneek,
+    Makkum en Workum in Súdwest-Fryslân.
 title: Hichtum
 afbeelding:
   image: >-

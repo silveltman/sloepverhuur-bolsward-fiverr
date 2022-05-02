@@ -1,9 +1,9 @@
 ---
 seo:
-  seo_title: Sloep - boot huren in Wolsum
+  seo_title: Theetuin 'Kootje bij de brug' in Wolsum
   seo_description: >-
-    Bezoek theetuin 'Kootje bij de brug', ook bereikbaar met een sloep van
-    Sloepverhuur Bolsward.
+    Sloep huren bij 'Kootje bij de brug' en ontdek vanaf het water o.a.
+    Bolsward, Sneek, Makkum en Workum in Súdwest-Fryslân.
 title: Wolsumer ketting
 afbeelding:
   image: /assets/img/aanbod/omgeving/wolsum/img-4501.JPG

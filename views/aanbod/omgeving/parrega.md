@@ -1,9 +1,9 @@
 ---
 seo:
-  seo_title: Sloep - boot huren in Parrega
+  seo_title: Voormalige herberg  in Parrega
   seo_description: >-
-    Bezoek het pittoreske Parrega, ook bereikbaar met een sloep van Sloepverhuur
-    Bolsward.
+    Sloep huren in Parrega en ontdek vanaf het water o.a. Bolsward, Sneek,
+    Makkum en Workum in Súdwest-Fryslân.
 title: Parrega
 afbeelding:
   image: /assets/img/aanbod/omgeving/fr-parrega-15333336006331804.jpg

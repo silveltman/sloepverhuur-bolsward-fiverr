@@ -1,5 +1,4 @@
 const pluginBookshop = require("@bookshop/eleventy-bookshop");
-const pluginCloudCannonBookshop = require("@bookshop/cloudcannon-eleventy-bookshop");
 const yaml = require("js-yaml");
 const Image = require("@11ty/eleventy-img");
 const sitemap = require("@quasibit/eleventy-plugin-sitemap");
@@ -24,7 +23,7 @@ const imageShortcode = async (
   const widthsArray = widths.split(',').map(Number);
 
   // If local add a '.' to path, if remote pass full url
-  const fullSrc = relativeSrc.startsWith('/') ? `.${relativeSrc}` : relativeSrc;
+  const fullSrc = relativeSrc.startsWith('/') ? `./views/${relativeSrc}` : relativeSrc;
 
   // coonfig for generating
   const imageMetaData = await Image(fullSrc, {
@@ -72,15 +71,27 @@ module.exports = function(eleventyConfig) {
     return found
   });
 
-    // Filters collection by a frontmatter field
-    eleventyConfig.addFilter("sortByFrontmatter", (collection, key) => {
-      return collection.sort((a, b) => (a.data[key] > b.data[key]) ? 1 : -1)
-    })
+  // finding a collection item by its path
+  eleventyConfig.addFilter('findByPath', function (collection, path) {
+    return collection.find((item) => item.inputPath === `./${path}`);
+  });
+
+  // Filters collection by a frontmatter field
+  eleventyConfig.addFilter("sortByFrontmatter", (collection, key) => {
+    return collection.sort((a, b) => (a.data[key] > b.data[key]) ? 1 : -1)
+  })
 
   // Returns each collection item which fileSlug is included in an array 
   eleventyConfig.addFilter("filterBySlug", function(collection, slugList) {
     const found = collection.filter(item => {
       return slugList.includes(item.fileSlug)
+    })
+    return found
+  });
+
+  eleventyConfig.addFilter("findBySlug", function(collection, slug) {
+    const found = collection.find(item => {
+      return item.fileSlug == slug
     })
     return found
   });
@@ -106,7 +117,6 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPlugin(pluginBookshop({
 		bookshopLocations: ["component-library"]
 	}));
-  eleventyConfig.addPlugin(pluginCloudCannonBookshop);
 
   eleventyConfig.addPlugin(metagen);
 
@@ -115,7 +125,7 @@ module.exports = function(eleventyConfig) {
   //// CONFIG
   ////---------------
 
-  eleventyConfig.addPassthroughCopy("assets");
+  eleventyConfig.addPassthroughCopy("views/assets");
 
   eleventyConfig.addDataExtension("yaml", contents => yaml.load(contents));
 
