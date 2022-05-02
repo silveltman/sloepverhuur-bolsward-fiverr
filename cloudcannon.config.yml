@@ -3,6 +3,10 @@ source: views
 paths:
   uploads: ../assets/img/uploads
 
+# -----------------------------------------------
+# Cloudcannn sidebar configuration
+# -----------------------------------------------
+
 collection_groups:
   - heading: "Pagina's"
     collections:
@@ -21,44 +25,81 @@ collection_groups:
     collections:
       - data
 
+# -----------------------------------------------
+# Collection configuration
+# -----------------------------------------------
+
 collections_config:
   data:
     filter:
       base: none
       include:
         - footer.yaml
+
   omgeving:
     icon: landscape
     output: true
     _enabled_editors:
       - visual
+    schemas:
+      default:
+        path: schemas/omgeving.md
+
   arrangementen:
     icon: groups
     output: true
     _enabled_editors:
       - visual
+    schemas:
+      default:
+        path: schemas/arrangementen.md
+
   activiteiten:
     icon: directions_bike
     output: true
     _enabled_editors:
       - visual
+    schemas:
+      default:
+        path: schemas/activiteiten.md
+
   overnachtingen:
     icon: hotel
     output: true
     _enabled_editors:
       - visual
+    schemas:
+      default:
+        path: schemas/overnachtingen.md
+
+  catering:
+    icon: restaurant
+    output: true
+    _enabled_editors:
+      - visual
+    schemas:
+      default:
+        path: schemas/catering.md
+
   routes:
     icon: map
     output: false
     _enabled_editors:
       - data
+    schemas:
+      default:
+        path: schemas/routes.md
+
   sloepen:
     icon: directions_boat
     output: true
     _enabled_editors:
       - visual
 
-  # Input customization
+# -----------------------------------------------
+# Input customization
+# -----------------------------------------------
+
 _inputs:
   layout:
     hidden: true
@@ -69,7 +110,7 @@ _inputs:
 
   seo_title:
     label: Titel
-    comment: Probeer de pagina te beschrijven in 50–60 karakters
+    comment: Probeer de pagina te beschrijven in 50-60 karakters
 
   seo_description:
     label: Beschrijving
