@@ -124,3 +124,9 @@ _inputs:
     label: Omschrijving
     comment: Omschrijf je afbeelding in maximaal 125 karakters
     type: textarea
+
+  sloepen:
+    type: multiselect
+    options:
+      values: collections.sloepen
+      value_key: title

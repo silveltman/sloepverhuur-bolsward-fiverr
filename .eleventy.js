@@ -71,10 +71,15 @@ module.exports = function(eleventyConfig) {
     return found
   });
 
-    // Filters collection by a frontmatter field
-    eleventyConfig.addFilter("sortByFrontmatter", (collection, key) => {
-      return collection.sort((a, b) => (a.data[key] > b.data[key]) ? 1 : -1)
-    })
+  // finding a collection item by its path
+  eleventyConfig.addFilter('findByPath', function (collection, path) {
+    return collection.find((item) => item.inputPath === `./${path}`);
+  });
+
+  // Filters collection by a frontmatter field
+  eleventyConfig.addFilter("sortByFrontmatter", (collection, key) => {
+    return collection.sort((a, b) => (a.data[key] > b.data[key]) ? 1 : -1)
+  })
 
   // Returns each collection item which fileSlug is included in an array 
   eleventyConfig.addFilter("filterBySlug", function(collection, slugList) {

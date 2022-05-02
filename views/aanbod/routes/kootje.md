@@ -10,5 +10,5 @@ omgeving:
 prijs: '145'
 sloepen:
   - beenakker
-  - petter
+  - sloepen/petter.md
 ---
