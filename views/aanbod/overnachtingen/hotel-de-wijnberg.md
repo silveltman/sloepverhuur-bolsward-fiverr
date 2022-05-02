@@ -1,4 +1,5 @@
 ---
+_schema: default
 seo:
   seo_title: Uitzicht op het monumentale stadhuis
   seo_description: >-
@@ -16,10 +17,10 @@ checklist:
   - Uitzicht op stadhuis
   - Diverse arrangementen
   - Comfortabele kamers
-samenwerking: https://wijnbergbolsward.nl
 button:
   text: Bezoek website
-  url: /
+  url: https://wijnbergbolsward.nl
+samenwerking: https://wijnbergbolsward.nl
 ---
 
 Dompel je onder in de Friese gastvrijheid door te overnachten in het hart van Friesland. Het hotel ligt midden in het historische stadscentrum met een magnifiek zicht op het schitterende stadhuis. Er zijn 26 ruime kamers beschikbaar van waaruit je er op uit om te varen, fietsen of wandelen. Na een actieve dag is genieten van alle gastronomie en gastvrijheid.
