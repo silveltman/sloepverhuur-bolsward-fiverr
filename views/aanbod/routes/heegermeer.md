@@ -17,5 +17,5 @@ omgeving:
   - wolsum
 prijs: '355'
 sloepen:
-  - beenakker
+  - Beenakker
 ---

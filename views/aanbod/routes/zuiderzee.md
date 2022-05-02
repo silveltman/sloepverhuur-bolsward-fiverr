@@ -10,6 +10,6 @@ omgeving:
   - tjerkwerd
 prijs: 175
 sloepen:
-  - beenakker
-  - petter
+  - Beenakker
+  - Petter
 ---

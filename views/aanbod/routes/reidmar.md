@@ -14,5 +14,5 @@ omgeving:
   - westhem
 prijs:
 sloepen:
-  - petter
+  - Petter
 ---

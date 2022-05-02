@@ -56,7 +56,7 @@ hero:
         <select class="routes__sloep-filter select" x-model="activeSloep">
           <option value="">Alle sloepen</option>
           {% for item in collections.sloepen %}
-            <option value="{{ item.inputPath }}">{{item.data.title}} {{ item.path }}</option>
+            <option value="{{ item.data.title }}">{{ item.data.title }}</option>
           {% endfor %}
         </select>
   

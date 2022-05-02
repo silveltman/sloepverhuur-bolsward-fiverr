@@ -9,6 +9,6 @@ omgeving:
   - wolsum
 prijs: '145'
 sloepen:
-  - beenakker
-  - sloepen/petter.md
+  - Beenakker
+  - Petter
 ---

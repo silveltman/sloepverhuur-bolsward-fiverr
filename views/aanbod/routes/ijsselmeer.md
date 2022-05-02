@@ -13,5 +13,5 @@ omgeving:
   - allingawier
 prijs: '355'
 sloepen:
-  - beenakker
+  - Beenakker
 ---

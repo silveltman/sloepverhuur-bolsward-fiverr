@@ -13,6 +13,6 @@ omgeving:
   - sneek
 prijs: '295'
 sloepen:
-  - beenakker
-  - petter
+  - Beenakker
+  - Petter
 ---

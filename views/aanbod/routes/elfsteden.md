@@ -12,6 +12,6 @@ omgeving:
   - hichtum
 prijs: '205'
 sloepen:
-  - beenakker
-  - petter
+  - Beenakker
+  - Petter
 ---

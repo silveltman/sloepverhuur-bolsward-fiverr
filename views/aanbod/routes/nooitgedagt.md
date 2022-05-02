@@ -12,6 +12,6 @@ omgeving:
   - ijlst
 prijs: '235'
 sloepen:
-  - beenakker
-  - petter
+  - Beenakker
+  - Petter
 ---
