@@ -18,6 +18,7 @@ collection_groups:
       - activiteiten
       - overnachtingen
       - routes
+      - catering
   - heading: Sloepen
     collections:
       - sloepen
