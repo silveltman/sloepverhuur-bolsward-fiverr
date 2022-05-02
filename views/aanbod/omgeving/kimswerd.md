@@ -2,8 +2,8 @@
 seo:
   seo_title: Kimswerd, het dorp van Grutte Pier
   seo_description: >-
-    Bezoek het dorp van Grutte Pier en de oudste kerk van Friesland, ook
-    bereikbaar met een sloep - boot van Sloepverhuur Bolsward.
+    Sloep huren in Kimswerd en ontdek vanaf het water o.a. Bolsward, Witmarsum,
+    Arum en Harlingen.
 title: Kimswerd
 afbeelding:
   image: >-

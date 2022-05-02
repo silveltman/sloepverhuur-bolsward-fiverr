@@ -2,8 +2,8 @@
 seo:
   seo_title: De Sint-Martinuskerk in Boazum
   seo_description: >-
-    Wandel door Boazum met zijn statige rentenierswoningen, ook bereikbaar met
-    een sloep - boot van Sloepverhuur Bolsward.
+    Sloep huren in Boazum en ontdek vanaf het water o.a. Bolsward, Sneek, IJlst
+    en Oosterlittens in Súdwest-Fryslân.
 title: Boazum
 afbeelding:
   image: /assets/img/aanbod/omgeving/boazum/sint-martinuskerk-boazum.jpg

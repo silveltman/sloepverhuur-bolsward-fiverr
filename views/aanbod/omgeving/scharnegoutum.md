@@ -2,8 +2,8 @@
 seo:
   seo_title: Martenskerk in Scharnegoutum
   seo_description: >-
-    Bezoek Scharnegoutum met o.a. de mooie Martenskerk, ook bereikbaar met een
-    sloep - boot van Sloepverhuur Bolsward.
+    Sloep huren in Scharnegoutum en ontdek vanaf het water o.a. Bolsward, Sneek,
+    IJlst en Heeg in Súdwest-Fryslân.
 title: Scharnegoutum
 afbeelding:
   image: >-

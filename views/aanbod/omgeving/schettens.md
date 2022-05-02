@@ -2,8 +2,8 @@
 seo:
   seo_title: Schaats Elfstedenroute door Schettens
   seo_description: >-
-    Bezoek het Pittoreske Schettens, ook bereikbaar met een sloep - boot van
-    Sloepverhuur Bolsward.
+    Sloep huren in Schettens en ontdek vanaf het water o.a. Bolsward, Witmarsum,
+    Makkum en Workum in Súdwest-Fryslân.
 title: Schettens
 afbeelding:
   image: /assets/img/aanbod/omgeving/532px-huizen-aan-het-water-in-schettens.JPG

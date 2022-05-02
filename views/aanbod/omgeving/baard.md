@@ -2,8 +2,8 @@
 seo:
   seo_title: Café Baard in Baard
   seo_description: >-
-    Bezoek café Baard bij de gezelligste brug van Friesland, ook bereikbaar met
-    een sloep  - boot van Sloepverhuur Bolsward.
+    Sloep huren in Baard en ontdek o.a. Bolsward, Leeuwarden, Harlingen en
+    Wommels.
 title: Baard
 afbeelding:
   image: /assets/img/aanbod/omgeving/baard/190408117baahw.jpg

@@ -1,6 +1,6 @@
 ---
 seo:
-  seo_title: Sloep - boot huren in Easterein
+  seo_title: Overnachten in een voormalig kaaspakhuis
   seo_description: >-
     Huur een sloep - boot bij Sloepverhuur Bolsward en overnacht in B&B
     Elfstedenstate.

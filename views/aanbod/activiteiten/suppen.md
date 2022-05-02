@@ -4,7 +4,7 @@ seo:
   seo_description: >-
     Huur een sloep - boot bij Sloepverhuur Bolsward en combineer dit met het
     huren van een SUP.
-title: Suppen...
+title: Suppen
 description: door de stadsgracht van Bolsward
 afbeelding:
   image: /assets/img/uploads/236245220-1986560171499521-6332161015780689898-n.jpg

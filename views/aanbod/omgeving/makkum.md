@@ -2,8 +2,8 @@
 seo:
   seo_title: koninklijke Tichelaar aardewerk in Makkum
   seo_description: >-
-    Bezoek het vissersdorp Makkum o.a. bekend van het aardewerk, bereikbaar met
-    een sloep - boot van Sloepverhuur Bolsward.
+    Sloep huren in Makkum en ontdek vanaf het water o.a. Bolsward, Sneek, IJlst
+    en Workum in Súdwest-Fryslân.
 title: Makkum
 afbeelding:
   image: /assets/img/aanbod/omgeving/makkum/makkum-toepferei.jpg

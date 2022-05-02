@@ -2,8 +2,8 @@
 seo:
   seo_title: Uitzicht over Bolswardertrekvaart in Burgwerd
   seo_description: >-
-    Genieten in het pittoreske Burgwerd, ook bereikbaar met een sloep - boot van
-    Sloepverhuur Bolsward.
+    Sloep in Burgwerd en ontdek vanaf het water o.a. Bolsward, Sneek, Makkum en
+    Wommels in Súdwest-Fryslân.
 title: Burgwerd
 afbeelding:
   image: /assets/img/aanbod/omgeving/burgwerd-660x440.jpg

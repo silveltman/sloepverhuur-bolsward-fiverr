@@ -2,8 +2,8 @@
 seo:
   seo_title: Museumdorp Allingawier
   seo_description: >-
-    Friese cultuur snuiven in museumdorp Allingawier, ook bereikbaar met de
-    sloep - boot van Sloepverhuur Bolsward.
+    Sloephuren  in Allingawier en ontdek vanaf het water o.a. Bolsward, Sneek,
+    Makkum en Workum in Súdwest-Fryslân.
 title: Allingawier
 afbeelding:
   image: /assets/img/aanbod/omgeving/allingawier.JPG

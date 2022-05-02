@@ -4,7 +4,7 @@ seo:
   seo_description: >-
     Fiets de Elfstedentocht en stap in Bolsward met fiets in een sloep van
     Sloepverhuur Bolsward om naar Kimswerd te varen.
-title: Elfstedentocht varen & fietsen
+title: 'Elfstedentocht fietsen & varen  '
 description: >-
   De elfstedentocht fietsen en tussen Bolsward en Kimswerd vaar je de route van
   de schaats Elfstedentocht. 
