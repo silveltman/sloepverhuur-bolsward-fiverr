@@ -14,9 +14,5 @@ list:
   - label:
     value:
 
-button:
-  text:
-  url:
-
 samenwerking:
 ---
