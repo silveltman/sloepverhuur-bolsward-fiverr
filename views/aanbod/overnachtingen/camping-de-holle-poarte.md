@@ -23,4 +23,4 @@ button:
 samenwerking:
 ---
 
-Zon, zee, strand en een prettige accommodatie zijn de ingrediënten voor een heerlijk verblijf op deze mooie camping aan het IJsselmeer. <a target="_blank" rel="noopener" href="https://www.chaletspecial.nl">Chaletspecial</a>&nbsp;heeft een ruim aanbod met kwalitatief hoogstaande chalets op welke garant staan voor een heerlijk vakantie gevoel en waar het u aan niets zal ontbreken.
+Zon, zee, strand en een prettige accommodatie zijn de ingrediënten voor een fantastisch verblijf op deze mooie camping aan het IJsselmeer waar het u aan niets zal ontbreken.. <a target="_blank" rel="noopener" href="https://www.chaletspecial.nl">Chaletspecial</a>&nbsp;heeft een ruim aanbod met kwalitatief hoogstaande chalets welke garant staan voor een ultiem vakantie gevoel.
