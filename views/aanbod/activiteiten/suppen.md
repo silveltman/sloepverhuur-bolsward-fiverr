@@ -16,7 +16,7 @@ checklist:
   - Per uur te huur
   - Dicht op het water
 button:
-  text: Reserveren
+  text: Bezoek website
   url: https://www.facebook.com/dekroonfietsverhuur/
 samenwerking:
 ---
