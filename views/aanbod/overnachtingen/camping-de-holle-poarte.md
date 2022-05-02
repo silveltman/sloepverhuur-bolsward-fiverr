@@ -8,7 +8,7 @@ seo:
 title: Camping De Holle Poarte
 description: Luxe camping met alle mogelijkheden aan het IJsselmeer.
 afbeelding:
-  image: /assets/img/uploads/p1030820.JPG
+  image: /assets/img/uploads/1165105318-huge-kopie-bijgesneden-scaled.jpg
   alt: >-
     Mooi chalet op camping De Holle Poarte in Makkum, ook te combineren met een
     sloep van Sloepverhuur Bolsward.
