@@ -10,4 +10,6 @@ route_url: >-
 omgeving:
   - bolsward
 sloepen:
+  - Beenakker
+  - Petter
 ---
