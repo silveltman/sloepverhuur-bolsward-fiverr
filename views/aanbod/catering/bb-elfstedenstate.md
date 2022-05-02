@@ -6,9 +6,7 @@ seo:
     Huur een sloep - boot bij Sloepverhuur Bolsward en geniet van overheerlijk
     eigengemaakt Friese oranjekoek.
 title: Welkom aan boord
-description: >-
-  Een frisse, elegante B&B in het hart van Friesland. Gelegen aan de mooiste
-  straat van het idyllische dorp Easterein.
+description: Een warm onthaal aan boord met Friese oranjekoek van de echte bakker.
 afbeelding:
   image: /assets/img/uploads/shutterstock-580068499.jpg
   alt: >-
