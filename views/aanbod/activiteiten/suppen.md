@@ -1,4 +1,5 @@
 ---
+_schema: default
 seo:
   seo_title: Suppen in Bolsward
   seo_description: >-
@@ -14,10 +15,10 @@ checklist:
   - Leuk met groep
   - Per uur te huur
   - Dicht op het water
-samenwerking:
 button:
   text: Bezoek website
-  url: /
+  url: https://www.facebook.com/dekroonfietsverhuur/
+samenwerking:
 ---
 
 Bolsward is bij uitstek een stad om met een SUP vanaf het water te ontdekken. SUP staat voor Stand Up Paddling wat betekent dat je staand op een soort van surfplank met een peddel je voortbeweegt.&nbsp;

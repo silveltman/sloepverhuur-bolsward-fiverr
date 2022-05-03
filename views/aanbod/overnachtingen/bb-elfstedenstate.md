@@ -1,4 +1,5 @@
 ---
+_schema: default
 seo:
   seo_title: Overnachten in een voormalig kaaspakhuis
   seo_description: >-
@@ -20,10 +21,10 @@ checklist:
   - Mooie ligging
   - 'Fietsen & wandelen '
   - Ultiem déstressen
-samenwerking:
 button:
   text: Bezoek website
-  url: /
+  url: https://elfstedenstate.nl
+samenwerking:
 ---
 
 De Friese Elfsteden, ze zijn onlosmakelijk verbonden met Friesland. Geen stad is gelijk, maar samen vormen ze het meest herkenbare stukje Friesland en daarom is de elegante&nbsp;<a target="_blank" rel="noopener" href="https://elfstedenstate.nl">B&amp;B Elfstedenstate</a> een fantastische plek om te overnachten vanwege zijn centrale ligging aan de mooiste straat van het idyllische dorp Easterein. B&B Elfstedenstate ligt op fietsafstand van Bolsward, Sneek, Franeker en Leeuwarden, in de Friese Greidhoeke. De omgeving biedt prachtige fiets, wandel en vaarroutes in natuurgebieden.&nbsp;

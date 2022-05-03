@@ -1,4 +1,5 @@
 ---
+_schema: default
 seo:
   seo_title: Kamperen aan het IJsselmeer
   seo_description: >-
@@ -7,7 +8,7 @@ seo:
 title: Camping De Holle Poarte
 description: Luxe camping met alle mogelijkheden aan het IJsselmeer.
 afbeelding:
-  image: /assets/img/uploads/p1030820.JPG
+  image: /assets/img/uploads/1165105318-huge-kopie-bijgesneden-scaled.jpg
   alt: >-
     Mooi chalet op camping De Holle Poarte in Makkum, ook te combineren met een
     sloep van Sloepverhuur Bolsward.
@@ -16,10 +17,10 @@ checklist:
   - Aan het strand
   - Watersport
   - Veel aanbod
-samenwerking:
 button:
   text: Bezoek website
-  url: /
+  url: https://www.chaletspecial.nl
+samenwerking:
 ---
 
-Zon, zee, strand en een prettige accommodatie zijn de ingrediënten voor een prettig verblijf. <a target="_blank" rel="noopener" href="https://www.chaletspecial.nl">Chaletspecial</a>&nbsp;verhuurt mooie chalets op Camping De Holle Poarte welke met hun ligging dichtbij het IJsselmeer garant staan voor een heerlijk vakantie gevoel.
+Zon, zee, strand en een prettige accommodatie zijn de ingrediënten voor een fantastisch verblijf op deze mooie camping aan het IJsselmeer waar het u aan niets zal ontbreken.. <a target="_blank" rel="noopener" href="https://www.chaletspecial.nl">Chaletspecial</a>&nbsp;heeft een ruim aanbod met kwalitatief hoogstaande chalets welke garant staan voor een ultiem vakantie gevoel.

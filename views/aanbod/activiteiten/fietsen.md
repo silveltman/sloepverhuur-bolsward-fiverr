@@ -1,4 +1,5 @@
 ---
+_schema: default
 seo:
   seo_title: Fietsen door waterland van Friesland
   seo_description: >-
@@ -17,10 +18,10 @@ checklist:
   - Stukje Elfstedentocht
   - Oude dorpen en steden
   - Lekker actief
-samenwerking:
 button:
-  text: Reserveren
+  text: Bezoek website
   url: https://rijwielhandeldekroon.nl
+samenwerking:
 ---
 
 Huur een fiets bij <a target="_blank" rel="noopener" style="font-size: var(--font-size-400); font-weight: 400; font-family: &quot;Open Sans&quot;, sans-serif;" href="https://rijwielhandeldekroon.nl">rijwielhandel 'De Kroon'</a> in Bolsward en ontdek het mooie Friesland met zijn molens, oude boerderijen, &nbsp;dorpjes en steden met veel historische gebouwen en de waterrijke omgeving. Je gaat ongetwijfeld een stukje van de Elfstedentocht afleggen en genieten van de enorme gastvrijheid in waterrijk Friesland.

@@ -1,4 +1,5 @@
 ---
+_schema: default
 seo:
   seo_title: Alleen of met zijn tweeën in een kano
   seo_description: >-
@@ -17,10 +18,10 @@ checklist:
   - rust en ruimte
   - 1- en 2 persoons kano's
   - combineer met lunch
-samenwerking:
 button:
-  text: Reserveren
+  text: Bezoek website
   url: http://www.wolsumerketting.com
+samenwerking:
 ---
 
 Net buiten Bolsward vindt je de rustieke<a target="_blank" rel="noopener" href="http://www.wolsumerketting.com"> theetuin 'Kootje bij de brug'</a>. Hier is het heerlijk vertoeven in een oase van rust en niet alleen op het mooie terras maar ook in de kano's die je daar kan huren. Ga het water op en ontdek routes die alleen per kano zijn te bereiken. Combineer dit met bijvoorbeeld een heerlijke lunch of de legendarische appelgebak met bolletje vanille-ijs.
