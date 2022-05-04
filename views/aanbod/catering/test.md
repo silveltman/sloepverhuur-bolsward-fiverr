@@ -4,9 +4,7 @@ seo:
   seo_title: De dorst lessen
   seo_description:
 title: Gekoelde drankjes
-description: >-
-  Heerlijk genieten op het water onder het genot van bijv. een wijntje of
-  biertje.
+description: Bier, wijn en diverse non-alcoholische dranken naar keuze.
 afbeelding:
   image: /assets/img/uploads/inhoud-koelbox-groot.jpeg
   alt: >-
