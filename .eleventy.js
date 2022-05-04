@@ -19,6 +19,8 @@ const imageShortcode = async (
   widths = '400, 800, 1280', 
   ) => {
 
+  if (!relativeSrc) return 
+
   // Turn a string of numbers into an array
   const widthsArray = widths.split(',').map(Number);
 
