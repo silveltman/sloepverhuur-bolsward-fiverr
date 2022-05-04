@@ -14,7 +14,7 @@ afbeelding:
     gekoelde drankjes.
 checklist:
 button:
-  text:
+  text: Neem contact op
   url:
 samenwerking:
 ---
