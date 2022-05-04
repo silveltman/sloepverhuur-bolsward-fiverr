@@ -1,8 +1,9 @@
 ---
+_schema: default
 seo:
   seo_title:
   seo_description:
-title: test
+title: Gekoelde drankjes
 description:
 afbeelding:
   image:
@@ -13,3 +14,4 @@ button:
   url:
 samenwerking:
 ---
+
