@@ -6,8 +6,10 @@ seo:
 title: Gekoelde drankjes
 description:
 afbeelding:
-  image:
-  alt:
+  image: /assets/img/uploads/inhoud-koelbox-groot.jpeg
+  alt: >-
+    Huur een sloep / boot bij Sloepverhuur Bolsward inclusief catering zoals
+    gekoelde drankjes.
 checklist:
 button:
   text:
