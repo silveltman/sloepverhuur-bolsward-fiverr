@@ -5,8 +5,8 @@ seo:
   seo_description: >-
     Huur een sloep - boot bij Sloepverhuur Bolsward en geniet van overheerlijk
     eigengemaakt Friese oranjekoek.
-title: Koffie met Friese oranjekoek
-description: Een warm onthaal aan boord met Friese oranjekoek van de echte bakker.
+title: Friese oranjekoek
+description: Uiteraard van de echte bakker met koffie of thee.
 afbeelding:
   image: /assets/img/uploads/shutterstock-580068499.jpg
   alt: >-
