@@ -1,7 +1,7 @@
 ---
 _schema: default
 seo:
-  seo_title: Overheerlijke broodjes en drankjes aan boord.
+  seo_title: Overheerlijke broodjes aan boord.
   seo_description: 'Lunchen in een boot en varen door het historische centrum van Bolsward '
 title: Lunch
 description:
