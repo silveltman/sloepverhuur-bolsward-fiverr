@@ -1,7 +1,7 @@
 ---
 _schema: default
 seo:
-  seo_title:
+  seo_title: Gezelligheid aan boord
   seo_description:
 title: Gekoelde drankjes
 description:
