@@ -9,9 +9,11 @@ afbeelding:
   image: /assets/img/uploads/shutterstock-1033355422.jpg
   alt: Doe een floating lunch aan boord van een sloep van Sloepverhuur Bolsward
 checklist:
-  -
+  - Luxe broodjes
+  - Lokale producten
+  - Biologisch
 button:
-  text:
+  text: Neem contact op
   url:
 samenwerking:
 ---
