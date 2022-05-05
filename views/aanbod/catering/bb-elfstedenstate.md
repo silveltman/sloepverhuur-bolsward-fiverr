@@ -16,7 +16,6 @@ checklist:
   - Friese Oranjekoek
   - Echte bakker
   - Koffie, thee of limonade
-  - I.c.m. Beenakkersloep
 button:
   text: Neem contact op
   url:
