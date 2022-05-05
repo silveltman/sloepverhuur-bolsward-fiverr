@@ -1,7 +1,10 @@
 ---
+_schema: default
 seo:
-  seo_title:
-  seo_description:
+  seo_title: 'Culinair genieten in historisch centrum '
+  seo_description: >-
+    Ga na een dag varen in een sloep van Sloepverhuur Bolsward heerlijk dineren
+    in de stad.
 title: Dineren
 description:
 afbeelding:
@@ -14,3 +17,4 @@ button:
   url:
 samenwerking:
 ---
+
