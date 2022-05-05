@@ -8,10 +8,12 @@ seo:
 title: Borrelschaal
 description: Combineer je 'natje' ook met een 'droogje'.
 afbeelding:
-  image: /assets/img/uploads/borrelplank.JPG
+  image: /assets/img/uploads/image.jpg
   alt: 'Zorgen voor de inwendige mens met een overheerlijke borrelschaal '
 checklist:
-  -
+  - Diverse kazen en worst
+  - Nootjes en olijven
+  - Mediterrane specialiteiten
 button:
   text: Neem contact op
   url:
