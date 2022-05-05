@@ -11,6 +11,7 @@ afbeelding:
   image: /assets/img/uploads/borrelplank.JPG
   alt: 'Zorgen voor de inwendige mens met een overheerlijke borrelschaal '
 checklist:
+  -
 button:
   text:
   url:
