@@ -11,7 +11,9 @@ afbeelding:
     Huur een sloep / boot bij Sloepverhuur Bolsward inclusief catering zoals
     gekoelde drankjes.
 checklist:
-  - Test
+  - Witte wijn
+  - Bier
+  - Diverse frisdranken
 button:
   text: Neem contact op
   url:
