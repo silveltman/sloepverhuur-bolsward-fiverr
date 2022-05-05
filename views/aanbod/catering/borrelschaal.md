@@ -13,7 +13,7 @@ afbeelding:
 checklist:
   -
 button:
-  text:
+  text: Neem contact op
   url:
 samenwerking:
 ---
