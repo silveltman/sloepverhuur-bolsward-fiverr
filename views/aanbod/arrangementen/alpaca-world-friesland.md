@@ -1,4 +1,5 @@
 ---
+_schema: default
 seo:
   seo_title: Sloep varen en Alpaca's knuffelen
   seo_description: >-
@@ -21,8 +22,8 @@ list:
   - label: Aantal personen
     value: 2 - 28
   - label: Kosten
-    value: Vanaf € 39,50 p.p.
+    value: Vanaf € 22,50 p.p
 samenwerking: Het Veerhuys en De Wijnberg
 ---
 
-Je vertrekt vanuit Bolsward richting Workum over de welbekende schaats Elfstedenroute. Onderweg kan je genieten van mooie vergezichten in het Zuidwest Friese landschap en eenmaal bij de Alpaca boerderij aangekomen wordt je ontvangen door de gastvrouw. Zij heeft koffie/thee/limonade en een schaal met heerlijke mini donuts, bonbons en andere lekkernijen voor je klaar staan. Ondertussen krijg je uitleg en mag je de alpaca’s voeren en ermee op de foto. Na een fantastische ervaring in een geweldige omgeving van&nbsp;**plm. 60 minuten**&nbsp;vaar je weer terug naar Bolsward.
+Je vertrekt vanuit Bolsward richting Workum over de welbekende schaats Elfstedenroute. Onderweg geniet je van mooie vergezichten in het Zuidwest Friese landschap en eenmaal in Workum aankomen kan je aanmeren bij <a target="_blank" rel="noopener" href="https://www.hotelgastinn.nl">Hotel Gast Inn</a>&nbsp;waar je op het terras aan het water eventueel een overheerlijke lunch kan nuttigen. Van daaruit loop je plm. 900 meter naar de Alpaca boerderij waar je wordt ontvangen door de gastvrouw. Zij heeft koffie/thee/limonade en een schaal met heerlijke mini donuts, bonbons en andere lekkernijen voor je klaar staan. Ondertussen krijg je uitleg en mag je de alpaca’s voeren en ermee op de foto. Na een fantastische ervaring in een geweldige omgeving van&nbsp;**plm. 60 minuten**&nbsp;vaar je weer terug naar Bolsward. Uiteraard kan je het verblijf in Workum ook nog combineren met een bezoek aan het <a target="_blank" rel="noopener" href="https://www.jopiehuismanmuseum.nl">Jopie Huisman Museum</a>. &nbsp;**LET OP; Genoemde kosten is exclusief entree Alpaca World Friesland.**
