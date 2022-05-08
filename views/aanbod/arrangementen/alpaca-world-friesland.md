@@ -22,7 +22,7 @@ list:
   - label: Aantal personen
     value: 2 - 28
   - label: Kosten
-    value: Vanaf € 22,50 p.p
+    value: Vanaf € 25,- p.p
 samenwerking: Het Veerhuys en De Wijnberg
 ---
 
