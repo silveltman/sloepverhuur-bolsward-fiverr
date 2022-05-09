@@ -11,6 +11,7 @@ afbeelding:
   image: /assets/img/uploads/foto-e-choppers.jpg
   alt: Vaar met de sloep naar Makkum en ga daar een tocht maken op een E-chopper.
 checklist:
+  -
 button:
   text: Bezoek website
   url: https://hetkompasvanmakkum.nl

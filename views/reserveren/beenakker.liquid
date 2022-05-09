@@ -10,7 +10,7 @@ info:
 <div x-data="{ route: null }">
 
   <section class="reserveren-cards reserveren-cards--beenakker"> 
-    {% assign found_routes = collections.routes | filterByFrontmatter: "sloepen", "beenakker" %}
+    {% assign found_routes = collections.routes | filterByFrontmatter: "sloepen", "Beenakker" %}
     {% for item in found_routes %}
 
       <a class="reserveren-cards__card" href="#form" @click="route = '{{ item.data.title }}'" :class="route == '{{ item.data.title }}' ? 'selected' : ''">
