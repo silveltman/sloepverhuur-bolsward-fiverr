@@ -18,7 +18,7 @@ checklist:
   - Koffie, thee of limonade
 button:
   text: Neem contact op
-  url:
+  url: https://sloepverhuurbolsward.nl/contact
 samenwerking:
 ---
 
