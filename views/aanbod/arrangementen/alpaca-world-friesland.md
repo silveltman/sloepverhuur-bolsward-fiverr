@@ -8,7 +8,7 @@ seo:
 title: Alpaca World Friesland
 description: >-
   Over de schaats Elfstedenroute varen naar Workum voor een bezoek aan Alpaca
-  World Friesland. Mogelijk in Beenakkersloep en/of Pettersloep.
+  World Friesland. 
 afbeelding:
   image: /assets/img/uploads/img-20210516-wa0006.jpg
   alt: >-
