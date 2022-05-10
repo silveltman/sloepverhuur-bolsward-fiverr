@@ -7,6 +7,9 @@ prijs:
 
 route_url:
 
-omgeving: []
-sloepen: []
+omgeving:
+  -
+
+sloepen:
+  -
 ---

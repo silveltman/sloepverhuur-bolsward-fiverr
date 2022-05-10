@@ -10,7 +10,8 @@ afbeelding:
   image:
   alt:
 
-checklist: []
+checklist:
+  -
 
 button:
   text:

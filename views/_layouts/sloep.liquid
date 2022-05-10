@@ -1,8 +1,9 @@
 ---
 layout: base.liquid
-_checklist_button: 
-  text: Huren
-  url: /
+eleventyComputed:
+  _checklist_button: 
+    text: Reserveren
+    url: /reserveren/{{ page.fileSlug }}
 ---
 
 <main class="sloep">
@@ -15,8 +16,7 @@ _checklist_button:
       {{ content }}
     </div>
     <div class="sloep__checklist">
-      {% capture url %} /reserveren/{{ page.fileSlug }} {% endcapture %}
-      {% bookshop "card/checklist" bind: checklist title: 'Eigenschappen' btn_text: "Reserveren" btn_url: url %}
+      {% bookshop "card/checklist" bind: checklist title: 'Eigenschappen' button: _checklist_button %}
     </div>
   </div>
   

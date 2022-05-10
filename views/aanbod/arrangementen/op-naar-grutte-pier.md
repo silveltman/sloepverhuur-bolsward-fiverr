@@ -1,4 +1,5 @@
 ---
+_schema: default
 seo:
   seo_title: Verzetsstrijder Grutte Pier in Kubaard
   seo_description: >-
@@ -21,6 +22,8 @@ list:
 samenwerking: Hotel 'Greate Pier' te Kimswerd (www.hotelgreatepier.nl)
 ---
 
+***I.c.m. Beenakkersloep en/of Pettersloep.***
+
 Vanuit <a target="_blank" rel="noopener" href="https://www.bolsward.nl">Bolsward</a> varen we naar bestemming <a target="_blank" rel="noopener" href="https://nl.wikipedia.org/wiki/Kimswerd">Kimswerd</a>, het dorp van <a target="_blank" rel="noopener" href="https://nl.wikipedia.org/wiki/Pier_Gerlofs_Donia">Grutte Pier</a>. Meteen bij vertrek wordt er getrakteerd op koffie/thee met Friese oranjekoek en ga je genieten van het Friese platteland waarbij we door de dorpen <a target="_blank" rel="noopener" href="https://nl.wikipedia.org/wiki/Schettens">Schettens</a> en <a target="_blank" rel="noopener" href="https://nl.wikipedia.org/wiki/Witmarsum_(Nederland)">Witmarsum</a> varen. Vervolgens varen we langs <a target="_blank" rel="noopener" href="https://nl.wikipedia.org/wiki/Arum_(plaats)">Arum</a> om na ± 2 uren af te meren in Kimswerd waar in hotel '<a target="_blank" rel="noopener" href="https://www.hotelgreatepier.nl">Greate Pier</a>' kan worden genoten van een overheerlijke Friese lunch met o.a. soep, belegde broodjes, koffie, thee, melk en verse jus d'orange. Na de lunch volgt een bezoek met rondleiding aan de oudste kerk van Friesland,&nbsp;<a target="_blank" rel="noopener" href="http://www.laurentiuskerkkimswerd.nl/home">de Laurentiuskerk</a>, om daarna via wederom Arum, <a target="_blank" rel="noopener" href="https://nl.wikipedia.org/wiki/Grauwe_Kat">Grauwe Kat</a> en <a target="_blank" rel="noopener" href="https://nl.wikipedia.org/wiki/Hichtum">Hichtum</a> weer terug te varen naar Bolsward. Aan boord kan gedurende de hele tocht gebruik worden gemaakt van een goed gevulde koelbox met bier, witte wijn en diverse frisdranken.
 
-&nbsp;
+I.s.m. <a target="_blank" rel="noopener" href="https://www.hotelgreatepier.nl">Hotel Greate Pier</a>

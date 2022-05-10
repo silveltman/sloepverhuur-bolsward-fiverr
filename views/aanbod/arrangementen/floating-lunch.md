@@ -1,11 +1,12 @@
 ---
+_schema: default
 seo:
   seo_title: Citytour met lunch aan boord
   seo_description: Huur een sloep bij Sloepverhuur Bolsward inclusief lunch aan boord
 title: Floating Lunch
 description: >-
   Ontdek de historische binnenstad van Bolsward  i.c.m. met een overheerlijke
-  lunch aan boord.
+  lunch aan boord.  (Beenakkersloep / Pettersloep)
 afbeelding:
   image: /assets/img/uploads/lunch.jpg
   alt: >-
@@ -22,6 +23,8 @@ list:
     value: Vanaf € 29,50 p.p.
 samenwerking:
 ---
+
+***I.c.m. Beenakkersloep en/of Pettersloep.***
 
 Heerlijk lunchen aan boord en ondertussen genieten van Bolsward met zijn historisch centrum. Daarnaast maak je ook nog een mooie tocht door het 'Giethoorn van het Noorden', een zeer waterrijk aangelegde woonwijk welke echt verrassend veel doet denken aan Giethoorn.
 

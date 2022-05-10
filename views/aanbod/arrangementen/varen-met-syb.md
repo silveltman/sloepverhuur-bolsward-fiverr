@@ -1,4 +1,5 @@
 ---
+_schema: default
 seo:
   seo_title: Muzikale vaartocht met Syb of Piter.
   seo_description: >-
@@ -23,6 +24,8 @@ list:
     value: Op aanvraag
 samenwerking: Syb van der Ploeg ( www.sybvanderploeg.nl )
 ---
+
+***I.c.m. Beenakkersloep en/of Pettersloep.***
 
 Een privé concert van&nbsp;<a target="_blank" rel="noopener" href="https://www.sybvanderploeg.nl/pers-media/fotos/">Syb van der Ploeg</a>&nbsp;of <a target="_blank" rel="noopener" href="https://www.piterwilkens.frl">Piter Wilkens</a>&nbsp;in combinatie met een tocht in een ruime comfortabele sloep, dit unieke arrangement biedt Sloepverhuur Bolsward voor een select gezelschap tot max. 28 personen. Vanuit Bolsward varen we naar een idyllische plek buiten de stad, tijdens het varen komen er mooie verhalen en anekdotes over het muziekleven voorbij. Na het aanleggen ben je getuige van een privé concert met schipper Richard Veltman op <a target="_blank" rel="noopener" href="https://nl.wikipedia.org/wiki/Caj%C3%B3n">cajon</a>. Tijdens dit optreden komen natuurlijk vele hits alsook andere evergreens voorbij uiteraard onder het genot van een hapje en een drankje.
 

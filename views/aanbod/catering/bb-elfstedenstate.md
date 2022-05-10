@@ -1,12 +1,12 @@
 ---
 _schema: default
 seo:
-  seo_title: Voortvarend begin
+  seo_title: Welkom aan boord
   seo_description: >-
     Huur een sloep - boot bij Sloepverhuur Bolsward en geniet van overheerlijk
     eigengemaakt Friese oranjekoek.
-title: Welkom aan boord
-description: Een warm onthaal aan boord met Friese oranjekoek van de echte bakker.
+title: Friese oranjekoek
+description: Uiteraard van de echte bakker met koffie of thee.
 afbeelding:
   image: /assets/img/uploads/shutterstock-580068499.jpg
   alt: >-
@@ -16,7 +16,6 @@ checklist:
   - Friese Oranjekoek
   - Echte bakker
   - Koffie, thee of limonade
-  - I.c.m. Beenakkersloep
 button:
   text: Neem contact op
   url:
