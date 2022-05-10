@@ -1,11 +1,12 @@
 ---
+_schema: default
 seo:
   seo_title: Citytour met lunch aan boord
   seo_description: Huur een sloep bij Sloepverhuur Bolsward inclusief lunch aan boord
 title: Floating Lunch
 description: >-
   Ontdek de historische binnenstad van Bolsward  i.c.m. met een overheerlijke
-  lunch aan boord.
+  lunch aan boord.  (Beenakkersloep / Pettersloep)
 afbeelding:
   image: /assets/img/uploads/lunch.jpg
   alt: >-
