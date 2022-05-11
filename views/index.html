@@ -65,8 +65,11 @@ banner:
 
 <main>
   <section class="index-hero">
-    
-    {% image hero_afbeelding.image, hero_afbeelding.alt, "index-hero__img", "100vw", "414, 768, 1366, 1920, 2560" %}
+    <div class="index-hero__img-container">	
+      {% image '/assets/img/index-hero-top.png', hero_afbeelding.alt, "index-hero__img index-hero__img--top", "100vw", "414, 768, 1366, 1920, 2560" %}
+      {% image '/assets/img/index-hero-bottom.png', hero_afbeelding.alt, "index-hero__img index-hero__img--bottom", "100vw", "414, 768, 1366, 1920, 2560" %}
+    </div>
+
 
     <div class="index-hero__banner" x-data="{ showBanner: true }" x-show="showBanner"> 
       <span>
@@ -127,7 +130,7 @@ banner:
       <h2 class="index-arrangementen__h editable">
         Diverse arrangementen
       </h2>
-      <p class="index-arrangementen__p editable">
+      <p class="index-arrangementen__p editable"> 
         Optimaal genieten staat bij ons hoog in het vaandel. Onze arrangementen staan daarom garant voor een ultieme beleving van varen, cultuur en natuur.
       </p>
     </div>
@@ -155,7 +158,7 @@ banner:
     </div>
   </section>
 
-  <section class="index-banner">
+  <section class="index-banner"> 
     {% bookshop "banner" bind: banner %}
   </section>
 </main>
