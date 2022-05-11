@@ -6,7 +6,7 @@ seo:
 title: Floating Lunch
 description: >-
   Ontdek de historische binnenstad van Bolsward  i.c.m. met een overheerlijke
-  lunch aan boord.  (Beenakkersloep / Pettersloep)
+  lunch aan boord. 
 afbeelding:
   image: /assets/img/uploads/lunch.jpg
   alt: >-
