@@ -16,7 +16,7 @@ checklist:
   - Diverse frisdranken
 button:
   text: Neem contact op
-  url:
+  url: https://sloepverhuurbolsward.nl/contact
 samenwerking:
 ---
 

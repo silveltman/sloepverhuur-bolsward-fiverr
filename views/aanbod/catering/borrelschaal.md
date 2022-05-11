@@ -16,7 +16,7 @@ checklist:
   - Mediterrane specialiteiten
 button:
   text: Neem contact op
-  url:
+  url: https://sloepverhuurbolsward.nl/contact
 samenwerking:
 ---
 

@@ -23,10 +23,4 @@ button:
 samenwerking: https://wijnbergbolsward.nl
 ---
 
-Dompel je onder in de Friese gastvrijheid door te overnachten in het hart van Friesland. Het hotel ligt midden in het historische stadscentrum met een magnifiek zicht op het schitterende stadhuis. Er zijn 26 ruime kamers beschikbaar van waaruit je er op uit om te varen, fietsen of wandelen. Na een actieve dag is genieten van alle gastronomie en gastvrijheid.
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
+Dompel je onder in het hart van Friesland door te overnachten in Elfstedenstad <a target="_blank" rel="noopener" href="https://www.bolsward.nl">Bolsward</a>. <a target="_blank" rel="noopener" href="https://wijnbergbolsward.nl">Hotel De Wijnberg</a>&nbsp;ligt midden in het historische stadscentrum met een magnifiek zicht op het schitterende voormalige&nbsp;<a target="_blank" rel="noopener" href="https://detiid.nl">stadhuis</a>. Er zijn 26 ruime kamers beschikbaar van waaruit je er op uit kan om te varen, fietsen of wandelen. Na een actieve dag is het vervolgens genieten van heerlijke gastronomie en uiteraard gastvrijheid.

@@ -21,4 +21,4 @@ button:
 samenwerking:
 ---
 
-Bolsward is bij uitstek een stad om met een SUP vanaf het water te ontdekken. SUP staat voor Stand Up Paddling wat betekent dat je staand op een soort van surfplank met een peddel je voortbeweegt.&nbsp;
+Bolsward is bij uitstek een stad om met een SUP vanaf het water te ontdekken. Je kan met de SUP fantastisch door het historische stadscentrum peddelen en zo genieten van de vele monumentale bouwwerken. SUP staat voor Stand Up Paddling wat betekent dat je staand op een soort van surfplank met een peddel je voortbeweegt.&nbsp;

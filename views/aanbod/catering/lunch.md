@@ -14,10 +14,10 @@ checklist:
   - Biologisch
 button:
   text: Neem contact op
-  url:
+  url: https://sloepverhuurbolsward.nl/contact
 samenwerking:
 ---
 
-Lunchen kan in het historische centrum van Bolsward maar ook aan boord van onze sloep. Combineer het met een korte Citytour en geniet van twee rijk gevulde luxe broodjes belegd met lokale biologische producten aangevuld met melk en verse sapjes.
+Lunchen kan in het historische centrum van Bolsward maar ook aan boord van onze sloep. Combineer het bijvoorbeeld met een korte Citytour en geniet van twee rijk gevulde luxe broodjes belegd met lokale biologische producten aangevuld met melk en verse sapjes.
 
 Kosten; € 17,50 p.p.
