@@ -65,8 +65,11 @@ banner:
 
 <main>
   <section class="index-hero">
-    
-    {% image hero_afbeelding.image, hero_afbeelding.alt, "index-hero__img", "100vw", "414, 768, 1366, 1920, 2560" %}
+    <div class="index-hero__img-container">	
+      {% image '/assets/img/index-hero-top.png', hero_afbeelding.alt, "index-hero__img index-hero__img--top", "100vw", "414, 768, 1366, 1920, 2560" %}
+      {% image '/assets/img/index-hero-bottom.png', hero_afbeelding.alt, "index-hero__img index-hero__img--bottom", "100vw", "414, 768, 1366, 1920, 2560" %}
+    </div>
+
 
     <div class="index-hero__banner" x-data="{ showBanner: true }" x-show="showBanner"> 
       <span>
@@ -115,7 +118,7 @@ banner:
           Routes door waterrijk Friesland
         </h2>
         <p class="index-routes__p editable">
-          Sloepverhuur Bolsward heeft een ruime keuze aan mooie routes in het waterland van Friesland geselecteerd welke &nbsp;allemaal starten en eindigen in Bolsward, het middelpunt voor varen over grachten, sloten, vaarten en meren. Eventueel i.c.m.&nbsp;<a target="_blank" rel="noopener" href="https://sloepverhuurbolsward.nl/aanbod/catering">catering</a>&nbsp;en diverse&nbsp;<a href="https://sloepverhuurbolsward.nl/arrangementen">arrangementen</a>.&nbsp;
+          Sloepverhuur Bolsward heeft een ruime keuze aan mooie routes in het waterland van Friesland geselecteerd welke &nbsp;allemaal starten en eindigen in Bolsward, het middelpunt voor varen over grachten, sloten, vaarten en meren. Eventueel i.c.m.&nbsp;<a href="https://sloepverhuurbolsward.nl/aanbod/catering">catering</a>&nbsp;en diverse&nbsp;<a href="https://sloepverhuurbolsward.nl/aanbod/arrangementen">arrangementen</a>.&nbsp;
         </p>
         <a href="/aanbod/routes" class="index-routes__btn btn btn--primary editable">Bekijk routes</a>
       </div>
@@ -155,7 +158,7 @@ banner:
     </div>
   </section>
 
-  <section class="index-banner">
+  <section class="index-banner"> 
     {% bookshop "banner" bind: banner %}
   </section>
 </main>
