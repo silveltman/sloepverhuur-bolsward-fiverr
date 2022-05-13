@@ -15,11 +15,17 @@ afbeelding:
     Huur een sloep - boot bij Sloepverhuur Bolsward en bezoek schapenvacht
     looierij Van Buren.
 list:
-  - label: hoi
-    value: doei
-  - label:
-    value:
+  - label: 'Tijdsduur:'
+    value: In overleg
+  - label: 'Vertrektijd:'
+    value: In overleg
+  - label: Aantal personen
+    value: 2 - 28
+  - label: 'Kosten:'
+    value: Vanaf € 19,50 p.p.
 samenwerking:
 ---
 
-Aan boord wordt je ontvangen met koffie/thee en overheerlijke oranjekoek van de echte bakker om daarna een route naar keuze te varen. Er zijn onderweg voor iedereen genoeg gekoelde drankjes en je gaat genieten van S&uacute;dwest-Frysl&acirc;n op zijn best. Vooraf of na de sloepentocht brengen we een bezoek aan Van Buren in Bolsward, de enige schapenvacht looierij van Nederland. Van ruwe schapenvachten maken zij vacht- en leerproducten die mensenlevens verrijken met warmte, natuurlijke schoonheid en zachtheid en doen dit doen al sinds 1861. Dit arrangement is qua [c](__notset__)[atering](https://sloepverhuurbolsward.nl/aanbod/catering) nog naar keuze uit te breiden.
+***I.c.m. Beenakkersloep en/of Pettersloep.***
+
+Vooraf of na het bezoek aan de leerlooierij ga je genieten van S&uacute;dwest-Frysl&acirc;n op zijn best in één van onze comfortabele sloepen. Zoals gezegd gaan we naar Van Buren in Bolsward, de enige schapenvacht looierij van Nederland. Van ruwe schapenvachten maken zij vacht- en leerproducten die mensenlevens verrijken met warmte, natuurlijke schoonheid en zachtheid en doen dit doen al sinds 1861. Dit arrangement is aan te vullen met&nbsp;[c](__notset__)[atering](https://sloepverhuurbolsward.nl/aanbod/catering) naar keuze.
