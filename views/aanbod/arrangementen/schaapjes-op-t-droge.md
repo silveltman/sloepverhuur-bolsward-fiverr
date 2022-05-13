@@ -15,8 +15,8 @@ afbeelding:
     Huur een sloep - boot bij Sloepverhuur Bolsward en bezoek schapenvacht
     looierij Van Buren.
 list:
-  - label:
-    value:
+  - label: hoi
+    value: doei
   - label:
     value:
 samenwerking:
