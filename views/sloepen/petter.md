@@ -5,7 +5,7 @@ seo:
     Ruime elektrische sloep huren in Friesland, volop zitcomfort, max. 8
     personen, last-minute, Friese elfsteden, Sneek, Bolsward, i.c.m. diverse
     arrangementen.
-title: Pettersloep
+title: Petter
 subtitle: Elektrische 8-persoons
 description: Zonder schipper geruisloos genieten van waterrijk Friesland.
 checklist:
