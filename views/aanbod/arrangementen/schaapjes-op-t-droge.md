@@ -7,7 +7,7 @@ seo:
     schapenvacht looierij Van Buren bezoeken.
 title: Schaapjes op 't droge
 description: >-
-  Vaar naar de enige schapenvacht looierij van Nederland welke nog geheel
+  Vaar naar de enige schapenvacht looierij van Nederland die nog geheel
   ambachtelijk werken.
 afbeelding:
   image: /assets/img/uploads/header-1.jpg
