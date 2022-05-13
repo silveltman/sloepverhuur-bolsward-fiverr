@@ -16,7 +16,7 @@ afbeelding:
     looierij Van Buren.
 list:
   - label:
-    value: Ambachtelijk
+    value:
   - label:
     value:
 samenwerking:
