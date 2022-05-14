@@ -5,19 +5,19 @@
   dropdown:
     collection: sloepen
 - name: Routes
-  url: /aanbod/routes
+  url: /routes
 - name: Arrangementen
-  url: /aanbod/arrangementen
+  url: /arrangementen
 - name: En meer...
   url: ''
   dropdown:
     collection: null
     custom:
       - name: Omgeving
-        url: /aanbod/omgeving
+        url: /omgeving
       - name: Activiteiten
-        url: /aanbod/activiteiten
+        url: /activiteiten
       - name: Overnachtingen
-        url: /aanbod/overnachtingen
+        url: /overnachtingen
       - name: Catering
-        url: /aanbod/catering
+        url: /catering
