@@ -4,7 +4,7 @@ seo:
   seo_description: >-
     Ruime sloep met schipper huren in Friesland, catering,  arrangementen,
     familiedag, bedrijfsuitje, max. 28 personen.
-title: Beenakkersloep
+title: Beenakker
 subtitle: 'Luxe 12-persoons '
 description: Met schipper zorgeloos genieten van waterrijk Friesland.
 checklist:
