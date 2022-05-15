@@ -43,7 +43,7 @@ vaartijden:
     {% endfor %}
   </section>
 
-  <form method="post" class="form reserveren-form"  id="form" x-data="{ confirm: false }" @submit="confirm = true">
+  <form method="post" class="form reserveren-form" id="form" x-data="{ confirm: false }" @submit="confirm = true">
     <label class="label" for="Vaartijd">Vaartijd (selecteer hierboven):</label>
     <input class="input input--disabled" type="text" name="Vaartijd" readonly required x-model="time" required>
     
@@ -63,7 +63,7 @@ vaartijden:
     <textarea class="textarea" name="bericht"></textarea>
     
     <input type="text" name="_subject" style="display: none;" value="Interesse in Petter" />
-  <input type="hidden" name="inbox_key" value="sloepverhuur">
+    <input type="hidden" name="inbox_key" value="sloepverhuur">
     <!-- <input type="text" name="_gotcha" style="display: none;" /> -->
     
     <input class="btn btn--primary" type="submit" value="Plaats reservering">
@@ -71,7 +71,7 @@ vaartijden:
     {% bookshop "modal"
       live_render: false 
       title: "Bedankt!"
-      text: "We komen zo spoedig mogelijk bij je terug om de reserveren definitief te maken"
+      text: "We nemen zo spoedig mogelijk contact op om de reservering definitief te maken."
       button: "Oké" 
     %}
   </form>
