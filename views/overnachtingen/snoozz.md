@@ -3,7 +3,7 @@ _schema: default
 seo:
   seo_title: Smart boutique self service hotel
   seo_description: Logeren in het Snoozz hotel en een sloep huren bij Sloepverhuur Bolsward.
-title: Snoozz Hotel
+title: Snoozz Hotels
 description: Eigentijds zelf service hotel in het centrum van Bolsward
 afbeelding:
   image: /assets/img/uploads/bolsward-hotel-appelmarkt-by-imazzo-6.jpg
