@@ -26,4 +26,4 @@ samenwerking:
 
 ***I.c.m. Beenakkersloep en/of Pettersloep.***
 
-In Bolsward starten we aan boord met oranjekoek van de echte bakker en koffie/thee of drankje naar keuze. Daarna begint onze tocht eerst over de 'oude' route langs Hichtum en Grauwe Kat. Onderweg kan je gebruik maken van de ruim gevulde koelbox met alcoholische en non-alcoholische drankjes naar keuze. Na ± 2 wordt er een stop gemaakt in Witmarsum voor een overheerlijke lunch bij restaurant 'Nice Flavour'. Daarna varen we over de 'nieuwe' route via Schettens weer naar Bolsward waar na ± 1,5 uur af zullen meren.
+In Bolsward starten we aan boord met oranjekoek van de echte bakker en koffie/thee of drankje naar keuze. Daarna begint onze tocht eerst over de 'oude' route langs Hichtum en Grauwe Kat. Onderweg kan je gebruik maken van de ruim gevulde koelbox met alcoholische en non-alcoholische drankjes naar keuze. Na ± 2 uren wordt er een stop gemaakt in Witmarsum voor een overheerlijke lunch bij restaurant 'Nice Flavour'. Daarna varen we over de 'nieuwe' route via Schettens weer naar Bolsward waar na ± 1,5 uur de tocht eindigt.
