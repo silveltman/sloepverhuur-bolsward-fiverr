@@ -28,4 +28,4 @@ samenwerking:
 
 ***I.c.m. Beenakkersloep en/of Pettersloep.***
 
-Vooraf of na het bezoek aan de leerlooierij ga je genieten van S&uacute;dwest-Frysl&acirc;n op zijn best in één van onze comfortabele sloepen. Zoals gezegd gaan we naar Van Buren in Bolsward, de enige schapenvacht looierij van Nederland. Van ruwe schapenvachten maken zij vacht- en leerproducten die mensenlevens verrijken met warmte, natuurlijke schoonheid en zachtheid en doen dit doen al sinds 1861. Dit arrangement is aan te vullen met&nbsp;[c](__notset__)[atering](https://sloepverhuurbolsward.nl/aanbod/catering) naar keuze.
+Vooraf of na het bezoek aan de leerlooierij ga je genieten van S&uacute;dwest-Frysl&acirc;n op zijn best in één van onze comfortabele sloepen. Zoals gezegd gaan we naar Van Buren in Bolsward, de enige schapenvacht looierij van Nederland. Van ruwe schapenvachten maken zij vacht- en leerproducten die mensenlevens verrijken met warmte, natuurlijke schoonheid en zachtheid en doen dit doen al sinds 1861. Dit arrangement is aan te vullen met&nbsp;[c](__notset__)[atering](https://sloepverhuurbolsward.nl/cateringward.nl/aanbod/catering) naar keuze.
