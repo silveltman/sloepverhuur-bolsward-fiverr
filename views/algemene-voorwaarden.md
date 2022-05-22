@@ -10,18 +10,20 @@ Betaling vindt uitsluitend voorafgaand aan de vaartocht plaats, tenzij uitdrukke
 
 ## Tarieven
 
-Luxe Beenakkersloep; gebaseerd op het aantal vaaruren afhankelijk van gekozen route, extra tijd wordt belast met € 20,- per 30 minuten.
+Luxe Beenakkersloep; gebaseerd op het aantal vaaruren afhankelijk van gekozen route, extra (wacht)tijd wordt belast met € 25,- per 30 minuten.
 
-Elektrische Pettersloep; gebaseerd op één of meerdere dagdelen. Bij overschrijding van overeengekomen dagdeel of dagdelen wordt € 15,- per 30 minuten in rekening gebracht.
+Elektrische Pettersloep; gebaseerd op één of meerdere dagdelen. Bij overschrijding van overeengekomen dagdeel of dagdelen wordt € 20,- per 30 minuten in rekening gebracht.
+
+Honden mogen aan boord, i.v.m. extra schoonmaak brengen wij hiervoor € 10,- in rekening.
+
+Kinderen zonder zwemdiploma zijn verplicht een zwemvest te dragen, deze zijn bij ons te huur voor € 7,50 per stuk.
 
 ## Annuleren van je reservering
 
-- Annuleren meer dan 30 dagen voor aanvang van de tocht: Geen annuleringskosten
-- Annuleren 30 dagen of minder voor aanvang van de tocht: Voucher of je betaalt 25% van de totale kosten.
-  ​- Annuleren 14 dagen of minder voor aanvang van de tocht: Voucher of je betaalt 40% van de totale kosten.
-  ​- Annuleren 7 dagen of minder voor aanvang van de tocht: Voucher of je betaalt 60% van de totale kosten.
-- Annulering tot 48 uur of minder voor aanvang van de tocht: Voucher of je betaalt 75% van de totale kosten.
-- Annulering minder dan 48 uur voor aanvang van de tocht: Voucher of je betaalt 100% van de totale kosten.
+* Annuleren meer dan 30 dagen voor aanvang van de tocht: Geen annuleringskosten
+* Annuleren 30 dagen of minder voor aanvang van de tocht: Voucher of je betaalt 25% van de totale kosten. ​- Annuleren 14 dagen of minder voor aanvang van de tocht: Voucher of je betaalt 40% van de totale kosten. ​- Annuleren 7 dagen of minder voor aanvang van de tocht: Voucher of je betaalt 60% van de totale kosten.
+* Annulering tot 48 uur of minder voor aanvang van de tocht: Voucher of je betaalt 75% van de totale kosten.
+* Annulering minder dan 48 uur voor aanvang van de tocht: Voucher of je betaalt 100% van de totale kosten.
 
 ## Uitzonderingen op je reservering
 
@@ -31,7 +33,7 @@ Mocht de reservering wegens aantoonbare privé omstandigen t/m de 3e graad zoals
 
 ## Veiligheid en leeftijd
 
-Indien iemand aan boord de zwemkunst niet vaardig is zal diegene verplicht een zwemvest moeten dragen, dit mag u zelf regelen maar zijn ook te huur á € 5,-.
+Indien iemand aan boord de zwemkunst niet vaardig is zal diegene verplicht een zwemvest moeten dragen, dit mag u zelf regelen maar zijn ook te huur &aacute; € 5,-.
 
 De bestuurder van de elektrische Pettersloep dient minimaal 21 jaar te zijn, indien gewenst kan verhuurder verzoeken tot het tonen van een identiteitsbewijs vooraf per mail volgens de AVG regels of ter plekke voor afvaart.
 
