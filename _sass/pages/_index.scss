@@ -101,8 +101,6 @@
 }
 
 .index-routes {
-  background: $color-bg-dark;
-
   &__wrapper {
     @extend %grid-2-1;
   }
@@ -125,6 +123,7 @@
 
 .index-arrangementen {
   padding: var(--space-700) 0;
+  background: $color-bg-dark;
 
   &__content {
     @extend %wrapper;
