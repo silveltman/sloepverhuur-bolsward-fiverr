@@ -6,7 +6,7 @@ seo:
 title: Snoozz Hotels
 description: Eigentijds zelf service hotel in het centrum van Bolsward
 afbeelding:
-  image: /assets/img/uploads/bolsward-hotel-appelmarkt-by-imazzo-6.jpg
+  image: /assets/img/uploads/kamer-7-totaal-naar-raam.jpg
   alt: >-
     Luxe, moderne en knusse kamers om heerlijk te relaxen na een dag varen met
     een sloep van Sloepverhuur Bolsward.
