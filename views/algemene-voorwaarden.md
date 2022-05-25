@@ -27,7 +27,7 @@ Kinderen zonder zwemdiploma zijn verplicht een zwemvest te dragen, deze zijn bij
 
 ## Uitzonderingen op je reservering
 
-Mocht het wegens weersomstandigheden niet verantwoord zijn uit te varen dan kan de reservering worden geannuleerd (alleen op de dag zelf) en zullen reeds gedane betalingen worden gerestitueerd of kan je zonder extra kosten een nieuwe datum reserveren.
+Bij slechte weersomstandigheden, regen en/of te harde wind, kan de reservering worden geannuleerd (alleen op de dag zelf) en zullen reeds gedane betalingen meteen worden gerestitueerd of kan je zonder extra kosten een nieuwe datum reserveren.
 
 Mocht de reservering wegens aantoonbare privé omstandigen t/m de 3e graad zoals ziekte of overlijden niet door kunnen gaan dan ben je geen betaling verschuldigd en zullen reeds gedane betalingen worden gerestituteerd.
 
