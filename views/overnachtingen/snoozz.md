@@ -21,6 +21,6 @@ button:
 samenwerking: snoozzhotels.com
 ---
 
-Het <a target="_blank" rel="noopener" href="https://www.snoozzhotels.com">Snoozz Hotel</a> is een zelf service hotel gevestigd in een monumentaal pand, midden in het hart van de Friese Hanze Elfstedenstad Bolsward. De meeste kamers zijn voorzien van prachtig uitzicht over de binnenstad. Er zijn romantische kamers met Frans balkon, kamers met pantry's voor een langer verblijf, torenkamers met knusse hoekbanken, kortom voldoende ruimte en luxe voor een heerlijk verblijf. Bolsward heeft veel te bieden door de rijke historie en het pittoreske centrum. Elk jaar start, kruist en finisht hier de Friese Rijwiel Elfstedentocht. De start en doorkomst zijn zelfs direct voor het hotel.
+Binnenstappen in een luxe omgeving en een hotelkamer die van alle gemakken is voorzien. Supersnelle service, én dat zonder receptie. Door middel van een toegestuurde webapp link kunt u de entree- en hotelkamerdeur gemakkelijk met uw telefoon open swipen. Het zelfservice hotel is sinds 2021 gevestigd in een monumentaal pand, midden in de Friese Hanze Elfstedenhart Bolsward. De meeste kamers zijn voorzien van prachtig uitzicht over de binnenstad. Neem <a target="_blank" href="https://www.snoozzhotels.com/rooms">hier</a> een kijkje op onze website om de verschillende hotelkamers te bekijken. Bij Snoozz Hotels Bolsward ontbreekt het u als gast aan niks. Komt u ook Snoozz’en?
 
 &nbsp;
