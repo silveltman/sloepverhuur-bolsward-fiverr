@@ -3,8 +3,8 @@ _schema: default
 seo:
   seo_title: Molen 'De Onderneming' in Witmarsum
   seo_description: >-
-    Sloep huren in Witmarsum en ontdek vanaf het water o.a. Bolsward, Harlingen,
-    Makkum en Kimswerd in Súdwest-Fryslân.
+    Sloep huren in Witmarsum en ontdek in Friesland vanaf het water o.a.
+    Bolsward, Harlingen, Makkum en Kimswerd.
 title: Witmarsum
 description: '''De Onderneming'''
 afbeelding:
