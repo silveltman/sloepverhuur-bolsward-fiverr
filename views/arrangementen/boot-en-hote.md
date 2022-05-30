@@ -5,7 +5,7 @@ seo:
   seo_description: >-
     Genieten in de mooiste theetuin van Friesland, bereikbaar met een sloep van
     Sloepverhuur Bolsward.
-title: Bootje&Kootje
+title: Bootje & Kootje
 description: >-
   Culinair en cultureel genieten in en om Bolsward en bij de mooiste theetuin
   van Súdwest Fryslân. 
