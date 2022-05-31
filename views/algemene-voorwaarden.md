@@ -14,7 +14,7 @@ Luxe Beenakkersloep; gebaseerd op het aantal vaaruren afhankelijk van gekozen ro
 
 Elektrische Pettersloep; gebaseerd op één of meerdere dagdelen. Bij overschrijding van overeengekomen dagdeel of dagdelen wordt € 20,- per 30 minuten in rekening gebracht.
 
-Kinderen zonder zwemdiploma zijn verplicht een zwemvest te dragen, deze zijn bij ons te huur voor € 5,- per stuk.
+Kinderen zonder zwemdiploma zijn verplicht een zwemvest te dragen, deze zijn te huur voor € 5,- per stuk.
 
 Koelbox van 32 liter met koelelementen is te huur voor € 5,-
 
