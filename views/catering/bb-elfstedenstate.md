@@ -22,6 +22,6 @@ button:
 samenwerking:
 ---
 
-Het huren van de luxe Beenakkersloep met schipper kan worden gecombineerd met een warm welkom aan boord. Uw wordt hartelijk ontvangen met Friese oranjekoek van de echte bakker en uiteraard koffie, thee of eventueel frisdrank naar keuze.&nbsp;
+Starten met een warm welkom? Begin dan je sloepentocht met de overheerlijke Friese oranjekoek van de echte bakker en uiteraard koffie, thee of eventueel frisdrank naar keuze.&nbsp;
 
 Kosten; € 4,75 p.p.
