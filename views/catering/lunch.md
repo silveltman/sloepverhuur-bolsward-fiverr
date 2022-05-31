@@ -2,7 +2,9 @@
 _schema: default
 seo:
   seo_title: Overheerlijke broodjes aan boord.
-  seo_description: 'Lunchen in een boot en varen door het historische centrum van Bolsward '
+  seo_description: >-
+    Lunchen in een sloep en varen door bijvoorbeeld het historische centrum van
+    Bolsward of de Friese meren.
 title: Lunch
 description: Overheerlijke broodjes belegd met lokale biologische producten.
 afbeelding:
@@ -18,6 +20,6 @@ button:
 samenwerking:
 ---
 
-Lunchen kan in het historische centrum van Bolsward maar ook aan boord van onze sloep. Combineer het bijvoorbeeld met een korte Citytour en geniet van twee rijk gevulde luxe broodjes belegd met lokale biologische producten aangevuld met melk en verse sapjes.
+Lunchen aan boord en combineer dit bijvoorbeeld met een korte Citytour. Geniet van twee rijk gevulde luxe broodjes naar keuze belegd met lokale biologische producten, &nbsp;koffie, thee, melk en verse sapjes.
 
 Kosten; € 17,50 p.p.
