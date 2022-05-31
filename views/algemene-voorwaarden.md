@@ -14,8 +14,6 @@ Luxe Beenakkersloep; gebaseerd op het aantal vaaruren afhankelijk van gekozen ro
 
 Elektrische Pettersloep; gebaseerd op één of meerdere dagdelen. Bij overschrijding van overeengekomen dagdeel of dagdelen wordt € 20,- per 30 minuten in rekening gebracht.
 
-Honden mogen aan boord, hiervoor vragen wij i.v.m. eventuele extra schoonmaak &nbsp;een kleine vergoeding van € 7,50&nbsp;
-
 Kinderen zonder zwemdiploma zijn verplicht een zwemvest te dragen, deze zijn bij ons te huur voor € 5,- per stuk.
 
 Koelbox van 32 liter met koelelementen is te huur voor € 5,-
