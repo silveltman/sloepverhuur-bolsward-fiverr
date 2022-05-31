@@ -2,7 +2,9 @@
 _schema: default
 seo:
   seo_title: Overheerlijke broodjes aan boord.
-  seo_description: 'Lunchen in een boot en varen door het historische centrum van Bolsward '
+  seo_description: >-
+    Lunchen in een sloep en varen door bijvoorbeeld het historische centrum van
+    Bolsward of de Friese meren.
 title: Lunch
 description: Overheerlijke broodjes belegd met lokale biologische producten.
 afbeelding:
