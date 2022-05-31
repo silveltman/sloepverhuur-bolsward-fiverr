@@ -18,6 +18,6 @@ button:
 samenwerking:
 ---
 
-Lunchen kan in het historische centrum van Bolsward maar ook aan boord van onze sloep. Combineer het bijvoorbeeld met een korte Citytour en geniet van twee rijk gevulde luxe broodjes belegd met lokale biologische producten aangevuld met melk en verse sapjes.
+Lunchen aan boord en combineer dit bijvoorbeeld met een korte Citytour. Geniet van twee rijk gevulde luxe broodjes naar keuze belegd met lokale biologische producten, &nbsp;koffie, thee, melk en verse sapjes.
 
 Kosten; € 17,50 p.p.
