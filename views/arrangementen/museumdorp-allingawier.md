@@ -21,7 +21,7 @@ list:
   - label: 'Aantal personen:'
     value: 2 - 28
   - label: 'Kosten:'
-    value: Vanaf € 27,50 p.p.
+    value: Vanaf € 25,- p.p.
 samenwerking:
 ---
 
