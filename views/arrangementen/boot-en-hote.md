@@ -24,7 +24,7 @@ list:
 samenwerking: Kootje bij de brug (www.wolsumerketting.com)
 ---
 
-***I.c.m. Beenakkersloep en/of Pettersloep.***
+***I.c.m. Beenakkersloep.***
 
 '<a target="_blank" rel="noopener" href="http://www.wolsumerketting.com">Kootje bij de brug</a>' (<a target="_blank" rel="noopener" href="https://www.google.nl/maps/place/Wolsumerketting/@53.0399696,5.5413507,15z/data=!3m1!4b1!4m5!3m4!1s0x47c8eeda1b6345d3:0x2d562f325e8c3a58!8m2!3d53.0399704!4d5.5501055">Wolsumer Ketting</a>) kan met recht één van de mooiste theetuinen van Friesland worden genoemd. Je verzamelt in de theetuin waar je kan genieten van koffie/thee met eigengemaakt appelgebak en een bolletje boerenijs, een lunchmenu, het Pelgrimsmenu of een luxe barbecue. Al deze culinaire mogelijkheden zijn eventueel naar wens te combineren. Vanuit de theetuin stap je aan boord van de sloep met schipper, ga je genieten van een mooie sloepentocht om en door Bolsward en kan er gebruik worden gemaakt de koelbox gevuld met &nbsp;(non)alcoholische drankjes . Neem contact met ons op voor de mogelijkheden om een mooi programma samen te stellen, oftewel service op maat.
 
