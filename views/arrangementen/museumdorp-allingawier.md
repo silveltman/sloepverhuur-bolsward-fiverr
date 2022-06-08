@@ -25,4 +25,6 @@ list:
 samenwerking:
 ---
 
+***I.c.m. Beenakkersloep en/of Pettersloep.***
+
 Het Friese Museumdorp Aldfaers Erf is een cultuurhistorisch&nbsp;<a target="_blank" rel="noopener" href="https://nl.wikipedia.org/wiki/Museum">museum</a>&nbsp;in het dorp&nbsp;<a target="_blank" rel="noopener" href="https://nl.wikipedia.org/wiki/Allingawier">Allingawier</a>&nbsp;waar je met de sloep via de [Zuiderzee route](https://sloepverhuurbolsward.nl/routes) naar toe kan varen. In dit openluchtmuseum is te zien en te beleven hoe mensen 100 jaar geleden leefden en werkten. Ga terug in de tijd en bezoek Museum Boerderij De Izeren Ko, de schilderwerkplaats, de smederij en de schoenmakerij. Voor de inwendige mens kan je naar restaurant Het Ferhaal en zijn er uiteraard diverse mogelijkheden qua [cater](https://sloepverhuurbolsward.nl/catering)[ing](https://sloepverhuurbolsward.nl/catering)&nbsp;aan boord.
