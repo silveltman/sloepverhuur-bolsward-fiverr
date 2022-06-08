@@ -26,6 +26,8 @@ list:
 samenwerking:
 ---
 
+***I.c.m. Beenakkersloep en/of Pettersloep.***
+
 In een sloep varen is al heerlijk maar doe je dit met een hapje en drankje bijvoorbeeld genietend van de ondergaande zon dan wordt het ultiem. Nodig je familie, vrienden of collegae uit voor een mooie sloepentocht en maak dit compleet met lekker gekoelde (non)alcoholische drankjes en mooi opgemaakte borrelschalen.
 
 I.s.m. <a target="_blank" rel="noopener" href="https://www.lekker1890.nl">Lekker 1890</a>
