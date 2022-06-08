@@ -11,8 +11,14 @@ afbeelding:
   image:
   alt:
 list:
-  - label:
-    value:
+  - label: 'Tijdsduur:'
+    value: In overleg
+  - label: 'Vertrektijd:'
+    value: In overleg
+  - label: 'Aantal personen:'
+    value: 2 - 28
+  - label: 'Kosten:'
+    value: Vanaf € 32,50 p.p.
 samenwerking:
 ---
 
