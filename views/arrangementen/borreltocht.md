@@ -1,9 +1,12 @@
 ---
+_schema: default
 seo:
-  seo_title:
+  seo_title: Varen en borrelen
   seo_description:
 title: Borreltocht
-description:
+description: >-
+  Met een 'natje' en een 'droogje' in de sloep oftewel borrelen met borrelhapje
+  op het water.
 afbeelding:
   image:
   alt:
@@ -12,3 +15,4 @@ list:
     value:
 samenwerking:
 ---
+
