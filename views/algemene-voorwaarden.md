@@ -10,7 +10,7 @@ Betaling vindt uitsluitend voorafgaand aan de vaartocht plaats, tenzij uitdrukke
 
 ## Tarieven
 
-Luxe Beenakkersloep; gebaseerd op het aantal vaaruren afhankelijk van gekozen route, extra (wacht)tijd wordt belast met € 50,- per uur. Vanaf een half uur of meer wordt gerekend als een uur.
+Luxe Beenakkersloep; gebaseerd op het aantal vaaruren afhankelijk van gekozen route. Duurt een vaarroute 3 uren maar ben je door bijv. stoppen voor lunch of zwemmen een uur langer onderweg dan wordt de route van 4 uren in rekening gebracht. Alles meer dan 6 uren wordt belast met € 50,- per uur. Een half uur of meer wordt gerekend als een uur.
 
 Elektrische Pettersloep; gebaseerd op één of meerdere dagdelen. Bij overschrijding van overeengekomen dagdeel of dagdelen wordt € 20,- per 30 minuten in rekening gebracht.
 
