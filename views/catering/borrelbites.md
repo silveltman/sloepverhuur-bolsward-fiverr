@@ -20,6 +20,6 @@ button:
 samenwerking:
 ---
 
-Vindt je een borrelschaal teveel maar wil je wel wat te knabbelen aan boord bij je drankje kies dan voor onze borrelbites. Dit een combi van diverse soorten nootjes en chips welke lekker makkelijk combineren bij een biertje of wijntje.
+Vindt je een borrelschaal teveel maar wil je wel wat te knabbelen aan boord bij je drankje kies dan voor onze borrelbites. Dit een combi van diverse soorten nootjes en chips welke lekker makkelijk combineren bij bijvoorbeeld een biertje of wijntje.
 
 Kosten; € 4,75 p.p.
