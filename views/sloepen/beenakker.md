@@ -6,7 +6,7 @@ seo:
     familiedag, bedrijfsuitje, max. 28 personen.
 title: Beenakker
 subtitle: 'Luxe 12-persoons '
-description: Met schipper zorgeloos genieten van waterland van Friesland.
+description: Met schipper zorgeloos genieten in waterland van Friesland.
 checklist:
   - Varen met schipper
   - Maximaal 12 personen
