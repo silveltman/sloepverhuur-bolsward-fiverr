@@ -7,7 +7,7 @@ seo:
     arrangementen.
 title: Petter
 subtitle: Elektrische 8-persoons
-description: Zonder schipper geruisloos genieten van waterrijk Friesland.
+description: Zonder schipper geruisloos genieten in waterland van Friesland.
 checklist:
   - Zonder schipper
   - Geen vaarbewijs nodig
