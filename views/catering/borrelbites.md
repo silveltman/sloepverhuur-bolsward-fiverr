@@ -15,8 +15,8 @@ checklist:
   - Diverse chips
   - Kleine borrelbite
 button:
-  text:
-  url:
+  text: Neem contact op
+  url: https://sloepverhuurbolsward.nl/contact
 samenwerking:
 ---
 
