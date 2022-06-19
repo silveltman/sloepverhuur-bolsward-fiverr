@@ -15,11 +15,11 @@ checklist:
   - Diverse chips
   - Kleine borrelbite
 button:
-  text:
-  url:
+  text: Neem contact op
+  url: https://sloepverhuurbolsward.nl/contact
 samenwerking:
 ---
 
-Vindt je een borrelschaal teveel maar wil je wel wat te knabbelen aan boord bij je drankje kies dan voor onze borrelbites. Dit een combi van diverse soorten nootjes en chips welke lekker makkelijk combineren bij bijvoorbeeld een biertje of wijntje.
+Vindt je een borrelschaal teveel maar wil je wel wat te knabbelen aan boord bij je drankje kies dan voor onze borrelbites. Dit is een combi van diverse soorten nootjes en chips welke lekker makkelijk combineren bij bijvoorbeeld een biertje of wijntje.
 
 Kosten; € 4,75 p.p.

@@ -22,4 +22,4 @@ samenwerking:
 
 Combineer je gekoelde drankje met onze overheerlijke borrelschaal voorzien van o.a. diverse kazen, worsten, olijven en nootjes. Niet van de supermarkt maar geleverd door een fantastische speciaalzaak.
 
-Kosten; € 7,50 p.p.
+Kosten; € 7,75 p.p.
