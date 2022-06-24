@@ -10,20 +10,20 @@ Betaling vindt uitsluitend voorafgaand aan de vaartocht plaats, tenzij uitdrukke
 
 ## Tarieven
 
-Luxe Beenakkersloep; gebaseerd op het aantal vaaruren afhankelijk van gekozen route. Duurt een vaarroute 3 uren maar ben je door bijv. stoppen voor lunch of zwemmen een uur langer onderweg dan wordt de route van 4 uren in rekening gebracht. Alles meer dan 6 uren wordt belast met € 50,- per uur. Een half uur of meer wordt gerekend als een uur.
+**Luxe Beenakkersloep**; gebaseerd op het aantal vaaruren afhankelijk van gekozen route. Duurt een vaarroute 3 uren maar ben je door bijv. stoppen voor lunch of zwemmen een uur langer onderweg dan wordt de route van 4 uren in rekening gebracht. Alles meer dan 6 uren wordt belast met € 50,- per uur.&nbsp;
 
-Elektrische Pettersloep; gebaseerd op één of meerdere dagdelen. Bij overschrijding van overeengekomen dagdeel of dagdelen wordt € 20,- per 30 minuten in rekening gebracht.
+**Elektrische Pettersloep**; gebaseerd op één of meerdere dagdelen. Bij overschrijding van overeengekomen dagdeel of dagdelen wordt € 20,- per 30 minuten in rekening gebracht.
 
-Kinderen zonder zwemdiploma zijn verplicht een zwemvest te dragen, deze zijn te huur voor € 5,- per stuk.
-
-Koelbox van 32 liter met koelelementen is te huur voor € 5,-
+Zwemvest en koelbox van 32 liter met koelelementen is te huur voor € 5,- per stuk.
 
 ## Annuleren van je reservering
 
 * Annuleren meer dan 30 dagen voor aanvang van de tocht: Geen annuleringskosten
-* Annuleren 30 dagen of minder voor aanvang van de tocht: Voucher of je betaalt 25% van de totale kosten. ​- Annuleren 14 dagen of minder voor aanvang van de tocht: Voucher of je betaalt 40% van de totale kosten. ​- Annuleren 7 dagen of minder voor aanvang van de tocht: Voucher of je betaalt 60% van de totale kosten.
-* Annulering tot 48 uur of minder voor aanvang van de tocht: Voucher of je betaalt 75% van de totale kosten.
-* Annulering minder dan 48 uur voor aanvang van de tocht: Voucher of je betaalt 100% van de totale kosten.
+* Annuleren 30 dagen of minder voor aanvang van de tocht: &nbsp;je betaalt 25% van de totale kosten. ​
+* Annuleren 14 dagen of minder voor aanvang van de tocht: &nbsp;je betaalt 40% van de totale kosten. ​
+* Annuleren 7 dagen of minder voor aanvang van de tocht: je betaalt 60% van de totale kosten.
+* Annulering tot 48 uur of minder voor aanvang van de tocht: &nbsp;je betaalt 75% van de totale kosten.
+* Annulering minder dan 48 uur voor aanvang van de tocht: &nbsp;je betaalt 100% van de totale kosten.
 
 ## Uitzonderingen op je reservering
 
@@ -49,12 +49,20 @@ Verhuurder is niet verantwoordelijk voor enige vorm van schade en/of lichamelijk
 
 ## Regels aan boord
 
-Luxe Beenakkersloep; Je dient altijd rekening te houden met de omgeving. Bij geluidsoverlast en asociaal gedrag kan de schipper er voor kiezen de tocht direct te stoppen.
+**Luxe Beenakkersloep**; Je dient altijd rekening te houden met de omgeving. Bij geluidsoverlast en asociaal gedrag kan de schipper er voor kiezen de tocht direct te stoppen.&nbsp;
 
-Bij het opzettelijk vernielen van de inventaris aan boord ben je volledig aansprakelijk voor alle kosten. Deze dienen direct te worden afgerekend.
+Bij het opzettelijk vernielen van de inventaris aan boord ben je volledig aansprakelijk voor alle kosten. Deze dienen direct te worden afgerekend.&nbsp;
 
-Overmatig alcoholgebruik is niet toegestaan. Bij constatering kan de schipper je alcoholische dranken weigeren. Mocht de schipper besluiten om wat voor reden dan ook de vaartocht vroegtijdig te stoppen dan heb je geen recht op enige restitutie van betaalde reserveringskosten.
+Overmatig alcoholgebruik is niet toegestaan. Bij constatering kan de schipper je alcoholische dranken weigeren.
+
+Mocht de schipper besluiten om wat voor reden dan ook de vaartocht vroegtijdig te stoppen dan heb je geen recht op enige restitutie van betaalde reserveringskosten.&nbsp;
 
 Roken aan boord is verboden i.v.m. gevaar op schroeischade aan de kussenset.
 
-Elektrische Pettersloep; Veroorzaak geen (geluids)overlast en respecteer de bewoners langs de vaarroutes. Als bestuurder gelden wat betreft alcoholgebruik dezelfde regels als in het verkeer op de weg. Roken aan boord is verboden i.v.m. gevaar op schroeischade aan de kussenset. Laat de sloep weer netjes achter bij terugkeer.
+**Elektrische Pettersloep**; Veroorzaak geen (geluids)overlast en respecteer de bewoners langs de vaarroutes.
+
+Als bestuurder gelden wat betreft alcoholgebruik dezelfde regels als in het verkeer op de weg.
+
+Roken aan boord is verboden i.v.m. gevaar op schroeischade aan de kussenset.
+
+Laat de sloep weer netjes achter bij terugkeer.
