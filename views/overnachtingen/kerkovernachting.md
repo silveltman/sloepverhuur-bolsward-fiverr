@@ -6,7 +6,7 @@ seo:
     Uniek overnachten in de kerk van Schettens en een sloep huren in waterland
     van Friesland.
 title: Kerkovernachting
-description: Ervaar de rust in Schettens in de volledig gerestaureerde kerk van Schettens.
+description: Ervaar de rust en overnacht in de volledig gerestaureerde kerk van Schettens.
 afbeelding:
   image: /assets/img/uploads/2018-06-26-15-58-42-2-2278437930.jpg
   alt: >-
