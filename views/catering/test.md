@@ -20,6 +20,6 @@ button:
 samenwerking:
 ---
 
-Geen zin om zelf je gekoelde drankjes te verzorgen tijdens een vaartocht? Geen probleem, wij regelen dit voor je. Aan boord hebben we een ruime koelbox welke we kunnen vullen met (non)alcoholische dranken naar keuze, oftewel zorgeloos genieten op het water.
+Geen zin om zelf je gekoelde drankjes mee te nemen tijdens een vaartocht? Geen probleem, wij kunnen dit voor je regelen. Het assortiment bestaat uit; *Witte wijn (sauvignon blanc), Prosecco, Heineken, Heineken 0.0, Hoegaarden witbier 0.0, Radler 2.0, Cola (light/zero), ice tea green, spa blauw/rood.* Geef vooraf je voorkeur door en wij verzorgen je heerlijk gekoelde drankje.
 
 Kosten; € 2,50 p.c.
