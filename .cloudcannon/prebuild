@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-
-npm i
-npm run bookshop-sass:build
-npm run sass:build
-
-echo "📚 ✅ : Prebuild script finished"
