@@ -41,7 +41,7 @@ De bestuurder van de elektrische Pettersloep dient minimaal 21 jaar te zijn, ind
 
 Alle schade aangebracht aan sloep en interieur is voor rekening van de huurder. Het burgerlijk wetboek zegt hierover; 'Is er sprake van huur dan geldt dat alle toerekenbare schade aan het gehuurde geacht wordt voor rekening te zijn van de huurder (artikel 7:218 BW)'.
 
-Indien er na de huurperiode sprake is van enige vorm van schade dan zal er € 500,- eigen risico in rekening worden gebracht. Dit bedrag zal afhankelijk van de vastgestelde schade na offerte eventueel gedeeltelijk worden gerestitueerd.
+In aanvulling op bovenstaande, indien er na de huurperiode sprake is van enige vorm van schade dan zal er € 500,- eigen risico in rekening worden gebracht. Dit bedrag zal afhankelijk van de vastgestelde schade na offerte eventueel gedeeltelijk worden gerestitueerd.
 
 Alle schade aangebracht aan derden is voor rekening van de huurder. Het burgerlijk wetboek zegt hierover; 'De eigenaar wordt als aansprakelijke partij beschouwd maar zal de schade vervolgens wel kunnen verhalen op de huurder wanneer deze door nalatigheid schuld heeft aan de schade (artikel 7:213 BW)'
 
