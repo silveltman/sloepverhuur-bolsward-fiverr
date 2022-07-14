@@ -1,99 +1,27 @@
-import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js'
+// import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.9.0/firebase-app.js'
+// import { getFirestore } from 'https://www.gstatic.com/firebasejs/9.9.0/firebase-firestore.js'
+// // import { getAuth } from 'https://www.gstatic.com/firebasejs/9.9.0/firebase-auth.js'
 
-// Add Firebase products that you want to use
-import { getFirestore, collection, onSnapshot } from 'https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.js'
+// const firebaseConfig = {
+//   apiKey: 'AIzaSyBnWh2yIHDUnWz-CiY-tR6S8eMDkuobO1A',
+//   authDomain: 'sloepverhuur-bolsward-1072f.firebaseapp.com',
+//   projectId: 'sloepverhuur-bolsward-1072f',
+//   storageBucket: 'sloepverhuur-bolsward-1072f.appspot.com',
+//   messagingSenderId: '48794763708',
+//   appId: '1:48794763708:web:847b740bdbfa6684fc2bb9',
+// }
 
-const firebaseConfig = {
-  apiKey: "AIzaSyCY2us6jolkDU6bYcS2_WnAnuuMxRgzCtw",
-  authDomain: "sloepverhuur-bolsward-b0914.firebaseapp.com",
-  projectId: "sloepverhuur-bolsward-b0914",
-  storageBucket: "sloepverhuur-bolsward-b0914.appspot.com",
-  messagingSenderId: "939866592360",
-  appId: "1:939866592360:web:bc7ea521353a49348357dd"
-};
-      
-const app = initializeApp(firebaseConfig);
-// init firebase services
-const db = getFirestore();
+// const app = initializeApp(firebaseConfig)
+// const db = getFirestore()
 
+// const colRef = collection(db, 'sloepen/petter/reserveringen')
+// const docs = []
+// const docsDates = []
 
-window.getFirebase = () => {
-  return {
-    availability: [],
-    enabledDates: [],
-    enabledSlots: {
-      ochtend: false,
-      middag: false,
-      avond: false
-    },
-    selectedDate: null,
-    selectedSlots: {
-      ochtend: false,
-      middag: false,
-      avond: false
-    },
-    active: {
-      date: null,
-      ochtend: null,
-      middag: null,
-      avond: null
-    },
-
-    init() {
-      const colRef = collection(db, 'sloepen/petter/availability');
-      onSnapshot(colRef, (snap) => {
-        this.setAvailability(snap)
-        this.setEnabledDates()
-      })
-      // $watch('availability', (value) => {
-      //   this.setEnabledDates()
-      //   this.setEnabledSlots()
-      // })
-    },
-
-    setAvailability(snap) {
-      const availability = []
-      snap.docs.forEach(doc => {
-        availability.push(doc.data())
-      })
-      this.availability = availability
-    },
-
-    setEnabledDates() {
-      const dates = []
-      this.availability.forEach(item => {
-        dates.push(item.date.toDate())
-      })
-      console.log(dates)
-      this.enabledDates = dates
-    },
-
-    setEnabledSlots() {
-      if (!this.selectedDate) return
-
-      let found = this.availability.find(item => {
-        return item.date.toDate().getTime() == this.selectedDate.getTime()
-      })
-
-      this.enabledSlots = {
-        ochtend: found.ochtend,
-        middag: found.middag,
-        avond: found.avond
-      }
-    },
-
-    setActive(date) {
-      if (!date) return
-      if (this.availability == []) return
-
-      let found = this.availability.find(item => {
-        return item.date.toDate().getTime() == date.getTime()
-      })
-
-      this.active = found
-      this.selectedSlots.ochtend = false
-      this.selectedSlots.middag = false
-      this.selectedSlots.avond = false
-    },
-  }
-}
+// const unsubscribe = onSnapshot(colRef, (snapshot) => {
+//   snapshot.forEach((doc) => {
+//     docs.push(doc.data())
+//     docsDates.push(doc.data().datum.toDate().toISOString().substring(0, 10))
+//   })
+//   console.log('docs are:', docsDates)
+// })
